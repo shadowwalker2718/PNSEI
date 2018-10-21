@@ -54,7 +54,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="17" />
-          <entry key="h" value="476" />
+          <entry key="h" value="505" />
           <entry key="md" value="24" />
           <entry key="txt" value="2" />
         </counts>
@@ -63,7 +63,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="2" />
           <entry key="Markdown" value="24" />
-          <entry key="ObjectiveC" value="493" />
+          <entry key="ObjectiveC" value="522" />
         </counts>
       </usages-collector>
     </session>
@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cruise/lru.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="510">
+              <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -279,12 +279,12 @@
       <updated>1540140161564</updated>
       <workItem from="1540140163240" duration="183000" />
       <workItem from="1540140392474" duration="151000" />
-      <workItem from="1540140545773" duration="6891000" />
+      <workItem from="1540140545773" duration="6942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7225000" />
+    <option name="totallyTimeSpent" value="7276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/lru.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="510">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
         </state>
       </provider>
     </entry>

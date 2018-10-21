@@ -26,16 +26,20 @@ namespace cruise_20181009{
     int get(int key) {
       if(!m.count(key)) return -1;
       int r=m[key]->second;
-      ls.erase(m[key]);
-      ls.emplace_front(key, r);
+      if(m[key]!=ls.begin()){
+        ls.splice(ls.begin(), ls, m[key], next(m[key]));
+        m[key]=ls.begin();
+      }
       return r;
     }
 
     void put(int key, int value) {
       if(m.count(key)){
-        ls.erase(m[key]);
-        ls.emplace_front(key, value);
-        m[key]=ls.begin();
+        if(m[key]!=ls.begin()){
+          ls.splice(ls.begin(), ls, m[key], next(m[key]));
+          m[key]=ls.begin();
+        }
+        ls.begin()->second = value; // dont forget this
         return;
       }
       if(cnt==ls.size()){
