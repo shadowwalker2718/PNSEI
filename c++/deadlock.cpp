@@ -10,7 +10,7 @@ void rec() {
 }
 
 
-int main(){
+int test(){
   lock_guard<mutex> g(mu);
   lock_guard<mutex> g2(mu);
   rec();

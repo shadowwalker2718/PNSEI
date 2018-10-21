@@ -46,6 +46,8 @@
 
 // Numerics
 #include <cmath>
+#include <climits>
+#include <cstring> // strlen
 
 
 using namespace std;

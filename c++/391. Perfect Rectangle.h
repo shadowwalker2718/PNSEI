@@ -26,7 +26,7 @@ namespace _391{
     class Solution_wrong {
     public:
         bool isRectangleCover(vector<vector<int>> rectangles) {
-            long long mi=LLONG_MAX, mx=0, area = 0;
+            long long mi=LONG_MAX, mx=0, area = 0;
             unordered_set<long long> sp;
             long long tmp;
             for (auto& v : rectangles) {
@@ -86,7 +86,7 @@ namespace _391{
             if (miny<0)for (auto& v : rectangles) { v[1] -= miny, v[3] -= miny; }
 
             unordered_set<long long> sp;
-            long long mi = LLONG_MAX, mx = LLONG_MIN, area = 0, tmp;
+            long long mi = LONG_MAX, mx = LONG_MIN, area = 0, tmp;
             for (auto& v : rectangles) {
                 area += (v[2] - v[0])*(v[3] - v[1]);
                 tmp = ((long long)(v[0]) << 32) | v[1];
@@ -120,11 +120,11 @@ namespace _391{
             };
             long long tmp;
             for (auto v : rectangles) {
-                tmp = long long(v[0]) << 32 | v[1];
+                tmp = (long long)(v[0]) << 32 | v[1];
                 if (h0.count(tmp)) return false; else h0.insert(tmp);
-                tmp = long long(v[0]) << 32 | v[1];
+                tmp = (long long)(v[0]) << 32 | v[1];
                 if (h0.count(tmp)) return false; else h0.insert(tmp);
-                tmp = long long(v[0]) << 32 | v[1];
+                tmp = (long long)(v[0]) << 32 | v[1];
                 if (h0.count(tmp)) return false; else h0.insert(tmp);
                 area += (v[2] - v[0])*(v[3] - v[1]);
                 f(v[0], v[1]);
@@ -150,7 +150,7 @@ namespace _391{
             if(miny<0)for(auto& v : rectangles){v[1]-=miny, v[3]-=miny;}*/
             long long mask = 0xFFFFFFFFLL, SIGN = 0x80000000LL;
             unordered_set<long long> sp;
-            long long mi = LLONG_MAX, mx = LLONG_MIN, area = 0, tmp;
+            long long mi = LONG_MAX, mx = LONG_MIN, area = 0, tmp;
             for (auto& v : rectangles) {
                 area += (v[2] - v[0])*(v[3] - v[1]);
                 tmp = ((long long)(v[0]) << 32) | (v[1] & mask) | ((v[0] & SIGN) << 32) | ((v[1] & SIGN) << 32);
@@ -171,7 +171,7 @@ namespace _391{
             cout << (((mx&(~(1LL << 63))) >> 32) - ((mi&(~(1LL << 63))) >> 32)) << endl;
             cout << (int)(mx&mask) << endl;
             cout << (int)(mi&mask) << endl;
-            cout << (((mx&LLONG_MAX)>>32) - (((mi&LLONG_MAX) >> 32)))*((int)(mx&mask) - (int)(mi&mask)) << endl;
+            cout << (((mx&LONG_MAX)>>32) - (((mi&LONG_MAX) >> 32)))*((int)(mx&mask) - (int)(mi&mask)) << endl;
             return 4 == sp.size() && sp.count(mi) && sp.count(mx) && (((mx&(~(1LL << 63))) >> 32) - ((mi&(~(1LL << 63))) >> 32))*((int)(mx&mask) - (int)(mi&mask)) == area;
         }
     };
@@ -185,7 +185,7 @@ namespace _391{
             if (minx<0)for (auto& v : rectangles) { v[0] -= minx, v[2] -= minx; }
             if (miny<0)for (auto& v : rectangles) { v[1] -= miny, v[3] -= miny; }
             unordered_set<long long> sp;
-            long long mi = LLONG_MAX, mx = LLONG_MIN, area = 0, tmp;
+            long long mi = LONG_MAX, mx = LONG_MIN, area = 0, tmp;
             for (auto& v : rectangles) {
                 area += (v[2] - v[0])*(v[3] - v[1]);
                 tmp = ((long long)(v[0]) << 32) | v[1];
