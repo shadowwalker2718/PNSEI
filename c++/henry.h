@@ -49,6 +49,8 @@
 #include <climits>
 #include <cstring> // strlen
 
+#include <iterator> //ostream_iterator
+
 
 using namespace std;
 using namespace std::chrono;

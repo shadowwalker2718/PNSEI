@@ -57,6 +57,7 @@
 #include "reliterator.h"
 #include "shortest_non_substring.h"
 #include "stree.h"
+#include "927. Three Equal Parts.h"
 
 /*class Solutionx {
 public:
@@ -81,6 +82,7 @@ public:
 };*/
 
 int main(int argc, char** argv) {
+  _927::test();
   /*try {
     float x = 1.02, y = 0;
     cout << x / y << endl;
