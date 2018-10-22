@@ -31,7 +31,8 @@ namespace cruise_2017_09_20{
 
   // http://massivealgorithms.blogspot.com/2016/12/two-clique-problem-check-if-graph-can.html
 
-  
+
+  // https://en.wikipedia.org/wiki/Turán_graph
   int get_edges(int k, int n){ // mono increasing with k
     //return int(1.0*(k-1)*n*n/k/2);
     if(k==0) return 0;
