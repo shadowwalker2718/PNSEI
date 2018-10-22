@@ -13,6 +13,22 @@
 然后问了一下如果这个用于多线程会有什么问题。
 最后例行问问题。求大米呀求大米！！！*/
 
+// Multithreaded LRU
+
+// https://www.ebayinc.com/stories/blogs/tech/high-throughput-thread-safe-lru-caching/
+// https://www.codeproject.com/Articles/23396/A-High-Performance-Multi-Threaded-LRU-Cache
+// https://github.com/tstarling/thread-safe-lru
+// https://github.com/mohaps/lrucache
+// https://github.com/mohaps/lrucache11
+
+
+// https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=402851&ctid=228575
+/*
+ * koga 发表于 2018-9-12 00:49
+请问LRU， follow up templated version 是什么意思
+
+就是存的node value不一定是int,是T怎么写，需要自定义hash function。
+ * */
 
 namespace cruise_20181009{
 

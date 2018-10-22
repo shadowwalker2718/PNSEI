@@ -75,4 +75,4 @@ add_executable(c__
         skiplist.h
         sparsematrix.h
         stree.h
-        winner_tree.h "927. Three Equal Parts.h" cruise/clique.h cruise/lru.h)
+        winner_tree.h "927. Three Equal Parts.h" cruise/clique.h cruise/lru.h cruise/oa.h)

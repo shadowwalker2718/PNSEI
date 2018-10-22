@@ -58,7 +58,7 @@
 #include "shortest_non_substring.h"
 #include "stree.h"
 #include "927. Three Equal Parts.h"
-
+#include "cruise/clique.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -82,6 +82,7 @@ public:
 };*/
 
 int main(int argc, char** argv) {
+  cruise_2017_09_20::test();
   _927::test();
   /*try {
     float x = 1.02, y = 0;
