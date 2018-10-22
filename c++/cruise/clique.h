@@ -2,7 +2,7 @@
 // Created by henry on 10/21/18.
 //
 #include "henry.h"
-
+#include <unistd.h>
 #ifndef C_LRU_H
 #define C_LRU_H
 
@@ -28,8 +28,14 @@ namespace cruise_2017_09_20{
   // https://www.youtube.com/watch?v=t-_ZWbugSb8
   // https://www.youtube.com/watch?v=eya-cyk-7-4
   // https://www.youtube.com/watch?v=qZs767KQcvE
+
+  // http://massivealgorithms.blogspot.com/2016/12/two-clique-problem-check-if-graph-can.html
+
+  
   int get_edges(int k, int n){ // mono increasing with k
-    return int(1.0*(k-1)*n*n/k/2);
+    //return int(1.0*(k-1)*n*n/k/2);
+    if(k==0) return 0;
+    return 0.5*(n*n - (n%k)*(n/k+1)*(n/k+1) - (k-(n%k))*(n/k)*(n/k) );
   }
   // find the first get_edges(x) >= edge_num
   int clique(int n, int m) { // 3,2
@@ -47,22 +53,48 @@ namespace cruise_2017_09_20{
     return lo;
 
   }
-  void test(){
-    assert(clique(3,2) == 2);
-    assert(clique(4,6) == 4);
-    assert(clique(5,7) == 3);
 
-    vector<pair<int,int>> vp={{35, 152},
-                              {29, 258},
-                              {45, 566},
-                              {38, 164},
-                              {51, 122}};
-    vector<int> rs={2,3,3,2,2};
-    for(int i=0;i<vp.size();i++){
-      assert(clique(vp[i].first, vp[i].second) == rs[i]);
-    }
-    cout << clique(19,166) << endl;
+  string get_working_path()
+  {
+    char temp[1024];
+    return ( getcwd(temp, 2014) ? std::string( temp ) : std::string("") );
   }
+  vector<string> split(string s){
+    vector<string> r;
+    int i=0;
+    while((i=s.find(' '))!=s.npos){
+      r.push_back(s.substr(0,i));
+      s=s.substr(i+1);
+    }
+    if(!s.empty()) r.push_back(s);
+    return r;
+  }
+
+  void test(){
+    ifstream fi("../cruise/clique.input");
+    cout << get_working_path() << endl;
+
+    cout << (clique(19, 166) == 14) << endl;
+    string line;
+    vector<vector<string>> input_;
+    while(getline(fi, line)){
+      input_.push_back(split(line));
+    }
+    ifstream fo("../cruise/clique.output");
+    vector<string> output_;
+    while(getline(fo, line)){
+      output_.push_back(line);
+    }
+    for(int i=0;i<input_.size();i++){
+      int t=clique(stoi(input_[i][0]), stoi(input_[i][1]));
+      if (t != stoi(output_[i])){
+        cout << i << ": " << input_[i][0] << "," << input_[i][1]
+          << "," << output_[i] << "," << t << endl;
+      }
+    }
+  }
+
+
 }
 
 #endif //C_LRU_H

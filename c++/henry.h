@@ -50,11 +50,12 @@
 #include <cstring> // strlen
 
 #include <iterator> //ostream_iterator
+#include <experimental/filesystem> // C++17
 
 
 using namespace std;
 using namespace std::chrono;
-
+namespace fs = experimental::filesystem;
 
 // Boost
 //#define BOOST_ALL_DYN_LINK
