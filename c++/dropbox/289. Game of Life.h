@@ -7,6 +7,8 @@
 #define C_289_GAME_OF_LIFE_H
 
 namespace  _289{
+
+  // https://leetcode.com/problems/game-of-life/
   class Solution {
   public:
     void gameOfLife(vector<vector<int>>& b) {
