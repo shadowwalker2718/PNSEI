@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 
-
 /*
  *
  * https://www.1point3acres.com/bbs/thread-316750-1-1.html
@@ -34,13 +33,15 @@ def find_highest_minimum_sharpness(board):
 
 Follow up的分析
 
-For a very large board we could rotate the board clockwise by 90 degrees. Then process line by line.
-To analyze the rotate strategy let's simplify the board to N*N. If we read a row and write to N rows
-we have N disk seeks for reads and N*N disk seeks for writes. If we read a col and write to a row we
-have N*N disk seeks for read and N disk seeks for write. We could balance the two. Say the mem can
-fit K*K cells. We could read K rows of length K then rotate in mem then write to K rows of length K
-For this operation we have K disk seeks for read and K disk seeks for write. There are `N*N/(K*K)`
-blocks so in total we have `N*N/K` disk seeks for read and `N*N/K` disk seeks for write.
+For a very large board we could rotate the board clockwise by 90 degrees. Then
+process line by line. To analyze the rotate strategy let's simplify the board to
+N*N. If we read a row and write to N rows we have N disk seeks for reads and N*N
+disk seeks for writes. If we read a col and write to a row we have N*N disk
+seeks for read and N disk seeks for write. We could balance the two. Say the mem
+can fit K*K cells. We could read K rows of length K then rotate in mem then
+write to K rows of length K For this operation we have K disk seeks for read and
+K disk seeks for write. There are `N*N/(K*K)` blocks so in total we have `N*N/K`
+disk seeks for read and `N*N/K` disk seeks for write.
  * */
 
 using namespace std;

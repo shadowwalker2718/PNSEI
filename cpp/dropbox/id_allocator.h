@@ -18,11 +18,15 @@
  想了一会儿没想出来，只想到了从HashMap的角度出发，时间不多了就结束了，最后面试官简单说了一下思路，没太搞明白，但是确实是HashMap的方向。
 
 
-alloc id 我onsite也遇到了， 最后的最优解法 是建立一个2n个bit的 segment tree 然后o（lg n）的复杂度完成所有操作
+alloc id 我onsite也遇到了， 最后的最优解法 是建立一个2n个bit的 segment tree
+然后o（lg n）的复杂度完成所有操作
  */
 
 /*
- * 编程题就一道,给一个数N,生成N个id, 用户可以调用allocate()来分配一个id, 用完后调用release()释放id, 这样别的用户可以用. 一开始给了基于bit的解法,但allocate的复杂度是O(N), 要求改进,并提示memory不是问题. 最后的方法是基于hash的.所有的id生成后放到hash table里,然后从里面取
+ * 编程题就一道,给一个数N,生成N个id, 用户可以调用allocate()来分配一个id,
+用完后调用release()释放id, 这样别的用户可以用.
+一开始给了基于bit的解法,但allocate的复杂度是O(N), 要求改进,并提示memory不是问题.
+最后的方法是基于hash的.所有的id生成后放到hash table里,然后从里面取
 
 Dropbox 真是万年题不变啊。 当时我用Tree, 刚好是space有要求
 
@@ -30,7 +34,8 @@ Dropbox 真是万年题不变啊。 当时我用Tree, 刚好是space有要求
 
 http://www.1point3acres.com/bbs/thread-194896-1-1.html
 
-实现两个函数,int allocate()和void release(intid),每调用一次allocate返回的id需要unique,为1到N之间的一个整数.如果release以后,就可以继续被allocate.之前用array+hashmap,达到O(1)时间和O(N)空间.后来被告知空间用得太多,map空间效率低,最后用了bitmap.这题其实和实现文件系统的metadata区域比较类似,不过最后居然是用时间换空间,有点让我诧异.
+实现两个函数,int allocate()和void
+release(intid),每调用一次allocate返回的id需要unique,为1到N之间的一个整数.如果release以后,就可以继续被allocate.之前用array+hashmap,达到O(1)时间和O(N)空间.后来被告知空间用得太多,map空间效率低,最后用了bitmap.这题其实和实现文件系统的metadata区域比较类似,不过最后居然是用时间换空间,有点让我诧异.
 
 https://blog.csdn.net/whuwangyi/article/details/43112895
 
