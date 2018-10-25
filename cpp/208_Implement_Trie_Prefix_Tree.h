@@ -14,7 +14,7 @@ namespace _208{
 	}
 
 	/** Inserts a word into the trie. */
-	void insert(struct TrieNode* root, char* word) {
+	void insert(struct TrieNode* root, const char* word) {
 		while (*word) {
 			if (!root->next[*word - 'a']) root->next[*word - 'a'] = trieCreate();
 			root = root->next[*word - 'a'];
@@ -24,7 +24,7 @@ namespace _208{
 	}
 
 	/** Returns if the word is in the trie. */
-	bool search(struct TrieNode* root, char* word) {
+	bool search(struct TrieNode* root, const char* word) {
 		while (*word) {
 			if (!root->next[*word - 'a']) return false;
 			root = root->next[*word - 'a'];
@@ -35,7 +35,7 @@ namespace _208{
 
 	/** Returns if there is any word in the trie
 	that starts with the given prefix. */
-	bool startsWith(struct TrieNode* root, char* prefix) {
+	bool startsWith(struct TrieNode* root, const char* prefix) {
 		while (*prefix) {
 			if (!root->next[*prefix - 'a']) return false;
 			root = root->next[*prefix - 'a'];

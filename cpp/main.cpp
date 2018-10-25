@@ -1,64 +1,65 @@
 #include "henry.h"
 
+#include "149.h"
+#include "208. Implement Trie (Prefix Tree).h"
 #include "208_Implement_Trie_Prefix_Tree.h"
+#include "214. Shortest Palindrome.h"
+#include "254. Factor Combinations.h"
+#include "307. Range Sum Query - Mutable.h"
+#include "34. Search for a Range.h"
+#include "361. Bomb Enemy.h"
+#include "388. Longest Absolute File Path.h"
 #include "391. Perfect Rectangle.h"
 #include "394. Decode String.h"
-#include "94. Binary Tree Inorder Traversal.h"
-#include "388. Longest Absolute File Path.h"
-#include "307. Range Sum Query - Mutable.h"
-#include "208. Implement Trie (Prefix Tree).h"
-#include "425. Word Squares.h"
-#include "422. Valid Word Square.h"
-#include "42. Trapping Rain Water.h"
 #include "407. Trapping Rain Water II.h"
-#include "bzoj1090.h"
-#include "ksum.h"
-#include "HDU 1254.h"
-#include "361. Bomb Enemy.h"
-#include "214. Shortest Palindrome.h"
+#include "42. Trapping Rain Water.h"
+#include "422. Valid Word Square.h"
+#include "425. Word Squares.h"
 #include "65. Valid Number.h"
 #include "68. Text Justification.h"
-#include "254. Factor Combinations.h"
-#include "lnkd_midstack.h"
-#include "serialize_tree.h"
-#include "gg_findmaxwith1flip.h"
-#include "IndexMaxPQ.h"
-#include "skiplist.h"
-#include "lnkd_addinterval.h"
-#include "minwindowsub.h"
-#include "149.h"
-#include "BoundedBlockingQueue.h"
-#include "deadlock.h"
-#include "34. Search for a Range.h"
-#include "h2o.h"
-#include "allLPS.h"
-#include "print_matrix.h"
 #include "68.h"
+#include "927. Three Equal Parts.h"
+#include "94. Binary Tree Inorder Traversal.h"
+#include "BoundedBlockingQueue.h"
 #include "DelayQueue.h"
-#include "justifytextline.h"
-#include "lfu.h"
-#include "is_intersected.h"
-#include "MultiDimensionArray.h"
-#include "encode_list_with_dups.h"
+#include "HDU 1254.h"
+#include "IndexMaxPQ.h"
 #include "K-th Smallest in Lexicographical Order.h"
-#include "maxstack.h"
+#include "MultiDimensionArray.h"
+#include "addepar/addepar.h"
+#include "allLPS.h"
 #include "blowoff_leaf.h"
-#include "segregate_even_odd_ll.h"
-#include "knighttour.h"
-#include "dup.h"
-#include "concurrent_hashmap.h"
-#include "kangaroos.h"
-#include "sparsematrix.h"
-#include "reverse_string.h"
-#include "winner_tree.h"
+#include "bzoj1090.h"
 #include "canPlaceFlower.h"
 #include "comb_sum.h"
-#include "frequent_element.h"
-#include "reliterator.h"
-#include "shortest_non_substring.h"
-#include "stree.h"
-#include "927. Three Equal Parts.h"
+#include "concurrent_hashmap.h"
 #include "cruise/clique.h"
+#include "deadlock.h"
+#include "dup.h"
+#include "encode_list_with_dups.h"
+#include "frequent_element.h"
+#include "gg_findmaxwith1flip.h"
+#include "h2o.h"
+#include "is_intersected.h"
+#include "justifytextline.h"
+#include "kangaroos.h"
+#include "knighttour.h"
+#include "ksum.h"
+#include "lfu.h"
+#include "lnkd_addinterval.h"
+#include "lnkd_midstack.h"
+#include "maxstack.h"
+#include "minwindowsub.h"
+#include "print_matrix.h"
+#include "reliterator.h"
+#include "reverse_string.h"
+#include "segregate_even_odd_ll.h"
+#include "serialize_tree.h"
+#include "shortest_non_substring.h"
+#include "skiplist.h"
+#include "sparsematrix.h"
+#include "stree.h"
+#include "winner_tree.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -81,7 +82,8 @@ public:
   }
 };*/
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv) {
+  addepar::test();
   cruise_2017_09_20::test();
   _927::test();
   /*try {
@@ -110,8 +112,6 @@ int main(int argc, char** argv) {
 
   _winner_tree::test();
 
- 
-
   _reverse_string::test();
 
   _sparsematrix::test();
@@ -135,7 +135,7 @@ int main(int argc, char** argv) {
   _lfu::test();
   justify_text_line::test();
   _delayqueue::test();
-  
+
   _print_matrix::test();
   _allLPS::test();
   _h2o::mainthread2();
@@ -175,16 +175,9 @@ int main(int argc, char** argv) {
 
   _407::test();
 
-
-
   _bzoj1090::test();
 
   _ksum::test();
   _hdu_1254::test();
   return 0;
 }
-
-
-
-
-

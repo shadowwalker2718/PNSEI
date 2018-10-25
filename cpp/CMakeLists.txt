@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(c__)
+project(pnsei)
 
 set(CMAKE_CXX_STANDARD 17)
 SET(CMAKE_CXX_FLAGS -pthread)
@@ -8,7 +8,7 @@ SET(CMAKE_CXX_FLAGS -pthread)
 
 include_directories(.)
 
-add_executable(c__
+add_executable(pnsei
         149.h
         "208. Implement Trie (Prefix Tree).h"
         208_Implement_Trie_Prefix_Tree.h
@@ -77,4 +77,8 @@ add_executable(c__
         skiplist.h
         sparsematrix.h
         stree.h
-        winner_tree.h "927. Three Equal Parts.h" cruise/clique.h cruise/lru.h cruise/encircular.h "dropbox/289. Game of Life.h")
+        winner_tree.h "927. Three Equal Parts.h" cruise/clique.h cruise/lru.h cruise/encircular.h "dropbox/289. Game of Life.h"
+        "addepar/addepar.h"
+        "addepar/addepar.cpp")
+
+target_link_libraries(${PROJECT_NAME} stdc++fs)
