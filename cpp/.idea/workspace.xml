@@ -12,93 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../c++/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/.idea/c++.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/c++.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/149.h" beforeDir="false" afterPath="$PROJECT_DIR$/149.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/208. Implement Trie (Prefix Tree).h" beforeDir="false" afterPath="$PROJECT_DIR$/208. Implement Trie (Prefix Tree).h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/208_Implement_Trie_Prefix_Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/208_Implement_Trie_Prefix_Tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/214. Shortest Palindrome.h" beforeDir="false" afterPath="$PROJECT_DIR$/214. Shortest Palindrome.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/230. Kth Smallest Element in a BST.h" beforeDir="false" afterPath="$PROJECT_DIR$/230. Kth Smallest Element in a BST.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/254. Factor Combinations.h" beforeDir="false" afterPath="$PROJECT_DIR$/254. Factor Combinations.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/307. Range Sum Query - Mutable.h" beforeDir="false" afterPath="$PROJECT_DIR$/307. Range Sum Query - Mutable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/34. Search for a Range.h" beforeDir="false" afterPath="$PROJECT_DIR$/34. Search for a Range.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/361. Bomb Enemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/361. Bomb Enemy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/388. Longest Absolute File Path.h" beforeDir="false" afterPath="$PROJECT_DIR$/388. Longest Absolute File Path.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/391. Perfect Rectangle.h" beforeDir="false" afterPath="$PROJECT_DIR$/391. Perfect Rectangle.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/394. Decode String.h" beforeDir="false" afterPath="$PROJECT_DIR$/394. Decode String.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/407. Trapping Rain Water II.h" beforeDir="false" afterPath="$PROJECT_DIR$/407. Trapping Rain Water II.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/42. Trapping Rain Water.h" beforeDir="false" afterPath="$PROJECT_DIR$/42. Trapping Rain Water.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/422. Valid Word Square.h" beforeDir="false" afterPath="$PROJECT_DIR$/422. Valid Word Square.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/425. Word Squares.h" beforeDir="false" afterPath="$PROJECT_DIR$/425. Word Squares.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/65. Valid Number.h" beforeDir="false" afterPath="$PROJECT_DIR$/65. Valid Number.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/68. Text Justification.h" beforeDir="false" afterPath="$PROJECT_DIR$/68. Text Justification.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/68.h" beforeDir="false" afterPath="$PROJECT_DIR$/68.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/927. Three Equal Parts.h" beforeDir="false" afterPath="$PROJECT_DIR$/927. Three Equal Parts.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/94. Binary Tree Inorder Traversal.h" beforeDir="false" afterPath="$PROJECT_DIR$/94. Binary Tree Inorder Traversal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/99. Recover Binary Search Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/99. Recover Binary Search Tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/BoundedBlockingQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/BoundedBlockingQueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/DelayQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/DelayQueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/HDU 1254.h" beforeDir="false" afterPath="$PROJECT_DIR$/HDU 1254.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/IndexMaxPQ.h" beforeDir="false" afterPath="$PROJECT_DIR$/IndexMaxPQ.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/K-th Smallest in Lexicographical Order.h" beforeDir="false" afterPath="$PROJECT_DIR$/K-th Smallest in Lexicographical Order.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/KNN.h" beforeDir="false" afterPath="$PROJECT_DIR$/KNN.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/MultiDimensionArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/MultiDimensionArray.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/allLPS.h" beforeDir="false" afterPath="$PROJECT_DIR$/allLPS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/avl.h" beforeDir="false" afterPath="$PROJECT_DIR$/avl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/binarytree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/blowoff_leaf.h" beforeDir="false" afterPath="$PROJECT_DIR$/blowoff_leaf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/bzoj1090.h" beforeDir="false" afterPath="$PROJECT_DIR$/bzoj1090.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/calendar.h" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/canPlaceFlower.h" beforeDir="false" afterPath="$PROJECT_DIR$/canPlaceFlower.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/comb_sum.h" beforeDir="false" afterPath="$PROJECT_DIR$/comb_sum.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/concurrent_hashmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent_hashmap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/cruise/clique.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/clique.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/cruise/clique.input" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/clique.input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/cruise/clique.output" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/clique.output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/cruise/clique.py" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/clique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/cruise/encircular.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/encircular.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/cruise/lru.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/lru.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/deadlock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/deadlock.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/deadlock.h" beforeDir="false" afterPath="$PROJECT_DIR$/deadlock.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/dropbox/289. Game of Life.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/289. Game of Life.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/dup.h" beforeDir="false" afterPath="$PROJECT_DIR$/dup.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/encode_list_with_dups.h" beforeDir="false" afterPath="$PROJECT_DIR$/encode_list_with_dups.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/frequent_element.h" beforeDir="false" afterPath="$PROJECT_DIR$/frequent_element.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/gg_findmaxwith1flip.h" beforeDir="false" afterPath="$PROJECT_DIR$/gg_findmaxwith1flip.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/gg_intrange.h" beforeDir="false" afterPath="$PROJECT_DIR$/gg_intrange.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/h2o.h" beforeDir="false" afterPath="$PROJECT_DIR$/h2o.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/hangman.h" beforeDir="false" afterPath="$PROJECT_DIR$/hangman.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/henry.h" beforeDir="false" afterPath="$PROJECT_DIR$/henry.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/is_intersected.h" beforeDir="false" afterPath="$PROJECT_DIR$/is_intersected.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/justifytextline.h" beforeDir="false" afterPath="$PROJECT_DIR$/justifytextline.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/kangaroos.h" beforeDir="false" afterPath="$PROJECT_DIR$/kangaroos.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/knighttour.h" beforeDir="false" afterPath="$PROJECT_DIR$/knighttour.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/ksum.h" beforeDir="false" afterPath="$PROJECT_DIR$/ksum.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/lfu.h" beforeDir="false" afterPath="$PROJECT_DIR$/lfu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/ll.h" beforeDir="false" afterPath="$PROJECT_DIR$/ll.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/lnkd_addinterval.h" beforeDir="false" afterPath="$PROJECT_DIR$/lnkd_addinterval.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/lnkd_midstack.h" beforeDir="false" afterPath="$PROJECT_DIR$/lnkd_midstack.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/maxstack.h" beforeDir="false" afterPath="$PROJECT_DIR$/maxstack.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/minwindowsub.h" beforeDir="false" afterPath="$PROJECT_DIR$/minwindowsub.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/print_matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/print_matrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/reliterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/reliterator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/reverse_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/reverse_string.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/segregate_even_odd_ll.h" beforeDir="false" afterPath="$PROJECT_DIR$/segregate_even_odd_ll.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/serialize_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/serialize_tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/shortest_non_substring.h" beforeDir="false" afterPath="$PROJECT_DIR$/shortest_non_substring.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/skiplist.h" beforeDir="false" afterPath="$PROJECT_DIR$/skiplist.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/sparsematrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/sparsematrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/stree.h" beforeDir="false" afterPath="$PROJECT_DIR$/stree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c++/winner_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/winner_tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropbox/find_duplicate_files.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropbox/id_allocator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -163,15 +80,16 @@
     <session id="-1614678499">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="1" />
-          <entry key="h" value="6" />
+          <entry key="h" value="9" />
           <entry key="pnsei (disassembly)" value="2" />
           <entry key="txt" value="1" />
         </counts>
@@ -180,19 +98,19 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Disassembly" value="2" />
-          <entry key="ObjectiveC" value="7" />
+          <entry key="ObjectiveC" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="h" value="22" />
+          <entry key="h" value="59" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="23" />
-          <entry key="ObjectiveC" value="22" />
+          <entry key="ObjectiveC" value="59" />
         </counts>
       </usages-collector>
     </session>
@@ -202,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="1275">
               <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -214,17 +132,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addepar/addepar.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="270">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addepar/addepar.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="513">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dropbox/289. Game of Life.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dropbox/find_duplicate_files.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dropbox/id_allocator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -232,7 +177,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
+            <state relative-caret-position="1215">
               <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
             </state>
           </provider>
@@ -241,7 +186,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/208_Implement_Trie_Prefix_Tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
+            <state relative-caret-position="480">
               <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
             </state>
           </provider>
@@ -295,6 +240,8 @@
         <option value="$PROJECT_DIR$/addepar/addepar.cpp" />
         <option value="$PROJECT_DIR$/208_Implement_Trie_Prefix_Tree.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/dropbox/find_duplicate_files.h" />
+        <option value="$PROJECT_DIR$/dropbox/id_allocator.h" />
       </list>
     </option>
   </component>
@@ -345,7 +292,7 @@
             <path>
               <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="addepar" type="462c0819:PsiDirectoryNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,11 +353,13 @@
       <workItem from="1540337730748" duration="1196000" />
       <workItem from="1540432689028" duration="3680000" />
       <workItem from="1540436434335" duration="515000" />
+      <workItem from="1540436977572" duration="88000" />
+      <workItem from="1540437191146" duration="1499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33122000" />
+    <option name="totallyTimeSpent" value="34709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,8 +372,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.291889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19423692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -588,9 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-          <folding>
-            <element signature="e#39#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,41 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/289. Game of Life.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cruise/lru.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/208_Implement_Trie_Prefix_Tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/addepar.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -719,10 +628,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addepar/addepar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/208_Implement_Trie_Prefix_Tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addepar/addepar.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="513">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/289. Game of Life.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/find_duplicate_files.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/id_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
         </state>
       </provider>
     </entry>
