@@ -1,15 +1,17 @@
-#!/bin/bash
+#!/ bin / bash
 
-gofiles=$(git diff --cached --name-only --diff-filter=ACM | grep '\.go$')
-[ ! -z "$gofiles" ] && gofmt -w $gofiles
+gofiles = $(git diff-- cached-- name - only-- diff - filter =
+                ACM | grep '\.go$')[! - z "$gofiles"] &&gofmt -
+          w $gofiles
 
-jsxfiles=$(git diff --cached --name-only --diff-filter=ACM | grep '\.jsx$')
-[ ! -z "${jsxfiles}" ] && npm run sort-props ${jsxfiles};
+              jsxfiles = $(git diff-- cached-- name - only-- diff - filter =
+                               ACM | grep '\.jsx$')[! - z "${jsxfiles}"] &&
+                         npm run sort - props ${jsxfiles};
 
-pyfiles=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
-[ ! -z "${pyfiles}" ] && yapf -i ${pyfiles};
+pyfiles = $(git diff-- cached-- name - only-- diff - filter =
+                ACM | grep '\.py$')[! - z "${pyfiles}"] &&
+          yapf - i ${pyfiles};
 
-cfiles=$(git diff --cached --name-only --diff-filter=ACM | grep '[\.cpp$|\.hpp$|\.h$|\.c$]')
-[ ! -z "${cfiles}" ] && clang-format -i ${cfiles};
-
-
+cfiles = $(git diff-- cached-- name - only-- diff - filter =
+               ACM | grep '[\.cpp$|\.hpp$|\.h$|\.c$]')[! - z "${cfiles}"] &&
+         clang - format - i ${cfiles};
