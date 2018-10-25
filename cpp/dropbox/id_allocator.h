@@ -43,9 +43,54 @@ http://massivealgorithms.blogspot.com/2016/08/leetcode-379-design-phone-director
 
 Related OJ:
 https://leetcode.com/problems/design-phone-directory/
+*/
+#include "henry.h"
+
+namespace dropbox{
+  int tree_size; // even number always
+  vector<bool> segment_tree;
+  int alloc_num=0;
+
+  void build_tree(int n){
+    segment_tree.resize(2*n);
+    tree_size=2*n;
+  }
+
+  void update(int tree_index, bool b){
+    segment_tree[tree_index]=b;
+    int i=tree_index;
+    while(i>0){
+      if (i%2==1){
+        segment_tree[i/2]=segment_tree[i] & segment_tree[i-1];
+      }else{
+        segment_tree[i/2]=segment_tree[i] & segment_tree[i+1];
+      }
+      i = i/2;
+    }
+  }
+
+  int allocate(){
+    if(alloc_num==tree_size) return -1;
+    alloc_num++;
+    int i=1;
+    // find
+    while(i<tree_size){
+      if(not segment_tree[i]){
+        if(segment_tree[2*i]){ i=2*i+1; }else{ i=2*i; }
+      }
+    }
+    int tree_index=i/2;
+    // update
+    update(tree_index, true);
+    return tree_index-tree_size/2;
+  }
+
+  void release(int n){
+    alloc_num--;
+    update(n+tree_size/2, false); // update
+  }
 
 
-
- * */
+}
 
 #endif // PNSEI_ID_ALLOCATOR_H
