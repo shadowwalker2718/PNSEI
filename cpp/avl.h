@@ -4,6 +4,6 @@
 
 namespace _avl {
 
-  struct node {};
+struct node {};
 
-}
+} // namespace _avl

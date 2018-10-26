@@ -1,19 +1,19 @@
 #include "henry.h"
 
 int global_int = 0;
-mutex mu; 
+mutex mu;
 void rec() {
-  if (global_int > 10) return;
+  if (global_int > 10)
+    return;
   lock_guard<mutex> lk(mu);
   cout << " " << global_int++;
   rec();
 }
 
-
-int test(){
+int test() {
   lock_guard<mutex> g(mu);
   lock_guard<mutex> g2(mu);
   rec();
-  cout<<endl;
+  cout << endl;
   return 0;
 }
