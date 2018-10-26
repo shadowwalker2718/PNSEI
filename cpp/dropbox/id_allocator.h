@@ -18,9 +18,7 @@
  想了一会儿没想出来，只想到了从HashMap的角度出发，时间不多了就结束了，最后面试官简单说了一下思路，没太搞明白，但是确实是HashMap的方向。
 
 
-alloc id 我onsite也遇到了， 最后的最优解法 是建立一个2n个bit的 segment tree
-然后o（lg n）的复杂度完成所有操作
- */
+alloc id 我onsite也遇到了， 最后的最优解法 是建立一个2n个bit的segment tree,然后o（lg n）的复杂度完成所有操作*/
 
 /*
  * 编程题就一道,给一个数N,生成N个id, 用户可以调用allocate()来分配一个id,
@@ -46,51 +44,103 @@ https://leetcode.com/problems/design-phone-directory/
 */
 #include "henry.h"
 
-namespace dropbox{
-  int tree_size; // even number always
-  vector<bool> segment_tree;
-  int alloc_num=0;
+namespace dropbox {
 
-  void build_tree(int n){
-    segment_tree.resize(2*n);
-    tree_size=2*n;
-  }
+  class IDAllocator{
+    int tree_size; // even number always
+    vector<bool> segment_tree;
+    int alloc_num = 0;
 
-  void update(int tree_index, bool b){
-    segment_tree[tree_index]=b;
-    int i=tree_index;
-    while(i>0){
-      if (i%2==1){
-        segment_tree[i/2]=segment_tree[i] & segment_tree[i-1];
-      }else{
-        segment_tree[i/2]=segment_tree[i] & segment_tree[i+1];
+    // O(LogN)
+    void _update(int tree_index, bool b) {
+      segment_tree[tree_index] = b;
+      int i = tree_index;
+      while (i > 0) {
+        if (i % 2 == 1) {
+          segment_tree[i / 2] = segment_tree[i] & segment_tree[i - 1];
+        } else {
+          segment_tree[i / 2] = segment_tree[i] & segment_tree[i + 1];
+        }
+        i = i / 2;
       }
-      i = i/2;
+    }
+  public:
+    void build_tree(int n) {
+      segment_tree.resize(2 * n);
+      tree_size = 2 * n;
+    }
+
+    // O(LogN)
+    int allocate() {
+      if (alloc_num >= tree_size/2)
+        return -1;
+      alloc_num++;
+      int i = 1;
+      // 1. find
+      while (i < tree_size) {
+        if (not segment_tree[i]) {
+          if (segment_tree[2 * i]) {
+            i = 2 * i + 1;
+          } else {
+            i = 2 * i;
+          }
+        }
+      }
+      int tree_index = i / 2;
+      // 2. update
+      _update(tree_index, true);
+      return tree_index - tree_size / 2;
+    }
+
+    // O(LogN)
+    bool release(int n) {
+      int tree_index = n+tree_size/2;
+      if(!segment_tree[tree_index])
+        return false;
+      alloc_num--;
+      _update(n + tree_size / 2, false); // update
+      return true;
+    }
+  };
+
+  void tes(){
+    IDAllocator o;
+    for(int k=100; k<=1000; k++){
+      int n=k;
+      o.build_tree(n);
+      vector<int> v(n);
+      int i=n;
+      while(i--){
+        int t=o.allocate();
+        cout << t << endl;
+        v[t]=1;
+      }
+      assert(std::accumulate(v.begin(), v.end(), 0) == n);
+      assert(o.allocate() == -1);
     }
   }
 
-  int allocate(){
-    if(alloc_num==tree_size) return -1;
-    alloc_num++;
-    int i=1;
-    // find
-    while(i<tree_size){
-      if(not segment_tree[i]){
-        if(segment_tree[2*i]){ i=2*i+1; }else{ i=2*i; }
+  void test2(){
+    // test if the newly released id will be allocated first!?
+    // use a queue
+    int n=10, i=n/3, t=0;
+    IDAllocator o;
+    o.build_tree(n);
+    vector<int> v;
+    while(i--){
+      t=o.allocate();
+      v.push_back(t);
+    }
+    vector<int> v2(v);
+    for(int i=0;i<v.size();i++){
+      if(i&1){
+        o.release(v2[i]);
       }
     }
-    int tree_index=i/2;
-    // update
-    update(tree_index, true);
-    return tree_index-tree_size/2;
-  }
-
-  void release(int n){
-    alloc_num--;
-    update(n+tree_size/2, false); // update
+    //???
   }
 
 
-}
+} // namespace dropbox
 
 #endif // PNSEI_ID_ALLOCATOR_H

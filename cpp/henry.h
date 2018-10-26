@@ -49,8 +49,12 @@
 #include <climits>
 #include <cstring> // strlen
 
+#include <numeric> // accumulate, iota
+
 #include <iterator> //ostream_iterator
 #include <experimental/filesystem> // C++17
+
+
 
 
 using namespace std;

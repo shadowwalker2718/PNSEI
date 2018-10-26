@@ -60,6 +60,7 @@
 #include "sparsematrix.h"
 #include "stree.h"
 #include "winner_tree.h"
+#include "dropbox/id_allocator.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -83,6 +84,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  dropbox::tes();
   addepar::test();
   cruise_2017_09_20::test();
   _927::test();
