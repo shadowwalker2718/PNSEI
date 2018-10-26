@@ -11,8 +11,8 @@ namespace _indexheap {
     struct index_priority_queue {
         vector<int> volumes; // 100 items
         unordered_map<int, string> index2ticker;
-
         unordered_map<string, int> ticker2index;
+
         int size = 0;
 
         index_priority_queue(int hsize = 100) { volumes.resize(hsize); }
@@ -94,11 +94,11 @@ namespace _indexheap {
     };
 
     class index_heap {
-        vector<stock> stocks;// heap core data
-        unordered_map<string, int> ticker2index;
+        vector<stock> stocks;// heap core data, which is basically a tree array
+        unordered_map<string, int> ticker_to_index;
 
         void __swap(int x, int y) {
-            swap(ticker2index[stocks[x].ticker], ticker2index[stocks[y].ticker]);
+            swap(ticker_to_index[stocks[x].ticker], ticker_to_index[stocks[y].ticker]);
             swap(stocks[x], stocks[y]);
         }
 
@@ -130,32 +130,32 @@ namespace _indexheap {
     public:
         void push(const stock& s) {
             stocks.push_back(s);
-            ticker2index[s.ticker] = stocks.size() - 1;
+            ticker_to_index[s.ticker] = stocks.size() - 1;
             __sift_up(stocks.size() - 1);
         }
 
         void increase_volume(const string& t, int vol) {
-            stocks[ticker2index[t]].volume += vol;
-            __sift_up(ticker2index[t]);
+            stocks[ticker_to_index[t]].volume += vol;
+            __sift_up(ticker_to_index[t]);
         }
 
         void decrease_volume(const string& t, int vol) {
-            stocks[ticker2index[t]].volume -= vol;
-            __sift_down(ticker2index[t]);
+            stocks[ticker_to_index[t]].volume -= vol;
+            __sift_down(ticker_to_index[t]);
         }
 
         vector<stock> topK(int k) {
             vector<stock> r;
             if (stocks.empty()) return r;
             auto comp = [&](stock& s1, stock& s2) { return 
-                stocks[ticker2index[s1.ticker]].volume < 
-                stocks[ticker2index[s2.ticker]].volume; };
+                stocks[ticker_to_index[s1.ticker]].volume <
+                stocks[ticker_to_index[s2.ticker]].volume; };
             priority_queue<stock,vector<stock>, decltype(comp)> pq(comp);//!!
             pq.push(stocks[0]);
             while (k-- && !pq.empty()){
                 stock tmp = pq.top(); pq.pop();
                 r.push_back(tmp);
-                int lchild = 2 * ticker2index[tmp.ticker] + 1, rchild = 2 * ticker2index[tmp.ticker] + 2;
+                int lchild = 2 * ticker_to_index[tmp.ticker] + 1, rchild = 2 * ticker_to_index[tmp.ticker] + 2;
                 if (lchild<stocks.size()) pq.push(stocks[lchild]);
                 if (rchild<stocks.size()) pq.push(stocks[rchild]);
             }

@@ -35,6 +35,7 @@
 #include "concurrent_hashmap.h"
 #include "cruise/clique.h"
 #include "deadlock.h"
+#include "dropbox/id_allocator.h"
 #include "dup.h"
 #include "encode_list_with_dups.h"
 #include "frequent_element.h"
@@ -60,7 +61,6 @@
 #include "sparsematrix.h"
 #include "stree.h"
 #include "winner_tree.h"
-#include "dropbox/id_allocator.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
