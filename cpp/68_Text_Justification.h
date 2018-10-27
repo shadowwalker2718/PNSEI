@@ -9,26 +9,28 @@ int Justify_Text_Line(string s, int len) {
   istringstream ss(s);
   vector<string> tokens;
   string e;
-  while (getline(ss, e, ' ')) //consider all continuous spaces
-    if(!e.empty())
+  while (getline(ss, e, ' ')) // consider all continuous spaces
+    if (!e.empty())
       tokens.push_back(e);
 
   int L = tokens.size();
   int t = 0;
-  for (int i = 0; i<L; ++i)
+  for (int i = 0; i < L; ++i)
     t += tokens[i].size();
-  if (t>len) return -1;
+  if (t > len)
+    return -1;
   int spaces = len - t;
   int groove = L - 1;
-  if (groove <= 1) return 1;
-  int extra = spaces%groove, d=extra;
-  int r = 1, z=1;
+  if (groove <= 1)
+    return 1;
+  int extra = spaces % groove, d = extra;
+  int r = 1, z = 1;
   while (extra--) // Calculate groove choose extra
     r *= groove--;
-  while(d){
-    z*=d--;
+  while (d) {
+    z *= d--;
   }
-  return r/z;
+  return r / z;
 }
 
 struct Solution {                                                // 0ms
@@ -68,7 +70,7 @@ struct Solution {                                                // 0ms
 };
 
 void test() {
-  int r=Justify_Text_Line("justify    th is line", 22);
+  int r = Justify_Text_Line("justify    th is line", 22);
   cout << r << endl;
   Solution sln;
   vector<string> v(

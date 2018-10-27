@@ -54,8 +54,8 @@ disk seeks for read and `N*N/K` disk seeks for write.
 followup和之前的面经一样，问的是如果是100million * 100 million怎么办。
 因为看过面经，我先回答的是答案是把这个matrix翻转90度，然后一行行处理.
 
- 但翻转的时候，读行输出列会有硬盘(写)文件耗时，读列输出行会有硬盘(读)文件耗时。 //??
- 然后又回答说可以读一个正方形，一个正方形一个正方形处理。
+ 但翻转的时候，读行输出列会有硬盘(写)文件耗时，读列输出行会有硬盘(读)文件耗时。
+//?? 然后又回答说可以读一个正方形，一个正方形一个正方形处理。
  小哥让把code写一下，我就写了一段pseudocode。
 
 然后小哥给分析了下发现这样有问题。如果处理matrix中间5x5矩阵，已知第一列中的五个值X，
@@ -72,7 +72,7 @@ X O O O O               X O O O O
 // https://stackoverflow.com/questions/16737298/what-is-the-fastest-way-to-transpose-a-matrix-in-c
 
 #include "highest_minimum_sharpness.h"
-#define INT_MIN -2147483648
+
 namespace dropbox {
 
 int find_highest_minimum_sharpness(vector<vector<int>> &m) {

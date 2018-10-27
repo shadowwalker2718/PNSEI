@@ -88,7 +88,7 @@ private:
 };
 
 void test() {
-  // Solution2 sln;
+  // Solution sln;
   // assert(sln.kSum({ 1,4,7,10,12,15,16,18,21,23,24,25,26,29 }, 5, 13)==9);
 }
 

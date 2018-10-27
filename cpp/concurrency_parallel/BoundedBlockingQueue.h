@@ -37,6 +37,8 @@ public:
   }
 };
 
+// https://stackoverflow.com/questions/8594591/why-does-pthread-cond-wait-have-spurious-wakeups
+
 template <typename T> class BBQ {
   int32_t MAXCOUNT;
   queue<T> Q;
@@ -47,17 +49,9 @@ public:
   BBQ(const BBQ &) = delete;            // noncopyable
   BBQ &operator=(const BBQ &) = delete; // nonassignable
 
-  BBQ() : MAXCOUNT(-1) {}
-
-  void init(int32_t c) {
-    if (c <= 0)
-      throw exception("maxcount must be greater than 0");
-    MAXCOUNT = c;
-  }
+  BBQ(int cap=10) : MAXCOUNT(cap) {}
 
   void put(const T &item) { // producer
-    if (MAXCOUNT == -1)
-      throw exception("uninitialized MAXCOUNT");
     unique_lock<mutex> lk(mu);
     while (Q.size() == MAXCOUNT) { // spurious wake
       cv.wait(lk);
@@ -69,8 +63,6 @@ public:
   }
 
   T get() { // consumer
-    if (MAXCOUNT == -1)
-      throw exception("uninitialized MAXCOUNT");
     unique_lock<mutex> lk(mu);
     while (Q.size() == 0) {
       cv.wait(lk);

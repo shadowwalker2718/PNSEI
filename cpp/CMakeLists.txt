@@ -27,28 +27,28 @@ add_executable(pnsei
         "425. Word Squares.h"
         "65. Valid Number.h"
         "68_Text_Justification.h"
-        68.h
+        438_Find_All_Anagrams_in_a_String.h
         "94. Binary Tree Inorder Traversal.h"
         "99. Recover Binary Search Tree.h"
         allLPS.h
         avl.h
         binarytree.h
         blowoff_leaf.h
-        BoundedBlockingQueue.h
+        concurrency_parallel/BoundedBlockingQueue.h
         bzoj1090.h
         calendar.h
         canPlaceFlower.h
         comb_sum.h
-        concurrent_hashmap.h
-        deadlock.h
-        DelayQueue.h
-        deadlock.cpp
+        concurrency_parallel/concurrent_hashmap.h
+        concurrency_parallel/deadlock.h
+        concurrency_parallel/DelayQueue.h
+        concurrency_parallel/deadlock.cpp
         dup.h
         encode_list_with_dups.h
         frequent_element.h
         gg_findmaxwith1flip.h
         gg_intrange.h
-        h2o.h
+        concurrency_parallel/h2o.h
         hangman.h
         "HDU 1254.h"
         henry.h
@@ -62,8 +62,8 @@ add_executable(pnsei
         ksum.h
         lfu.h
         ll.h
-        lnkd_addinterval.h
-        lnkd_midstack.h
+        linkedin/lnkd_addinterval.h
+        linkedin/lnkd_midstack.h
         main.cpp
         maxstack.h
         minwindowsub.h

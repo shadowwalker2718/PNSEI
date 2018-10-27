@@ -16,12 +16,12 @@
 #include "422. Valid Word Square.h"
 #include "425. Word Squares.h"
 #include "65. Valid Number.h"
-#include "68.h"
+#include "438_Find_All_Anagrams_in_a_String.h"
 #include "68_Text_Justification.h"
 #include "927. Three Equal Parts.h"
 #include "94. Binary Tree Inorder Traversal.h"
-#include "BoundedBlockingQueue.h"
-#include "DelayQueue.h"
+#include "concurrency_parallel/BoundedBlockingQueue.h"
+#include "concurrency_parallel/DelayQueue.h"
 #include "HDU 1254.h"
 #include "IndexMaxPQ.h"
 #include "K-th Smallest in Lexicographical Order.h"
@@ -32,24 +32,24 @@
 #include "bzoj1090.h"
 #include "canPlaceFlower.h"
 #include "comb_sum.h"
-#include "concurrent_hashmap.h"
+#include "concurrency_parallel/concurrent_hashmap.h"
 #include "cruise/clique.h"
-#include "deadlock.h"
+#include "concurrency_parallel/deadlock.h"
 #include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator.h"
 #include "dup.h"
 #include "encode_list_with_dups.h"
 #include "frequent_element.h"
 #include "gg_findmaxwith1flip.h"
-#include "h2o.h"
+#include "concurrency_parallel/h2o.h"
 #include "is_intersected.h"
 #include "justifytextline.h"
 #include "kangaroos.h"
 #include "knighttour.h"
 #include "ksum.h"
 #include "lfu.h"
-#include "lnkd_addinterval.h"
-#include "lnkd_midstack.h"
+#include "linkedin/lnkd_addinterval.h"
+#include "linkedin/lnkd_midstack.h"
 #include "maxstack.h"
 #include "minwindowsub.h"
 #include "print_matrix.h"
@@ -85,8 +85,9 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _delayqueue::test();
   _68::test();
-  _68_2::test();
+  lc_438::test();
   dropbox::test_find_highest_minimum_sharpness();
   dropbox::tes();
   addepar::test();
@@ -139,7 +140,7 @@ int main(int argc, char **argv) {
   _lnkd_is_intersected::test();
   _lfu::test();
   justify_text_line::test();
-  _delayqueue::test();
+
 
   _print_matrix::test();
   _allLPS::test();

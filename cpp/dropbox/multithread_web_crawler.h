@@ -23,4 +23,65 @@
  *
  * */
 
+// http://massivetechinterview.blogspot.com/2015/06/design-web-crawler.html
+
+#include "henry.h"
+
+namespace dropbox_concurrency{
+  using LINK=string;
+  bool isInternal(string url){return true;};
+  vector<LINK> getLinks(string url){return vector<string>();};
+
+  // BFS
+  vector<LINK> crawl(const string& root_url){
+    set<LINK> result_set;
+    queue<LINK> q; // a queue for all internal URLS
+    q.push(root_url);
+    while (!q.empty()){
+      int k=q.size();
+      while(k--){
+        LINK lnk=q.front();
+        q.pop();
+        if(result_set.count(lnk)==0){
+          result_set.insert(lnk);
+          vector<LINK> new_links = getLinks(lnk);
+          for(const LINK&  e: new_links){
+            if(isInternal(e))
+              q.push(e);
+          }
+        }
+      }
+    }
+    return vector<LINK>(result_set.begin(), result_set.end());
+  }
+
+  class BBQ{
+    mutex mu;
+    condition_variable cv;
+    queue<LINK> q;
+    int cap;
+  public:
+    BBQ(int x):cap(x){}
+    void push(LINK& s){
+      unique_lock<mutex> ul;
+      while(q.size()==cap){ cv.wait(ul); }
+      q.push(s);
+      if(q.size()==1)
+        cv.notify_one();
+    }
+    LINK pop(){
+      unique_lock<mutex> ul;
+      while(q.size()==0){ cv.wait(ul); }
+      LINK r=q.front(); q.pop();
+      if(q.size()==cap-1)
+        cv.notify_one();
+      return r;
+    }
+  };
+
+  BBQ global_queue(1024);
+  vector<LINK> crawl_multithread(const string& lnk){ }
+
+}
+
 #endif // PNSEI_MULTITHREAD_WEB_CRAWLER_H
