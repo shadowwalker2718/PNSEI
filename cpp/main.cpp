@@ -61,6 +61,7 @@
 #include "sparsematrix.h"
 #include "stree.h"
 #include "winner_tree.h"
+#include "dropbox/highest_minimum_sharpness.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -84,6 +85,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  dropbox::test_find_highest_minimum_sharpness();
   dropbox::tes();
   addepar::test();
   cruise_2017_09_20::test();

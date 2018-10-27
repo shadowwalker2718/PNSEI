@@ -78,7 +78,9 @@ add_executable(pnsei
         sparsematrix.h
         stree.h
         winner_tree.h "927. Three Equal Parts.h" cruise/clique.h cruise/lru.h cruise/encircular.h "dropbox/289. Game of Life.h"
+        "dropbox/highest_minimum_sharpness.h"
+        "dropbox/highest_minimum_sharpness.cpp"
         "addepar/addepar.h"
-        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator.h dropbox/multithread_web_crawler.h dropbox/system_design_message_queue.h)
+        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator.h dropbox/multithread_web_crawler.h dropbox/system_design_message_queue.h dropbox/highest_minimum_sharpness.h)
 
 target_link_libraries(${PROJECT_NAME} stdc++fs)
