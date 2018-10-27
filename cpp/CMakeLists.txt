@@ -81,6 +81,6 @@ add_executable(pnsei
         "dropbox/highest_minimum_sharpness.h"
         "dropbox/highest_minimum_sharpness.cpp"
         "addepar/addepar.h"
-        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator.h dropbox/multithread_web_crawler.h dropbox/system_design_message_queue.h dropbox/highest_minimum_sharpness.h)
+        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator.h dropbox/multithread_web_crawler.h dropbox/system_design_message_queue.h dropbox/highest_minimum_sharpness.h dropbox/bittorrent_merge.h)
 
 target_link_libraries(${PROJECT_NAME} stdc++fs)

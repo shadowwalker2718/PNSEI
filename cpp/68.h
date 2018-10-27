@@ -14,12 +14,12 @@ struct Solution {
       while (start + m < L && wordlen + words[start + m].size() + m <= maxwidth)
         wordlen += words[start + m].size(), m++;
       string oneline(words[start]);
-      int gap = m - 1, spaces = maxwidth - wordlen;
-      for (int i = 0; i < gap; ++i) {
+      int groove = m - 1, spaces = maxwidth - wordlen;
+      for (int i = 0; i < groove; ++i) {
         if (start + m == L) {
           oneline += " ";
         } else {
-          int x = spaces / gap, y = spaces % gap;
+          int x = spaces / groove, y = spaces % groove;
           oneline.append(x + (i < y), ' ');
         }
         oneline += words[start + i + 1];

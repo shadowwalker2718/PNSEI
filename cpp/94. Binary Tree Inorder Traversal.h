@@ -91,5 +91,8 @@ public:
   }
 };
 
-void test() {}
+void test() {
+  vector<int> vi;
+  is_sorted(vi.begin(), vi.end());
+}
 } // namespace _94

@@ -11,7 +11,6 @@ input_line_3:2:4: warning: remainder by zero is undefined [-Wdivision-by-zero]
    ^~
 */
 
-
 namespace _149 {
 /*** Definition for a point.*/
 struct Point {
@@ -21,9 +20,10 @@ struct Point {
   Point(int a, int b) : x(a), y(b) {}
 };
 
-int gcd(int x,int y){
-  if (x==0) return y; // any number and 0 have gcd==that number.
-  return gcd(y%x,x);
+int gcd(int x, int y) {
+  if (x == 0)
+    return y; // any number and 0 have gcd==that number.
+  return gcd(y % x, x);
 }
 
 // https://leetcode.com/problems/max-points-on-a-line/
@@ -63,12 +63,12 @@ struct Solution2 {                       // 29ms
         int x = points[i].x - points[j].x;
         int y = points[i].y - points[j].y;
         int g = gcd(x, y);
-        if (g==0) { // g==0 means same points
+        if (g == 0) { // g==0 means same points
           same++;
           continue;
         }
         x /= g, y /= g;
-        long long slope_rep=((long long)(x) << 32) | y;
+        long long slope_rep = ((long long)(x) << 32) | y;
         mx = max(mx, ++count[slope_rep]);
       }
       result = max(result, mx + same);
@@ -84,7 +84,6 @@ struct Solution2 {                       // 29ms
   }
 };
 
-
 /**
  * Definition for a point.
  * struct Point {
@@ -96,42 +95,41 @@ struct Solution2 {                       // 29ms
  */
 class Solution3 {
 public:
-    int maxPoints(vector<Point> &points) { // 39ms
-        int result = 0;
-        unordered_set<int> duplicated_points;
-        for(int i=0;i<points.size();i++){
-            unordered_map<long long,int> count;
-            int same = 0;
-            int mx = 0;
-            for(int j = i + 1; j < points.size(); j ++){ // Point of i < j
-                if(duplicated_points.count(j))
-                    continue;
-                int x = points[i].x - points[j].x;
-                int y = points[i].y - points[j].y;
-                if(0==x and 0==y){  // same points
-                    duplicated_points.emplace(j);
-                    same ++;
-                    continue;
-                }
-                int g = gcd(x, y);
-                x /= g, y /= g;
-                ++ count[((long long)(x)<<32)|y];
-            }
-            for(const auto& pr: count)
-                mx=max(mx, pr.second);
-            result=max(result, mx+same+1);
+  int maxPoints(vector<Point> &points) { // 39ms
+    int result = 0;
+    unordered_set<int> duplicated_points;
+    for (int i = 0; i < points.size(); i++) {
+      unordered_map<long long, int> count;
+      int same = 0;
+      int mx = 0;
+      for (int j = i + 1; j < points.size(); j++) { // Point of i < j
+        if (duplicated_points.count(j))
+          continue;
+        int x = points[i].x - points[j].x;
+        int y = points[i].y - points[j].y;
+        if (0 == x and 0 == y) { // same points
+          duplicated_points.emplace(j);
+          same++;
+          continue;
         }
-        return result;
+        int g = gcd(x, y);
+        x /= g, y /= g;
+        ++count[((long long)(x) << 32) | y];
+      }
+      for (const auto &pr : count)
+        mx = max(mx, pr.second);
+      result = max(result, mx + same + 1);
     }
+    return result;
+  }
 
-    int gcd(int x, int y) {
-        int temp;
-        while (y)
-            temp = y, y = x % y, x = temp;
-        return x;
-    }
+  int gcd(int x, int y) {
+    int temp;
+    while (y)
+      temp = y, y = x % y, x = temp;
+    return x;
+  }
 };
-
 
 void test() {
   //[[0,0],[1,1],[1,-1]]

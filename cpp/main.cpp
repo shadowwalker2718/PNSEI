@@ -16,8 +16,8 @@
 #include "422. Valid Word Square.h"
 #include "425. Word Squares.h"
 #include "65. Valid Number.h"
-#include "68_Text_Justification.h"
 #include "68.h"
+#include "68_Text_Justification.h"
 #include "927. Three Equal Parts.h"
 #include "94. Binary Tree Inorder Traversal.h"
 #include "BoundedBlockingQueue.h"
@@ -85,6 +85,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _68::test();
+  _68_2::test();
   dropbox::test_find_highest_minimum_sharpness();
   dropbox::tes();
   addepar::test();
@@ -109,7 +111,6 @@ int main(int argc, char **argv) {
 
   minwindowsub::test();
 
-  _68_2::test();
   _comb_sum::test();
 
   _canPlaceFlower::test();
@@ -159,7 +160,6 @@ int main(int argc, char **argv) {
   _lnkd_is_serialized_tree::test();
   _midstack::test();
   _65::test();
-  _68::test();
   _214::test();
   _361::test();
   _42::test();
