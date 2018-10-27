@@ -1,6 +1,6 @@
 #include "henry.h"
 
-#include "149.h"
+#include "149_Max_Points_on_a_Line.h"
 #include "208. Implement Trie (Prefix Tree).h"
 #include "208_Implement_Trie_Prefix_Tree.h"
 #include "214. Shortest Palindrome.h"
@@ -16,7 +16,7 @@
 #include "422. Valid Word Square.h"
 #include "425. Word Squares.h"
 #include "65. Valid Number.h"
-#include "68. Text Justification.h"
+#include "68_Text_Justification.h"
 #include "68.h"
 #include "927. Three Equal Parts.h"
 #include "94. Binary Tree Inorder Traversal.h"
@@ -35,6 +35,7 @@
 #include "concurrent_hashmap.h"
 #include "cruise/clique.h"
 #include "deadlock.h"
+#include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator.h"
 #include "dup.h"
 #include "encode_list_with_dups.h"
@@ -61,7 +62,6 @@
 #include "sparsematrix.h"
 #include "stree.h"
 #include "winner_tree.h"
-#include "dropbox/highest_minimum_sharpness.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {

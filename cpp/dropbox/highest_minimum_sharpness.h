@@ -7,10 +7,10 @@
 
 #include "henry.h"
 
-namespace dropbox{
+namespace dropbox {
 
-  int find_highest_minimum_sharpness(vector<vector<int>> &m);
-  void test_find_highest_minimum_sharpness();
-}
+int find_highest_minimum_sharpness(vector<vector<int>> &m);
+void test_find_highest_minimum_sharpness();
+} // namespace dropbox
 
-#endif //PNSEI_HIGHEST_MINIMUM_SHARPNESS_H
+#endif // PNSEI_HIGHEST_MINIMUM_SHARPNESS_H

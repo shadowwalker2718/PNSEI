@@ -3,6 +3,29 @@
 
 namespace _68 {
 
+int Justify_Text_Line(string s, int len) {
+  istringstream ss(s);
+  vector<string> tokens;
+  string e;
+  while (getline(ss, e, ' ')) //注意如果有多个空格要忽略空格
+    if(!e.empty())
+      tokens.push_back(e);
+
+  int L = tokens.size();
+  int t = 0;
+  for (int i = 0; i<L; ++i)
+    t += tokens[i].size();
+  if (t>len) return -1;
+  int spaces = len - t;
+  int gap = L - 1;
+  if (gap <= 1) return 1;
+  int k = spaces%gap;
+  int r = 1;
+  while (k <= gap) // Calculate n choose k
+    r *= k++;
+  return r;
+}
+
 struct Solution {                                                // 0ms
   vector<string> fullJustify(vector<string> &ws, int maxWidth) { // 0ms
     vector<string> r;
@@ -40,6 +63,8 @@ struct Solution {                                                // 0ms
 };
 
 void test() {
+  int r=Justify_Text_Line("justify    this line", 20);
+  cout << r << endl;
   Solution sln;
   vector<string> v(
       {"This", "is", "an", "example", "of", "text", "justification."});

@@ -9,7 +9,7 @@ SET(CMAKE_CXX_FLAGS -pthread)
 include_directories(.)
 
 add_executable(pnsei
-        149.h
+        149_Max_Points_on_a_Line.h
         "208. Implement Trie (Prefix Tree).h"
         208_Implement_Trie_Prefix_Tree.h
         "214. Shortest Palindrome.h"
@@ -26,7 +26,7 @@ add_executable(pnsei
         "422. Valid Word Square.h"
         "425. Word Squares.h"
         "65. Valid Number.h"
-        "68. Text Justification.h"
+        "68_Text_Justification.h"
         68.h
         "94. Binary Tree Inorder Traversal.h"
         "99. Recover Binary Search Tree.h"
