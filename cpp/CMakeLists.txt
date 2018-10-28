@@ -16,7 +16,7 @@ add_executable(pnsei
         "230. Kth Smallest Element in a BST.h"
         "254. Factor Combinations.h"
         "307. Range Sum Query - Mutable.h"
-        "34. Search for a Range.h"
+        "34_Search_for_a_Range.h"
         "361. Bomb Enemy.h"
         "388. Longest Absolute File Path.h"
         "391. Perfect Rectangle.h"
@@ -81,6 +81,6 @@ add_executable(pnsei
         "dropbox/highest_minimum_sharpness.h"
         "dropbox/highest_minimum_sharpness.cpp"
         "addepar/addepar.h"
-        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator.h dropbox/multithread_web_crawler.h dropbox/system_design_message_queue.h dropbox/highest_minimum_sharpness.h dropbox/bittorrent_merge.h)
+        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator.h dropbox/multithread_web_crawler.h dropbox/system_design_message_queue.h dropbox/highest_minimum_sharpness.h dropbox/bittorrent_merge.h dropbox/key_value_store.h leetcode/655_Print_Binary_Tree.h)
 
 target_link_libraries(${PROJECT_NAME} stdc++fs)

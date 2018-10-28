@@ -6,7 +6,7 @@
 #include "214. Shortest Palindrome.h"
 #include "254. Factor Combinations.h"
 #include "307. Range Sum Query - Mutable.h"
-#include "34. Search for a Range.h"
+#include "34_Search_for_a_Range.h"
 #include "361. Bomb Enemy.h"
 #include "388. Longest Absolute File Path.h"
 #include "391. Perfect Rectangle.h"
@@ -15,13 +15,11 @@
 #include "42. Trapping Rain Water.h"
 #include "422. Valid Word Square.h"
 #include "425. Word Squares.h"
-#include "65. Valid Number.h"
 #include "438_Find_All_Anagrams_in_a_String.h"
+#include "65. Valid Number.h"
 #include "68_Text_Justification.h"
 #include "927. Three Equal Parts.h"
 #include "94. Binary Tree Inorder Traversal.h"
-#include "concurrency_parallel/BoundedBlockingQueue.h"
-#include "concurrency_parallel/DelayQueue.h"
 #include "HDU 1254.h"
 #include "IndexMaxPQ.h"
 #include "K-th Smallest in Lexicographical Order.h"
@@ -32,16 +30,18 @@
 #include "bzoj1090.h"
 #include "canPlaceFlower.h"
 #include "comb_sum.h"
+#include "concurrency_parallel/BoundedBlockingQueue.h"
+#include "concurrency_parallel/DelayQueue.h"
 #include "concurrency_parallel/concurrent_hashmap.h"
-#include "cruise/clique.h"
 #include "concurrency_parallel/deadlock.h"
+#include "concurrency_parallel/h2o.h"
+#include "cruise/clique.h"
 #include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator.h"
 #include "dup.h"
 #include "encode_list_with_dups.h"
 #include "frequent_element.h"
 #include "gg_findmaxwith1flip.h"
-#include "concurrency_parallel/h2o.h"
 #include "is_intersected.h"
 #include "justifytextline.h"
 #include "kangaroos.h"
@@ -140,7 +140,6 @@ int main(int argc, char **argv) {
   _lnkd_is_intersected::test();
   _lfu::test();
   justify_text_line::test();
-
 
   _print_matrix::test();
   _allLPS::test();

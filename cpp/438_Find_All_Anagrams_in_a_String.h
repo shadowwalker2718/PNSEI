@@ -4,7 +4,6 @@
 
 namespace lc_438 {
 
-
 class Solution {
 public:
   vector<int> findAnagrams(string s, string p) {
@@ -34,19 +33,20 @@ public:
   }
 };
 
-class Solution2{
+class Solution2 {
 public:
   vector<int> findAnagrams(string s, string p) {
-    if (s.empty()) return {};
+    if (s.empty())
+      return {};
     vector<int> res, m1(128, 0), m2(128, 0);
-    int N=p.size();
+    int N = p.size();
     for (int i = 0; i < N; ++i)
       ++m1[s[i]], ++m2[p[i]];
     if (m1 == m2)
       res.push_back(0);
     for (int i = N; i < s.size(); ++i) {
-      ++m1[s[i]], --m1[s[i - N]]; //Add one, Subtract one
-      if (m1 == m2) // compare two vectors
+      ++m1[s[i]], --m1[s[i - N]]; // Add one, Subtract one
+      if (m1 == m2)               // compare two vectors
         res.push_back(i - N + 1);
     }
     return res;
