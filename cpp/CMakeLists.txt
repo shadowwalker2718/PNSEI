@@ -16,7 +16,7 @@ add_executable(pnsei
         "230. Kth Smallest Element in a BST.h"
         "254. Factor Combinations.h"
         "307. Range Sum Query - Mutable.h"
-        "34_Search_for_a_Range.h"
+        "leetcode/34_Search_for_a_Range.h"
         "361. Bomb Enemy.h"
         "388. Longest Absolute File Path.h"
         "391. Perfect Rectangle.h"

@@ -50,7 +50,7 @@ void producer() {
       t.id = i++;
       t.due = time(NULL) + rand() % 10; // a random timeout
       DelayQueue.push(t);
-      if(DelayQueue.size()==1)
+      if (DelayQueue.size() == 1)
         cv.notify_one();
       cout << "Add event " << t.id << "(" << t.due << ")\n";
     } // never hold lock when sleeping

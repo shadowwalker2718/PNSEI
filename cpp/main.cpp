@@ -6,7 +6,7 @@
 #include "214. Shortest Palindrome.h"
 #include "254. Factor Combinations.h"
 #include "307. Range Sum Query - Mutable.h"
-#include "34_Search_for_a_Range.h"
+#include "leetcode/34_Search_for_a_Range.h"
 #include "361. Bomb Enemy.h"
 #include "388. Longest Absolute File Path.h"
 #include "391. Perfect Rectangle.h"
