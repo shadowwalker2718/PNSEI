@@ -3,7 +3,7 @@
 
 namespace _214 {
 struct Solution {
-  string shortestPalindrome(string s) {
+  string shortestPalindrome_spurious_check(string s) {
     if (s.size() <= 1)
       return s;
     int r = 0;
@@ -27,21 +27,18 @@ struct Solution {
     reverse(tmp.begin(), tmp.end());
     return tmp + s;
   }
-};
 
-struct Solution2 {
-  string shortestPalindrome(string s) {
-    if (s.size() <= 1)
-      return s;
-    int r = 0, hash1 = 0, hash2 = 0, BASE = 29, POW = 1, MOD = 1e9 + 7;
+  string shortestPalindrome(string s){
+    if (s.size() <= 1) return s;
+    int r = 0, hash1 = 0, hash2 = 0, BASE=37, POW=1;//
     for (int i = 0; i < s.size(); ++i) {
-      hash1 = (hash1 * BASE + s[i]) % MOD;
-      hash2 = (hash2 + s[i] * POW) % MOD;
+      hash1 = hash1*BASE+s[i];
+      hash2 = hash2 + s[i] * POW;
       if (hash1 == hash2)
         r = i;
-      POW = POW * BASE % MOD;
+      POW *= BASE;
     }
-    string tmp = s.substr(r + 1);
+    string tmp = s.substr(r+1);//
     reverse(tmp.begin(), tmp.end());
     return tmp + s;
   }
@@ -49,10 +46,8 @@ struct Solution2 {
 
 void test() {
   Solution sln;
-  assert(sln.shortestPalindrome("aba") == "aba");
-  assert(sln.shortestPalindrome("abc") == "cbabc");
-
-  Solution2 sln2;
-  assert(sln2.shortestPalindrome("aacecaaa") == "aaacecaaa");
+  assert(sln.shortestPalindrome("aacecaaa") == "aaacecaaa");
+  assert(sln.shortestPalindrome_spurious_check("aba") == "aba");
+  assert(sln.shortestPalindrome_spurious_check("abc") == "cbabc");
 }
 } // namespace _214

@@ -5,7 +5,7 @@
 
 namespace blowoff_leaf {
 
-void dfs(TreeNode *c, int k, int &md) {
+void dfs(treenode *c, int k, int &md) {
   if (!c) {
     md = 0;
     return;
@@ -23,7 +23,7 @@ void dfs(TreeNode *c, int k, int &md) {
   }
 }
 
-int dfs(TreeNode *c, int k) {
+int dfs(treenode *c, int k) {
   if (!c) {
     return 0;
   }
@@ -36,7 +36,7 @@ int dfs(TreeNode *c, int k) {
   return md;
 }
 
-TreeNode *blowoff(TreeNode *R, int k) {
+treenode *blowoff(treenode *R, int k) {
   if (!R || k <= 0)
     return R;
   int mdep = 0;
@@ -46,8 +46,8 @@ TreeNode *blowoff(TreeNode *R, int k) {
 }
 
 void test() {
-  TreeNode *p = createTree1();
-  TreeNode *r = blowoff(p, 2);
+  treenode *p = createTree1();
+  treenode *r = blowoff(p, 2);
   assert(r->val == 2);
   assert(r->l->val == 7);
   assert(r->l->l == 0);

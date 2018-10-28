@@ -5,7 +5,8 @@
 namespace _307 {
 
 class NumArray {
-  vector<int> B, N;
+  vector<int> B; // binary index tree
+  vector<int> N;
 
 public:
   NumArray(vector<int> &nums) {
@@ -14,7 +15,7 @@ public:
       update(i, nums[i]);
   }
   void update(int i, int val) {
-    int k = i + 1;
+    int k = i + 1; // k is tree_index
     int delta = val - N[k];
     while (k < B.size())
       B[k] += delta, k += (k & -k);

@@ -1,24 +1,24 @@
 #include "henry.h"
 
-#include "149_Max_Points_on_a_Line.h"
+#include "leetcode/149_Max_Points_on_a_Line.h"
 #include "208. Implement Trie (Prefix Tree).h"
-#include "208_Implement_Trie_Prefix_Tree.h"
-#include "214. Shortest Palindrome.h"
+#include "leetcode/208_Implement_Trie_Prefix_Tree.h"
+#include "leetcode/214_Shortest_Palindrome.h"
 #include "254. Factor Combinations.h"
-#include "307. Range Sum Query - Mutable.h"
+#include "leetcode/307_Range_Sum_Query_Mutable.h"
 #include "361. Bomb Enemy.h"
 #include "388. Longest Absolute File Path.h"
 #include "391. Perfect Rectangle.h"
 #include "394. Decode String.h"
 #include "407. Trapping Rain Water II.h"
-#include "42. Trapping Rain Water.h"
+#include "leetcode/42_Trapping_Rain_Water.h"
 #include "422. Valid Word Square.h"
 #include "425. Word Squares.h"
-#include "438_Find_All_Anagrams_in_a_String.h"
-#include "65. Valid Number.h"
-#include "68_Text_Justification.h"
+#include "leetcode/438_Find_All_Anagrams_in_a_String.h"
+#include "leetcode/65_Valid_Number.h"
+#include "leetcode/68_Text_Justification.h"
 #include "927. Three Equal Parts.h"
-#include "94. Binary Tree Inorder Traversal.h"
+#include "leetcode/94_Binary_Tree_Inorder_Traversal.h"
 #include "HDU 1254.h"
 #include "IndexMaxPQ.h"
 #include "K-th Smallest in Lexicographical Order.h"
@@ -85,6 +85,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _214::test();
   _delayqueue::test();
   _68::test();
   lc_438::test();
@@ -160,7 +161,6 @@ int main(int argc, char **argv) {
   _lnkd_is_serialized_tree::test();
   _midstack::test();
   _65::test();
-  _214::test();
   _361::test();
   _42::test();
   _42::test2();

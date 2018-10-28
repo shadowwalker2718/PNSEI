@@ -9,27 +9,27 @@ SET(CMAKE_CXX_FLAGS -pthread)
 include_directories(.)
 
 add_executable(pnsei
-        149_Max_Points_on_a_Line.h
+        leetcode/149_Max_Points_on_a_Line.h
         "208. Implement Trie (Prefix Tree).h"
-        208_Implement_Trie_Prefix_Tree.h
-        "214. Shortest Palindrome.h"
-        "230. Kth Smallest Element in a BST.h"
+        leetcode/208_Implement_Trie_Prefix_Tree.h
+        "leetcode/214_Shortest_Palindrome.h"
+        "leetcode/230_Kth_Smallest_Element_in_a_BST.h"
         "254. Factor Combinations.h"
-        "307. Range Sum Query - Mutable.h"
+        "leetcode/307_Range_Sum_Query_Mutable.h"
         "leetcode/34_Search_for_a_Range.h"
         "361. Bomb Enemy.h"
         "388. Longest Absolute File Path.h"
         "391. Perfect Rectangle.h"
         "394. Decode String.h"
         "407. Trapping Rain Water II.h"
-        "42. Trapping Rain Water.h"
+        "leetcode/42_Trapping_Rain_Water.h"
         "422. Valid Word Square.h"
         "425. Word Squares.h"
-        "65. Valid Number.h"
-        "68_Text_Justification.h"
-        438_Find_All_Anagrams_in_a_String.h
-        "94. Binary Tree Inorder Traversal.h"
-        "99. Recover Binary Search Tree.h"
+        "leetcode/65_Valid_Number.h"
+        "leetcode/68_Text_Justification.h"
+        leetcode/438_Find_All_Anagrams_in_a_String.h
+        "leetcode/94_Binary_Tree_Inorder_Traversal.h"
+        "leetcode/99_Recover_Binary_Search_Tree.h"
         allLPS.h
         avl.h
         binarytree.h
