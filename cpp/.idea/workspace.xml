@@ -11,14 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ksum.h" beforeDir="false" afterPath="$PROJECT_DIR$/ksum.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lfu.h" beforeDir="false" afterPath="$PROJECT_DIR$/lfu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ll.h" beforeDir="false" afterPath="$PROJECT_DIR$/_linkedlist.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segregate_even_odd_ll.h" beforeDir="false" afterPath="$PROJECT_DIR$/segregate_even_odd_ll.h" afterDir="false" />
-    </list>
+    <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +75,7 @@
     <session id="-1614678499">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
@@ -188,8 +181,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lfu.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="148" selection-start-line="148" selection-end-line="148" />
+            <state relative-caret-position="-1856">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -437,12 +430,12 @@
       <workItem from="1540659037877" duration="8383000" />
       <workItem from="1540680308693" duration="7617000" />
       <workItem from="1540696034668" duration="824000" />
-      <workItem from="1540737581952" duration="17162000" />
+      <workItem from="1540737581952" duration="17267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90488000" />
+    <option name="totallyTimeSpent" value="90593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,7 +456,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29555556" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1882494" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1882494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -930,8 +923,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lfu.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        <state relative-caret-position="-1856">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
