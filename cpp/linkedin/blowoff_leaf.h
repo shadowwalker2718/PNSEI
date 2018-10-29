@@ -1,6 +1,6 @@
 #pragma once
 
-#include "binarytree.h"
+#include "utils/binarytree.h"
 #include "henry.h"
 
 namespace blowoff_leaf {

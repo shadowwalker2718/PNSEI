@@ -144,6 +144,15 @@ public:
     __sift_up(stocks.size() - 1);
   }
 
+  void update(const string &t, int new_vol){
+    int vol=stocks[ticker_to_index[t]].volume;
+    if(new_vol ==  vol) return;
+    if(new_vol > vol)
+      increase_volume(t,new_vol-vol);
+    else
+      increase_volume(t,vol-new_vol);
+  }
+
   void increase_volume(const string &t, int vol) {
     stocks[ticker_to_index[t]].volume += vol;
     __sift_up(ticker_to_index[t]);
@@ -162,18 +171,18 @@ public:
       return stocks[ticker_to_index[s1.ticker]].volume <
              stocks[ticker_to_index[s2.ticker]].volume;
     };
-    priority_queue<stock, vector<stock>, decltype(comp)> pq(comp); //!!
-    pq.push(stocks[0]);
-    while (k-- && !pq.empty()) {
-      stock tmp = pq.top();
-      pq.pop();
+    priority_queue<stock, vector<stock>, decltype(comp)> tmpQ(comp); //!!
+    tmpQ.push(stocks[0]);
+    while (k-- && !tmpQ.empty()) {
+      stock tmp = tmpQ.top();
+      tmpQ.pop();
       r.push_back(tmp);
       int lchild = 2 * ticker_to_index[tmp.ticker] + 1,
           rchild = 2 * ticker_to_index[tmp.ticker] + 2;
       if (lchild < stocks.size())
-        pq.push(stocks[lchild]);
+        tmpQ.push(stocks[lchild]);
       if (rchild < stocks.size())
-        pq.push(stocks[rchild]);
+        tmpQ.push(stocks[rchild]);
     }
     return r;
   }

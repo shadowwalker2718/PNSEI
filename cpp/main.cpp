@@ -1,33 +1,24 @@
 #include "henry.h"
 
-#include "leetcode/149_Max_Points_on_a_Line.h"
-#include "208. Implement Trie (Prefix Tree).h"
-#include "leetcode/208_Implement_Trie_Prefix_Tree.h"
-#include "leetcode/214_Shortest_Palindrome.h"
-#include "254. Factor Combinations.h"
-#include "leetcode/307_Range_Sum_Query_Mutable.h"
-#include "361. Bomb Enemy.h"
-#include "388. Longest Absolute File Path.h"
-#include "391. Perfect Rectangle.h"
-#include "394. Decode String.h"
-#include "407. Trapping Rain Water II.h"
-#include "leetcode/42_Trapping_Rain_Water.h"
-#include "422. Valid Word Square.h"
-#include "425. Word Squares.h"
-#include "leetcode/438_Find_All_Anagrams_in_a_String.h"
-#include "leetcode/65_Valid_Number.h"
-#include "leetcode/68_Text_Justification.h"
-#include "927. Three Equal Parts.h"
-#include "leetcode/94_Binary_Tree_Inorder_Traversal.h"
-#include "HDU 1254.h"
+#include "leetcode/208_Implement_Trie_Prefix_Tree_ext.h"
+#include "leetcode/254_Factor_Combinations.h"
+#include "leetcode/361_Bomb_Enemy.h"
+#include "leetcode/388_Longest_Absolute_File_Path.h"
+#include "leetcode/391_Perfect_Rectangle.h"
+#include "leetcode/394_Decode_String.h"
+#include "leetcode/407_Trapping_Rain_Water_II.h"
+#include "leetcode/422_Valid_Word_Square.h"
+#include "leetcode/425_Word_Squares.h"
+#include "leetcode/927_Three_Equal_Parts.h"
+#include "HDU_1254.h"
 #include "IndexMaxPQ.h"
-#include "K-th Smallest in Lexicographical Order.h"
+#include "Kth_Smallest_in_Lexicographical_Order.h"
 #include "MultiDimensionArray.h"
 #include "addepar/addepar.h"
-#include "allLPS.h"
-#include "blowoff_leaf.h"
-#include "bzoj1090.h"
-#include "canPlaceFlower.h"
+#include "linkedin/all_palindrome_subsequences.h"
+#include "linkedin/blowoff_leaf.h"
+#include "google/bzoj1090.h"
+#include "linkedin/canPlaceFlower.h"
 #include "comb_sum.h"
 #include "concurrency_parallel/BoundedBlockingQueue.h"
 #include "concurrency_parallel/DelayQueue.h"
@@ -39,18 +30,27 @@
 #include "dropbox/id_allocator.h"
 #include "dup.h"
 #include "encode_list_with_dups.h"
-#include "frequent_element.h"
-#include "gg_findmaxwith1flip.h"
-#include "is_intersected.h"
+#include "linkedin/frequent_element.h"
+#include "google/gg_findmaxwith1flip.h"
+#include "linkedin/intersected.h"
 #include "justifytextline.h"
 #include "kangaroos.h"
 #include "knighttour.h"
 #include "ksum.h"
+#include "leetcode/149_Max_Points_on_a_Line.h"
+#include "leetcode/208_Implement_Trie_Prefix_Tree.h"
+#include "leetcode/214_Shortest_Palindrome.h"
+#include "leetcode/307_Range_Sum_Query_Mutable.h"
 #include "leetcode/34_Search_for_a_Range.h"
+#include "leetcode/42_Trapping_Rain_Water.h"
+#include "leetcode/438_Find_All_Anagrams_in_a_String.h"
+#include "leetcode/65_Valid_Number.h"
+#include "leetcode/68_Text_Justification.h"
+#include "leetcode/94_Binary_Tree_Inorder_Traversal.h"
 #include "lfu.h"
-#include "linkedin/lnkd_addinterval.h"
-#include "linkedin/lnkd_midstack.h"
-#include "maxstack.h"
+#include "linkedin/addinterval.h"
+#include "linkedin/midstack.h"
+#include "linkedin/maxstack.h"
 #include "minwindowsub.h"
 #include "print_matrix.h"
 #include "reliterator.h"
@@ -85,6 +85,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _allLPS::test();
+  _frequent_element::test();
   _214::test();
   _delayqueue::test();
   _68::test();
@@ -108,9 +110,6 @@ int main(int argc, char **argv) {
   _segment_tree::test();
   _shortest_non_substring::test();
   _RLEIterator::test();
-
-  _frequent_element::test();
-
   minwindowsub::test();
 
   _comb_sum::test();
@@ -143,7 +142,6 @@ int main(int argc, char **argv) {
   justify_text_line::test();
 
   _print_matrix::test();
-  _allLPS::test();
   _h2o::mainthread2();
   _h2o::test();
   _34::test();

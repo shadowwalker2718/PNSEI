@@ -10,22 +10,31 @@
 namespace _65 {
 class Solution {
 public:
-  bool isNumber(string s){
-    int i=0, L=s.size();
-    while(isspace(s[i])) i++;
-    if(s[i]=='+' or s[i]=='-') i++;
-    bool b=false;
-    while(isdigit(s[i])) i++, b=true;
-    if(s[i]=='.') i++;
-    while(isdigit(s[i])) i++, b=true;
-    if(s[i]=='e' or s[i]=='E'){
-      if(!b) return false;
-      b=false, i++;
-      if(s[i]=='+' or s[i]=='-') i++;
-      while(isdigit(s[i])) i++, b=true;
+  bool isNumber(string s) {
+    int i = 0, L = s.size();
+    while (isspace(s[i]))
+      i++;
+    if (s[i] == '+' or s[i] == '-')
+      i++;
+    bool b = false;
+    while (isdigit(s[i]))
+      i++, b = true;
+    if (s[i] == '.')
+      i++;
+    while (isdigit(s[i]))
+      i++, b = true;
+    if (s[i] == 'e' or s[i] == 'E') {
+      if (!b)
+        return false;
+      b = false, i++;
+      if (s[i] == '+' or s[i] == '-')
+        i++;
+      while (isdigit(s[i]))
+        i++, b = true;
     }
-    while(isspace(s[i])) i++;
-    return b && i==s.size();
+    while (isspace(s[i]))
+      i++;
+    return b && i == s.size();
   }
 };
 

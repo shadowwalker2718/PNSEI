@@ -12,23 +12,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/65_Valid_Number.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/frequent_element.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/149_Max_Points_on_a_Line.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/149_Max_Points_on_a_Line.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/208_Implement_Trie_Prefix_Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/208_Implement_Trie_Prefix_Tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/214. Shortest Palindrome.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/214_Shortest_Palindrome.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/230. Kth Smallest Element in a BST.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/230_Kth_Smallest_Element_in_a_BST.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/307. Range Sum Query - Mutable.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/42. Trapping Rain Water.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/42_Trapping_Rain_Water.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/438_Find_All_Anagrams_in_a_String.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/438_Find_All_Anagrams_in_a_String.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/65. Valid Number.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/68_Text_Justification.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/68_Text_Justification.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/94. Binary Tree Inorder Traversal.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/94_Binary_Tree_Inorder_Traversal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/99. Recover Binary Search Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/99_Recover_Binary_Search_Tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/208. Implement Trie (Prefix Tree).h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/208_Implement_Trie_Prefix_Tree_ext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/254. Factor Combinations.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/254_Factor_Combinations.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/361. Bomb Enemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/361_Bomb_Enemy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/388. Longest Absolute File Path.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/388_Longest_Absolute_File_Path.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/391. Perfect Rectangle.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/391_Perfect_Rectangle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/394. Decode String.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/394_Decode_String.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/407. Trapping Rain Water II.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/407_Trapping_Rain_Water_II.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/422. Valid Word Square.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/422_Valid_Word_Square.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/425. Word Squares.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/425_Word_Squares.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/927. Three Equal Parts.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/927_Three_Equal_Parts.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/binarytree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blowoff_leaf.h" beforeDir="false" afterPath="$PROJECT_DIR$/blowoff_leaf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HDU 1254.h" beforeDir="false" afterPath="$PROJECT_DIR$/HDU_1254.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexMaxPQ.h" beforeDir="false" afterPath="$PROJECT_DIR$/IndexMaxPQ.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-th Smallest in Lexicographical Order.h" beforeDir="false" afterPath="$PROJECT_DIR$/Kth_Smallest_in_Lexicographical_Order.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allLPS.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/all_palindrome_subsequences.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binarytree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blowoff_leaf.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/blowoff_leaf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bzoj1090.h" beforeDir="false" afterPath="$PROJECT_DIR$/google/bzoj1090.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canPlaceFlower.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/canPlaceFlower.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequent_element.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gg_findmaxwith1flip.h" beforeDir="false" afterPath="$PROJECT_DIR$/google/gg_findmaxwith1flip.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gg_intrange.h" beforeDir="false" afterPath="$PROJECT_DIR$/google/gg_intrange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/hangman.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/is_intersected.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/intersected.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/65_Valid_Number.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/65_Valid_Number.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/lnkd_addinterval.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/addinterval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/lnkd_midstack.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/midstack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxstack.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/maxstack.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,9 +119,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="8" />
-          <entry key="h" value="63" />
-          <entry key="pnsei (disassembly)" value="5" />
+          <entry key="cpp" value="11" />
+          <entry key="h" value="97" />
+          <entry key="pnsei (disassembly)" value="7" />
           <entry key="py" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -115,15 +129,16 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="Disassembly" value="5" />
-          <entry key="ObjectiveC" value="71" />
+          <entry key="Disassembly" value="7" />
+          <entry key="ObjectiveC" value="108" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="224" />
-          <entry key="h" value="3002" />
+          <entry key="cpp" value="228" />
+          <entry key="dummy" value="7" />
+          <entry key="h" value="3586" />
           <entry key="py" value="71" />
           <entry key="txt" value="30" />
         </counts>
@@ -131,7 +146,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="30" />
-          <entry key="ObjectiveC" value="3226" />
+          <entry key="ObjectiveC" value="3814" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="Python" value="71" />
         </counts>
       </usages-collector>
@@ -139,97 +155,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+        <entry file="file://$PROJECT_DIR$/dropbox/id_allocator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binarytree.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blowoff_leaf.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-              <folding>
-                <element signature="e#14#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/65_Valid_Number.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/94_Binary_Tree_Inorder_Traversal.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/208_Implement_Trie_Prefix_Tree.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/208. Implement Trie (Prefix Tree).h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/214_Shortest_Palindrome.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/7/bits/basic_string.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="509" selection-start-line="509" selection-end-line="509" />
-            </state>
+            <state relative-caret-position="-816" />
           </provider>
         </entry>
       </file>
@@ -252,6 +190,8 @@
       <find>_delayqueue</find>
       <find>TreeNode</find>
       <find>214</find>
+      <find>_frequent_element</find>
+      <find>_allLPS</find>
     </findStrings>
     <replaceStrings>
       <replace>LONG_MAX</replace>
@@ -285,7 +225,6 @@
         <option value="$PROJECT_DIR$/dropbox/find_duplicate_files.h" />
         <option value="$PROJECT_DIR$/dropbox/system_design_message_queue.h" />
         <option value="$PROJECT_DIR$/dropbox/id_allocator.h" />
-        <option value="$PROJECT_DIR$/IndexMaxPQ.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h" />
         <option value="$PROJECT_DIR$/68_Text_Justification.h" />
@@ -302,11 +241,18 @@
         <option value="$PROJECT_DIR$/42_Trapping_Rain_Water.h" />
         <option value="$PROJECT_DIR$/65_Valid_Number.h" />
         <option value="$PROJECT_DIR$/214. Shortest Palindrome.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/binarytree.h" />
         <option value="$PROJECT_DIR$/blowoff_leaf.h" />
         <option value="$PROJECT_DIR$/leetcode/214_Shortest_Palindrome.h" />
         <option value="$PROJECT_DIR$/307_Range_Sum_Query_Mutable.h" />
+        <option value="$PROJECT_DIR$/frequent_element.h" />
+        <option value="$PROJECT_DIR$/linkedin/lnkd_maxstack.h" />
+        <option value="$PROJECT_DIR$/allLPS.h" />
+        <option value="$PROJECT_DIR$/All_Palindrome_Subsequences.h" />
+        <option value="$PROJECT_DIR$/all_palindrome_subsequences.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/linkedin/all_palindrome_subsequences.h" />
+        <option value="$PROJECT_DIR$/IndexMaxPQ.h" />
       </list>
     </option>
   </component>
@@ -358,7 +304,7 @@
             <path>
               <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,8 +322,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/leetcode" />
       <recent name="$PROJECT_DIR$/linkedin" />
+      <recent name="$PROJECT_DIR$/google" />
+      <recent name="$PROJECT_DIR$/leetcode" />
+      <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/concurrency_parallel" />
     </key>
   </component>
@@ -464,12 +412,12 @@
       <workItem from="1540659037877" duration="8383000" />
       <workItem from="1540680308693" duration="7617000" />
       <workItem from="1540696034668" duration="824000" />
-      <workItem from="1540737581952" duration="5026000" />
+      <workItem from="1540737581952" duration="16785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78352000" />
+    <option name="totallyTimeSpent" value="90111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,13 +432,13 @@
     <frame x="35" y="25" width="1885" height="989" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17509516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24197933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29555556" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34532374" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1882494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -559,7 +507,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>92</line>
+          <line>94</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -569,12 +517,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>91</line>
+          <line>93</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>88</line>
+          <line>90</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -594,13 +542,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>87</line>
+          <line>89</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/leetcode/214_Shortest_Palindrome.h</url>
           <line>49</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>88</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/frequent_element.h</url>
+          <line>47</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>87</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/all_palindrome_subsequences.h</url>
+          <line>45</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/all_palindrome_subsequences.h</url>
+          <line>56</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/all_palindrome_subsequences.h</url>
+          <line>87</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -611,186 +589,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/7/bits/allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/addepar.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/289. Game of Life.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/addepar.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/id_allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/find_duplicate_files.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winner_tree.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HDU 1254.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/h2o.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/149_Max_Points_on_a_Line.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" selection-start-line="30" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_algo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="3236" column="9" lean-forward="true" selection-start-line="3236" selection-start-column="9" selection-end-line="3236" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/bittorrent_merge.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/lnkd_addinterval.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/lnkd_midstack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/encode_list_with_dups.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/deadlock.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/concurrent_hashmap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/BoundedBlockingQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/system_design_message_queue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/is_intersected.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IndexMaxPQ.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/438_Find_All_Anagrams_in_a_String.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/68_Text_Justification.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serialize_tree.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/skiplist.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gg_intrange.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gg_findmaxwith1flip.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allLPS.h">
+    <entry file="file://$PROJECT_DIR$/google/gg_findmaxwith1flip.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/avl.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/254. Factor Combinations.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency_parallel/DelayQueue.h">
@@ -872,42 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/208_Implement_Trie_Prefix_Tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/208. Implement Trie (Prefix Tree).h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binarytree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blowoff_leaf.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding>
-            <element signature="e#14#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="509" selection-start-line="509" selection-end-line="509" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/214_Shortest_Palindrome.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -918,18 +690,209 @@
     <entry file="file://$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/encode_list_with_dups.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/425_Word_Squares.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/388_Longest_Absolute_File_Path.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/254_Factor_Combinations.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/927_Three_Equal_Parts.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google/gg_intrange.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/binarytree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/blowoff_leaf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/addinterval.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/frequent_element.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/maxstack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/lnkd_maxstack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/intersected.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/midstack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/208_Implement_Trie_Prefix_Tree_ext.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google/bzoj1090.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="509" selection-start-line="509" selection-end-line="509" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/208_Implement_Trie_Prefix_Tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/all_palindrome_subsequences.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="91" column="80" selection-start-line="91" selection-start-column="80" selection-end-line="91" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IndexMaxPQ.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="113" column="24" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kth_Smallest_in_Lexicographical_Order.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knighttour.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiDimensionArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reliterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segtree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/encircular.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-976" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/lru.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/id_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
       </provider>
     </entry>
   </component>
