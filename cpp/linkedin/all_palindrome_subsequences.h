@@ -4,7 +4,7 @@
 
 namespace _allLPS {
 
-  /*发信人: jumpharder (我爱跳水), 信区: JobHunting
+/*发信人: jumpharder (我爱跳水), 信区: JobHunting
 标  题: LinkedIn onsite一道题
 发信站: BBS 未名空间站 (Tue Sep 15 13:54:34 2015, 美东)
 
@@ -13,22 +13,22 @@ namespace _allLPS {
 我就想了个递归, 还是没有区分掉一些重复的情况，worst case O(2^n)基本同暴力解
 Map<Integer, Set<String>> allSubSet = new HashMap();
 Set<String> getAllPalidrome(String s, int x, int y){
-  int ind = x * s.length() + y;
-  if(allSubSet.constainsKey(ind)) return allSubSet.get(ind);
-  Set<String> ret = new HashSet();
-  if (s == null || s.size() == 0) { ret.add(""); return ret;}
-  if (s.size() == 1) { ret.add(s); return ret;}
-  for(int i = x; i <= y; i++){
-    for (int j = y; j >= i; j--){
-      if (s.charAt(i) == s.charAt(j)){
-         Set<String> subSet = getAllPalidrome(s, i + 1, j - 1);
-         ret.addAll(subSet);
-         for (String str : subSet) ret.add(s.charAt(i) + str + s.charAt(i));
-      }
+int ind = x * s.length() + y;
+if(allSubSet.constainsKey(ind)) return allSubSet.get(ind);
+Set<String> ret = new HashSet();
+if (s == null || s.size() == 0) { ret.add(""); return ret;}
+if (s.size() == 1) { ret.add(s); return ret;}
+for(int i = x; i <= y; i++){
+  for (int j = y; j >= i; j--){
+    if (s.charAt(i) == s.charAt(j)){
+       Set<String> subSet = getAllPalidrome(s, i + 1, j - 1);
+       ret.addAll(subSet);
+       for (String str : subSet) ret.add(s.charAt(i) + str + s.charAt(i));
     }
   }
-  allSubSet.put(ind, ret);
-  return ret;
+}
+allSubSet.put(ind, ret);
+return ret;
 }*/
 
 // Not remove the duplicates
@@ -48,8 +48,8 @@ vector<string> get_all_palindrome_subsequences(const string &s) {
     for (j = 0; j < u1.size(); ++j) {
       if (i == j)
         continue;
-      if (u1[i].first < u1[j].first && u1[j].second < u1[i].second){
-        uk[2].push_back({u1[i], u1[j]}/*a vector*/);
+      if (u1[i].first < u1[j].first && u1[j].second < u1[i].second) {
+        uk[2].push_back({u1[i], u1[j]} /*a vector*/);
       }
     }
   }
@@ -58,7 +58,7 @@ vector<string> get_all_palindrome_subsequences(const string &s) {
     if (uk.count(k - 1) == 0)
       break;
     auto tmp = uk[k - 1];
-    for (auto& e : tmp) {
+    for (auto &e : tmp) {
       for (int i = 0; i < u1.size(); i++) {
         if (e.back().first < u1[i].first && u1[i].second < e.back().second) {
           auto ne = e;
@@ -70,11 +70,11 @@ vector<string> get_all_palindrome_subsequences(const string &s) {
   }
 
   vector<string> r;
-  for (auto& pr : u1) {
+  for (auto &pr : u1) {
     string tmp(2, s[pr.first]);
     r.push_back(tmp);
   }
-  for (auto& t : uk) {
+  for (auto &t : uk) {
     for (auto &vpr : t.second) {
       string tmpstr;
       for (auto &pr : vpr)
@@ -90,7 +90,7 @@ vector<string> get_all_palindrome_subsequences(const string &s) {
 
 // Function return the total palindromic subsequence
 // http://sde.quant365.com/palindrome.html#number-of-all-palindromic-subsequence
-int countPS(const string& str) {
+int countPS(const string &str) {
   int N = str.length();
   // create a 2D array to store the count of palindromic
   // subsequence
@@ -121,7 +121,7 @@ void test() {
   string s("ACGATGTAC");
   assert(countPS(s) == get_all_palindrome_subsequences(s).size());
 
-  s="aaaaaaaa";
+  s = "aaaaaaaa";
   assert(countPS(s) == get_all_palindrome_subsequences(s).size());
 }
 

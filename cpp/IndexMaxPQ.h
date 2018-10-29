@@ -144,13 +144,14 @@ public:
     __sift_up(stocks.size() - 1);
   }
 
-  void update(const string &t, int new_vol){
-    int vol=stocks[ticker_to_index[t]].volume;
-    if(new_vol ==  vol) return;
-    if(new_vol > vol)
-      increase_volume(t,new_vol-vol);
+  void update(const string &t, int new_vol) {
+    int vol = stocks[ticker_to_index[t]].volume;
+    if (new_vol == vol)
+      return;
+    if (new_vol > vol)
+      increase_volume(t, new_vol - vol);
     else
-      increase_volume(t,vol-new_vol);
+      increase_volume(t, vol - new_vol);
   }
 
   void increase_volume(const string &t, int vol) {
