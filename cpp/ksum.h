@@ -80,8 +80,7 @@ private:
       while (start <= len) {
         tmp[k - n] = nums[start];
         dfs(nums, target - nums[start], n - 1, start + 1);
-        while (++start <= len && nums[start - 1] == nums[start])
-          ;
+        while (++start <= len && nums[start - 1] == nums[start]);
       }
     }
   }

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "henry.h"
-#include "ll.h"
+#include "_linkedlist.h"
 
 namespace segregate_even_odd_ll {
 // http://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/

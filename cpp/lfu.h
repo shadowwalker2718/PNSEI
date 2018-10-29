@@ -146,7 +146,6 @@ int test(void) {
   LFUCache lfu;
   generateTestData(lfu);
   printFreq(lfu);
-
   cout << endl;
   cout << "Accessing z" << endl;
   lfu.access('z');
