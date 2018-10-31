@@ -16,11 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/graph/graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h" beforeDir="false" afterPath="$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,12 +151,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="947" />
-          <entry key="h" value="248" />
+          <entry key="h" value="362" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1195" />
+          <entry key="ObjectiveC" value="1309" />
         </counts>
       </usages-collector>
     </session>
@@ -203,11 +199,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -222,19 +218,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="325" selection-start-line="325" selection-end-line="325" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+            <state relative-caret-position="168">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -341,9 +331,9 @@
         <option value="$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp" />
         <option value="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h" />
         <option value="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.cpp" />
-        <option value="$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h" />
         <option value="$PROJECT_DIR$/graph/graph.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h" />
       </list>
     </option>
   </component>
@@ -354,7 +344,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="39" />
     <option name="y" value="27" />
     <option name="width" value="948" />
@@ -506,12 +496,12 @@
       <workItem from="1540737581952" duration="17267000" />
       <workItem from="1540847570868" duration="1008000" />
       <workItem from="1540852117053" duration="2886000" />
-      <workItem from="1540945500592" duration="11967000" />
+      <workItem from="1540945500592" duration="12846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106454000" />
+    <option name="totallyTimeSpent" value="107333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,13 +516,13 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16893733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16893733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29555556" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39496717" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39459458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -541,7 +531,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3275862" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.27891892" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.27891892" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="14" />
       <window_info anchor="right" id="LuaJ" />
@@ -704,6 +694,16 @@
           <url>file://$PROJECT_DIR$/main.cpp</url>
           <line>89</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h</url>
+          <line>91</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h</url>
+          <line>58</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -992,13 +992,6 @@
     <entry file="file://$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1025,8 +1018,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        <state relative-caret-position="168">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
         </state>
       </provider>
     </entry>

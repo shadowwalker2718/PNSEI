@@ -41,7 +41,7 @@ We cannot find a way to divide the set of nodes into two independent subsets.
 
 namespace _785_Is_Graph_Bipartite {
 
-    bool isBipartite(vector<vector<int>>& graph) {
+    bool isBipartite_BFS(vector<vector<int>>& graph) {
         int n=graph.size();
         vector<int> color(n);
         for(int k=0;k<n;k++){ //////
@@ -63,9 +63,33 @@ namespace _785_Is_Graph_Bipartite {
         return true;
     }
 
+    // Just replace queue with stack, then it becomes DFS
+    // also front() is change to top()
+    bool isBipartite_DFS(vector<vector<int>>& graph) {
+        int n=graph.size();
+        vector<int> color(n);
+        for(int k=0;k<n;k++){
+            if(color[k]!=0) continue;
+            color[k]=1;
+            stack<int> stk;
+            stk.push(k);
+            while(!stk.empty()){
+                int t=stk.top(); stk.pop();
+                for(int i: graph[t]){
+                    if(color[i]==0){
+                        color[i]=color[t]*-1;
+                        stk.push(i);
+                    }else if(color[i]==color[t])
+                        return false;
+                }
+            }
+        }
+        return true;
+    }
+
     bool test(){
         vector<vector<int>> vvi={{1,2,3}, {0,2}, {0,1,3}, {0,2}};
-        isBipartite(vvi) == false;
+        assert(isBipartite_BFS(vvi) == false);
     }
 
 };
