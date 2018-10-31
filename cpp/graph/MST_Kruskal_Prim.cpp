@@ -3,7 +3,7 @@
 //
 
 #include "henry.h"
-#include "mst.h"
+#include "MST_Kruskal_Prim.h"
 
 namespace graph_MST{
 

@@ -16,21 +16,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graph/mst.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/graph.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IndexMaxPQ.h" beforeDir="false" afterPath="$PROJECT_DIR$/IndexMaxPQ.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/clique.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/clique.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropbox/bittorrent_merge.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/bittorrent_merge.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropbox/id_allocator.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/id_allocator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/230_Kth_Smallest_Element_in_a_BST.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/230_Kth_Smallest_Element_in_a_BST.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/655_Print_Binary_Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/655_Print_Binary_Tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/99_Recover_Binary_Search_Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/99_Recover_Binary_Search_Tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/hangman.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/hangman.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/mst.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/graph/MST_Kruskal_Prim.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/mst.h" beforeDir="false" afterPath="$PROJECT_DIR$/graph/MST_Kruskal_Prim.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mst.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/graph/mst.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serialize_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/serialize_tree.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,28 +143,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="2" />
-          <entry key="h" value="4" />
-          <entry key="pnsei (disassembly)" value="2" />
+          <entry key="cpp" value="5" />
+          <entry key="h" value="8" />
+          <entry key="pnsei (disassembly)" value="3" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Disassembly" value="2" />
-          <entry key="ObjectiveC" value="6" />
+          <entry key="Disassembly" value="3" />
+          <entry key="ObjectiveC" value="13" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="418" />
-          <entry key="h" value="30" />
+          <entry key="cpp" value="919" />
+          <entry key="h" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="448" />
+          <entry key="ObjectiveC" value="1023" />
         </counts>
       </usages-collector>
     </session>
@@ -186,11 +180,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graph/mst.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/MST_Kruskal_Prim.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#71#89#0" expanded="true" />
               </folding>
@@ -199,13 +193,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" selection-start-line="17" selection-end-line="40" selection-end-column="18" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+              <folding>
+                <element signature="e#39#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="325" selection-start-line="325" selection-end-line="325" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="201">
+              <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/MST_Kruskal_Prim.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/graph.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -217,28 +271,6 @@
               <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dropbox/message_queue.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dropbox/highest_minimum_sharpness.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_linkedlist.h">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -277,12 +309,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/927. Three Equal Parts.h" />
-        <option value="$PROJECT_DIR$/cruise/lru.h" />
-        <option value="$PROJECT_DIR$/cruise/clique.h" />
-        <option value="$PROJECT_DIR$/cruise/oa.h" />
-        <option value="$PROJECT_DIR$/cruise/encircular.h" />
-        <option value="$PROJECT_DIR$/dropbox/289. Game of Life.h" />
         <option value="$PROJECT_DIR$/addepar/addepar.h" />
         <option value="$PROJECT_DIR$/addepar/README.md" />
         <option value="$PROJECT_DIR$/addepar/data/a.txt" />
@@ -325,9 +351,15 @@
         <option value="$PROJECT_DIR$/mst.cpp" />
         <option value="$PROJECT_DIR$/math/montyhall.py" />
         <option value="$PROJECT_DIR$/mst.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/graph/mst.h" />
         <option value="$PROJECT_DIR$/graph/mst.cpp" />
+        <option value="$PROJECT_DIR$/graph/MST_Kruskal_Prim.cpp" />
+        <option value="$PROJECT_DIR$/graph/graph.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/graph/Dijkstra_Algorithm.cpp" />
+        <option value="$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp" />
+        <option value="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h" />
+        <option value="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.cpp" />
       </list>
     </option>
   </component>
@@ -338,11 +370,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="39" />
-    <option name="y" value="25" />
-    <option name="width" value="941" />
-    <option name="height" value="1055" />
+    <option name="y" value="27" />
+    <option name="width" value="948" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -490,12 +522,12 @@
       <workItem from="1540737581952" duration="17267000" />
       <workItem from="1540847570868" duration="1008000" />
       <workItem from="1540852117053" duration="2886000" />
-      <workItem from="1540945500592" duration="4460000" />
+      <workItem from="1540945500592" duration="10555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98947000" />
+    <option name="totallyTimeSpent" value="105042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,16 +539,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
+    <frame x="39" y="27" width="948" height="1044" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2054496" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17184035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29555556" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45621622" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39496717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -525,7 +557,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3275862" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.28" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27899343" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="14" />
       <window_info anchor="right" id="LuaJ" />
@@ -586,7 +618,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -596,12 +628,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>95</line>
+          <line>96</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>92</line>
+          <line>93</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -621,7 +653,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>91</line>
+          <line>92</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -631,7 +663,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>90</line>
+          <line>91</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -641,7 +673,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>89</line>
+          <line>90</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -661,18 +693,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>88</line>
+          <line>89</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/graph/mst.cpp</url>
+          <url>file://$PROJECT_DIR$/graph/MST_Kruskal_Prim.cpp</url>
           <line>95</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/graph/mst.cpp</url>
-          <line>83</line>
-          <option name="timeStamp" value="46" />
+          <url>file://$PROJECT_DIR$/graph/MST_Kruskal_Prim.cpp</url>
+          <line>89</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp</url>
+          <line>50</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -683,35 +725,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/encode_list_with_dups.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="325" selection-start-line="325" selection-end-line="325" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/425_Word_Squares.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/388_Longest_Absolute_File_Path.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/254_Factor_Combinations.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612" />
@@ -959,29 +972,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph/mst.h">
+    <entry file="file://$PROJECT_DIR$/graph/MST_Kruskal_Prim.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/mst.cpp">
+    <entry file="file://$PROJECT_DIR$/graph/MST_Kruskal_Prim.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="e#71#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
