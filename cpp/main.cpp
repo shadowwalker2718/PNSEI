@@ -63,6 +63,7 @@
 #include "stree.h"
 #include "winner_tree.h"
 #include "graph/graph.h"
+#include "graph/_785_Is_Graph_Bipartite.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -86,6 +87,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _785_Is_Graph_Bipartite::test();
   graph_Dijkstra::test();
   graph_MST::test();
   _allLPS::test();
