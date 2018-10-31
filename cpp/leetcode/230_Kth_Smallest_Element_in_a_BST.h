@@ -29,7 +29,7 @@ public:
     }
   }
 
-  // Have to modify tree
+  // Have to modify graph_MST
   int kthSmallest(TreeNode *c, int k) { // Morris Traversal
     if (!c || k <= 0)
       return 0;

@@ -7,9 +7,9 @@
 
 /*
  * https://leetcode.com/problems/print-binary-tree/description/
-Print a binary tree in an m*n 2D string array following these rules:
+Print a binary graph_MST in an m*n 2D string array following these rules:
 
-The row number m should be equal to the height of the given binary tree.
+The row number m should be equal to the height of the given binary graph_MST.
 The column number n should always be an odd number.
 The root node's value (in string format) should be put in the exactly middle of
 the first row it can be put. The column and the row where the root node belongs

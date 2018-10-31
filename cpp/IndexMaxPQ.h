@@ -100,7 +100,7 @@ struct stock {
 };
 
 class index_heap {
-  vector<stock> stocks; // heap core data, which is basically a tree array
+  vector<stock> stocks; // heap core data, which is basically a graph array
   unordered_map<string, int> ticker_to_index;
 
   void __swap(int x, int y) {

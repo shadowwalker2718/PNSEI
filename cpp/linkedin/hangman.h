@@ -7,7 +7,7 @@ namespace _hangman {
 
 // https://gist.github.com/saltavenger/3939185 single machine, single user
 // version
-vector<string> words = {"cat", "tree", "swing", "around", "scientist"};
+vector<string> words = {"cat", "graph_MST", "swing", "around", "scientist"};
 
 string chooseWord() { return words[rand() % words.size()]; }
 

@@ -8,7 +8,7 @@
 /*
  * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=273407
 1. id allocation/deallocation 先實作了queue的做法, 然後是bit array,
-問是否有time/space complexity在兩個之間的方法。最後作了binary tree (each node
+問是否有time/space complexity在兩個之間的方法。最後作了binary graph_MST (each node
 stores whether there's any available ids in its subtrees) 有寫完，面試官很滿意
 2. download bit-torrent. 第一題基本上就是merge
 intervals。後來是interval連續進入，寫了一個binary search找位置然後linear update.

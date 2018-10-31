@@ -62,6 +62,7 @@
 #include "sparsematrix.h"
 #include "stree.h"
 #include "winner_tree.h"
+#include "graph/mst.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -85,6 +86,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  graph_MST::test();
   _allLPS::test();
   _frequent_element::test();
   _214::test();

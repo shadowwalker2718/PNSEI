@@ -2,9 +2,9 @@
 #include "henry.h"
 
 /*
-Two elements of a binary search tree (BST) are swapped by mistake.
+Two elements of a binary search graph_MST (BST) are swapped by mistake.
 
-Recover the tree without changing its structure.
+Recover the graph_MST without changing its structure.
 
 Note:
 A solution using O(n) space is pretty straight forward. Could you devise a

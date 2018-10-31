@@ -5,15 +5,15 @@
 
 namespace _lnkd_is_serialized_tree {
 
-/* A binary tree TreeNode has val, pointer to left and right children */
+/* A binary graph TreeNode has val, pointer to left and right children */
 struct TreeNode {
   int val;
   struct TreeNode *left = 0, *right = 0;
   TreeNode(int _val) : val(_val) {}
 };
 
-struct Codec { //考虑general tree, graph的序列化
-               // Encodes a tree to a single string.
+struct Codec { //考虑general graph, graph的序列化
+               // Encodes a graph to a single string.
   string serialize(TreeNode *root) {
     if (root == 0)
       return "N"; // null marker
@@ -25,7 +25,7 @@ struct Codec { //考虑general tree, graph的序列化
     return r;
   }
 
-  // Decodes your encoded data to tree.
+  // Decodes your encoded data to graph.
   TreeNode *deserialize(string data) {
     /*//cout << data << endl;
     list<string> r = split(data);
@@ -58,7 +58,7 @@ struct Codec { //考虑general tree, graph的序列化
 };
 
 void test() {
-  // Let us construct a tree shown in the above figure
+  // Let us construct a graph shown in the above figure
   struct TreeNode *root = new TreeNode(20);
   root->left = new TreeNode(8);
   root->right = new TreeNode(22);

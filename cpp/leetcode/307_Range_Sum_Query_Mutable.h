@@ -5,7 +5,7 @@
 namespace _307 {
 
 class NumArray {
-  vector<int> B; // binary index tree
+  vector<int> B; // binary index graph_MST
   vector<int> N;
 
 public:

@@ -19,7 +19,7 @@
 
 
 alloc id 我onsite也遇到了， 最后的最优解法 是建立一个2n个bit的segment
-tree,然后o（lg n）的复杂度完成所有操作*/
+graph_MST,然后o（lg n）的复杂度完成所有操作*/
 
 /*
  * 编程题就一道,给一个数N,生成N个id, 用户可以调用allocate()来分配一个id,
