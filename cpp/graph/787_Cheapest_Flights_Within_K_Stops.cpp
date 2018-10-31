@@ -38,6 +38,7 @@ namespace _787 {
     class Solution2 { // O(K*)
     public:
         int findCheapestPrice(int n, vector<vector<int>> &flights, int src, int dst, int K) {
+            return 0;
         }
     };
 
