@@ -64,6 +64,8 @@
 #include "winner_tree.h"
 #include "graph/graph.h"
 #include "graph/_785_Is_Graph_Bipartite.h"
+#include "addepar/stock_reconciliation.h"
+#include "addepar/44_Wildcard_Matching.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -87,6 +89,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _44::test();
+  addepar_onsite::test();
   _785_Is_Graph_Bipartite::test();
   graph_Dijkstra::test();
   graph_MST::test();

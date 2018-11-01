@@ -16,8 +16,10 @@
 
 第一面，韩裔/亚裔ABC小哥？。返回二叉树任意一个local maximal的节点（就是节点的值要比儿子节点和父节点都要大），一开始说遍历一遍。
  followup说复杂度降到O(lgn)。follow-up，1d array的local maximal，再接着2d array的local maximal,都要log级别复杂度。
+
 第二面，感觉国人小哥，给个sorting array，返回平衡二叉树。sorting list？。follow-up，sorting list 复杂度降到O(n)  。。
-第三面，感觉也是个屌屌的国人小哥（说facebook跳过来），给了个需求，要写线段树。那时候没刷多少题。。写出来后小哥说有bug。。。好吧。。
+第
+ 三面，感觉也是个屌屌的国人小哥（说facebook跳过来），给了个需求，要写线段树。那时候没刷多少题。。写出来后小哥说有bug。。。好吧。。
 第四面，白人年轻小哥（说berkerly毕业？）。。给了需求（具体记得不是很清楚了，glassdoor上有这题），一开始你有比如Goog 200， Apple 100股
  票，然后每天你/基金公司会进行操作，比如sell goog 200, buy Amazon200，然后银行最终给出当天你最后拥有多少每个公司的股票。你的代码判断对
  不对 （可能还有些其他需求？记不大清）。
@@ -39,9 +41,12 @@ namespace addepar_onsite{
      * https://algorithms.tutorialhorizon.com/find-local-minimum-or-local-maximum-in-o1/
      * https://www.geeksforgeeks.org/find-local-minima-array/
      * https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
-     * 
+     * https://www.geeksforgeeks.org/find-peak-element-2d-array/
+     * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec01.pdf
      * */
 
+    "sis"
+    "*ss*"
 }
 
 #endif //PNSEI_LOCAL_MAXIMUM_H
