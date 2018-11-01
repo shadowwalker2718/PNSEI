@@ -44,9 +44,6 @@ namespace addepar_onsite{
      * https://www.geeksforgeeks.org/find-peak-element-2d-array/
      * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec01.pdf
      * */
-
-    "sis"
-    "*ss*"
 }
 
 #endif //PNSEI_LOCAL_MAXIMUM_H
