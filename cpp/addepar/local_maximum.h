@@ -34,7 +34,16 @@ anyway这次经历也当做给大家多分享几个不错的公司咯。。
  *
  * */
 
-namespace addepar_onsite{
+/*11.15号面的第一轮:
+        第一题：有n个数，需要比几次才能选出最大值，n-1，然后怎么证明……证明…………证……怎么跟高数一样，这还需要证？这还能这么证……
+第二题：矩阵给定起点和终点找最短路径，BFS
+
+        刚刚结束的第二轮：
+第一题：二叉树里面找local max，第一遍用BFS，第二遍用了二分，第三遍减少比较次数…………
+*/
+#include "utils/binarytree.h"
+
+namespace _addepar{
 
     /*
      * https://stackoverflow.com/questions/15656871/finding-a-local-minimum-in-a-binary-tree
@@ -44,6 +53,19 @@ namespace addepar_onsite{
      * https://www.geeksforgeeks.org/find-peak-element-2d-array/
      * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec01.pdf
      * */
+
+    int get_any_local_minima(treenode* root){
+        return INT_MAX;
+    }
+
+    void test(){
+        vector<int> v={1,2,3,4,5};
+        treenode* r1 = build_segment_tree_algo1(v);
+        print_binary_tree_horizontal(r1);
+        treenode* r2 = createTree2();
+        treenode* r3 = createTree3();
+    }
+
 }
 
 #endif //PNSEI_LOCAL_MAXIMUM_H

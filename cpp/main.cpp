@@ -27,7 +27,7 @@
 #include "leetcode/208_Implement_Trie_Prefix_Tree_ext.h"
 #include "leetcode/214_Shortest_Palindrome.h"
 #include "leetcode/254_Factor_Combinations.h"
-#include "leetcode/307_Range_Sum_Query_Mutable.h"
+#include "leetcode/307_Range_Sum_Query_Mutable_Fenwick.h"
 #include "leetcode/34_Search_for_a_Range.h"
 #include "leetcode/361_Bomb_Enemy.h"
 #include "leetcode/388_Longest_Absolute_File_Path.h"
@@ -66,6 +66,8 @@
 #include "graph/_785_Is_Graph_Bipartite.h"
 #include "addepar/stock_reconciliation.h"
 #include "addepar/44_Wildcard_Matching.h"
+#include "addepar/local_maximum.h"
+#include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -89,6 +91,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _307_segmentTree::test();
+  _addepar::test();
   _44::test();
   addepar_onsite::test();
   _785_Is_Graph_Bipartite::test();
@@ -105,14 +109,7 @@ int main(int argc, char **argv) {
   addepar::test();
   cruise_2017_09_20::test();
   _927::test();
-  /*try {
-    float x = 1.02, y = 0;
-    cout << x / y << endl;
-    int x2 = 1, y2 = 0;
-    cout << x2 / y2 << endl;
-  } catch (const exception& e) {
-    cout << e.what() << endl;
-  }*/
+
   /*Solutionx x;
   x.grayCode(2);*/
 

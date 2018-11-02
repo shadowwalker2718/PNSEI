@@ -15,7 +15,7 @@ add_executable(pnsei
         "leetcode/214_Shortest_Palindrome.h"
         "leetcode/230_Kth_Smallest_Element_in_a_BST.h"
         "leetcode/254_Factor_Combinations.h"
-        "leetcode/307_Range_Sum_Query_Mutable.h"
+        "leetcode/307_Range_Sum_Query_Mutable_Fenwick.h"
         "leetcode/34_Search_for_a_Range.h"
         "leetcode/361_Bomb_Enemy.h"
         "leetcode/388_Longest_Absolute_File_Path.h"
@@ -81,6 +81,6 @@ add_executable(pnsei
         "dropbox/highest_minimum_sharpness.h"
         "dropbox/highest_minimum_sharpness.cpp"
         "addepar/addepar.h"
-        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator.h dropbox/web_crawler.h dropbox/message_queue.h dropbox/highest_minimum_sharpness.h dropbox/bittorrent_merge.h dropbox/key_value_store.h leetcode/655_Print_Binary_Tree.h graph/MST_Kruskal_Prim.cpp graph/MST_Kruskal_Prim.h graph/SS_Dijkstra_Shortest.cpp graph/graph.h graph/787_Cheapest_Flights_Within_K_Stops.cpp graph/787_Cheapest_Flights_Within_K_Stops.h graph/_785_Is_Graph_Bipartite.h addepar/local_maximum.h addepar/stock_reconciliation.h addepar/44_Wildcard_Matching.h addepar/10_Regular_Expression_Matching.h)
+        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator.h dropbox/web_crawler.h dropbox/message_queue.h dropbox/highest_minimum_sharpness.h dropbox/bittorrent_merge.h dropbox/key_value_store.h leetcode/655_Print_Binary_Tree.h graph/MST_Kruskal_Prim.cpp graph/MST_Kruskal_Prim.h graph/SS_Dijkstra_Shortest.cpp graph/graph.h graph/787_Cheapest_Flights_Within_K_Stops.cpp graph/787_Cheapest_Flights_Within_K_Stops.h graph/_785_Is_Graph_Bipartite.h addepar/local_maximum.h addepar/stock_reconciliation.h addepar/44_Wildcard_Matching.h addepar/10_Regular_Expression_Matching.h leetcode/307_Range_Sum_Query_Mutable_segmentTree.h utils/binarytree.cpp)
 
 target_link_libraries(${PROJECT_NAME} stdc++fs)
