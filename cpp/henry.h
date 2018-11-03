@@ -66,6 +66,8 @@ using VB = vector<bool>;
 using VVB = vector<VB>;
 using VS = vector<string>;
 using VVS = vector<VS>;
+using VI = vector<int>;
+using VVI = vector<VI>;
 
 struct TreeNode {
   int val;

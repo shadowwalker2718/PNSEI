@@ -70,6 +70,7 @@
 #include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
 #include "bolt/Remove_brackets_from_an_algebraic_string.h"
 #include "utils/binarytree.h"
+#include "addepar/Find_a_peak_element_in_a_2D_array.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -93,6 +94,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _addepar_find_peak_2D::test();
+  _34::test();
   binarytree_test();
   _addepar::test();
   bolt::test();
@@ -155,7 +158,6 @@ int main(int argc, char **argv) {
   _print_matrix::test();
   _h2o::mainthread2();
   _h2o::test();
-  _34::test();
   deadlock::test();
   _linkedin::test();
   _lnkd_totalcovered_length::test();

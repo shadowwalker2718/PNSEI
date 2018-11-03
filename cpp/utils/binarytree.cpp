@@ -180,7 +180,7 @@ void print_binary_tree_vertical(treenode* root){
 ////////////////////////////////////
 // Function to print binary tree in 2D 
 // It does reverse inorder traversal
-const int SPACE_COUNT=10;
+const int SPACE_COUNT=6;
 void print2DUtil(treenode *root, int space) {
     if (root == NULL)
         return;
