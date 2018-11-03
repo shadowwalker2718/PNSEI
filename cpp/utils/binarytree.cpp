@@ -100,27 +100,28 @@ TreeNode *build_segment_tree_algo1(const vector<int>& v){ // sum segment tree
 };
 
 void build_segment_tree_algo2_rec(const vector<int>& v,
-                                  vector<TreeNode*>& tree, int tid, int h, int t) {
-    if(h==t){
-        tree[tid]=new TreeNode(v[h]);
+                                  vector<TreeNode*>& tree, int tree_id, int h, int t) {
+    if(h==t){ // base case
+        tree[tree_id]=new TreeNode(v[h]);
         return;
     }
-    int mid = h + (t - h) / 2;   // post order traversal
-    build_segment_tree_algo2_rec(v, tree, 2 * tid + 1, h,     mid);
-    build_segment_tree_algo2_rec(v, tree, 2 * tid + 2, mid + 1, t);
+    int mid = h + (t - h) / 2;   // lower median, post order traversal
+    build_segment_tree_algo2_rec(v, tree, 2 * tree_id + 1, h,     mid);
+    build_segment_tree_algo2_rec(v, tree, 2 * tree_id + 2, mid + 1, t);
 
     // merge build results
-    // tree[tid] = merge(tree[2 * tid + 1], tree[2 * tid + 2]);
-    tree[tid] = new TreeNode(tree[2 * tid + 1]->val +
-            tree[2 * tid + 2]->val);
+    // tree[tree_id] = merge(tree[2 * tree_id + 1], tree[2 * tree_id + 2]);
+    tree[tree_id] = new TreeNode(tree[2 * tree_id + 1]->val +
+            tree[2 * tree_id + 2]->val);
     // for printing purpose
-    tree[tid]->left = tree[2 * tid + 1];
-    tree[tid]->right = tree[2 * tid + 2];
+    tree[tree_id]->left = tree[2 * tree_id + 1];
+    tree[tree_id]->right = tree[2 * tree_id + 2];
 }
 
 TreeNode* build_segment_tree_algo2(const vector<int>& v){ // sum segment tree
-    vector<TreeNode*> tree(4*v.size());
-    build_segment_tree_algo2_rec(v, tree, 0, 0, v.size()-1);
+    vector<TreeNode*> tree(2*v.size());
+    int tree_id=0;
+    build_segment_tree_algo2_rec(v, tree, tree_id, 0, v.size()-1);
     return tree[0];
 };
 

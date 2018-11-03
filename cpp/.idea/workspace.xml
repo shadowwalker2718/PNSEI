@@ -16,10 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addepar/segment_tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/segment_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/segment_tree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binarytree.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -140,127 +137,117 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="13" />
-          <entry key="h" value="39" />
+          <entry key="h" value="40" />
           <entry key="md" value="3" />
-          <entry key="pnsei (disassembly)" value="12" />
+          <entry key="pnsei (disassembly)" value="13" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Disassembly" value="12" />
+          <entry key="Disassembly" value="13" />
           <entry key="Markdown" value="3" />
-          <entry key="ObjectiveC" value="52" />
+          <entry key="ObjectiveC" value="53" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2188" />
+          <entry key="cpp" value="2239" />
           <entry key="dummy" value="27" />
-          <entry key="h" value="6385" />
+          <entry key="h" value="6608" />
           <entry key="md" value="100" />
+          <entry key="mm" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Doxygen file" value="2" />
+          <entry key="Doxygen file" value="3" />
           <entry key="Markdown" value="100" />
-          <entry key="ObjectiveC" value="8571" />
+          <entry key="ObjectiveC" value="8854" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53433615">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-                  <folding>
-                    <element signature="e#163#181#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/addepar/local_minimum_tree.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/addepar/segment_tree.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#97#115#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="422">
-                  <caret line="98" selection-start-line="98" selection-end-line="98" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_linkedlist.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#14#32#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/utils/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="360">
-                    <caret line="24" selection-start-line="24" selection-end-line="24" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+              <folding>
+                <element signature="e#163#181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addepar/local_minimum_tree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="807">
+              <caret line="83" column="44" lean-forward="true" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addepar/segment_tree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <folding>
+                <element signature="e#97#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="670" selection-start-line="670" selection-end-line="670" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_linkedlist.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -361,8 +348,8 @@
         <option value="$PROJECT_DIR$/utils/binarytree.h" />
         <option value="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/addepar/segment_tree.h" />
         <option value="$PROJECT_DIR$/utils/binarytree.cpp" />
+        <option value="$PROJECT_DIR$/addepar/segment_tree.h" />
       </list>
     </option>
   </component>
@@ -530,12 +517,12 @@
       <workItem from="1540737581952" duration="17267000" />
       <workItem from="1540847570868" duration="1008000" />
       <workItem from="1540852117053" duration="2886000" />
-      <workItem from="1540945500592" duration="63411000" />
+      <workItem from="1540945500592" duration="68208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157898000" />
+    <option name="totallyTimeSpent" value="162695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,29 +537,29 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1667575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10354223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.44756758" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29555556" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25189188" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23111111" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.3275862" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.27891892" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" />
-      <window_info anchor="right" id="LuaJ" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23111111" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="10" weight="0.3275862" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.27891892" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" />
+      <window_info anchor="right" id="LuaJ" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" anchor="right" id="Debug" order="5" visible="true" weight="0.56730247" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,7 +783,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/utils/binarytree.cpp</url>
-          <line>222</line>
+          <line>223</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -824,6 +811,11 @@
           <line>98</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/addepar/segment_tree.h</url>
+          <line>39</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
           <line>37</line>
@@ -834,6 +826,42 @@
         <breakpoints-dialog />
       </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="r1-&gt;left-&gt;right-&gt;left" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>(*TreeNode)(0x562fc5e9d880)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(*TreeNode)0x562fc5e9d880</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>0x562fc5e9d880</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>r1-&gt;left-&gt;right-&gt;left</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>0x562fc5e9d880</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/segtree.cpp">
@@ -1112,13 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="325" selection-start-line="325" selection-end-line="325" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addepar/162_Find_Peak_Element.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1165,14 +1186,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addepar/local_minimum_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="34" />
+        <state relative-caret-position="807">
+          <caret line="83" column="44" lean-forward="true" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="670" selection-start-line="670" selection-end-line="670" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
+        <state relative-caret-position="130">
           <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -1180,20 +1208,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/segment_tree.h">
+    <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#97#115#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="305">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
+    <entry file="file://$PROJECT_DIR$/addepar/segment_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
+        <state relative-caret-position="195">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="e#97#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
