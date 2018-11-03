@@ -116,8 +116,8 @@ int main(int argc, char **argv) {
   _delayqueue::test();
   _68::test();
   lc_438::test();
-  dropbox::test_find_highest_minimum_sharpness();
-  dropbox::tes();
+  dropbox_find_highest_minimum_sharpness::test_find_highest_minimum_sharpness();
+  dropbox_sgementtree::tes();
   addepar::test();
   cruise_2017_09_20::test();
   _927::test();

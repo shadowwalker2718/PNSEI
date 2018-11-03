@@ -73,7 +73,7 @@ X O O O O               X O O O O
 
 #include "highest_minimum_sharpness.h"
 
-namespace dropbox {
+namespace dropbox_find_highest_minimum_sharpness {
 
 int find_highest_minimum_sharpness(vector<vector<int>> &m) {
   if (m.empty() or m[0].empty())
@@ -100,4 +100,4 @@ void test_find_highest_minimum_sharpness() {
   cout << (find_highest_minimum_sharpness(board) == 7) << endl;
 }
 
-} // namespace dropbox
+} // namespace dropbox_find_highest_minimum_sharpness

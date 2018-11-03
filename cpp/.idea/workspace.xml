@@ -16,11 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropbox/id_allocator.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/id_allocator_segment_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropbox/id_allocator_segment_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/id_allocator_segment_tree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binarytree.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,7 +155,7 @@
         <counts>
           <entry key="cpp" value="2258" />
           <entry key="dummy" value="27" />
-          <entry key="h" value="6687" />
+          <entry key="h" value="6753" />
           <entry key="md" value="100" />
           <entry key="mm" value="10" />
         </counts>
@@ -167,7 +164,7 @@
         <counts>
           <entry key="Doxygen file" value="3" />
           <entry key="Markdown" value="100" />
-          <entry key="ObjectiveC" value="8952" />
+          <entry key="ObjectiveC" value="9018" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
@@ -228,11 +225,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dropbox/id_allocator_segment_tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="233">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -258,11 +255,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="593">
+              <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -369,10 +366,10 @@
         <option value="$PROJECT_DIR$/_linkedlist.h" />
         <option value="$PROJECT_DIR$/utils/binarytree.h" />
         <option value="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/addepar/segment_tree.h" />
         <option value="$PROJECT_DIR$/utils/binarytree.cpp" />
         <option value="$PROJECT_DIR$/dropbox/id_allocator_segment_tree.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -468,7 +465,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -565,12 +562,12 @@
       <workItem from="1540737581952" duration="17267000" />
       <workItem from="1540847570868" duration="1008000" />
       <workItem from="1540852117053" duration="2886000" />
-      <workItem from="1540945500592" duration="69176000" />
+      <workItem from="1540945500592" duration="70162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163663000" />
+    <option name="totallyTimeSpent" value="164649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,7 +582,7 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16294278" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.110626705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -599,7 +596,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.3275862" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.13189189" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.13189189" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
       <window_info anchor="right" id="LuaJ" order="0" />
@@ -607,7 +604,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" visible="true" weight="0.4430518" />
+      <window_info anchor="right" id="Debug" order="5" visible="true" weight="0.35640326" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1210,16 +1207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addepar/segment_tree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1273,8 +1260,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dropbox/id_allocator_segment_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="233">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

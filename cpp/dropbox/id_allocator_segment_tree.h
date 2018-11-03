@@ -47,8 +47,8 @@ https://leetcode.com/problems/design-phone-directory/
 */
 #include "henry.h"
 
-namespace dropbox {
-//drawback: cannot return the newly-released ones
+namespace dropbox_sgementtree {
+// drawback: cannot return the newly-released ones
 class IDAllocator {
   int tree_size; // even number always
   vector<bool> segment_tree;
@@ -70,7 +70,7 @@ class IDAllocator {
 
 public:
   void build_tree(int n) {
-    segment_tree.resize(2 * n);
+    segment_tree.resize(2 * n); // all false when initialization
     tree_size = 2 * n;
   }
 
@@ -144,6 +144,6 @@ void test2() {
   //???
 }
 
-} // namespace dropbox
+} // namespace dropbox_find_highest_minimum_sharpness
 
 #endif // PNSEI_ID_ALLOCATOR_H
