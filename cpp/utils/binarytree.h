@@ -3,6 +3,14 @@
 #include "henry.h"
 
 /////////////////////////////////////////////////////////////////////////////////
+
+struct TreeNode { // leetcode def
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
 // binary tree
 struct treenode {
   int val = 0;
@@ -24,6 +32,19 @@ struct ttnode {
 struct nnode {
     char key;
     vector<nnode*> children;  // An array of pointers for N children
+};
+
+// list node
+struct lnode {
+    int val;
+    lnode *next;
+    lnode(int x) : val(x), next(0) {}
+};
+
+struct ListNode { // leetcode def
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
 };
 
 // https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/192px-Binary_tree.svg.png

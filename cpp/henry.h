@@ -69,9 +69,4 @@ using VVS = vector<VS>;
 using VI = vector<int>;
 using VVI = vector<VI>;
 
-struct TreeNode {
-  int val;
-  TreeNode *left;
-  TreeNode *right;
-  TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+
