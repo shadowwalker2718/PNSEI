@@ -54,8 +54,42 @@ namespace _addepar{
      * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec01.pdf
      * */
 
-    int get_any_local_minima(treenode* root){
-        return INT_MAX;
+
+    /*
+     By definition, a local min is a node whose value is smaller than that of any other nodes that are joined to it.
+     Thus in your example, '1', '5', '6', '2', '7', '13' are all local minimums.
+     Once that's clear, the problem is simple.
+     First we check the root and see if it's smaller than both children. If yes, then we are done. If not, then we pick
+     up its smaller child and recursively apply the check.
+     We terminate either:
+     1) we found a node that is smaller than both of its children, or
+     2) we reach the bottom level(i.e. the leaves).
+     In case 1), the node at which we stop is the local min, because i) it's smaller than both of its children, and ii)
+     it's smaller than its parent, which is the precondition of our deciding to check this node.
+     In case 2), we are left with two leaves (that are siblings), and at least one of them is smaller than the parent
+     (otherwise the parent will be returned). Then, either (or both) of them are local min, as long as it's smaller
+     than its parent.
+     Following this approach, at most 2 nodes per level are being looked at, thus requiring only O(log n) checks.*/
+    int get_any_local_minimum(treenode *root){
+        if(!root) return INT_MAX;
+        if(!root->l and !root->r) return root->val;
+
+        if(root->l and root->r){
+            if(root->val < root->l->val and root->val < root->r->val )
+                return root->val;
+            return get_any_local_minimum(root->l->val > root->r->val?
+                                         root->r : root->l);
+        }
+        if(root->l){ // and !root->r
+            if (root->val < root->l->val)
+                return root->val;
+            return get_any_local_minimum(root->l);
+        }
+        if(root->r) { // and !root->l
+            if (root->val < root->r->val)
+                return root->val;
+            return get_any_local_minimum(root->r);
+        }
     }
 
     void test(){
@@ -63,6 +97,10 @@ namespace _addepar{
         treenode* r1 = build_segment_tree_algo1(v);
         print_binary_tree_horizontal(r1);
         treenode* r2 = createTree2();
+
+        set<int> result={1,5,6,2,7,13};
+        assert(result.count(get_any_local_minimum(r2)));
+
         treenode* r3 = createTree3();
     }
 

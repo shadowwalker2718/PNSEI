@@ -66,7 +66,7 @@
 #include "graph/_785_Is_Graph_Bipartite.h"
 #include "addepar/stock_reconciliation.h"
 #include "addepar/44_Wildcard_Matching.h"
-#include "addepar/local_maximum.h"
+#include "addepar/local_minimum.h"
 #include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
 #include "bolt/Remove_brackets_from_an_algebraic_string.h"
 #include "utils/binarytree.h"
@@ -94,9 +94,10 @@ public:
 
 int main(int argc, char **argv) {
   binarytree_test();
+  _addepar::test();
   bolt::test();
   _307_segmentTree::test();
-  _addepar::test();
+
   _44::test();
   addepar_onsite::test();
   _785_Is_Graph_Bipartite::test();

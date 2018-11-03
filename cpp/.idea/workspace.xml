@@ -16,12 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bolt/Remove_brackets_from_an_algebraic_string.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/local_maximum.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/local_minimum.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binarytree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binarytree.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,7 +139,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="9" />
+          <entry key="cpp" value="12" />
           <entry key="h" value="27" />
           <entry key="md" value="3" />
           <entry key="pnsei (disassembly)" value="8" />
@@ -151,14 +150,14 @@
         <counts>
           <entry key="Disassembly" value="8" />
           <entry key="Markdown" value="3" />
-          <entry key="ObjectiveC" value="36" />
+          <entry key="ObjectiveC" value="39" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2100" />
-          <entry key="h" value="4022" />
+          <entry key="cpp" value="2119" />
+          <entry key="h" value="4514" />
           <entry key="md" value="100" />
         </counts>
       </usages-collector>
@@ -166,20 +165,20 @@
         <counts>
           <entry key="Doxygen file" value="1" />
           <entry key="Markdown" value="100" />
-          <entry key="ObjectiveC" value="6121" />
+          <entry key="ObjectiveC" value="6632" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50798345">
+    <splitter split-orientation="horizontal" split-proportion="0.5090144">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/addepar/local_maximum.h">
+            <entry file="file://$PROJECT_DIR$/addepar/local_minimum.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="631">
-                  <caret line="62" column="47" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="47" />
+                <state relative-caret-position="427">
+                  <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -187,35 +186,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-9">
-                  <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dropbox/id_allocator.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="73" selection-start-line="73" selection-end-line="73" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/cruise/clique.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-80">
-                  <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+                <state relative-caret-position="442">
+                  <caret line="225" column="35" lean-forward="true" selection-start-line="225" selection-start-column="35" selection-end-line="225" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -223,8 +195,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+                <state relative-caret-position="407">
+                  <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -232,34 +204,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="56" selection-start-line="56" selection-end-line="56" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_Fenwick.h">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/utils/binarytree.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-294">
-                  <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/utils/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
@@ -310,7 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/68_Text_Justification.h" />
         <option value="$PROJECT_DIR$/dropbox/bittorrent_merge.h" />
         <option value="$PROJECT_DIR$/BoundedBlockingQueue.h" />
         <option value="$PROJECT_DIR$/dropbox/multithread_web_crawler.h" />
@@ -355,12 +303,13 @@
         <option value="$PROJECT_DIR$/cruise/clique.h" />
         <option value="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_-_Mutable.h" />
         <option value="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h" />
-        <option value="$PROJECT_DIR$/addepar/local_maximum.h" />
         <option value="$PROJECT_DIR$/utils/README.md" />
         <option value="$PROJECT_DIR$/bolt/Remove_brackets_from_an_algebraic_string.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/utils/binarytree.cpp" />
         <option value="$PROJECT_DIR$/utils/binarytree.h" />
+        <option value="$PROJECT_DIR$/addepar/local_maximum.h" />
+        <option value="$PROJECT_DIR$/addepar/local_minimum.h" />
+        <option value="$PROJECT_DIR$/utils/binarytree.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -413,12 +362,7 @@
             <path>
               <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="bolt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="addepar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -528,12 +472,12 @@
       <workItem from="1540737581952" duration="17267000" />
       <workItem from="1540847570868" duration="1008000" />
       <workItem from="1540852117053" duration="2886000" />
-      <workItem from="1540945500592" duration="47973000" />
+      <workItem from="1540945500592" duration="50645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142460000" />
+    <option name="totallyTimeSpent" value="145132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,13 +492,13 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09318801" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1667575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29555556" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31783783" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31783783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -624,7 +568,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>111</line>
+          <line>112</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -634,12 +578,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>110</line>
+          <line>111</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>107</line>
+          <line>108</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -659,7 +603,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>106</line>
+          <line>107</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -669,7 +613,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>105</line>
+          <line>106</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -679,7 +623,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>104</line>
+          <line>105</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -699,7 +643,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>103</line>
+          <line>104</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -724,7 +668,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>101</line>
+          <line>102</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -739,7 +683,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>100</line>
+          <line>101</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -759,27 +703,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>98</line>
+          <line>99</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/addepar/local_maximum.h</url>
-          <line>65</line>
+          <url>file://$PROJECT_DIR$/addepar/local_minimum.h</url>
+          <line>89</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>97</line>
+          <line>98</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/addepar/local_maximum.h</url>
-          <line>62</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -788,14 +727,19 @@
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/addepar/local_minimum.h</url>
+          <line>88</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>95</line>
-          <option name="timeStamp" value="80" />
+          <line>96</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/utils/binarytree.cpp</url>
-          <line>218</line>
-          <option name="timeStamp" value="81" />
+          <line>221</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -1061,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/id_allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_Fenwick.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1075,23 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/local_maximum.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="62" column="47" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1116,27 +1036,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/binarytree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/id_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addepar/local_minimum.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+        <state relative-caret-position="407">
+          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/binarytree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="442">
+          <caret line="225" column="35" lean-forward="true" selection-start-line="225" selection-start-column="35" selection-end-line="225" selection-end-column="35" />
         </state>
       </provider>
     </entry>

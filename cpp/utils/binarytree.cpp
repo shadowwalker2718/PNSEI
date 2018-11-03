@@ -217,4 +217,12 @@ void binarytree_test(){
     vi={4,5,6,7};
     r=build_segment_tree_algo2(vi);
     print2D(r);
+
+
+    vi={1,2,3,4,5};
+    r=build_segment_tree_algo1(vi);
+    print_binary_tree_horizontal(r);
+
+    r=build_segment_tree_algo2(vi);
+    print_binary_tree_horizontal(r);
 }
