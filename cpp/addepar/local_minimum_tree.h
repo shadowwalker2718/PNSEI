@@ -70,38 +70,38 @@ namespace _addepar{
      (otherwise the parent will be returned). Then, either (or both) of them are local min, as long as it's smaller
      than its parent.
      Following this approach, at most 2 nodes per level are being looked at, thus requiring only O(log n) checks.*/
-    int get_any_local_minimum(treenode *root){
+    int get_any_local_minimum(TreeNode *root){
         if(!root) return INT_MAX;
-        if(!root->l and !root->r) return root->val;
+        if(!root->left and !root->right) return root->val;
 
-        if(root->l and root->r){
-            if(root->val < root->l->val and root->val < root->r->val )
+        if(root->left and root->right){
+            if(root->val < root->left->val and root->val < root->right->val )
                 return root->val;
-            return get_any_local_minimum(root->l->val > root->r->val?
-                                         root->r : root->l);
+            return get_any_local_minimum(root->left->val > root->right->val?
+                                         root->right : root->left);
         }
-        if(root->l){ // and !root->r
-            if (root->val < root->l->val)
+        if(root->left){ // and !root->right
+            if (root->val < root->left->val)
                 return root->val;
-            return get_any_local_minimum(root->l);
+            return get_any_local_minimum(root->left);
         }
-        if(root->r) { // and !root->l
-            if (root->val < root->r->val)
+        if(root->right) { // and !root->left
+            if (root->val < root->right->val)
                 return root->val;
-            return get_any_local_minimum(root->r);
+            return get_any_local_minimum(root->right);
         }
     }
 
     void test(){
         vector<int> v={1,2,3,4,5};
-        treenode* r1 = build_segment_tree_algo1(v);
+        TreeNode* r1 = build_segment_tree_algo1(v);
         print_binary_tree_horizontal(r1);
-        treenode* r2 = createTree2();
+        TreeNode* r2 = createTree2();
 
         set<int> result={1,5,6,2,7,13};
         assert(result.count(get_any_local_minimum(r2)));
 
-        treenode* r3 = createTree3();
+        TreeNode* r3 = createTree3();
     }
 
 }

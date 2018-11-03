@@ -6,9 +6,9 @@
 namespace segregate_even_odd_ll {
 // http://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/
 
-lnode *Segregate_even_and_odd_nodes(lnode *p) {
-  lnode h1(0), h2(0);
-  lnode *c1 = &h1, *c2 = &h2;
+ListNode *Segregate_even_and_odd_nodes(ListNode *p) {
+  ListNode h1(0), h2(0);
+  ListNode *c1 = &h1, *c2 = &h2;
   while (p) {
     if (p->val & 1)
       c1->next = p, c1 = p;
@@ -22,12 +22,12 @@ lnode *Segregate_even_and_odd_nodes(lnode *p) {
 }
 
 // odd is in reversed order
-lnode *Segregate_even_and_odd_nodes2(lnode *p) {
-  lnode h2(0); ////
-  lnode *c1 = 0, *c2 = &h2;
+ListNode *Segregate_even_and_odd_nodes2(ListNode *p) {
+  ListNode h2(0); ////
+  ListNode *c1 = 0, *c2 = &h2;
   while (p) {
     if (p->val & 1) {
-      lnode *t = p->next;
+      ListNode *t = p->next;
       p->next = c1, c1 = p;
       p = t;
     } else {
@@ -41,14 +41,14 @@ lnode *Segregate_even_and_odd_nodes2(lnode *p) {
 }
 
 void test() {
-  lnode *p = createLN();
+  ListNode *p = createLN();
   auto r = Segregate_even_and_odd_nodes(p);
   while (r) {
     cout << r->val << endl;
     r = r->next;
   }
 
-  lnode *p2 = createLN();
+  ListNode *p2 = createLN();
   r = Segregate_even_and_odd_nodes2(p2);
   while (r) {
     cout << r->val << endl;
