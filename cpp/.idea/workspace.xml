@@ -16,12 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_linkedlist.h" beforeDir="false" afterPath="$PROJECT_DIR$/_linkedlist.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addepar/local_minimum_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/local_minimum_tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/blowoff_leaf.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/blowoff_leaf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segregate_even_odd_ll.h" beforeDir="false" afterPath="$PROJECT_DIR$/segregate_even_odd_ll.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binarytree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binarytree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -159,7 +154,7 @@
         <counts>
           <entry key="cpp" value="2160" />
           <entry key="dummy" value="27" />
-          <entry key="h" value="6208" />
+          <entry key="h" value="6261" />
           <entry key="md" value="100" />
         </counts>
       </usages-collector>
@@ -167,51 +162,21 @@
         <counts>
           <entry key="Doxygen file" value="2" />
           <entry key="Markdown" value="100" />
-          <entry key="ObjectiveC" value="8366" />
+          <entry key="ObjectiveC" value="8419" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7789405">
+    <splitter split-orientation="horizontal" split-proportion="0.53433615">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/utils/binarytree.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="29" selection-start-line="29" selection-end-line="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/henry.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="489">
-                  <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-                  <folding>
-                    <element signature="e#71#91#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/addepar/local_minimum_tree.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="263">
-                  <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="444">
-                  <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+                <state relative-caret-position="327">
+                  <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
                   <folding>
                     <element signature="e#163#181#0" expanded="true" />
                   </folding>
@@ -235,7 +200,7 @@
             <entry file="file://$PROJECT_DIR$/_linkedlist.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="225">
-                  <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+                  <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
                   <folding>
                     <element signature="e#14#32#0" expanded="true" />
                   </folding>
@@ -360,10 +325,10 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/addepar/162_Find_Peak_Element.h" />
         <option value="$PROJECT_DIR$/henry.h" />
-        <option value="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" />
         <option value="$PROJECT_DIR$/addepar/local_minimum_tree.h" />
         <option value="$PROJECT_DIR$/_linkedlist.h" />
         <option value="$PROJECT_DIR$/utils/binarytree.h" />
+        <option value="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" />
       </list>
     </option>
   </component>
@@ -531,12 +496,12 @@
       <workItem from="1540737581952" duration="17267000" />
       <workItem from="1540847570868" duration="1008000" />
       <workItem from="1540852117053" duration="2886000" />
-      <workItem from="1540945500592" duration="62981000" />
+      <workItem from="1540945500592" duration="63088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157468000" />
+    <option name="totallyTimeSpent" value="157575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1146,39 +1111,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/henry.h">
+    <entry file="file://$PROJECT_DIR$/_linkedlist.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="e#71#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#163#181#0" expanded="true" />
+            <element signature="e#14#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addepar/local_minimum_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="39" />
+        <state relative-caret-position="308">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_linkedlist.h">
+    <entry file="file://$PROJECT_DIR$/henry.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="507">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
           <folding>
-            <element signature="e#14#32#0" expanded="true" />
+            <element signature="e#71#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1187,6 +1142,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="e#163#181#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

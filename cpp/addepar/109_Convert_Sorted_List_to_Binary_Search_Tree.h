@@ -29,6 +29,8 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
  * */
 
 namespace _109{
+    // A half-open range is one which includes the first element, but excludes the last one.
+    // which is easier than all inclusive range
     TreeNode* sortedListToBST(ListNode* head, ListNode* e=NULL) { // [)
         if(head==e) return NULL;
         ListNode *s=head, *f=head;
