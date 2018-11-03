@@ -16,7 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addepar/segment_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binarytree.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,8 +139,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="12" />
-          <entry key="h" value="37" />
+          <entry key="cpp" value="13" />
+          <entry key="h" value="39" />
           <entry key="md" value="3" />
           <entry key="pnsei (disassembly)" value="12" />
           <entry key="py" value="2" />
@@ -146,15 +150,15 @@
         <counts>
           <entry key="Disassembly" value="12" />
           <entry key="Markdown" value="3" />
-          <entry key="ObjectiveC" value="49" />
+          <entry key="ObjectiveC" value="52" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2160" />
+          <entry key="cpp" value="2188" />
           <entry key="dummy" value="27" />
-          <entry key="h" value="6261" />
+          <entry key="h" value="6385" />
           <entry key="md" value="100" />
         </counts>
       </usages-collector>
@@ -162,7 +166,7 @@
         <counts>
           <entry key="Doxygen file" value="2" />
           <entry key="Markdown" value="100" />
-          <entry key="ObjectiveC" value="8419" />
+          <entry key="ObjectiveC" value="8571" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
@@ -172,7 +176,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.53433615">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="327">
@@ -180,6 +184,36 @@
                   <folding>
                     <element signature="e#163#181#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/addepar/local_minimum_tree.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/addepar/segment_tree.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#97#115#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="370">
+                  <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -251,25 +285,25 @@
       <find>Node</find>
       <find>assert( (</find>
       <find>sortedListToBST</find>
-      <find>_34</find>
       <find>end</find>
       <find>treenode</find>
       <find>-&gt;l</find>
       <find>-&gt;r</find>
       <find>lnode</find>
+      <find>_34</find>
     </findStrings>
     <replaceStrings>
       <replace>LONG_MAX</replace>
       <replace>LONG_MIN</replace>
       <replace>pnsei</replace>
       <replace>assert((</replace>
-      <replace>treenode</replace>
       <replace>head</replace>
       <replace>e</replace>
       <replace>TreeNode</replace>
       <replace>-&gt;left</replace>
       <replace>-&gt;right</replace>
       <replace>ListNode</replace>
+      <replace>treenode</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -278,7 +312,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dropbox/key_value_store.h" />
         <option value="$PROJECT_DIR$/leetcode/655_Print_Binary_Tree.h" />
         <option value="$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py" />
         <option value="$PROJECT_DIR$/42_Trapping_Rain_Water.h" />
@@ -320,15 +353,16 @@
         <option value="$PROJECT_DIR$/addepar/local_maximum.h" />
         <option value="$PROJECT_DIR$/addepar/local_minimum.h" />
         <option value="$PROJECT_DIR$/leetcode/34_Search_for_a_Range.h" />
-        <option value="$PROJECT_DIR$/utils/binarytree.cpp" />
         <option value="$PROJECT_DIR$/addepar/Find_a_peak_element_in_a_2D_array.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/addepar/162_Find_Peak_Element.h" />
         <option value="$PROJECT_DIR$/henry.h" />
         <option value="$PROJECT_DIR$/addepar/local_minimum_tree.h" />
         <option value="$PROJECT_DIR$/_linkedlist.h" />
         <option value="$PROJECT_DIR$/utils/binarytree.h" />
         <option value="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/addepar/segment_tree.h" />
+        <option value="$PROJECT_DIR$/utils/binarytree.cpp" />
       </list>
     </option>
   </component>
@@ -496,12 +530,12 @@
       <workItem from="1540737581952" duration="17267000" />
       <workItem from="1540847570868" duration="1008000" />
       <workItem from="1540852117053" duration="2886000" />
-      <workItem from="1540945500592" duration="63088000" />
+      <workItem from="1540945500592" duration="63411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157575000" />
+    <option name="totallyTimeSpent" value="157898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,7 +556,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.44756758" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29555556" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29837838" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25189188" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -531,7 +565,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3275862" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.27891892" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27891892" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="14" />
       <window_info anchor="right" id="LuaJ" />
@@ -592,7 +626,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>117</line>
+          <line>119</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -602,12 +636,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>116</line>
+          <line>118</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>113</line>
+          <line>115</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -627,7 +661,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>112</line>
+          <line>114</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -637,7 +671,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>111</line>
+          <line>113</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -647,7 +681,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>110</line>
+          <line>112</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -667,7 +701,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>109</line>
+          <line>111</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -692,7 +726,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>107</line>
+          <line>109</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -707,7 +741,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>106</line>
+          <line>108</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -727,7 +761,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>104</line>
+          <line>106</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -737,12 +771,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>103</line>
+          <line>105</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>102</line>
+          <line>104</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -757,17 +791,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>101</line>
+          <line>103</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/utils/binarytree.cpp</url>
-          <line>221</line>
+          <line>222</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>99</line>
+          <line>101</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -777,13 +811,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>98</line>
+          <line>100</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>97</line>
+          <line>99</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>98</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -797,13 +836,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reliterator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/segtree.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-138" />
@@ -1063,13 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/34_Search_for_a_Range.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1094,16 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addepar/162_Find_Peak_Element.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1118,13 +1133,6 @@
           <folding>
             <element signature="e#14#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/local_minimum_tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1152,6 +1160,40 @@
           <folding>
             <element signature="e#163#181#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addepar/local_minimum_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addepar/segment_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#97#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/binarytree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
         </state>
       </provider>
     </entry>

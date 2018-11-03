@@ -111,7 +111,8 @@ void build_segment_tree_algo2_rec(const vector<int>& v,
 
     // merge build results
     // tree[tid] = merge(tree[2 * tid + 1], tree[2 * tid + 2]);
-    tree[tid] = new TreeNode(tree[2 * tid + 1]->val + tree[2 * tid + 2]->val);
+    tree[tid] = new TreeNode(tree[2 * tid + 1]->val +
+            tree[2 * tid + 2]->val);
     // for printing purpose
     tree[tid]->left = tree[2 * tid + 1];
     tree[tid]->right = tree[2 * tid + 2];

@@ -72,6 +72,7 @@
 #include "utils/binarytree.h"
 #include "addepar/Find_a_peak_element_in_a_2D_array.h"
 #include "addepar/162_Find_Peak_Element.h"
+#include "addepar/segment_tree.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -95,6 +96,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  addepar_segmenttree::test();
   _162::test();
   _addepar_find_peak_2D::test();
   _34::test();
