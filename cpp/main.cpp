@@ -68,6 +68,8 @@
 #include "addepar/44_Wildcard_Matching.h"
 #include "addepar/local_maximum.h"
 #include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
+#include "bolt/Remove_brackets_from_an_algebraic_string.h"
+#include "utils/binarytree.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -91,6 +93,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  binarytree_test();
+  bolt::test();
   _307_segmentTree::test();
   _addepar::test();
   _44::test();
