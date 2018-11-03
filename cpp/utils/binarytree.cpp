@@ -96,7 +96,9 @@ TreeNode *build_segment_tree_algo1(const vector<int>& v){ // sum segment tree
         vn[i]->left = vn[2*i];
         vn[i]->right = vn[2*i+1];
     }
-    return vn[1];
+    auto p=vn[1];
+    vn.shrink_to_fit();
+    return p;
 };
 
 void build_segment_tree_algo2_rec(const vector<int>& v,
@@ -145,7 +147,7 @@ void print_binary_tree_horizontal(TreeNode* root){
     cout << string(80,'*') << endl;
     int R=dep_by_node(root), C=(1<<R)-1;
     if(R==0) return;
-    vector<vector<string>> res(R, vector<string>(C, "  "));
+    vector<vector<string>> res(R, vector<string>(C, " "));
     print_binary_tree_horizontal_dfs(root,res,0,C/2,C/2);
     for(auto vs: res){
         for(string& s: vs)

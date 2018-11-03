@@ -48,7 +48,7 @@ https://leetcode.com/problems/design-phone-directory/
 #include "henry.h"
 
 namespace dropbox {
-
+//drawback: cannot return the newly-released ones
 class IDAllocator {
   int tree_size; // even number always
   vector<bool> segment_tree;

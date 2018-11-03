@@ -13,7 +13,7 @@
 #include "concurrency_parallel/h2o.h"
 #include "cruise/clique.h"
 #include "dropbox/highest_minimum_sharpness.h"
-#include "dropbox/id_allocator.h"
+#include "dropbox/id_allocator_segment_tree.h"
 #include "dup.h"
 #include "encode_list_with_dups.h"
 #include "google/bzoj1090.h"
