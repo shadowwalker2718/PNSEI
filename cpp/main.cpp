@@ -73,6 +73,7 @@
 #include "addepar/Find_a_peak_element_in_a_2D_array.h"
 #include "addepar/162_Find_Peak_Element.h"
 #include "addepar/segment_tree.h"
+#include "addepar/10_Regular_Expression_Matching.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -96,6 +97,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _10::test();
   _44::test();
   addepar_segmenttree::test();
   _162::test();

@@ -45,6 +45,27 @@ bool match(string s, string p){
 }
 
 
+//https://www.youtube.com/watch?v=3ZDZ-N0EPV0
+bool isMatch(string s, string p) { // Bottom up DP
+  int m = s.size(), n = p.size();
+  vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
+  dp[0][0] = true;  // empty s matches empty p
+  for (int i = 1; i <= n; ++i) { // empty s matches "*" or "**" ...
+    if (p[i - 1] == '*')
+      dp[0][i] = dp[0][i - 1];
+  }
+  for (int i = 1; i <= m; ++i) {
+    for (int j = 1; j <= n; ++j) { // j start from 1 because dp[*][0] are also false
+      if (p[j - 1] == '*') {
+        dp[i][j] = dp[i - 1][j] || dp[i][j - 1]; // either left or top cell
+      } else if(s[i - 1] == p[j - 1]){
+          dp[i][j] = dp[i - 1][j - 1];
+      }
+    }
+  }
+  return dp[m][n];
+}
+
 
 }
 
