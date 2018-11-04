@@ -96,6 +96,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _44::test();
   addepar_segmenttree::test();
   _162::test();
   _addepar_find_peak_2D::test();
@@ -105,7 +106,7 @@ int main(int argc, char **argv) {
   bolt::test();
   _307_segmentTree::test();
 
-  _44::test();
+
   addepar_onsite::test();
   _785_Is_Graph_Bipartite::test();
   graph_Dijkstra::test();
