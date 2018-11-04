@@ -16,10 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addepar/44_Wildcard_Matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/44_Wildcard_Matching.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addepar/wildcard_simplified.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/wildcard_simplified.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -133,17 +133,17 @@
     <session id="-2035416784">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="15" />
-          <entry key="h" value="52" />
+          <entry key="h" value="53" />
           <entry key="md" value="4" />
           <entry key="pnsei (disassembly)" value="13" />
           <entry key="py" value="4" />
@@ -153,15 +153,15 @@
         <counts>
           <entry key="Disassembly" value="13" />
           <entry key="Markdown" value="4" />
-          <entry key="ObjectiveC" value="67" />
+          <entry key="ObjectiveC" value="68" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2281" />
+          <entry key="cpp" value="2302" />
           <entry key="dummy" value="27" />
-          <entry key="h" value="7804" />
+          <entry key="h" value="8254" />
           <entry key="md" value="100" />
           <entry key="mm" value="10" />
           <entry key="py" value="132" />
@@ -171,7 +171,7 @@
         <counts>
           <entry key="Doxygen file" value="3" />
           <entry key="Markdown" value="100" />
-          <entry key="ObjectiveC" value="10092" />
+          <entry key="ObjectiveC" value="10563" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="Python" value="132" />
         </counts>
@@ -180,15 +180,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cruise/encircular.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addepar/37_Sudoku_Solver.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -228,8 +219,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/934_Shortest_Bridge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="697">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -237,7 +228,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/7/bits/basic_string.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="8653">
               <caret line="509" selection-start-line="509" selection-end-line="509" />
             </state>
           </provider>
@@ -246,8 +237,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="371">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -256,10 +247,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="127" column="6" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+            <state relative-caret-position="1003">
+              <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+              <folding>
+                <element signature="e#1631#1744#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -267,7 +270,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addepar/wildcard_simplified.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
+            <state relative-caret-position="884">
               <caret line="52" selection-start-line="52" selection-end-line="55" selection-end-column="3" />
             </state>
           </provider>
@@ -325,7 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/214_Shortest_Palindrome.h" />
         <option value="$PROJECT_DIR$/307_Range_Sum_Query_Mutable.h" />
         <option value="$PROJECT_DIR$/frequent_element.h" />
         <option value="$PROJECT_DIR$/linkedin/lnkd_maxstack.h" />
@@ -374,8 +376,9 @@
         <option value="$PROJECT_DIR$/leetcode/935_Knight_Dailer.py" />
         <option value="$PROJECT_DIR$/addepar/wildcard_simplified.h" />
         <option value="$PROJECT_DIR$/addepar/44_Wildcard_Matching.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h" />
       </list>
     </option>
   </component>
@@ -451,7 +454,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -596,12 +599,13 @@
       <workItem from="1540852117053" duration="2886000" />
       <workItem from="1540945500592" duration="78214000" />
       <workItem from="1541341804270" duration="3926000" />
-      <workItem from="1541345814383" duration="3837000" />
+      <workItem from="1541345814383" duration="8776000" />
+      <workItem from="1541358636548" duration="1497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180464000" />
+    <option name="totallyTimeSpent" value="186900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,7 +620,7 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21961853" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.081743866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -638,10 +642,10 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.5182561" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.45122615" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21961853" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.081743866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -663,7 +667,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" id="Debug" order="5" visible="true" weight="0.5182561" />
+      <window_info active="true" anchor="right" id="Debug" order="5" visible="true" weight="0.45122615" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,7 +721,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>122</line>
+          <line>124</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -727,12 +731,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>121</line>
+          <line>123</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>118</line>
+          <line>120</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -752,7 +756,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>117</line>
+          <line>119</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -762,7 +766,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>116</line>
+          <line>118</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -772,7 +776,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>115</line>
+          <line>117</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -792,7 +796,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>114</line>
+          <line>116</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -817,7 +821,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>112</line>
+          <line>114</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -832,7 +836,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>111</line>
+          <line>113</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -847,7 +851,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>109</line>
+          <line>111</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -857,12 +861,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>108</line>
+          <line>110</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>107</line>
+          <line>109</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -877,7 +881,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>106</line>
+          <line>108</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -887,7 +891,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>104</line>
+          <line>106</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -897,17 +901,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>103</line>
+          <line>105</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>102</line>
+          <line>104</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>101</line>
+          <line>103</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -917,7 +921,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>100</line>
+          <line>102</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -927,8 +931,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>99</line>
+          <line>101</line>
           <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h</url>
+          <line>80</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>100</line>
+          <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -988,13 +1002,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dropbox/key_value_store.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dropbox/bittorrent_merge.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1303,39 +1310,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/934_Shortest_Bridge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="697">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/include/c++/7/bits/basic_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="8653">
           <caret line="509" selection-start-line="509" selection-end-line="509" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="1003">
+          <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1631#1744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addepar/wildcard_simplified.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
+        <state relative-caret-position="884">
           <caret line="52" selection-start-line="52" selection-end-line="55" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        <state relative-caret-position="371">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="127" column="6" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
         </state>
       </provider>
     </entry>

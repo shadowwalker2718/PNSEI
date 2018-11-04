@@ -74,6 +74,7 @@
 #include "addepar/162_Find_Peak_Element.h"
 #include "addepar/segment_tree.h"
 #include "addepar/10_Regular_Expression_Matching.h"
+#include "addepar/465_Optimal_Account_Balancing.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -97,6 +98,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _465::test();
   _10::test();
   _44::test();
   addepar_segmenttree::test();

@@ -41,7 +41,7 @@ public:
     const int M = s.size(), N = p.size();
     bool dp[M + 1][N + 1] = {};
     dp[0][0] = true;
-    for (int i = 1; i <= N; ++i) { // empty s matches "*" or "**" ...
+    for (int i = 1; i <= N; ++i) { // empty s matches "a*" or "a*.*" ...
       if (p[i - 1] == '*' and i>=2)
         dp[0][i] = dp[0][i - 2];
     }
@@ -51,8 +51,15 @@ public:
         if (s[i - 1] == p[j - 1] or p[j - 1] == '.') {
           dp[i][j] = dp[i - 1][j - 1];
         }else if (p[j - 1] == '*') {
-          dp[i][j] = (j - 2 >= 0 and dp[i][j - 2]) or
+#ifdef COMPACTCODE
+          dp[i][j] = (j>=2 and dp[i][j - 2]) or
               ((s[i - 1] == p[j - 2] or p[j - 2] == '.') and dp[i - 1][j]);
+#else
+          dp[i][j] = j>=2 and dp[i][j - 2];
+          if (s[i - 1] == p[j - 2] or p[j - 2] == '.'){
+            dp[i][j] |= dp[i - 1][j]; // |= works but not ||=
+          }
+#endif
         }
       }
     }
@@ -68,6 +75,9 @@ void test() {
 
   Solution_DP sln2;
   s="aa", p="a*";
+  assert(sln2.isMatch(s, p) == 1);
+
+  s="aa", p="*a";
   assert(sln2.isMatch(s, p) == 1);
 }
 }
