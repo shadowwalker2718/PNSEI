@@ -75,6 +75,7 @@
 #include "addepar/segment_tree.h"
 #include "addepar/10_Regular_Expression_Matching.h"
 #include "addepar/465_Optimal_Account_Balancing.h"
+#include "addepar/8puzzle.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -98,6 +99,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  addepar_AStar::test();
   _465::test();
   _10::test();
   _44::test();

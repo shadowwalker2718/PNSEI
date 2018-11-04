@@ -8,6 +8,14 @@
 
 namespace _465{
 
+/* https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=230745&highlight=addepar
+ * 2017(1-3月) 码农类General 硕士 全职@Addepar - 网上海投 - Onsite  | Fail | 在职跳槽
+Addepar Front End onsite 面试 一共 五轮。
+
+第一轮： 算法题。买卖股票题I, II。 最后又问了一个遍历 GRAPH 的题，没有写代码，只是说了思路。题目是比如A欠B$8，B欠C$6，C欠D$7，D又欠A$10， 应该怎么还钱？
+
+ * */
+
 /*
  *
  * A group of friends went on holiday and sometimes lent each other money. For example, Alice paid for Bill's lunch for
