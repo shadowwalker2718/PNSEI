@@ -16,11 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,7 +157,7 @@
         <counts>
           <entry key="cpp" value="2302" />
           <entry key="dummy" value="27" />
-          <entry key="h" value="8254" />
+          <entry key="h" value="8298" />
           <entry key="md" value="100" />
           <entry key="mm" value="10" />
           <entry key="py" value="132" />
@@ -171,7 +167,7 @@
         <counts>
           <entry key="Doxygen file" value="3" />
           <entry key="Markdown" value="100" />
-          <entry key="ObjectiveC" value="10563" />
+          <entry key="ObjectiveC" value="10607" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="Python" value="132" />
         </counts>
@@ -249,8 +245,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="127" column="6" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
+            <state relative-caret-position="102">
+              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -600,12 +596,12 @@
       <workItem from="1540945500592" duration="78214000" />
       <workItem from="1541341804270" duration="3926000" />
       <workItem from="1541345814383" duration="8776000" />
-      <workItem from="1541358636548" duration="1497000" />
+      <workItem from="1541358636548" duration="1862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186900000" />
+    <option name="totallyTimeSpent" value="187265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1351,8 +1347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="127" column="6" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
         </state>
       </provider>
     </entry>

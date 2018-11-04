@@ -89,15 +89,16 @@ public:
 class Solution {
   void setErase(unordered_multiset<int>& balance, int v) {
     auto itr = balance.find(v);
-    if (itr != balance.end()) balance.erase(itr);
+    if (itr != balance.end())
+      balance.erase(itr);
   }
-  int nSum(int cliq, unordered_multiset<int>& balance, int s) {
+  int kSum(int cliq, unordered_multiset<int> &balance, int target) {
     vector<int> bal(balance.begin(), balance.end());
     if (cliq == 2) {
       for (int i : bal)
-        if (balance.count(s-i)) {
+        if (balance.count(target-i)) {
           setErase(balance, i);
-          setErase(balance, s-i);
+          setErase(balance, target-i);
           return 1;
         }
     } else if (cliq == 3) {
@@ -105,8 +106,8 @@ class Solution {
       for (int i = 0; i < bal.size()-2; ++i) {
         if (i > 0 && bal[i]==bal[i-1]) continue;
         for (int j = i+1, k = bal.size()-1; j < k;) {
-          if (bal[i]+bal[j]+bal[k]<s) ++j;
-          else if (bal[i]+bal[j]+bal[k]>s) --k;
+          if (bal[i]+bal[j]+bal[k]<target) ++j;
+          else if (bal[i]+bal[j]+bal[k]>target) --k;
           else {
             setErase(balance, bal[i]);
             setErase(balance, bal[j]);
@@ -118,7 +119,7 @@ class Solution {
     } else {
       for (int i : bal) {
         setErase(balance, i);
-        int res = nSum(cliq-1, balance, s-i);
+        int res = kSum(cliq - 1, balance, target - i);
         if (res != 0) return res+1;
         balance.insert(i);
       }
@@ -139,9 +140,11 @@ public:
       return 0;
     int res = 0, clique = 2;
     while (clique < balance.size()) {
-      int r = nSum(clique, balance, 0);
-      if (r == 0) clique++;
-      else res += r;
+      int r = kSum(clique, balance, 0);
+      if (r == 0) // not found
+        clique++;
+      else
+        res += r;
     }
     return res+balance.size()-1;
   }
