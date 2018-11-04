@@ -123,11 +123,11 @@ public:
       auto t = Q.top();
       Q.pop();
       iMatrix s = t.first;
-      print(s);
+      //print(s);
       int mv = t.second;
       visited.insert(s);
       if (s == GOAL) {
-        print_path(s);
+        //print_path(s);
         return mv;
       }
       for (auto nx: get_neighbours(s)) {
