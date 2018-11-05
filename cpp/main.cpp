@@ -61,7 +61,7 @@
 #include "skiplist.h"
 #include "sparsematrix.h"
 #include "stree.h"
-#include "winner_tree.h"
+#include "addepar/winner_tree.h"
 #include "graph/graph.h"
 #include "graph/_785_Is_Graph_Bipartite.h"
 #include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
@@ -77,6 +77,7 @@
 #include "addepar/10_Regular_Expression_Matching.h"
 #include "addepar/465_Optimal_Account_Balancing.h"
 #include "addepar/8puzzle.h"
+#include "addepar/37_Sudoku_Solver.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -100,6 +101,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _winner_tree::test();
   addepar_AStar::test();
   _465::test();
   _10::test();

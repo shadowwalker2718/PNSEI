@@ -68,12 +68,13 @@ public:
 };
 
 void test() {
+  Solution    sln;
+  Solution_DP sln2;
+
   string s = "mississippi";
   string p = "mis*is*p*.";
-  Solution sln;
-  assert(sln.isMatch(s, p) == false);
+  assert(sln.isMatch(s, p) == sln2.isMatch(s, p));
 
-  Solution_DP sln2;
   s="aa", p="a*";
   assert(sln2.isMatch(s, p) == 1);
 

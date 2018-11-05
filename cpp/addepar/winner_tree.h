@@ -4,8 +4,17 @@
 
 namespace _winner_tree {
 
+/*
+ * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=216014&highlight=addepar
+ * 2016(10-12月) 码农类General 硕士 全职 Addepar - 网上海投 - 技术电面  | Other | fresh grad应届毕业生
+11.15号面的第一轮：
+第一题：有n个数，需要比几次才能选出最大值，n-1，然后怎么证明……证明…………证……怎么跟高数一样，这还需要证？这还能这么证……
+ *
+ * */
+
 // http://stackoverflow.com/questions/13544476/how-to-find-max-and-MIN-in-array-using-minimum-comparisons
 pair<int, int> minmax(vector<int> v) {
+  int compare_time=0;
   if (v.empty())
     return {INT_MAX, INT_MAX};
   if (v.size() == 1)
@@ -16,13 +25,14 @@ pair<int, int> minmax(vector<int> v) {
     mi = mx = v.front(), start = 1;
   } else {
     if (v[0] > v[1])
-      mx = v[0], mi = v[1];
+      mx = v[0], mi = v[1], compare_time++;
     else
       mx = v[1], mi = v[0];
     start = 2;
   }
   for (int i = start; i < v.size() - 1; i += 2) {
     int s, b;
+    compare_time++;
     if (v[i] > v[i + 1])
       s = v[i + 1], b = v[i];
     else
@@ -31,7 +41,9 @@ pair<int, int> minmax(vector<int> v) {
       mi = s;
     if (b > mx)
       mx = b;
+    compare_time+=2;
   }
+  cout << "v size:" << v.size() << ", compare_time:" << compare_time << endl;
   return {mi, mx};
 }
 
