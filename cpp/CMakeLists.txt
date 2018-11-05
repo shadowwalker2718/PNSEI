@@ -39,7 +39,7 @@ add_executable(pnsei
         calendar.h
         linkedin/canPlaceFlower.h
         comb_sum.h
-        concurrency_parallel/concurrent_hashmap.h
+        addepar/concurrent_hashmap.h
         concurrency_parallel/deadlock.h
         concurrency_parallel/DelayQueue.h
         concurrency_parallel/deadlock.cpp

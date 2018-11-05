@@ -8,7 +8,7 @@
 #include "comb_sum.h"
 #include "concurrency_parallel/BoundedBlockingQueue.h"
 #include "concurrency_parallel/DelayQueue.h"
-#include "concurrency_parallel/concurrent_hashmap.h"
+#include "addepar/concurrent_hashmap.h"
 #include "concurrency_parallel/deadlock.h"
 #include "concurrency_parallel/h2o.h"
 #include "cruise/clique.h"
