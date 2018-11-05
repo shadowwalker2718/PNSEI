@@ -82,6 +82,8 @@ struct Solution { // 16ms, 78%
     board[irow][icol] = '.'; // reset grid
     return false;
   }
+
+  // if we could not find duplicates, it is valid!!
   bool isValid(vector<vector<char>> &board, int irow, int icol) {
     char val = board[irow][icol];
     if(val-'0'<1 || val-'0'>9) return false;
@@ -89,11 +91,12 @@ struct Solution { // 16ms, 78%
       if(board[irow][i]==val && i!=icol) return false;
       if(board[i][icol]==val && i!=irow) return false;
     }
-    //check 3x3 box
-    int irow0 = irow/3*3; int icol0 = icol/3*3;
-    for(int i=irow0; i<irow0+3; i++)
-      for(int j=icol0; j<icol0+3; j++)
-        if(board[i][j]==val && (i!=irow || j!=icol)) return false;
+    //check 3x3 box -- locate the correct index!!!
+    int X = irow/3*3; int Y = icol/3*3;
+    for(int i=X; i<X+3; i++)
+      for(int j=Y; j<Y+3; j++)
+        if(board[i][j]==val && (i!=irow || j!=icol))
+          return false;
     return true;
   }
 };
