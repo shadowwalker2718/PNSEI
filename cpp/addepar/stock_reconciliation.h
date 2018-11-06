@@ -89,18 +89,6 @@ map<string,int> reconcile() {
   // 2.output diff
   // get difference of two maps
   // https://stackoverflow.com/questions/24276045/how-to-find-the-difference-of-two-maps
-  /*
-  for(auto& pr: eod_position){
-      const string& symbol = pr.first;
-      if(!ticker2position.count(symbol)){
-          cout << symbol << " " << eod_position[symbol] << endl;
-      }else if (eod_position[symbol] != ticker2position[symbol]){
-          cout << symbol << " " << eod_position[symbol]-ticker2position[symbol] << endl;
-      }
-  }
-  if(cash_balance != eod_cash_balance)
-      cout << "Cash " << eod_cash_balance - cash_balance << endl;*/
-
   auto it1 = eod_position.begin(), it2 = eod_position.end();
   auto it3 = ticker2position.begin(), it4 = ticker2position.end();
   while (it1 != it2 and it3 != it4) {

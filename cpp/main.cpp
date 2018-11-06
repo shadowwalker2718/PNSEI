@@ -101,6 +101,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _37_dfs::test();
   addepar_reconcile::test();
   _winner_tree::test();
   addepar_AStar::test();
