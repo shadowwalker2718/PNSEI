@@ -13,6 +13,13 @@ namespace _winner_tree {
  * */
 
 // http://stackoverflow.com/questions/13544476/how-to-find-max-and-MIN-in-array-using-minimum-comparisons
+//
+// 1. Pick 2 elements(a, b), compare them. (say a > b)
+// 2. Update min by comparing (min, b) //
+// 3. Update max by comparing (max, a) //
+//
+// This way you would do 3 comparisons for 2 elements, amounting to 3N/2 - 2 total comparisons for N elements.
+// Should it not be ceil(3N/2.0) - 2 since we do not need to update min or max in the very first step?
 pair<int, int> minmax(vector<int> v) {
   int compare_time=0;
   if (v.empty())
@@ -53,7 +60,6 @@ int _2ndsmallest_v1(vector<int> v) { // 2N comparison
   if (v.size() == 1)
     return v.front();
   int s1 = INT_MAX, s2 = INT_MAX;
-  cout << v.size() << endl;
   int count = 0;
   for (int i : v) {
     if (++count && i < s1)
@@ -61,42 +67,36 @@ int _2ndsmallest_v1(vector<int> v) { // 2N comparison
     else if (++count && i < s2)
       s2 = i;
   }
-  cout << count << endl; // 100 elements, 191 comps
+  cout << "size:" << v.size() << ", count:" << count << endl; // 100 elements, 191 comps
   return s2;
 }
 
 struct SecondSmallest {
-  vector<vector<int>> dp;
-  // vector<vector<int>> dp2;
+  vector<vector<int>> dp; // store info of smallest in between [h,t]
+
   int count = 0;
 #define MIN(x, y)                                                              \
   min((x), (y));                                                               \
   count++;
+
   const vector<int> v;
   SecondSmallest(const vector<int> &_v) : v(_v) {
     dp = vector<vector<int>>(v.size(), vector<int>(v.size(), INT_MAX));
-    // dp2 = vector<vector<int>>(v.size(), vector<int>(v.size(), INT_MAX));
   }
 
   int _2ndsmallest() { return _2ndsmallest(0, v.size() - 1); }
 
+  // Use tournament tree to find 2nd smallest
   int _2ndsmallest(int h, int t) {
-    /*if (dp2[h][t] != INT_MAX) {
-      cout << h << "-" << t << endl;
-      return dp2[h][t];
-    }*/
-    if (t - h == 1)
-      // return dp2[h][t] = v.front();
+    if (t - h == 1) //?
       return v.front();
     if (t - h == 2) {
-      /*dp2[h][t] =  MIN(v[0], v[1]);
-      return dp2[h][t];*/
       int r = MIN(v[0], v[1]);
       return r;
     }
     int c1 = INT_MAX, c2 = INT_MAX;
-    int R = smallest(h, t);
-    int m = h + (t - h) / 2;
+    int R = smallest(h, t); // Root of the tournament tree
+    int m = h + (t - h) / 2; // lower median
     if (R == smallest(h, m)) {
       c1 = _2ndsmallest(h, m);
       c2 = smallest(m + 1, t);
@@ -105,19 +105,16 @@ struct SecondSmallest {
       c2 = smallest(h, m);
     }
     if (c1 == INT_MAX)
-      // return dp2[h][t] = c2;
       return c2;
-    /*dp2[h][t] = MIN(c1, c2);
-    return dp2[h][t];*/
     int r = MIN(c1, c2);
     return r;
   }
 
   int smallest() { return smallest(0, v.size() - 1); }
 
-  int smallest(int h, int t) {
-    if (dp[h][t] != INT_MAX) {
-      cout << h << "," << t << endl;
+  int smallest(int h, int t) { // a recursive function
+    if (dp[h][t] != INT_MAX) { // cache hit
+      //cout << h << "," << t << endl;
       return dp[h][t];
     }
     if (h == t)
@@ -150,14 +147,13 @@ void test() {
 
   assert((_2ndsmallest_v1(v) == 5));
 
-  // v = { 39, 34, 52, 14, 40, 77, 83, 12, 41 };
+
   SecondSmallest sln(v);
   assert(sln._2ndsmallest() == 5);
   int r = v.size() + ceil(log2(v.size())) - 2;
-  cout << r << endl;
-  cout << sln.comp_num() << endl;
+  cout << "size:"<<v.size() <<",comp:"<< sln.comp_num() << endl;
   assert(sln.comp_num() == (v.size() + ceil(log2(v.size())) - 2));
-  // assert(sln.smallest()==1);
+  assert(sln.smallest() == 1);
 }
 
 } // namespace _winner_tree

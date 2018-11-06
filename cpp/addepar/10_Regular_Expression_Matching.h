@@ -13,21 +13,27 @@ namespace _10 {
 // substr(N) - N could be the size of the string, but cannot more than that
 class Solution {
 public:
-  bool isMatch(string s, string p) {
+  bool isMatch(string s, string p) { // if s empty, p .* a*a*a*.*
+    // check p's size
     if (p.empty()) return s.empty();
-    if (p.size() == 1) return s.size() == 1 and (p[0] == s[0] or p[0] == '.');
+    else if (p.size() == 1)
+      return s.size() == 1 and (p[0] == s[0] or p[0] == '.');
+    if(s.empty()){
+      return p.empty() or (p[1]=='*' and isMatch(s,p.substr(2)));
+    }
 
-    if ('*' == p[1])
+    if ('*' == p[1]) {
       // x* matches empty string or at least one character: x* -> xx*
       // *s is to ensure s is non-empty
       if (isMatch(s, p.substr(2))) { // [x*] matches 0 char
-        return true;
-      } else if (!s.empty() && (s[0] == p[0] || '.' == p[0]) && isMatch(s.substr(1), p)) { //[x*] matches 1 char
+        return true; /////.*.*.*.*x
+      } else //
+        if (!s.empty() && (s[0] == p[0] || '.' == p[0]) && isMatch(s.substr(1), p)) { //[x*] matches 1 char
         return true;
       } else {
-        return false;
+        return false; // return for (abc, .*wq)
       }
-    else
+    }else
       return !s.empty() &&
              (s[0] == p[0] || '.' == p[0]) &&
              isMatch(s.substr(1), p.substr(1));
@@ -43,20 +49,20 @@ public:
     dp[0][0] = true;
     for (int i = 1; i <= N; ++i) { // empty s matches "a*" or "a*.*" ...
       if (p[i - 1] == '*' and i>=2)
-        dp[0][i] = dp[0][i - 2];
+        dp[0][i] = dp[0][i - 2]; // '' => '.*' or 'a*'
     }
 
     for (int i = 1; i <= M; i++) {
       for (int j = 1; j <= N; j++) {
-        if (s[i - 1] == p[j - 1] or p[j - 1] == '.') {
+        if (s[i - 1] == p[j - 1] or p[j - 1] == '.') { // a => a*
           dp[i][j] = dp[i - 1][j - 1];
         }else if (p[j - 1] == '*') {
 #ifdef COMPACTCODE
           dp[i][j] = (j>=2 and dp[i][j - 2]) or
               ((s[i - 1] == p[j - 2] or p[j - 2] == '.') and dp[i - 1][j]);
 #else
-          dp[i][j] = j>=2 and dp[i][j - 2];
-          if (s[i - 1] == p[j - 2] or p[j - 2] == '.'){
+          dp[i][j] = j>=2 and dp[i][j - 2]; // match 0 char
+          if (s[i - 1] == p[j - 2] or p[j - 2] == '.'){ // match 1 char but no erase in p
             dp[i][j] |= dp[i - 1][j]; // |= works but not ||=
           }
 #endif

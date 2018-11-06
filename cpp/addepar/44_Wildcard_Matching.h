@@ -19,27 +19,45 @@ namespace _44 {
 class Solution_REC { // TLE
 public:
   bool isMatch(string s, string p) {
-    p.erase(unique(p.begin(), p.end(), [](char x, char y) { return x == y and x == '*'; }), p.end());
+    //p.erase(unique(p.begin(), p.end(), [](char x, char y) { return x == y and x == '*'; }), p.end());
     return rec(s, p);
   }
 
   bool rec(string s, string p) {
     if (p.empty()) return s.empty();
     if (s.empty()) { //"*****" can match ""
-      return p.empty() or p == "*";
+      return p.empty() or (p[0] == '*' and rec(s,p.substr(1)));
     }
 
     if (p[0] == '?') {
       return rec(s.substr(1), p.substr(1));
     } else if (p[0] == '*') {
-      string np = p.substr(1);
+      /*string np = p.substr(1);
       for (int i = 0; i <= s.size(); i++) {
         if (rec(s.substr(i), np))
           return true;
       }
-      return false;
+      return false;*/
+      return rec(s.substr(1), p);
     } else if (isalpha(p[0])) {
       return p[0] == s[0] and rec(s.substr(1), p.substr(1));
+    }
+  }
+};
+
+class Solution_REC_OPT { // TLE
+public:
+  bool isMatch(string s, string p) {
+    if (p.empty()) return s.empty();
+    if (s.empty()) { //"*****" can match ""
+      return p.empty() or (p[0] == '*' and isMatch(s,p.substr(1)));
+    }
+    if (p[0] == '?') {
+      return isMatch(s.substr(1), p.substr(1));
+    } else if (p[0] == '*') {
+      return isMatch(s.substr(1), p) or isMatch(s, p.substr(1));
+    } else if (isalpha(p[0])) {
+      return p[0] == s[0] and isMatch(s.substr(1), p.substr(1));
     }
   }
 };
@@ -54,7 +72,7 @@ public:
     dp[0][0] = true;  // empty s matches empty p
     for (int i = 1; i <= n; ++i) { // empty s matches multiple stars("*" or "**" ...)
       if (p[i - 1] == '*')
-        dp[0][i] = dp[0][i - 1];
+        dp[0][i] = dp[0][i - 1]; // p erase the last one char
     }
     for (int i = 1; i <= m; ++i) {
       for (int j = 1; j <= n; ++j) { // j start from 1 because dp[*][0] are also false
