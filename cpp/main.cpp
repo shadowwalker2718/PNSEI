@@ -101,6 +101,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  addepar_reconcile::test();
   _winner_tree::test();
   addepar_AStar::test();
   _465::test();
@@ -116,7 +117,6 @@ int main(int argc, char **argv) {
   _307_segmentTree::test();
 
 
-  addepar_onsite::test();
   _785_Is_Graph_Bipartite::test();
   graph_Dijkstra::test();
   graph_MST::test();

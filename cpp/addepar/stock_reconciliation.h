@@ -53,59 +53,94 @@ Cash         -10
  * 这是偷懒的办法 最好提一下 读取操作和update操作分开写（Module Design）
  * */
 
-namespace addepar_onsite{
-    map<string, int> ticker2position;
-    double cash_balance;
+namespace addepar_reconcile {
+map<string, int> ticker2position;
+double cash_balance;
 
-    void init(){
-        ticker2position["APPL"] = 100;
-        ticker2position["GOOG"] = 200;
-        cash_balance = 10;
+void init() {
+  ticker2position["APPL"] = 100;
+  ticker2position["GOOG"] = 200;
+  ticker2position["AMZN"] = 200;
+  cash_balance = 10;
+}
+
+void trade(const string &ticker, string action, int volume, double cashflow) {
+  if (action == "SL") {
+    ticker2position[ticker] -= volume;
+    cash_balance += cashflow;
+  } else if (action == "BY") {
+    ticker2position[ticker] += volume;
+    cash_balance -= cashflow;
+  }
+}
+
+map<string,int> reconcile() {
+  // 1. get d1-pos info
+  // Another method is to update map directly!
+  map<string, int> eod_position;// ticker position
+  map<string, int> diff;
+  double eod_cash_balance;
+
+  eod_position["APPL"] = 50;
+  eod_position["GOOG"] = 410;
+  eod_position["MSFT"] = 40;
+  eod_cash_balance = 20000;
+
+  // 2.output diff
+  // get difference of two maps
+  // https://stackoverflow.com/questions/24276045/how-to-find-the-difference-of-two-maps
+  /*
+  for(auto& pr: eod_position){
+      const string& symbol = pr.first;
+      if(!ticker2position.count(symbol)){
+          cout << symbol << " " << eod_position[symbol] << endl;
+      }else if (eod_position[symbol] != ticker2position[symbol]){
+          cout << symbol << " " << eod_position[symbol]-ticker2position[symbol] << endl;
+      }
+  }
+  if(cash_balance != eod_cash_balance)
+      cout << "Cash " << eod_cash_balance - cash_balance << endl;*/
+
+  auto it1 = eod_position.begin(), it2 = eod_position.end();
+  auto it3 = ticker2position.begin(), it4 = ticker2position.end();
+  while (it1 != it2 and it3 != it4) {
+    if (it1->first == it3->first) {
+      if (it1->second != it3->second) {
+        diff[it1->first] = it1->second - it3->second;
+      }
+      it1++, it3++;
+    } else if (it1->first > it3->first) {
+      diff[it3->first] = - it3->second;
+      it3++;
+    } else {
+      diff[it1->first] = it1->second;
+      it1++;
     }
+  }
+  while(it1!=it2){
+    diff[it1->first] = it1->second;
+    it1++;
+  }
+  while(it3!=it4){
+    diff[it3->first] = -it3->second;
+    it3++;
+  }
+  if (cash_balance != eod_cash_balance)
+    diff["Cash"] = eod_cash_balance - cash_balance;
+  return diff;
+}
 
-    void trade(const string& ticker, string action, int volume, double cashflow){
-        if(action=="SL"){
-            ticker2position[ticker] -= volume;
-            cash_balance += cashflow;
-        }else if(action=="BY"){
-            ticker2position[ticker] += volume;
-            cash_balance -= cashflow;
-        }
-    }
+void test() {
+  init();
 
-    void reconcile(){
-        // 1. get d1-pos info
-        // Another method is to update map directly!
-        map<string, int> eod_position;// ticker position
-        double eod_cash_balance;
+  trade("APPL", "SL", 50, 30000);
+  trade("GOOG", "BY", 200, 10000);
 
-        eod_position["APPL"] = 50;
-        eod_position["GOOG"] = 410;
-        eod_position["MSFT"] = 40;
-        eod_cash_balance = 20000;
-
-        // 2.output diff
-        cout << "DIFF" << endl;
-        for(auto& pr: eod_position){
-            const string& symbol = pr.first;
-            if(!ticker2position.count(symbol)){
-                cout << symbol << " " << eod_position[symbol] << endl;
-            }else if (eod_position[symbol] != ticker2position[symbol]){
-                cout << symbol << " " << eod_position[symbol]-ticker2position[symbol] << endl;
-            }
-        }
-        if(cash_balance != eod_cash_balance)
-            cout << "Cash " << eod_cash_balance - cash_balance << endl;
-    }
-
-    void test(){
-        init();
-
-        trade("APPL", "SL", 50, 30000);
-        trade("GOOG", "BY", 200, 10000);
-
-        reconcile();
-    }
+  auto diff=reconcile();
+  cout << "DIFF" << endl;
+  for(auto& pr: diff)
+    cout << pr.first << " " << pr.second << endl;
+}
 
 }
 
