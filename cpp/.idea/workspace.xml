@@ -16,30 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cruise/all_points_in_Kmiles.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/build_tree_by_indentation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/calculator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/closest_car.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/design_excel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/dup_strings_in_two_arrays.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/euclidean_clustering.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/heatmap_argmax.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/kalman_filter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/minesweeper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/no_or_single_parent_graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/number_of_islands_variant1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/oa.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/overlap_interval.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/overlap_polygon.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/real_time_moving_average.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/task_scheduler_with_cooldown.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/union_find.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/word_cloud.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addepar/8puzzle.h" beforeDir="false" afterPath="$PROJECT_DIR$/addepar/8puzzle_AStar.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/lru.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/distributed_LRU.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/distributed_LRU.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/distributed_LRU.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,7 +141,7 @@
         <counts>
           <entry key="cmath" value="1" />
           <entry key="cpp" value="17" />
-          <entry key="h" value="115" />
+          <entry key="h" value="117" />
           <entry key="md" value="4" />
           <entry key="pnsei (disassembly)" value="14" />
           <entry key="py" value="4" />
@@ -174,7 +151,7 @@
         <counts>
           <entry key="Disassembly" value="14" />
           <entry key="Markdown" value="4" />
-          <entry key="ObjectiveC" value="133" />
+          <entry key="ObjectiveC" value="135" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
@@ -183,7 +160,7 @@
           <entry key="GDB" value="15" />
           <entry key="cpp" value="2368" />
           <entry key="dummy" value="39" />
-          <entry key="h" value="11934" />
+          <entry key="h" value="11944" />
           <entry key="md" value="100" />
           <entry key="mm" value="10" />
           <entry key="py" value="132" />
@@ -194,7 +171,7 @@
           <entry key="Doxygen file" value="3" />
           <entry key="GDBCommands" value="15" />
           <entry key="Markdown" value="100" />
-          <entry key="ObjectiveC" value="14309" />
+          <entry key="ObjectiveC" value="14319" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="Python" value="132" />
         </counts>
@@ -203,24 +180,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cruise/calculator.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="88" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cruise/euclidean_clustering.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cruise/oa.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -239,11 +198,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cruise/word_cloud.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="598">
               <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cruise/distributed_LRU.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -352,7 +329,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/addepar/local_maximum.h" />
         <option value="$PROJECT_DIR$/addepar/local_minimum.h" />
         <option value="$PROJECT_DIR$/leetcode/34_Search_for_a_Range.h" />
         <option value="$PROJECT_DIR$/addepar/Find_a_peak_element_in_a_2D_array.h" />
@@ -403,6 +379,7 @@
         <option value="$PROJECT_DIR$/cruise/design_excel.h" />
         <option value="$PROJECT_DIR$/cruise/number_of_islands_variant1.h" />
         <option value="$PROJECT_DIR$/cruise/word_cloud.h" />
+        <option value="$PROJECT_DIR$/cruise/distributed_LRU.h" />
       </list>
     </option>
   </component>
@@ -640,12 +617,12 @@
       <workItem from="1541341804270" duration="3926000" />
       <workItem from="1541345814383" duration="8776000" />
       <workItem from="1541358636548" duration="18060000" />
-      <workItem from="1541461096206" duration="17033000" />
+      <workItem from="1541461096206" duration="17145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220496000" />
+    <option name="totallyTimeSpent" value="220608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1281,13 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/distributed_LRU.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cruise/build_tree_by_indentation.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1306,13 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -1416,8 +1379,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/word_cloud.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="598">
           <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/distributed_LRU.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
         </state>
       </provider>
     </entry>
