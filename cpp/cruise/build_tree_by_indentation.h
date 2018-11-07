@@ -33,42 +33,31 @@ rule有两条
 如果少就往上走直到找到indent多的地.
 例子里面c就是indent比b少所以往上走，但是他比a的indent多所以变成a的孩子
 一开始花时间理解这个规则了一会，然后做出来了
-
 第二天挂了，说不fit
 可能是自我介绍讲project那说的不好
- *
- * */
+*/
 
 
 /*
- *  https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=452690&highlight=cruise
- * 2018(10-12月) 码农类General 博士 全职@Cruise - 内推 - 技术电面  | Fail | fresh grad应届毕业生
+https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=452690&highlight=cruise
+2018(10-12月) 码农类General 博士 全职@Cruise - 内推 - 技术电面  | Fail | fresh grad应届毕业生
 Cruise 2轮电面  先安排了一次 再安排的第二次
-
-
 第一轮
 LRU Cache
 follow up问了一下如果分布式如何处理
-
-
 第二轮
 把一个print出来的tree还原成树的形状 不可以有parent指针
-
 比如
 A
    B
    C
           D
        E
-    F
-
+   F
 A是root  然后儿子有B C F
 C的儿子有D和E
-
-字母前面的空格个数不确定  规则是每个点是他之前空格数量第一个比他少的child
-
+字母前面的空格个数不确定,规则是**每个点是他之前空格数量第一个比他少的child**
 面完一周之后HR说木有headcount了
- *
- * */
+*/
 
 #endif //PNSEI_BUILD_TREE_BY_INDENTATION_H
