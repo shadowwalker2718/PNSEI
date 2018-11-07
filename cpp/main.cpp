@@ -76,7 +76,7 @@
 #include "addepar/segment_tree.h"
 #include "addepar/10_Regular_Expression_Matching.h"
 #include "addepar/465_Optimal_Account_Balancing.h"
-#include "addepar/8puzzle.h"
+#include "addepar/8puzzle_AStar.h"
 #include "addepar/37_Sudoku_Solver.h"
 /*class Solutionx {
 public:
