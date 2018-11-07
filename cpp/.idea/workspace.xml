@@ -15,15 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cruise/166_Fraction_to_Recurring_Decimal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/RANSAC.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/reversing_strings_inside_parentheses.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/build_tree_by_indentation.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/build_tree_by_indentation.h" afterDir="false" />
-    </list>
+    <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +139,7 @@
         <counts>
           <entry key="cmath" value="1" />
           <entry key="cpp" value="17" />
-          <entry key="h" value="121" />
+          <entry key="h" value="122" />
           <entry key="md" value="5" />
           <entry key="pnsei (disassembly)" value="14" />
           <entry key="py" value="4" />
@@ -157,7 +149,7 @@
         <counts>
           <entry key="Disassembly" value="14" />
           <entry key="Markdown" value="5" />
-          <entry key="ObjectiveC" value="139" />
+          <entry key="ObjectiveC" value="140" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
@@ -261,20 +253,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cruise/build_tree_by_indentation.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="540">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cruise/number_of_islands_variant1.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cruise/heatmap_argmax.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+            <state relative-caret-position="105">
+              <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -626,12 +618,12 @@
       <workItem from="1541341804270" duration="3926000" />
       <workItem from="1541345814383" duration="8776000" />
       <workItem from="1541358636548" duration="18060000" />
-      <workItem from="1541461096206" duration="18234000" />
+      <workItem from="1541461096206" duration="18656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221697000" />
+    <option name="totallyTimeSpent" value="222119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1316,13 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/heatmap_argmax.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cruise/overlap_polygon.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1405,8 +1390,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/build_tree_by_indentation.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="540">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/heatmap_argmax.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
         </state>
       </provider>
     </entry>
