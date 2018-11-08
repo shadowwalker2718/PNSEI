@@ -31,6 +31,7 @@ SkipListNode *makeNode(int level, int key, int value) {
 void initSkipList(SkipList *pSkipList) {
   if (!pSkipList)
     return;
+  srand(0xdeadbeef);
   SkipListNode *head = makeNode(0, 0, 0);
   if (!head)
     return;
@@ -51,11 +52,13 @@ int randomLevel() {
 }
 
 bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
-  SkipListNode *update[MaxLevel];
   if (!pSkipList)
     return false;
 
+  SkipListNode *update[MaxLevel]={};
+  //FindGreaterOrEqual
   SkipListNode *cur = pSkipList->head;
+  // from top to bottom
   for (int i = pSkipList->level - 1; i >= 0; i--) {
     while (cur->forward[i] && cur->forward[i]->key < searchKey)
       cur = cur->forward[i];
@@ -72,7 +75,6 @@ bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
       pSkipList->level = k;
     }
     cur = makeNode(k, searchKey, newValue);
-    // for (int i = 0; i < pSkipList->level; ++i) {
     for (int i = 0; i < k; ++i) {
       cur->forward[i] = update[i]->forward[i];
       update[i]->forward[i] = cur;
@@ -146,6 +148,17 @@ void travelList(SkipList *pSkipList) {
 }
 
 int test() {
+
+  SkipList sl;
+  initSkipList(&sl);
+  insertNode(&sl, 22,22);
+  insertNode(&sl, 19,19);
+  insertNode(&sl, 7,7);
+  insertNode(&sl, 3,3);
+  insertNode(&sl, 37,37);
+  insertNode(&sl, 37,73);
+  travelList(&sl);
+
   SkipList list;
   initSkipList(&list);
 

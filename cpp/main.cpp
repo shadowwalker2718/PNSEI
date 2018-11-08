@@ -101,6 +101,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _skiplist::test();
   _37_dfs::test();
   addepar_reconcile::test();
   _winner_tree::test();
@@ -177,7 +178,6 @@ int main(int argc, char **argv) {
   _linkedin::test();
   _lnkd_totalcovered_length::test();
   _149::test();
-  _skiplist::test();
 
   _indexheap::test();
   _indexheap::test2();
