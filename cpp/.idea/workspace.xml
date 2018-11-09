@@ -16,7 +16,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skiplist.h" beforeDir="false" afterPath="$PROJECT_DIR$/skiplist.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -161,7 +160,7 @@
           <entry key="GDB" value="15" />
           <entry key="cpp" value="2370" />
           <entry key="dummy" value="39" />
-          <entry key="h" value="12397" />
+          <entry key="h" value="13077" />
           <entry key="md" value="111" />
           <entry key="mm" value="10" />
           <entry key="py" value="132" />
@@ -172,7 +171,7 @@
           <entry key="Doxygen file" value="3" />
           <entry key="GDBCommands" value="15" />
           <entry key="Markdown" value="111" />
-          <entry key="ObjectiveC" value="14774" />
+          <entry key="ObjectiveC" value="15454" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="Python" value="132" />
         </counts>
@@ -194,7 +193,7 @@
         <entry file="file://$PROJECT_DIR$/cruise/308_Range_Sum_Query_2D_Mutable.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="740">
-              <caret line="116" column="2" lean-forward="true" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+              <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -202,8 +201,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skiplist.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+            <state relative-caret-position="353">
+              <caret line="98" column="74" selection-start-line="98" selection-start-column="74" selection-end-line="98" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -211,8 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="332">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -386,11 +385,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="5">
-    <option name="x" value="39" />
-    <option name="y" value="25" />
-    <option name="width" value="1258" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="333" />
+    <option name="y" value="27" />
+    <option name="width" value="1070" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -619,12 +618,12 @@
       <workItem from="1541345814383" duration="8776000" />
       <workItem from="1541358636548" duration="18060000" />
       <workItem from="1541461096206" duration="18956000" />
-      <workItem from="1541602861119" duration="7846000" />
+      <workItem from="1541602861119" duration="18342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230265000" />
+    <option name="totallyTimeSpent" value="240761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,15 +635,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="25" width="1258" height="1055" extended-state="4" />
+    <frame x="333" y="27" width="1070" height="879" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49899396" visible="true" weight="0.18481848" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49899396" weight="0.17687075" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.18855585" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4465479" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2951002" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29444444" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
@@ -653,10 +652,10 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.32739422" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.21222222" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.21222222" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info anchor="bottom" id="Debug" order="14" weight="0.50333333" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.4" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -992,6 +991,16 @@
           <url>file://$PROJECT_DIR$/main.cpp</url>
           <line>103</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/skiplist.h</url>
+          <line>175</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/skiplist.h</url>
+          <line>194</line>
+          <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -1377,23 +1386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/308_Range_Sum_Query_2D_Mutable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="116" column="2" lean-forward="true" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/stdlib.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -1401,10 +1393,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/308_Range_Sum_Query_2D_Mutable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skiplist.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+        <state relative-caret-position="353">
+          <caret line="98" column="74" selection-start-line="98" selection-start-column="74" selection-end-line="98" selection-end-column="74" />
         </state>
       </provider>
     </entry>
