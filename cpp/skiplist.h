@@ -1,10 +1,12 @@
 #pragma once
+
 #include "henry.h"
 #include <random>
 
 
 // very good!!!
 // http://ticki.github.io/blog/skip-lists-done-right/
+// https://en.wikipedia.org/wiki/Skip_list
 namespace _skiplist {
 #define MaxLevel 5
 
@@ -22,7 +24,7 @@ typedef struct SkipList {
 } SkipList;
 
 SkipListNode *makeNode(int level, int key, int value) {
-  SkipListNode *pNode = (SkipListNode *)malloc(sizeof(SkipListNode));
+  SkipListNode *pNode = (SkipListNode *) malloc(sizeof(SkipListNode));
   pNode->key = key;
   pNode->value = value;
   pNode->level = level;
@@ -52,32 +54,9 @@ bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
   if (!pSkipList)
     return false;
 
-  SkipListNode *update[MaxLevel]={};////
+  SkipListNode *update[MaxLevel] = {};////
   //FindGreaterOrEqual
   SkipListNode *cur = pSkipList->head; // insert position
-
-  /*int k=cur->level-1;
-  while (k>=0){
-    tn=cur->next[k]; //temp biggest child node
-    if(tn){
-      int ck=tn->key;
-      if(ck < searchKey){
-        k--;
-      }else if(ck > searchKey){
-        cur=tn;
-      }else{
-        tn->value=newValue;
-        return true;
-      }
-    }else{
-      k--;
-    }
-  }
-  //insert after cur
-  int h = randomLevel();
-  // cut off and splice the lines
-  auto nn=makeNode(h,searchKey, newValue);*/
-
   // from top to bottom
   for (int i = pSkipList->level - 1; i >= 0; i--) {
     while (cur->next[i] && cur->next[i]->key < searchKey)
@@ -96,7 +75,7 @@ bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
     }
     auto nn = makeNode(k, searchKey, newValue);
     for (int i = 0; i < k; ++i) {
-      auto tmp=update[i]->next[i]; // insert a new node in the linked list
+      auto tmp = update[i]->next[i]; // insert a new node in the linked list
       update[i]->next[i] = nn;
       nn->next[i] = tmp;
     }
@@ -106,22 +85,36 @@ bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
 }
 
 SkipListNode *searchNode(SkipList *pSkipList, int searchKey) {
-  if (!pSkipList)
+  if (!pSkipList or pSkipList->head)
     return NULL;
 
-  SkipListNode *pNode = pSkipList->head;
-  if (!pNode)
-    return NULL;
+  SkipListNode *cur = pSkipList->head, *tn; // insert position
+  int k = pSkipList->level;
+  while (k >= 0) {
+    tn = cur->next[k]; //temp biggest child node
+    if (tn) {
+      int ck = tn->key;
+      if (ck > searchKey) {
+        k--;
+      } else if (ck < searchKey) {
+        cur = tn;
+      } else {
+        return tn;
+      }
+    } else {
+      k--;
+    }
+  }
+  return NULL;
 
-  for (int i = pSkipList->level - 1; i >= 0; --i) {
+  /*for (int i = pSkipList->level - 1; i >= 0; --i) {
     while (pNode->next[i] && pNode->next[i]->key < searchKey)
       pNode = pNode->next[i];
   }
-
   pNode = pNode->next[0];
   if (pNode && pNode->key == searchKey)
     return pNode;
-  return NULL;
+  return NULL;*/
 }
 
 bool deleteNode(SkipList *pSkipList, int searchKey) {
@@ -172,26 +165,28 @@ int test() {
 
   SkipList sl;
   initSkipList(&sl);
-  insertNode(&sl, 22,22);
-  insertNode(&sl, 19,19);
-  insertNode(&sl, 7,7);
-  insertNode(&sl, 3,3);
-  insertNode(&sl, 37,37);
-  insertNode(&sl, 11,11);
-  insertNode(&sl, 55,55);
-  insertNode(&sl, 70,70);
-  insertNode(&sl, 86,86);
-  insertNode(&sl, 98,98);
-  insertNode(&sl, 108,108);
-  insertNode(&sl, 87,87);
-  insertNode(&sl, 93,93);
-  insertNode(&sl, 137,137);
-  insertNode(&sl, 111,111);
-  insertNode(&sl, 155,155);
-  insertNode(&sl, 170,170);
-  insertNode(&sl, 186,186);
-  insertNode(&sl, 198,198);
-  insertNode(&sl, 208,208);
+  insertNode(&sl, 22, 22);
+  insertNode(&sl, 19, 19);
+  insertNode(&sl, 7, 7);
+  insertNode(&sl, 3, 3);
+  insertNode(&sl, 37, 37);
+  insertNode(&sl, 11, 11);
+  insertNode(&sl, 55, 55);
+  insertNode(&sl, 70, 70);
+  insertNode(&sl, 86, 86);
+  insertNode(&sl, 98, 98);
+  insertNode(&sl, 108, 108);
+  insertNode(&sl, 87, 87);
+  insertNode(&sl, 93, 93);
+  insertNode(&sl, 137, 137);
+  insertNode(&sl, 111, 111);
+  insertNode(&sl, 155, 155);
+  insertNode(&sl, 170, 170);
+  insertNode(&sl, 186, 186);
+  insertNode(&sl, 198, 198);
+  insertNode(&sl, 208, 208);
+  SkipListNode *pNode = searchNode(&sl, 208);
+  cout << pNode->value << endl;
   travelList(&sl);
 
   SkipList list;
@@ -203,7 +198,7 @@ int test() {
 
   travelList(&list);
 
-  SkipListNode *pNode = searchNode(&list, 2);
+  pNode = searchNode(&list, 2);
   cout << pNode->value << endl;
 
   pNode = searchNode(&list, 10);

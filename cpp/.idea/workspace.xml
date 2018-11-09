@@ -157,10 +157,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="GDB" value="15" />
+          <entry key="GDB" value="22" />
           <entry key="cpp" value="2370" />
           <entry key="dummy" value="39" />
-          <entry key="h" value="13077" />
+          <entry key="h" value="13138" />
           <entry key="md" value="111" />
           <entry key="mm" value="10" />
           <entry key="py" value="132" />
@@ -169,9 +169,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="3" />
-          <entry key="GDBCommands" value="15" />
+          <entry key="GDBCommands" value="22" />
           <entry key="Markdown" value="111" />
-          <entry key="ObjectiveC" value="15454" />
+          <entry key="ObjectiveC" value="15515" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="Python" value="132" />
         </counts>
@@ -201,8 +201,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skiplist.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="98" column="74" selection-start-line="98" selection-start-column="74" selection-end-line="98" selection-end-column="74" />
+            <state relative-caret-position="85">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -210,8 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            <state relative-caret-position="77">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -300,6 +300,7 @@
       <find>vector&lt;vector&lt;int&gt; &gt;</find>
       <find>winner</find>
       <find>num2.size()</find>
+      <find>forward</find>
       <find>skip</find>
     </findStrings>
     <replaceStrings>
@@ -316,6 +317,7 @@
       <replace>treenode</replace>
       <replace>iMatrix</replace>
       <replace>N</replace>
+      <replace>next</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -386,10 +388,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="333" />
+    <option name="x" value="39" />
     <option name="y" value="27" />
-    <option name="width" value="1070" />
-    <option name="height" value="879" />
+    <option name="width" value="940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -618,12 +620,12 @@
       <workItem from="1541345814383" duration="8776000" />
       <workItem from="1541358636548" duration="18060000" />
       <workItem from="1541461096206" duration="18956000" />
-      <workItem from="1541602861119" duration="18342000" />
+      <workItem from="1541602861119" duration="20048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240761000" />
+    <option name="totallyTimeSpent" value="242467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,7 +637,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="333" y="27" width="1070" height="879" extended-state="0" />
+    <frame x="39" y="27" width="940" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49899396" weight="0.17687075" />
@@ -652,10 +654,10 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.32739422" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.21222222" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.21340781" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info anchor="bottom" id="Debug" order="14" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="14" visible="true" weight="0.4" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -994,13 +996,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/skiplist.h</url>
-          <line>175</line>
-          <option name="timeStamp" value="155" />
+          <line>189</line>
+          <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/skiplist.h</url>
-          <line>194</line>
-          <option name="timeStamp" value="156" />
+          <line>187</line>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -1402,8 +1404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="77">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -1412,8 +1414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skiplist.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="98" column="74" selection-start-line="98" selection-start-column="74" selection-end-line="98" selection-end-column="74" />
+        <state relative-caret-position="85">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
