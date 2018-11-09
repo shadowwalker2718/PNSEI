@@ -16,6 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skiplist.h" beforeDir="false" afterPath="$PROJECT_DIR$/skiplist.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -160,7 +161,7 @@
           <entry key="GDB" value="22" />
           <entry key="cpp" value="2370" />
           <entry key="dummy" value="39" />
-          <entry key="h" value="13138" />
+          <entry key="h" value="13210" />
           <entry key="md" value="111" />
           <entry key="mm" value="10" />
           <entry key="py" value="132" />
@@ -171,7 +172,7 @@
           <entry key="Doxygen file" value="3" />
           <entry key="GDBCommands" value="22" />
           <entry key="Markdown" value="111" />
-          <entry key="ObjectiveC" value="15515" />
+          <entry key="ObjectiveC" value="15587" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="Python" value="132" />
         </counts>
@@ -192,17 +193,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cruise/308_Range_Sum_Query_2D_Mutable.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
+            <state relative-caret-position="785">
               <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skiplist.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="-420">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -246,11 +247,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="405">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -326,7 +327,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/utils/binarytree.h" />
         <option value="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" />
         <option value="$PROJECT_DIR$/addepar/segment_tree.h" />
         <option value="$PROJECT_DIR$/utils/binarytree.cpp" />
@@ -377,6 +377,7 @@
         <option value="$PROJECT_DIR$/cruise/308_Range_Sum_Query_2D_Mutable.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/skiplist.h" />
+        <option value="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h" />
       </list>
     </option>
   </component>
@@ -387,7 +388,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="39" />
     <option name="y" value="27" />
     <option name="width" value="940" />
@@ -620,12 +621,12 @@
       <workItem from="1541345814383" duration="8776000" />
       <workItem from="1541358636548" duration="18060000" />
       <workItem from="1541461096206" duration="18956000" />
-      <workItem from="1541602861119" duration="20048000" />
+      <workItem from="1541602861119" duration="21473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242467000" />
+    <option name="totallyTimeSpent" value="243892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,11 +638,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="27" width="940" height="1050" extended-state="0" />
+    <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49899396" weight="0.17687075" />
-      <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.18855585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.17656676" />
+      <window_info id="Structure" order="1" sideWeight="0.50222224" side_tool="true" weight="0.17656676" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4465479" />
@@ -657,7 +658,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.21340781" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info active="true" anchor="bottom" id="Debug" order="14" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.39777777" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -996,12 +997,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/skiplist.h</url>
-          <line>189</line>
+          <line>188</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/skiplist.h</url>
-          <line>187</line>
+          <line>186</line>
           <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1360,13 +1361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cruise/clique.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1395,13 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/308_Range_Sum_Query_2D_Mutable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -1414,8 +1401,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skiplist.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="-420">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/308_Range_Sum_Query_2D_Mutable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>

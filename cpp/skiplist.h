@@ -162,7 +162,6 @@ void travelList(SkipList *pSkipList) {
 }
 
 int test() {
-
   SkipList sl;
   initSkipList(&sl);
   insertNode(&sl, 22, 22);

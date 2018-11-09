@@ -26,8 +26,10 @@ namespace _307_segmentTree{
             if(ti>tj) return 0; // edge case: ti=3, tj=4; ti=4, tj=5
             if(ti==tj) return v[ti];
             int extra=0;
-            if(ti&1) extra+=v[ti++];
-            if((tj&1)==0) extra+=v[tj--];
+            if(ti&1) // tree index ti odd, right child
+              extra+=v[ti++];
+            if((tj&1)==0) // tree index tj even, left child
+              extra+=v[tj--];
             return extra+rec(ti/2,tj/2);
         }
     public:
