@@ -103,7 +103,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
-  _cruise_geometry::test();
+  _cruise_geometry::__quadtree::test();
   _skiplist::test();
   _37_dfs::test();
   addepar_reconcile::test();

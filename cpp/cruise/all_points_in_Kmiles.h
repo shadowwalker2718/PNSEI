@@ -25,177 +25,229 @@
 
 #include "henry.h"
 
-namespace _cruise_geometry{
-// C++ Implementation of quadtree Tree
-// Used to hold details of a point
+struct Point {
+  int x, y;
+
+  Point(int _x, int _y) : x(_x), y(_y) {}
+
+  Point() { x = y = 0; }
+};
+
+
+//#include <boost/geometry/geometries/point.hpp>
+//#include <boost/geometry/geometries/box.hpp>
+//#include <boost/geometry/index/rtree.hpp>
+
+namespace _cruise_geometry {
+
+
+
+//https://stackoverflow.com/questions/1627305/nearest-neighbor-k-d-tree-wikipedia-proof
+namespace __kdtree {
+//using point2d = boost::geometry::model::point<double, 2, boost::geometry::cartesian_tag>;
+//using box2d = boost::geometry::model::box<point2d>;
+
+}
+
+namespace __quadtree {
+
+struct BB{ // bounding box
+  Point lt;
+  Point br;
+};
+
+int distance_square(const Point &a, const Point &b) {
+  int x = a.x - b.x, y = a.y - b.y;
+  return x * x + y * y;
+}
+
+int squared_distance(const Point &a, const Point &b) {
+  int x = a.x - b.x, y = a.y - b.y;
+  return x * x + y * y;
+}
 
 
 // The objects that we want stored in the quadtree
-struct Node{
+struct Node { // point + data
   Point pos;
   int data;
-  Node(Point _pos, int _data):pos(_pos), data(_data){}
-  Node():data(0){}
+  Node(Point _pos, int _data) : pos(_pos), data(_data) {}
+  Node() : data(0) {}
 };
 
 // The main quadtree class
-class quadtree{
-  // Hold details of the boundary of this node
-  Point topLeft;
-  Point botRight;
-
+class quadtree {
+  //bounding box
+  Point l/*topLeft*/, r; //botRight
   // Contains details of node
-  Node *n;
-
+  vector<Node *> nodes; // ?????
   // Children of this tree
-  quadtree *topLeftTree;
-  quadtree *topRightTree;
-  quadtree *botLeftTree;
-  quadtree *botRightTree;
+  array<quadtree *, 4> qts; // *tl, *tr, *bl, *br
+  //quadtree *tl, *tr, *bl, *br; // could be a vector
+  const int MIN_BB_LEN = 4;
+
+  Node *nn_dfs(const Point &p, int &square_distance);
 
 public:
-  quadtree(){
-    topLeft = Point(0, 0);
-    botRight = Point(0, 0);
-    n = NULL;
-    topLeftTree = NULL;
-    topRightTree = NULL;
-    botLeftTree = NULL;
-    botRightTree = NULL;
-  }
-  quadtree(Point topL, Point botR){
-    n = NULL;
-    topLeftTree = NULL;
-    topRightTree = NULL;
-    botLeftTree = NULL;
-    botRightTree = NULL;
-    topLeft = topL;
-    botRight = botR;
-  }
-  void insert(Node*);
-  Node* search(Point);
-  bool inBoundary(Point);
+  quadtree();
+
+  quadtree(Point topL, Point botR);
+
+  void insert(Node *);
+
+  Node *search(Point);// search point to get Node(and data)
+  Node *nn(const Point &); // nearest neighbor
+  vector<Node *> knn(Point, int k); // nearest neighbor
+  vector<Node *> neighbors(Point, int distance); // neighbors in k miles
+  bool inBB(Point); // inside bounding box
 };
 
+// Check if current quadtree contains the point
+//--------------------> x  (coordinates of 4th quandrant)
+// |
+// |     l
+// |
+// v               r
+// y
+bool quadtree::inBB(Point p) { // depends on the direction of coordinate system
+  return (p.x >= l.x && p.x <= r.x && p.y >= l.y && p.y <= r.y);
+}
+
 // Insert a node into the quadtree
-void quadtree::insert(Node *node){
-  if (node == NULL)
+void quadtree::insert(Node *node) {
+  if (node == NULL or !inBB(node->pos)) // Current quad cannot contain it
     return;
-  // Current quad cannot contain it
-  if (!inBoundary(node->pos))
-    return;
-  // We are at a quad of unit area
-  // We cannot subdivide this quad further
-  if (abs(topLeft.x - botRight.x) <= 1 && abs(topLeft.y - botRight.y) <= 1){
-    if (n == NULL)
-      n = node;
+  // We are at a quad of unit area, We cannot subdivide this quad further
+  if (abs(l.x - r.x) <= MIN_BB_LEN and abs(l.y - r.y) <= MIN_BB_LEN) {
+    nodes.push_back(node);
     return;
   }
 
-  if ((topLeft.x + botRight.x) / 2 >= node->pos.x){
-    // Indicates topLeftTree
-    if ((topLeft.y + botRight.y) / 2 >= node->pos.y){
-      if (topLeftTree == NULL)
-        topLeftTree = new quadtree(
-            Point(topLeft.x, topLeft.y),
-            Point((topLeft.x + botRight.x) / 2,
-                  (topLeft.y + botRight.y) / 2));
-      topLeftTree->insert(node);
-    }else // Indicates botLeftTree
-    {
-      if (botLeftTree == NULL)
-        botLeftTree = new quadtree(
-            Point(topLeft.x,
-                  (topLeft.y + botRight.y) / 2),
-            Point((topLeft.x + botRight.x) / 2,
-                  botRight.y));
-      botLeftTree->insert(node);
+  if ((l.x + r.x) / 2 >= node->pos.x) {
+    // Indicates tl
+    if ((l.y + r.y) / 2 >= node->pos.y) {
+      if (qts[0] == NULL)
+        qts[0] = new quadtree(Point(l.x, l.y), Point((l.x + r.x) / 2, (l.y + r.y) / 2));
+      qts[0]->insert(node);
+    } else { // Indicates bl
+      if (qts[1] == NULL)
+        qts[1] = new quadtree(Point(l.x, (l.y + r.y) / 2), Point((l.x + r.x) / 2, r.y));
+      qts[1]->insert(node);
     }
-  } else {// Indicates topRightTree
-    if ((topLeft.y + botRight.y) / 2 >= node->pos.y) {
-      if (topRightTree == NULL)
-        topRightTree = new quadtree(
-            Point((topLeft.x + botRight.x) / 2,
-                  topLeft.y),
-            Point(botRight.x,
-                  (topLeft.y + botRight.y) / 2));
-      topRightTree->insert(node);
-    }
-
-
-    else
-    { // Indicates botRightTree
-      if (botRightTree == NULL)
-        botRightTree = new quadtree(
-            Point((topLeft.x + botRight.x) / 2,
-                  (topLeft.y + botRight.y) / 2),
-            Point(botRight.x, botRight.y));
-      botRightTree->insert(node);
+  } else {// Indicates tr
+    if ((l.y + r.y) / 2 >= node->pos.y) {
+      if (qts[2] == NULL)
+        qts[2] = new quadtree(Point((l.x + r.x) / 2, l.y), Point(r.x, (l.y + r.y) / 2));
+      qts[2]->insert(node);
+    } else { // Indicates br
+      if (qts[3] == NULL)
+        qts[3] = new quadtree(Point((l.x + r.x) / 2, (l.y + r.y) / 2), Point(r.x, r.y));
+      qts[3]->insert(node);
     }
   }
 }
 
 // Find a node in a quadtree
-Node* quadtree::search(Point p){
+Node *quadtree::search(Point p) {
   // Current quad cannot contain it
-  if (!inBoundary(p))
+  if (!inBB(p))
     return NULL;
-  // We are at a quad of unit length
-  // We cannot subdivide this quad further
-  if (n != NULL)
-    return n;
-  if ((topLeft.x + botRight.x) / 2 >= p.x) {
-    // Indicates topLeftTree
-    if ((topLeft.y + botRight.y) / 2 >= p.y) {
-      if (topLeftTree == NULL)
-        return NULL;
-      return topLeftTree->search(p);
-    } else { // Indicates botLeftTree
-      if (botLeftTree == NULL)
-        return NULL;
-      return botLeftTree->search(p);
+  // We are at a quad of unit length, We cannot subdivide this quad further
+  if (!nodes.empty()) { // ONLY leaf nodes have data information
+    for (Node *nd: nodes) {
+      if (nd->pos.x == p.x and nd->pos.y == p.y)
+        return nd;
     }
-  } else { // Indicates topRightTree
-    if ((topLeft.y + botRight.y) / 2 >= p.y) {
-      if (topRightTree == NULL)
-        return NULL;
-      return topRightTree->search(p);
-    } else {// Indicates botRightTree
-      if (botRightTree == NULL)
-        return NULL;
-      return botRightTree->search(p);
+    return NULL;
+  }
+  if ((l.x + r.x) / 2 >= p.x) {
+    if ((l.y + r.y) / 2 >= p.y) { // Indicates tl
+      return qts[0] ? qts[0]->search(p) : NULL;
+    } else { // Indicates bl
+      return qts[1] ? qts[1]->search(p) : NULL;
+    }
+  } else {
+    if ((l.y + r.y) / 2 >= p.y) { // Indicates tr
+      return qts[2] ? qts[2]->search(p) : NULL;
+    } else {// Indicates br
+      return qts[3] ? qts[3]->search(p) : NULL;
     }
   }
+}
+
+Node *quadtree::nn(const Point &p) {
+  if (!inBB(p)) return NULL;
+  int distance = INT_MAX;
+  return nn_dfs(p, distance);
+}
+
+
+Node *quadtree::nn_dfs(const Point &p, int &mx) {
+  if(!inBB(p)){ //////
+    // compare with (point - BB) distance
+    int dis_square_to_BB = min(min((l.x - p.x) * (l.x - p.x), (r.x - p.x) * (r.x - p.x)),
+                               min((l.y - p.y) * (l.y - p.y), (r.y - p.y) * (r.y - p.y)));
+    if (mx < dis_square_to_BB)
+      return NULL;
+  }
+  Node *r = NULL;
+  if (!nodes.empty()) { // leaf qt node
+    for (Node *n: nodes) {
+      int d = distance_square(p, n->pos);
+      if (d < mx)
+        mx = d, r = n;
+    }
+  } else { // other qts
+    for (int i = 0; i < 4; i++) {
+      if (qts[i] == nullptr) continue;
+      auto tmp = qts[i]->nn_dfs(p, mx);
+      if (tmp) {
+        r = tmp;
+      }
+    }
+  }
+  return r;
+}
+
+quadtree::quadtree() {
+  l = r = Point(0, 0);
+  fill(qts.begin(), qts.end(), nullptr);
+}
+
+quadtree::quadtree(Point topL, Point botR) {
+  l = topL;
+  r = botR;
+  fill(qts.begin(), qts.end(), nullptr);
 };
 
-// Check if current quadtree contains the point
-bool quadtree::inBoundary(Point p) {
-  return (p.x >= topLeft.x && p.x <= botRight.x && p.y >= topLeft.y && p.y <= botRight.y);
-}
 
 // http://ericandrewlewis.github.io/how-a-quadtree-works/
 // http://bl.ocks.org/llb4ll/8709363
 // https://blog.insightdatascience.com/planting-quadtrees-for-apache-flink-b396ebc80d35
 // http://danielblazevski.github.io/assets/player/KeynoteDHTMLPlayer.html#12
-int test(){
-  quadtree center(Point(0, 0), Point(8, 8));
+// https://developer.apple.com/documentation/gameplaykit/gkquadtree
+int test() {
+  quadtree qt(Point(0, 0), Point(8, 8));
   Node a(Point(1, 1), 1);
   Node b(Point(2, 5), 2);
   Node c(Point(7, 6), 3);
-  center.insert(&a);
-  center.insert(&b);
-  center.insert(&c);
-  cout << "Node a: " <<
-       center.search(Point(1, 1))->data << "\n";
-  cout << "Node b: " <<
-       center.search(Point(2, 5))->data << "\n";
-  cout << "Node c: " <<
-       center.search(Point(7, 6))->data << "\n";
-  cout << "Non-existing node: "
-       << center.search(Point(5, 5));
+  Node d(Point(0, 3), 0);
+  qt.insert(&a);
+  qt.insert(&d);
+  qt.insert(&b);
+  qt.insert(&c);
+  assert(qt.search(Point(1, 1))->data == 1);
+  assert(qt.search(Point(2, 5))->data == 2);
+  assert(qt.search(Point(7, 6))->data == 3);
+  assert(nullptr == qt.search(Point(5, 5)));
+  assert(qt.nn(Point(3, 3))->data == 2);
+  assert(qt.nn(Point(2, 3))->data == 2);
+  assert(qt.nn(Point(2, 4))->data == 2);
+  assert(qt.nn(Point(2, 1))->data == 1);
   return 0;
 }
 
+}
 }
 
 
