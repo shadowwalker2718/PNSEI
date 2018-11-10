@@ -173,9 +173,11 @@ bool quadtree::inBoundary(Point p) {
   return (p.x >= topLeft.x && p.x <= botRight.x && p.y >= topLeft.y && p.y <= botRight.y);
 }
 
-// Driver program
-int test()
-{
+// http://ericandrewlewis.github.io/how-a-quadtree-works/
+// http://bl.ocks.org/llb4ll/8709363
+// https://blog.insightdatascience.com/planting-quadtrees-for-apache-flink-b396ebc80d35
+// http://danielblazevski.github.io/assets/player/KeynoteDHTMLPlayer.html#12
+int test(){
   quadtree center(Point(0, 0), Point(8, 8));
   Node a(Point(1, 1), 1);
   Node b(Point(2, 5), 2);

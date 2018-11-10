@@ -17,7 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/cruise/all_points_in_Kmiles.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/all_points_in_Kmiles.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/henry.h" beforeDir="false" afterPath="$PROJECT_DIR$/henry.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,7 +160,7 @@
           <entry key="GDB" value="22" />
           <entry key="cpp" value="2395" />
           <entry key="dummy" value="39" />
-          <entry key="h" value="13441" />
+          <entry key="h" value="13453" />
           <entry key="md" value="111" />
           <entry key="mm" value="10" />
           <entry key="py" value="132" />
@@ -172,7 +171,7 @@
           <entry key="Doxygen file" value="3" />
           <entry key="GDBCommands" value="22" />
           <entry key="Markdown" value="111" />
-          <entry key="ObjectiveC" value="15843" />
+          <entry key="ObjectiveC" value="15855" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="Python" value="132" />
         </counts>
@@ -202,8 +201,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="171" column="35" selection-start-line="171" selection-start-column="35" selection-end-line="171" selection-end-column="35" />
+            <state relative-caret-position="292">
+              <caret line="187" column="23" lean-forward="true" selection-start-line="187" selection-start-column="23" selection-end-line="187" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -312,6 +311,7 @@
       <find>num2.size()</find>
       <find>forward</find>
       <find>skip</find>
+      <find>Quad</find>
     </findStrings>
     <replaceStrings>
       <replace>LONG_MAX</replace>
@@ -328,6 +328,7 @@
       <replace>iMatrix</replace>
       <replace>N</replace>
       <replace>next</replace>
+      <replace>quadtree</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -625,12 +626,12 @@
       <workItem from="1541345814383" duration="8776000" />
       <workItem from="1541358636548" duration="18060000" />
       <workItem from="1541461096206" duration="18956000" />
-      <workItem from="1541602861119" duration="24330000" />
+      <workItem from="1541602861119" duration="26829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246749000" />
+    <option name="totallyTimeSpent" value="249248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1428,8 +1429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="171" column="35" selection-start-line="171" selection-start-column="35" selection-end-line="171" selection-end-column="35" />
+        <state relative-caret-position="292">
+          <caret line="187" column="23" lean-forward="true" selection-start-line="187" selection-start-column="23" selection-end-line="187" selection-end-column="23" />
         </state>
       </provider>
     </entry>
