@@ -78,6 +78,8 @@
 #include "addepar/465_Optimal_Account_Balancing.h"
 #include "addepar/8puzzle_AStar.h"
 #include "addepar/37_Sudoku_Solver.h"
+
+#include "cruise/all_points_in_Kmiles.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -101,6 +103,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _cruise_geometry::test();
   _skiplist::test();
   _37_dfs::test();
   addepar_reconcile::test();
