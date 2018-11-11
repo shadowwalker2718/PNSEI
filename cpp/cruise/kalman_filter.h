@@ -10,10 +10,10 @@
  * 2018(4-6月) 码农类General 博士 全职@Cruise - 网上海投 - Onsite  | Fail | 在职跳槽
 以下内容需要积分高于 150 您已经可以浏览
 
-职位：Perception(AV)
+职位:Perception(AV)
 
- 店面第一轮：LRU， follow up templated version.
-店面第二轮：Range sum 2D（integral image）
+ 店面第一轮:LRU, follow up templated version.
+店面第二轮:Range sum 2D（integral image)
 
  onsite
 
@@ -23,12 +23,12 @@ Kalman filter vs Particle filter when? why.   Property of covariance matrix??
 
 Connected components maxSum(coding), similar to number of island 2.
 
-Behavior. How did you work with your manager, whats the regret in previous job, what’s the failure in previous job,
+Behavior. How did you work with your manager, whats the regret in previous job, what's the failure in previous job,
  what did you learn in previous project.
 
 Design poker game. (every player has 5 cards in hand and can choose to replace a certain number of cards with the
  cards in the deck, then compute the scores of each player and find the largest score player among the players).
-这家公司挺抠门的，路费只报销30刀，单程打车都不够，自己感觉面得还行不过面完隔了两天就收到拒信了，模板据。
+这家公司挺抠门的,路费只报销30刀,单程打车都不够,自己感觉面得还行不过面完隔了两天就收到拒信了,模板据.
  *
  * */
 #include "henry.h"
@@ -81,10 +81,10 @@ void kalman_filter(){
 
 
 /*  ---------------------
-      作者：凡旭国
-  来源：CSDN
-  原文：https://blog.csdn.net/sinat_20265495/article/details/51006311
-  版权声明：本文为博主原创文章，转载请附上博文链接！*/
+      作者:凡旭国
+  来源:CSDN
+  原文:https://blog.csdn.net/sinat_20265495/article/details/51006311
+  版权声明:本文为博主原创文章,转载请附上博文链接!*/
 }
 
 // http://www.nehalemlabs.net/prototype/blog/2013/07/16/an-introduction-to-smoothing-time-series-in-python-part-iv-particle-filter/

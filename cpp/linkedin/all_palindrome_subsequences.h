@@ -8,9 +8,9 @@ namespace _allLPS {
 标  题: LinkedIn onsite一道题
 发信站: BBS 未名空间站 (Tue Sep 15 13:54:34 2015, 美东)
 
-给一个string, 可以删除任意字符，求所有可以得到的palidrome字串集
+给一个string, 可以删除任意字符,求所有可以得到的palidrome字串集
 
-我就想了个递归, 还是没有区分掉一些重复的情况，worst case O(2^n)基本同暴力解
+我就想了个递归, 还是没有区分掉一些重复的情况,worst case O(2^n)基本同暴力解
 Map<Integer, Set<String>> allSubSet = new HashMap();
 Set<String> getAllPalidrome(String s, int x, int y){
 int ind = x * s.length() + y;

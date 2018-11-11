@@ -7,8 +7,8 @@ namespace _winner_tree {
 /*
  * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=216014&highlight=addepar
  * 2016(10-12月) 码农类General 硕士 全职 Addepar - 网上海投 - 技术电面  | Other | fresh grad应届毕业生
-11.15号面的第一轮：
-第一题：有n个数，需要比几次才能选出最大值，n-1，然后怎么证明……证明…………证……怎么跟高数一样，这还需要证？这还能这么证……
+11.15号面的第一轮:
+第一题:有n个数,需要比几次才能选出最大值,n-1,然后怎么证明......证明............证......怎么跟高数一样,这还需要证?这还能这么证......
  *
  * */
 

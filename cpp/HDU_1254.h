@@ -26,7 +26,7 @@ vector<vector<int>> B = {{0, 3, 0, 0, 0},
                          {1, 0, 2, 0, 0},
                          {0, 0, 0, 0, 0}};
 int ROW = 5, COL = 5;
-//判重需要开4维数组，分别保存Man的坐标和Box的坐标
+//判重需要开4维数组,分别保存Man的坐标和Box的坐标
 bool bitmap[10][10][10][10] = {};
 const int dx[] = {0, 0, 1, -1}, dy[] = {1, -1, 0, 0};
 struct node {
@@ -38,7 +38,7 @@ struct pos {
 node start;
 queue<node> q;
 
-//预处理起点后可以标记成空的地板，方便操作
+//预处理起点后可以标记成空的地板,方便操作
 void input(int m, int n) {
   for (int i = 0; i < m; i++)
     for (int j = 0; j < n; j++)

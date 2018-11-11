@@ -10,11 +10,11 @@
 
 问的是Highest Minimum Sharpness, follow up是1M*1M board
 
-用的是DP：
+用的是DP:
 f(r, 0) = board[r][0]
 f(r, c) = min(board[r][c], max(f(r-1,c-1), f(r, c-1), f(r, c+1)))
 
-代码如下：
+代码如下:
 
 def find_highest_minimum_sharpness(board):
     rows, cols = len(board), len(board[0])
@@ -51,15 +51,15 @@ disk seeks for read and `N*N/K` disk seeks for write.
 /*
  * https://www.1point3acres.com/bbs/thread-307965-1-1.html
  *
-followup和之前的面经一样，问的是如果是100million * 100 million怎么办。
-因为看过面经，我先回答的是答案是把这个matrix翻转90度，然后一行行处理.
+followup和之前的面经一样,问的是如果是100million * 100 million怎么办.
+因为看过面经,我先回答的是答案是把这个matrix翻转90度,然后一行行处理.
 
- 但翻转的时候，读行输出列会有硬盘(写)文件耗时，读列输出行会有硬盘(读)文件耗时。
-//?? 然后又回答说可以读一个正方形，一个正方形一个正方形处理。
- 小哥让把code写一下，我就写了一段pseudocode。
+ 但翻转的时候,读行输出列会有硬盘(写)文件耗时,读列输出行会有硬盘(读)文件耗时.
+//?? 然后又回答说可以读一个正方形,一个正方形一个正方形处理.
+ 小哥让把code写一下,我就写了一段pseudocode.
 
-然后小哥给分析了下发现这样有问题。如果处理matrix中间5x5矩阵，已知第一列中的五个值X，
- 第二列只能算出来中间三个值，第三列只能算出来中间一个值。最后说还是只能翻转90度再一行行的做。
+然后小哥给分析了下发现这样有问题.如果处理matrix中间5x5矩阵,已知第一列中的五个值X,
+ 第二列只能算出来中间三个值,第三列只能算出来中间一个值.最后说还是只能翻转90度再一行行的做.
 X O O O O               X O O O O
 X O O O O               X X O O O
 X O O O O  -------->    X X X O O

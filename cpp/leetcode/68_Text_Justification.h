@@ -38,7 +38,7 @@ struct Solution {                                                // 0ms
     vector<string> r;
     int L = ws.size(), m = 0, sumlen = 0, i = 0;
 
-    while (i < L) { // sumlen:该行所有单词长度和，m:该行单词数目=groove+1
+    while (i < L) { // sumlen:该行所有单词长度和,m:该行单词数目=groove+1
       // 1. 找到填满一行需要的单词
       m = 0, sumlen = 0;
       // 1个单词0个空格,2个单词至少1个空格,3个单词至少2个空格

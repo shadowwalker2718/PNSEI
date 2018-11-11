@@ -8,13 +8,13 @@
 /*
  * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=453208&highlight=cruise
  * 2018(10-12月) 码农类General 本科 全职@Cruise - 内推 - 技术电面  | Fail | fresh grad应届毕业生
-地里推的，感谢&#128591;. 一亩-三分-地，独家发布
-九月底做的oa，和大家一样
+地里推的,感谢&#128591;. 一亩-三分-地,独家发布
+九月底做的oa,和大家一样
 十月底店面的.
 一个印度小哥做data infra的面的.
 聊简历
 题是建一个树根据indentation
-ex：
+ex:
 输入
 a
     b
@@ -31,9 +31,9 @@ rule有两条
 每行的那个新node先跟上一行比
 如果indent比上一行的node多就变成上一个的child
 如果少就往上走直到找到indent多的地.
-例子里面c就是indent比b少所以往上走，但是他比a的indent多所以变成a的孩子
-一开始花时间理解这个规则了一会，然后做出来了
-第二天挂了，说不fit
+例子里面c就是indent比b少所以往上走,但是他比a的indent多所以变成a的孩子
+一开始花时间理解这个规则了一会,然后做出来了
+第二天挂了,说不fit
 可能是自我介绍讲project那说的不好
 */
 

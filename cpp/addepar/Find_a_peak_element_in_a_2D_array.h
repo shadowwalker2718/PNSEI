@@ -26,8 +26,8 @@ Output : 17
 // Algo
 //////////////////////////////////////////////////////////////
 Consider mid column and find maximum element in it.
-Let index of mid column be ‘mid’, value of maximum element in mid column be ‘max’ and maximum
- element be at ‘mat[max_index][mid]’.
+Let index of mid column be 'mid', value of maximum element in mid column be 'max' and maximum
+ element be at 'mat[max_index][mid]'.
 If max >= A[index][mid-1] & max >= A[index][pick+1], max is a peak, return max.
 If max < mat[max_index][mid-1], recur for left half of matrix.
 If max < mat[max_index][mid+1], recur for right half of matrix.

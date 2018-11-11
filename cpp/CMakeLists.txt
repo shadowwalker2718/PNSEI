@@ -77,7 +77,7 @@ add_executable(pnsei
         skiplist.h
         sparsematrix.h
         stree.h
-        addepar/winner_tree.h "leetcode/927_Three_Equal_Parts.h" cruise/clique.h cruise/distributed_LRU.h cruise/encircular.h "dropbox/289. Game of Life.h"
+        addepar/winner_tree.h "leetcode/927_Three_Equal_Parts.h" cruise/clique.h cruise/distributed_LRU.h cruise/encircular.h "dropbox/289_Game_of_Life.h"
         "dropbox/highest_minimum_sharpness.h"
         "dropbox/highest_minimum_sharpness.cpp"
         "addepar/addepar.h"
