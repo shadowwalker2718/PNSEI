@@ -9,38 +9,38 @@
 
 #include "henry.h"
 
-namespace bolt{
+namespace bolt {
 
-    // DFS ===>> stack
-    string simplify_algebraic_string(const string& s){
-        string r;
-        int d=0;
-        stack<bool> stk;
-        stk.push(true);
-        for(int i=0;i<s.size();i++){
-            char c=s[i];
-            if(c=='('){
-                bool b=stk.top();
-                stk.push(s[i-1]=='-'?(!b):b);
-            }else if(c==')'){
-                stk.pop();
-            }else if(c=='+' or c=='-'){
-                r+=stk.top()?c:(c=='+'?'-':'+');
-            }else{
-                r+=c;
-            }
-
-        }
-        return r;
+// DFS ===>> stack
+string simplify_algebraic_string(const string &s) {
+  string r;
+  int d = 0;
+  stack<bool> stk;
+  stk.push(true);
+  for (int i = 0; i < s.size(); i++) {
+    char c = s[i];
+    if (c == '(') {
+      bool b = stk.top();
+      stk.push(s[i - 1] == '-' ? (!b) : b);
+    } else if (c == ')') {
+      stk.pop();
+    } else if (c == '+' or c == '-') {
+      r += stk.top() ? c : (c == '+' ? '-' : '+');
+    } else {
+      r += c;
     }
 
-    void test(){
-        assert(simplify_algebraic_string("a-(b+c)")=="a-b-c");
-        assert(simplify_algebraic_string("a-(b-c-(d+e))-f")=="a-b+c+d+e-f");
-        assert(simplify_algebraic_string("-(a+b)")=="-a-b");
-        assert(simplify_algebraic_string("a-(b-(c-d))")=="a-b+c-d");
-        assert(simplify_algebraic_string("a-(b-(c-d)-e+(f+g))")=="a-b+c-d+e-f-g");
-    }
+  }
+  return r;
+}
+
+void test() {
+  assert(simplify_algebraic_string("a-(b+c)") == "a-b-c");
+  assert(simplify_algebraic_string("a-(b-c-(d+e))-f") == "a-b+c+d+e-f");
+  assert(simplify_algebraic_string("-(a+b)") == "-a-b");
+  assert(simplify_algebraic_string("a-(b-(c-d))") == "a-b+c-d");
+  assert(simplify_algebraic_string("a-(b-(c-d)-e+(f+g))") == "a-b+c-d+e-f-g");
+}
 
 };
 

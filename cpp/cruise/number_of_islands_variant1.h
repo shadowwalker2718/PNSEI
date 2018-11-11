@@ -14,7 +14,8 @@ follwup 小岛头尾连起来.
 简历问得很细.很深.
 
  https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=445188&highlight=cruise
- coding是number of islands,dfs解的,follow up 1 八个方向, follow up 2 把这个平面卷成一个圆柱体, 即最左边的一栏和最右边的一栏相接
+ coding是number of islands,dfs解的,follow up 1 八个方向, follow up 2 把这个平面卷成一个圆柱体,
+ 即最左边的一栏和最右边的一栏相接
 
  https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=454393&highlight=cruise
  2018(10-12月) 码农类General 硕士 全职@Cruise - Other - HR筛选  | Fail | fresh grad应届毕业生
@@ -24,7 +25,8 @@ follwup 小岛头尾连起来.
  *
  * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=297272&highlight=cruise
  * 题很简单,但是只能用c++写,我还忘记了一个api的用法很尴尬.感觉他家挺好的,属于比较好的startup了,求onsite.
-考的一道题是connected components.大概有点像数小岛,就用dfs或者bfs直接做就好啦.但是followup问我如果grid是immutable的要怎么做,如果grid太大不能用额外的空间怎么做.时间复杂度也问的比较详细
+考的一道题是connected components.大概有点像数小岛,就用dfs或者bfs直接做就好啦.
+ 但是followup问我如果grid是immutable的要怎么做,如果grid太大不能用额外的空间怎么做.时间复杂度也问的比较详细
  *
  * */
 

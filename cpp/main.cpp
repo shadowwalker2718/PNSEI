@@ -81,6 +81,9 @@
 
 #include "cruise/all_points_in_Kmiles.h"
 #include "cruise/build_tree_by_indentation.h"
+#include "cruise/816_Ambiguous_Coordinates.h"
+#include "cruise/224_Basic_Calculator.h"
+#include "cruise/150_Evaluate_Reverse_Polish_Notation.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -104,6 +107,9 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _150::test();
+  _224::test();
+  _816::test();
   cruise_recover_tree::test();
   _cruise_geometry::__quadtree::test();
   _skiplist::test();

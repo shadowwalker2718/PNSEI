@@ -16,6 +16,7 @@
 3)然后问了工作中challenging一件事
 
 答完以后开始coding.
+
 给两个array of string（汽车品牌名字),找出重复的string,先说了用set 扫两遍,问了我时间和空间复杂度,然后说内存有限,不能开extra
  space,提示可以对原数组进行改动,于是就sort了两个array,然后2 pointer 解决了问题,又分析了一遍时间复杂度（我是一步一步的在codepad
  上吧分析复杂度的过程写出来的).写完代码以后自己create了两个test case,run一下,通过了.
