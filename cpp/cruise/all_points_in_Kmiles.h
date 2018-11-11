@@ -108,6 +108,12 @@ public:
   bool inBB(Point); // inside bounding box
 };
 
+quadtree::quadtree(Point topL, Point botR) {
+  l = topL;
+  r = botR;
+  fill(qts.begin(), qts.end(), nullptr);
+}
+
 // Check if current quadtree contains the point
 //--------------------> x  (coordinates of 4th quandrant)
 // |
@@ -214,13 +220,6 @@ Node *quadtree::nn_dfs(const Point &p, int &mx2) {
   }
   return r;
 }
-
-quadtree::quadtree(Point topL, Point botR) {
-  l = topL;
-  r = botR;
-  fill(qts.begin(), qts.end(), nullptr);
-}
-
 
 vector<Node *> quadtree::knn(const Point &p, int k) {
   if (k <= 0) return {};

@@ -165,7 +165,7 @@
           <entry key="GDB" value="28" />
           <entry key="cpp" value="2398" />
           <entry key="dummy" value="39" />
-          <entry key="h" value="16263" />
+          <entry key="h" value="16267" />
           <entry key="md" value="111" />
           <entry key="mm" value="24" />
           <entry key="py" value="132" />
@@ -176,7 +176,7 @@
           <entry key="Doxygen file" value="3" />
           <entry key="GDBCommands" value="28" />
           <entry key="Markdown" value="111" />
-          <entry key="ObjectiveC" value="18682" />
+          <entry key="ObjectiveC" value="18686" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="Python" value="132" />
         </counts>
@@ -188,8 +188,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+            <state relative-caret-position="1725">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
         </entry>
@@ -602,12 +602,12 @@
       <workItem from="1541602861119" duration="28683000" />
       <workItem from="1541862490941" duration="1208000" />
       <workItem from="1541864103582" duration="11912000" />
-      <workItem from="1541891834786" duration="3931000" />
+      <workItem from="1541891834786" duration="4077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268153000" />
+    <option name="totallyTimeSpent" value="268299000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +639,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.37444445" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info active="true" anchor="bottom" id="Debug" order="14" visible="true" weight="0.45222223" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.45222223" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -993,17 +993,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h</url>
-          <line>311</line>
+          <line>310</line>
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h</url>
-          <line>303</line>
+          <line>302</line>
           <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h</url>
-          <line>314</line>
+          <line>313</line>
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1424,8 +1424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        <state relative-caret-position="1725">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
