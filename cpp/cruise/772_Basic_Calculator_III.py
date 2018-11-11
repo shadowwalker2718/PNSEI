@@ -34,28 +34,29 @@ class Solution(object):
         precedence = {'*': 1, '/': 1, '+': 0, '-': 0}
 
         def shunting_yard(s):  # to RPN
-            n, q, k = 0, [], []  # one output queue and one operator stack
-            for i in range(len(s)):
+            i, n, q, k = 0, 0, [], []  # one output queue and one operator stack
+            while i<len(s):
                 c = s[i]
                 if c.isdigit():
-                    n = n * 10 + int(c)
+                    j=i
+                    while j<len(s) and s[j].isdigit():
+                        n = n * 10 + int(s[j])
+                        j+=1
+                    i=j
+                    q.append(n)
+                    n=0
+                    continue
                 elif c == '(':
                     k.append(c)
                 elif c == ')':
-                    q.append(n)  ####
-                    n = 0
                     while k[-1] != '(':
                         q.append(k.pop())
                     k.pop()
                 else:
-                    if i >= 1 and s[i - 1].isdigit():  ####
-                        q.append(n)
-                        n = 0
                     while len(k) > 0 and k[-1] != '(' and precedence[k[-1]] >= precedence[c]:
                         q.append(k.pop())
                     k.append(c)
-            if len(s) > 1 and s[-1].isdigit():  ####
-                q.append(n)
+                i+=1
             while len(k) > 0:
                 q.append(k.pop())
             return q
@@ -65,7 +66,8 @@ class Solution(object):
             m = {'+': lambda x, y: x + y,
                  '-': lambda x, y: x - y,
                  '*': lambda x, y: x * y,
-                 '/': lambda x, y: x // y}
+                 '/': lambda x, y: x // y ##??
+                 }
             for c in v:
                 if c == '+' or c == '-' or c == '*' or c == '/':
                     stk[-2] = m[c](stk[-2], stk[-1])
