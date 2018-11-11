@@ -14,7 +14,7 @@
 一个印度小哥做data infra的面的.
 聊简历
 题是建一个树根据indentation
-ex:
+example:
 输入
 a
     b
@@ -35,10 +35,8 @@ rule有两条
 一开始花时间理解这个规则了一会,然后做出来了
 第二天挂了,说不fit
 可能是自我介绍讲project那说的不好
-*/
+========================================================================================
 
-
-/*
 https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=452690&highlight=cruise
 2018(10-12月) 码农类General 博士 全职@Cruise - 内推 - 技术电面  | Fail | fresh grad应届毕业生
 Cruise 2轮电面  先安排了一次 再安排的第二次
@@ -59,5 +57,7 @@ C的儿子有D和E
 字母前面的空格个数不确定,规则是**每个点是他之前空格数量第一个比他少的child**
 面完一周之后HR说木有headcount了
 */
+
+
 
 #endif //PNSEI_BUILD_TREE_BY_INDENTATION_H
