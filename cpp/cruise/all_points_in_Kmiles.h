@@ -27,9 +27,7 @@
 
 struct Point {
   int x, y;
-
   Point(int _x, int _y) : x(_x), y(_y) {}
-
   Point() { x = y = 0; }
 };
 
@@ -51,7 +49,9 @@ namespace __kdtree {
 
 namespace __quadtree {
 
-struct BB{ // bounding box
+
+
+struct BB { // bounding box
   Point lt;
   Point br;
 };
@@ -61,9 +61,9 @@ int distance_square(const Point &a, const Point &b) {
   return x * x + y * y;
 }
 
-int squared_distance(const Point &a, const Point &b) {
-  int x = a.x - b.x, y = a.y - b.y;
-  return x * x + y * y;
+int squared_distance(const Point &a, const BB &b) {
+  //TODO
+  return 0;
 }
 
 
@@ -74,6 +74,11 @@ struct Node { // point + data
   Node(Point _pos, int _data) : pos(_pos), data(_data) {}
   Node() : data(0) {}
 };
+
+struct comp {
+  bool operator()(pair<int, Node *> a, pair<int, Node *> b) { return a.first > b.first; }
+};
+using PriorityQueueT = priority_queue<pair<int, Node *>, vector<pair<int, Node *>>, comp>;
 
 // The main quadtree class
 class quadtree {
@@ -86,19 +91,20 @@ class quadtree {
   //quadtree *tl, *tr, *bl, *br; // could be a vector
   const int MIN_BB_LEN = 4;
 
-  Node *nn_dfs(const Point &p, int &square_distance);
+  Node *nn_dfs(const Point &p, int &mx2);
+
+  void knn_dfs(const Point &p, int &mx2, PriorityQueueT &);
+  void neighbors_dfs(const Point &p, int distance, vector<Node*>&);
 
 public:
-  quadtree();
-
   quadtree(Point topL, Point botR);
 
   void insert(Node *);
 
   Node *search(Point);// search point to get Node(and data)
   Node *nn(const Point &); // nearest neighbor
-  vector<Node *> knn(Point, int k); // nearest neighbor
-  vector<Node *> neighbors(Point, int distance); // neighbors in k miles
+  vector<Node *> knn(const Point &p, int k); // nearest neighbor
+  vector<Node *> neighbors(const Point &p, int distance); // neighbors in k miles
   bool inBB(Point); // inside bounding box
 };
 
@@ -182,25 +188,25 @@ Node *quadtree::nn(const Point &p) {
 }
 
 
-Node *quadtree::nn_dfs(const Point &p, int &mx) {
-  if(!inBB(p)){ //////
-    // compare with (point - BB) distance
+Node *quadtree::nn_dfs(const Point &p, int &mx2) {
+  if (not inBB(p)) { //////
+    // compare with (point - BB) distance; ~ To be improved!
     int dis_square_to_BB = min(min((l.x - p.x) * (l.x - p.x), (r.x - p.x) * (r.x - p.x)),
                                min((l.y - p.y) * (l.y - p.y), (r.y - p.y) * (r.y - p.y)));
-    if (mx < dis_square_to_BB)
+    if (mx2 < dis_square_to_BB)
       return NULL;
   }
   Node *r = NULL;
   if (!nodes.empty()) { // leaf qt node
     for (Node *n: nodes) {
       int d = distance_square(p, n->pos);
-      if (d < mx)
-        mx = d, r = n;
+      if (d < mx2)
+        mx2 = d, r = n;
     }
   } else { // other qts
     for (int i = 0; i < 4; i++) {
       if (qts[i] == nullptr) continue;
-      auto tmp = qts[i]->nn_dfs(p, mx);
+      auto tmp = qts[i]->nn_dfs(p, mx2);
       if (tmp) {
         r = tmp;
       }
@@ -209,15 +215,72 @@ Node *quadtree::nn_dfs(const Point &p, int &mx) {
   return r;
 }
 
-quadtree::quadtree() {
-  l = r = Point(0, 0);
-  fill(qts.begin(), qts.end(), nullptr);
-}
-
 quadtree::quadtree(Point topL, Point botR) {
   l = topL;
   r = botR;
   fill(qts.begin(), qts.end(), nullptr);
+}
+
+
+vector<Node *> quadtree::knn(const Point &p, int k) {
+  if (k <= 0) return {};
+  vector<Node *> r;
+  priority_queue<pair<int, Node *>, vector<pair<int, Node *>>, comp> q;
+  int distance = INT_MAX;
+  knn_dfs(p, distance, q);
+  while (k-- and !q.empty()) {
+    r.push_back(q.top().second), q.pop();
+  }
+  return r;
+}
+
+void quadtree::knn_dfs(const Point &p, int &mx2, PriorityQueueT &q) {
+  if (not inBB(p)) { //////
+    // compare with (point - BB) distance; ~ To be improved!
+    int dis_square_to_BB = min(min((l.x - p.x) * (l.x - p.x), (r.x - p.x) * (r.x - p.x)),
+                               min((l.y - p.y) * (l.y - p.y), (r.y - p.y) * (r.y - p.y)));
+    if (mx2 < dis_square_to_BB)
+      return;
+  }
+  if (!nodes.empty()) { // leaf qt node
+    for (Node *n: nodes) {
+      int d = distance_square(p, n->pos);
+      q.emplace(d, n);
+    }
+  } else { // other qts
+    for (int i = 0; i < 4; i++) {
+      if (qts[i] == nullptr) continue;
+      qts[i]->knn_dfs(p, mx2, q);
+    }
+  }
+}
+
+vector<Node *> quadtree::neighbors(const Point &p, int distance) {
+  vector<Node *> r;
+  neighbors_dfs(p,distance*distance,r);
+  return r;
+}
+
+void quadtree::neighbors_dfs(const Point &p, int dd, vector<Node *> & v) {
+  if (not inBB(p)) { //////
+    // compare with (point - BB) distance; ~ To be improved!
+    int dis_square_to_BB = min(min((l.x - p.x) * (l.x - p.x), (r.x - p.x) * (r.x - p.x)),
+                               min((l.y - p.y) * (l.y - p.y), (r.y - p.y) * (r.y - p.y)));
+    if (dd < dis_square_to_BB)
+      return;
+  }
+  if (!nodes.empty()) { // leaf qt node
+    for (Node *n: nodes) {
+      int d = distance_square(p, n->pos);
+      if(d<=dd)
+        v.emplace_back(n);
+    }
+  } else { // other qts
+    for (int i = 0; i < 4; i++) {
+      if (qts[i] == nullptr) continue;
+      qts[i]->neighbors_dfs(p, dd, v);
+    }
+  }
 };
 
 
@@ -231,11 +294,16 @@ int test() {
   Node a(Point(1, 1), 1);
   Node b(Point(2, 5), 2);
   Node c(Point(7, 6), 3);
-  Node d(Point(0, 3), 0);
+  Node d(Point(3, 0), 0);
+  Node e(Point(7, 7), 7);
   qt.insert(&a);
   qt.insert(&d);
   qt.insert(&b);
   qt.insert(&c);
+  qt.insert(&e);
+  auto r=qt.knn(Point(3, 3), 2);
+  assert(r[0]->data == 2);
+  assert(r[1]->data == 1);
   assert(qt.search(Point(1, 1))->data == 1);
   assert(qt.search(Point(2, 5))->data == 2);
   assert(qt.search(Point(7, 6))->data == 3);
@@ -244,6 +312,8 @@ int test() {
   assert(qt.nn(Point(2, 3))->data == 2);
   assert(qt.nn(Point(2, 4))->data == 2);
   assert(qt.nn(Point(2, 1))->data == 1);
+  auto nns=qt.neighbors(Point(3, 3),5);
+  assert(nns.size()==4);
   return 0;
 }
 
