@@ -57,7 +57,78 @@ C的儿子有D和E
 字母前面的空格个数不确定,规则是**每个点是他之前空格数量第一个比他少的child**
 面完一周之后HR说木有headcount了
 */
+#include <utils/binarytree.h>
+#include "henry.h"
+#include "utils/binarytree.h"
+
+namespace cruise_recover_tree {
+
+nnode* build_tree(vector<string> vs){
+  map<int, vector<nnode*>> m;
+  for(string s: vs){
+    if (s.rfind(' ')==s.npos){
+      m[0].push_back(new nnode);
+      m[0].back()->key =s.back();
+    }else{
+      int t=s.rfind(' ');
+      auto it=m.lower_bound(t);
+      if(it!=m.begin()) --it;
+
+      auto n=new nnode;
+      n->key=s.back();
+      it->second.back()->children.push_back(n);
+      m[t].push_back(n);
+    }
+  }
+  return m[0].front();
+}
+
+nnode* build_tree2(vector<string> vs){
+  vector<pair<int,nnode*>> m; // {length, node*}
+  int i=0;
+  for(string s: vs){
+    if (s.rfind(' ')==s.npos){
+      m.emplace_back(0, new nnode);
+      m.back().second->key =s.back();
+    }else{
+      int t=s.rfind(' '); // t is len
+      nnode* par;
+      for(int j=m.size()-1;j>=0;j--){
+        if(m[j].first<t){
+          par=m[j].second;
+          break;
+        }
+      }
+      auto n=new nnode;
+      n->key=s.back();
+      par->children.push_back(n);
+      m.emplace_back(t,n);
+    }
+    i++;
+  }
+  return m[0].second;
+}
+
+void test(){
+  vector<string> vs = {"A",
+                       "   B",
+                       "   C",
+                       "          D",
+                       "       E",
+                       "   F"};
+  nnode* n=build_tree(vs);
+  vs={
+      "a",
+      "    b",
+      "   c",
+      "     d",
+      "        e",
+      "      f"
+  };
+  n=build_tree2(vs);
+}
 
 
+}
 
 #endif //PNSEI_BUILD_TREE_BY_INDENTATION_H

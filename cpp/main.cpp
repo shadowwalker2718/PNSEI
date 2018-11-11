@@ -80,6 +80,7 @@
 #include "addepar/37_Sudoku_Solver.h"
 
 #include "cruise/all_points_in_Kmiles.h"
+#include "cruise/build_tree_by_indentation.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -103,6 +104,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  cruise_recover_tree::test();
   _cruise_geometry::__quadtree::test();
   _skiplist::test();
   _37_dfs::test();
