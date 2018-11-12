@@ -25,6 +25,9 @@
 
 #include "henry.h"
 
+// https://upload.wikimedia.org/wikipedia/commons/9/9c/KDTree-animation.gif
+// https://stackoverflow.com/questions/1627305/nearest-neighbor-k-d-tree-wikipedia-proof
+
 struct Point {
   int x, y;
   Point(int _x, int _y) : x(_x), y(_y) {}

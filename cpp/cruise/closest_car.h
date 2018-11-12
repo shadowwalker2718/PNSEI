@@ -28,28 +28,57 @@ pair<PII,int> getClosestCar(VVI m, set<PII> cars, PII user) {
   int R=m.size(), C=m[0].size();
   priority_queue<pair<int,PII>, vector<pair<int,PII>>, greater<pair<int,PII>>> distances;// min-heap {distance,{x,y}}
   //VVI ds(R, VI(C));
-  map<PII,int> ds; // (x,y) => distance
+  map<PII,int> point_to_distance; // (x,y) => distance
+  //set<PII> visited;
+  distances.emplace(0, user);
+  while (!distances.empty()) {
+    auto top = distances.top();
+    if(cars.count(top.second)){
+      //cout << "closest dis:" << top.first << endl;
+      return {top.second, top.first};
+    }
+    distances.pop();
+    //if (visited.count(top.second))
+    //  continue;//
+    //visited.insert(top.second);
+    point_to_distance[top.second] = top.first; // top.first is the distance of current point to user
+    for (const auto &dr : D) { //{node,len}
+      int nx=dr.first+top.second.first, ny = dr.second+top.second.second;
+      if(nx<0 or nx>=R or ny<0 or ny>=C) continue;
+      int new_distance = top.first + m[nx][ny];
+      if (!point_to_distance.count({nx,ny}) or point_to_distance[{nx,ny}] > new_distance) { //relax
+        point_to_distance[{nx,ny}] = new_distance;
+        distances.emplace(new_distance, PII({nx, ny}));////into PQ
+      }
+    }
+  }
+  return {{INT_MAX,INT_MAX},0};
+}
+
+pair<PII,int> getClosestCar_with_visited(VVI m, set<PII> cars, PII user) {
+  int R=m.size(), C=m[0].size();
+  priority_queue<pair<int,PII>, vector<pair<int,PII>>, greater<pair<int,PII>>> distances;// min-heap {distance,{x,y}}
+  map<PII,int> point_to_distance; // (x,y) => distance
   set<PII> visited;
   distances.emplace(0, user);
   while (!distances.empty()) {
     auto top = distances.top();
     if(cars.count(top.second)){
-      cout << "closest dis:" << top.first << endl;
+      //cout << "closest dis:" << top.first << endl;
       return {top.second, top.first};
     }
     distances.pop();
     if (visited.count(top.second))
       continue;//
     visited.insert(top.second);
-
-    ds[top.second] = top.first; // top.first is the distance of current point to user
+    point_to_distance[top.second] = top.first; // top.first is the distance of current point to user
     for (const auto &dr : D) { //{node,len}
       int nx=dr.first+top.second.first, ny = dr.second+top.second.second;
       if(nx<0 or nx>=R or ny<0 or ny>=C) continue;
-      int d = top.first + m[nx][ny];
-      if (!ds.count({nx,ny}) or ds[{nx,ny}] > d) { //relax
-        ds[{nx,ny}] = d;
-        distances.emplace(d, PII({nx, ny}));////into PQ
+      int new_distance = top.first + m[nx][ny];
+      if (!point_to_distance.count({nx,ny}) or point_to_distance[{nx,ny}] > new_distance) { //relax
+        point_to_distance[{nx,ny}] = new_distance;
+        distances.emplace(new_distance, PII({nx, ny}));////into PQ
       }
     }
   }
@@ -69,20 +98,34 @@ void test(){
     5 5 9 8 9 0 1 0 8 9
     1 4 3 4 8 9 8 7 8 4
    */
-  srand(0xdeadbeef);
-  VVI m(10, VI(10));
 #define REP(i,x,y) for(int i=x;i<y;i++)
-  REP(i,0,10){
-    REP(j,0,10){
-      m[i][j] = rand()%10;
-      cout << m[i][j] << " ";
+  srand(0xdeadbeef);
+  int k=20;
+  while(k--){
+    VVI m(10+rand()%100, VI(10+rand()%200));
+    REP(i,0,m.size()){
+      REP(j,0,m[0].size()){
+        m[i][j] = rand()%10;
+      }
     }
-    cout << endl;
+    set<PII> s={{0,0},{m.size()-1,m[0].size()-1},{0,m[0].size()-1},{m.size()-1,0}};
+    assert(getClosestCar(m,s,{m.size()/2,m[0].size()/2}) == getClosestCar_with_visited(m,s,{m.size()/2,m[0].size()/2}));
   }
-  set<PII> s={{0,0},{9,9},{0,9},{9,0}};
-  auto r=getClosestCar(m,s,{5,5});
-  assert(r.first == PII({9,0}));
-  assert(r.second==24);
+  {
+    srand(0xdeadbeef);
+    VVI m(10, VI(10));
+    REP(i,0,10){
+      REP(j,0,10){
+        m[i][j] = rand()%10;
+        cout << m[i][j] << " ";
+      }
+      cout << endl;
+    }
+    set<PII> s={{0,0},{9,9},{0,9},{9,0}};
+    auto r=getClosestCar(m,s,{5,5});
+    assert(r.first == PII({9,0}));
+    assert(r.second==24);
+  }
 }
 
 }
