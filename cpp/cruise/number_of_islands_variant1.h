@@ -25,13 +25,40 @@ follwup 小岛头尾连起来.
  *
  * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=297272&highlight=cruise
  * 题很简单,但是只能用c++写,我还忘记了一个api的用法很尴尬.感觉他家挺好的,属于比较好的startup了,求onsite.
-考的一道题是connected components.大概有点像数小岛,就用dfs或者bfs直接做就好啦.
+ 考的一道题是connected components.大概有点像数小岛,就用dfs或者bfs直接做就好啦.
+
  但是followup问我如果grid是immutable的要怎么做,如果grid太大不能用额外的空间怎么做.时间复杂度也问的比较详细
  *
  * */
 #include "henry.h"
 
 namespace _cruise_islands {
+
+struct UFO{ //union find object
+  vector<int> bo, sz;
+  void o(int len) {
+    bo.resize(len),sz.resize(len);
+    iota(bo.begin(), bo.end(), 0);
+    fill(sz.begin(), sz.end(), 1);
+  }
+  int f(int x) {
+    return (x==bo[x])?x:f(bo[x]);
+  };
+  void u(int x, int y) {
+    int b = f(x), m = f(y);// after this line, no x and y any more!!
+    if (b == m) { return; }
+    if(b<m) swap(b,m); // b is big boss, m is small boss
+    bo[m]=b,sz[b]+=sz[m],sz[m]=0;
+  };
+  int z(){ // size of connected comp
+    return count_if(sz.begin(), sz.end(), [](int i) {return i>0; });
+  }
+  int c(int x, int y){
+    return f(x)==f(y);
+  }
+};
+
+
 struct Solution {
   Solution() { srand(0xdeadbeef); }
 
@@ -87,7 +114,7 @@ struct Solution {
             int x = p.first + d.first, y = p.second + d.second;
             if (x >= 0 && x < R && y >= 0 && y < C && !visited[x][y]) {
               if (grid[x][y] == '1')
-                stk.emplace(x, y), visited[x][y] = true;
+                visited[x][y] = true, stk.emplace(x, y);
             }
           }
         }
@@ -177,11 +204,47 @@ struct Solution {
   void dfs2(int i, int j, char c) {
     bm[i][j] = true;
     for (auto d: D) { // left right connected
-      int x = i + d.first, y = (j + d.second+COL)%COL;
-      if (x >= 0 and  x< ROW and !bm[x][y] and grid[x][y] == c) {
+      int x = i + d.first, y = (j + d.second + COL) % COL;
+      if (x >= 0 and x < ROW and !bm[x][y] and grid[x][y] == c) {
         dfs2(x, y, c);
       }
     }
+  }
+
+  int numIslands_different_char_ufo(VVC &grid){
+    if (grid.empty() || grid[0].empty()) return 0;
+    int r = 0;
+    ROW = grid.size(), COL = grid[0].size();
+    UFO ufo;
+    ufo.o(ROW*COL);
+    for (int i = 0; i < ROW; ++i) {
+      for (int j = 0; j < COL; ++j) {
+        for(auto d: D){
+          int x=i+d.first, y=j+d.second;
+          if(x>=0 and x<ROW and y>=0 and y<COL and grid[i][j]==grid[x][y])
+            ufo.u(COL*i+j, COL*x+y);
+        }
+      }
+    }
+    return ufo.z();
+  }
+
+  int numIslands_different_char_ufo2(VVC &grid){
+    if (grid.empty() || grid[0].empty()) return 0;
+    int r = 0;
+    ROW = grid.size(), COL = grid[0].size();
+    UFO ufo;
+    ufo.o(ROW*COL);
+    for (int i = 0; i < ROW; ++i) {
+      for (int j = 0; j < COL; ++j) {
+        for(auto d: D){
+          int x=i+d.first, y=(j+d.second+COL)%COL;
+          if(x>=0 and x<ROW and grid[i][j]==grid[x][y])
+            ufo.u(COL*i+j, COL*x+y);
+        }
+      }
+    }
+    return ufo.z();
   }
 
 };
@@ -190,12 +253,14 @@ void test() {
   Solution sln;
   auto vs = sln.generateIslands(20, 30);
   //sln.printBoard(vs);
-  assert(sln.numIslands_different_char(vs)==152);
-  assert(sln.numIslands_different_char_left_right_connected(vs)==148);
+  assert(sln.numIslands_different_char_ufo(vs)==152);
+  assert(sln.numIslands_different_char_ufo2(vs)==148);
+  assert(sln.numIslands_different_char(vs) == 152);
+  assert(sln.numIslands_different_char_left_right_connected(vs) == 148);
   vs = sln.generateIslands(4, 5);
   //sln.printBoard(vs);
-  assert(sln.numIslands_different_char(vs)==4);
-  assert(sln.numIslands_different_char_left_right_connected(vs)==4);
+  assert(sln.numIslands_different_char(vs) == 4);
+  assert(sln.numIslands_different_char_left_right_connected(vs) == 4);
 }
 
 
