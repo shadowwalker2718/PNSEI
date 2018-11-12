@@ -17,11 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cruise/304_Range_Sum_Query_2D_Immutable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/304_Range_Sum_Query_2D_Immutable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/c++.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/c++.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/304_Range_Sum_Query_2D_Immutable.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/304_Range_Sum_Query_2D_Immutable.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +115,7 @@
         <counts>
           <entry key="cpp" value="228" />
           <entry key="dummy" value="7" />
-          <entry key="h" value="3639" />
+          <entry key="h" value="3641" />
           <entry key="py" value="73" />
           <entry key="txt" value="30" />
         </counts>
@@ -127,7 +123,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="30" />
-          <entry key="ObjectiveC" value="3867" />
+          <entry key="ObjectiveC" value="3869" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Python" value="73" />
         </counts>
@@ -237,8 +233,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cruise/304_Range_Sum_Query_2D_Immutable.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="35" column="94" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
+            <state relative-caret-position="582">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -691,12 +687,12 @@
       <workItem from="1541864103582" duration="11912000" />
       <workItem from="1541891834786" duration="47851000" />
       <workItem from="1541996314243" duration="80000" />
-      <workItem from="1541997926174" duration="1094000" />
+      <workItem from="1541997926174" duration="1252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313247000" />
+    <option name="totallyTimeSpent" value="313405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,7 +704,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="25" width="1645" height="928" extended-state="6" />
+    <frame x="35" y="25" width="1645" height="1025" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.2263915" />
@@ -1615,8 +1611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/304_Range_Sum_Query_2D_Immutable.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="35" column="94" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
+        <state relative-caret-position="582">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
