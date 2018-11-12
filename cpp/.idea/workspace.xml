@@ -17,7 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cruise/number_of_islands_variant1.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/number_of_islands_variant1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/img/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/img/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/img/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/img/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/img/5.jpeg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,10 +150,11 @@
           <entry key="array" value="2" />
           <entry key="cmath" value="1" />
           <entry key="cpp" value="24" />
-          <entry key="h" value="184" />
+          <entry key="h" value="187" />
           <entry key="hpp" value="7" />
+          <entry key="jpeg" value="3" />
           <entry key="md" value="5" />
-          <entry key="png" value="1" />
+          <entry key="png" value="2" />
           <entry key="pnsei (disassembly)" value="22" />
           <entry key="py" value="18" />
           <entry key="tcc" value="1" />
@@ -157,9 +163,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Disassembly" value="22" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="5" />
           <entry key="Markdown" value="5" />
-          <entry key="ObjectiveC" value="219" />
+          <entry key="ObjectiveC" value="222" />
           <entry key="Python" value="18" />
         </counts>
       </usages-collector>
@@ -190,47 +196,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cruise/number_of_islands_variant1.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="-1650">
+              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cruise/529_Minesweeper.h">
+        <entry file="file://$PROJECT_DIR$/cruise/img/4.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/img/5.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/img/1.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/no_or_single_parent_graph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="405">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+        <entry file="file://$PROJECT_DIR$/cruise/img/3.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cruise/heatmap_argmax.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cruise/150_Evaluate_Reverse_Polish_Notation.h">
+        <entry file="file://$PROJECT_DIR$/cruise/kalman_filter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cruise/150_Evaluate_Reverse_Polish_Notation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+            <state relative-caret-position="635">
+              <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -239,7 +256,7 @@
         <entry file="file://$PROJECT_DIR$/cruise/166_Fraction_to_Recurring_Decimal.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="65" />
+              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -479,11 +496,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cruise/img" />
       <recent name="$PROJECT_DIR$/addepar" />
       <recent name="$PROJECT_DIR$/graph" />
       <recent name="$PROJECT_DIR$/linkedin" />
       <recent name="$PROJECT_DIR$/google" />
-      <recent name="$PROJECT_DIR$/leetcode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -672,12 +689,12 @@
       <workItem from="1541602861119" duration="28683000" />
       <workItem from="1541862490941" duration="1208000" />
       <workItem from="1541864103582" duration="11912000" />
-      <workItem from="1541891834786" duration="46548000" />
+      <workItem from="1541891834786" duration="47851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310770000" />
+    <option name="totallyTimeSpent" value="312073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,7 +709,7 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" weight="0.22070844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.22070844" />
       <window_info id="Structure" order="1" sideWeight="0.50222224" side_tool="true" weight="0.25027934" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -706,7 +723,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.32739422" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.24414168" visible="true" weight="0.18444444" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.24414168" weight="0.18444444" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
@@ -714,7 +731,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" visible="true" weight="0.52098095" />
+      <window_info anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" weight="0.52098095" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.22070844" />
@@ -1275,41 +1292,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/7/bits/vector.tcc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="414" selection-start-line="414" selection-end-line="414" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/array">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/ext/new_allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/166_Fraction_to_Recurring_Decimal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/binarytree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1413,13 +1395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/heatmap_argmax.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cruise/816_Ambiguous_Coordinates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1487,13 +1462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/no_or_single_parent_graph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -1611,7 +1579,7 @@
     <entry file="file://$PROJECT_DIR$/cruise/166_Fraction_to_Recurring_Decimal.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="65" />
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -1624,8 +1592,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/number_of_islands_variant1.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="-1650">
+          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/img/3.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/img/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/img/5.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/img/1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/no_or_single_parent_graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/kalman_filter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/heatmap_argmax.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
