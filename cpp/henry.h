@@ -65,7 +65,9 @@ namespace fs = experimental::filesystem;
 using VB = vector<bool>;
 using VVB = vector<VB>;
 using VS = vector<string>;
+using VC = vector<char>;
 using VVS = vector<VS>;
+using VVC = vector<VC>;
 using VI = vector<int>;
 using VVI = vector<VI>;
 

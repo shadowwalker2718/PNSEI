@@ -84,6 +84,7 @@
 #include "cruise/816_Ambiguous_Coordinates.h"
 #include "cruise/224_Basic_Calculator.h"
 #include "cruise/150_Evaluate_Reverse_Polish_Notation.h"
+#include "cruise/529_Minesweeper.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -107,6 +108,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _529::test();
   _150::test();
   _224::test();
   _816::test();
