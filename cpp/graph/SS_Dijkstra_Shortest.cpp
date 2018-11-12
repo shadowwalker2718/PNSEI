@@ -38,7 +38,7 @@ vector<int> shortestReach(int n, vector<vector<int>> es, int source) {
       int d = top.F + edges[top.S][neighbor.F];
       if (ds[neighbor.F] > d) { //relax
         ds[neighbor.F] = d;
-        distances.emplace(d, neighbor.F);////
+        distances.emplace(d, neighbor.F);////into PQ
       }
     }
 
