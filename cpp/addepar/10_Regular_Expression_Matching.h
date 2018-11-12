@@ -84,8 +84,9 @@ void test() {
   s="aa", p="a*";
   assert(sln2.isMatch(s, p) == 1);
 
-  s="aa", p="*a";
-  assert(sln2.isMatch(s, p) == 1);
+  // invalid example as we require all inputs are valid
+  //s="aa", p="*a";
+  //assert(sln2.isMatch(s, p) == 1);
 }
 }
 

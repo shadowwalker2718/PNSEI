@@ -70,6 +70,7 @@ using VVS = vector<VS>;
 using VVC = vector<VC>;
 using VI = vector<int>;
 using VVI = vector<VI>;
+using PII = pair<int,int>;
 
 using iMatrix=VVI;
 

@@ -35,7 +35,7 @@
 */
 #include "henry.h"
 
-namespace _529 {
+namespace _529_minesweeper {
 class Solution {
 public:
   Solution(){srand(0xdeadbeef);}

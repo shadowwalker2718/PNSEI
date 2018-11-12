@@ -85,7 +85,7 @@ bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
 }
 
 SkipListNode *searchNode(SkipList *pSkipList, int searchKey) {
-  if (!pSkipList or pSkipList->head)
+  if (!pSkipList or !pSkipList->head)
     return NULL;
 
   SkipListNode *cur = pSkipList->head, *tn; // insert position
@@ -185,7 +185,7 @@ int test() {
   insertNode(&sl, 198, 198);
   insertNode(&sl, 208, 208);
   SkipListNode *pNode = searchNode(&sl, 208);
-  cout << pNode->value << endl;
+  assert(208 == pNode->value);
   travelList(&sl);
 
   SkipList list;

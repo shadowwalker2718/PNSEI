@@ -86,6 +86,7 @@
 #include "cruise/150_Evaluate_Reverse_Polish_Notation.h"
 #include "cruise/529_Minesweeper.h"
 #include "cruise/number_of_islands_variant1.h"
+#include "cruise/interval_subtraction.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -109,8 +110,10 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _cruise_interval::test();
+
   _cruise_islands::test();
-  _529::test();
+
   _150::test();
   _224::test();
   _816::test();
@@ -224,5 +227,6 @@ int main(int argc, char **argv) {
 
   _ksum::test();
   _hdu_1254::test();
+  _529_minesweeper::test();
   return 0;
 }
