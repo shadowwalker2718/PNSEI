@@ -97,7 +97,7 @@ int find_highest_minimum_sharpness(vector<vector<int>> &m) {
 
 void test_find_highest_minimum_sharpness() {
   vector<vector<int>> board = {{5, 7, 2}, {7, 5, 8}, {9, 1, 5}};
-  cout << (find_highest_minimum_sharpness(board) == 7) << endl;
+  assert(find_highest_minimum_sharpness(board) == 7);
 }
 
 } // namespace dropbox_find_highest_minimum_sharpness

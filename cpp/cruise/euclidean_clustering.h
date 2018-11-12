@@ -20,11 +20,10 @@
  onsite, four interviews:
  1. research experience
  2. LRU
-
  3. given a 2D matrix with cost, with 1 position of an user, and 4 positions of cars, find the car with
  min cost to the user...(https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=455844&highlight=cruise)
  // graph/SS_Dijkstra_Shortest.cpp
-
+ // cruise/closest_car.h
  4. euclidean clustering: given a cluster of points and a threshold T, at each time label the neighboring pts
  with distance <=T until you cannot label the pts anymore
 总的来说这家看中coding, 尤其是C++.

@@ -8,12 +8,10 @@
 #include "comb_sum.h"
 #include "concurrency_parallel/BoundedBlockingQueue.h"
 #include "concurrency_parallel/DelayQueue.h"
-#include "addepar/concurrent_hashmap.h"
 #include "concurrency_parallel/deadlock.h"
 #include "concurrency_parallel/h2o.h"
-#include "cruise/clique.h"
-#include "dropbox/highest_minimum_sharpness.h"
-#include "dropbox/id_allocator_segment_tree.h"
+
+
 #include "dup.h"
 #include "encode_list_with_dups.h"
 #include "google/bzoj1090.h"
@@ -42,7 +40,7 @@
 #include "leetcode/68_Text_Justification.h"
 #include "leetcode/927_Three_Equal_Parts.h"
 #include "leetcode/94_Binary_Tree_Inorder_Traversal.h"
-#include "cruise/LFU.h"
+
 #include "linkedin/addinterval.h"
 #include "linkedin/all_palindrome_subsequences.h"
 #include "linkedin/blowoff_leaf.h"
@@ -61,13 +59,13 @@
 #include "skiplist.h"
 #include "sparsematrix.h"
 #include "stree.h"
-#include "addepar/winner_tree.h"
 #include "graph/graph.h"
 #include "graph/_785_Is_Graph_Bipartite.h"
 #include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
 #include "bolt/Remove_brackets_from_an_algebraic_string.h"
 
 #include "addepar/addepar.h"
+#include "addepar/winner_tree.h"
 #include "addepar/stock_reconciliation.h"
 #include "addepar/44_Wildcard_Matching.h"
 #include "addepar/local_minimum_tree.h"
@@ -78,7 +76,10 @@
 #include "addepar/465_Optimal_Account_Balancing.h"
 #include "addepar/8puzzle_AStar.h"
 #include "addepar/37_Sudoku_Solver.h"
+#include "addepar/concurrent_hashmap.h"
 
+#include "cruise/clique.h"
+#include "cruise/LFU.h"
 #include "cruise/all_points_in_Kmiles.h"
 #include "cruise/build_tree_by_indentation.h"
 #include "cruise/816_Ambiguous_Coordinates.h"
@@ -87,6 +88,10 @@
 #include "cruise/529_Minesweeper.h"
 #include "cruise/number_of_islands_variant1.h"
 #include "cruise/interval_subtraction.h"
+#include "cruise/closest_car.h"
+
+#include "dropbox/highest_minimum_sharpness.h"
+#include "dropbox/id_allocator_segment_tree.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -110,6 +115,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _cruise_dijkstra::test();
+  dropbox_find_highest_minimum_sharpness::test_find_highest_minimum_sharpness();
   _cruise_interval::test();
 
   _cruise_islands::test();
@@ -146,7 +153,7 @@ int main(int argc, char **argv) {
   _delayqueue::test();
   _68::test();
   lc_438::test();
-  dropbox_find_highest_minimum_sharpness::test_find_highest_minimum_sharpness();
+
   dropbox_sgementtree::tes();
   addepar::test();
   cruise_2017_09_20::test();

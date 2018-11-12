@@ -20,10 +20,11 @@
  * */
 #include "henry.h"
 
+namespace _cruise_dijkstra{
 const vector<PII> D={{1,0},{-1,0},{0,1},{0,-1}};
 
-// return the closest car's coordinates
-PII getClosestCar(VVI m, set<PII> cars, PII user) {
+// return the closest car's coordinates, distance
+pair<PII,int> getClosestCar(VVI m, set<PII> cars, PII user) {
   int R=m.size(), C=m[0].size();
   priority_queue<pair<int,PII>, vector<pair<int,PII>>, greater<pair<int,PII>>> distances;// min-heap {distance,{x,y}}
   //VVI ds(R, VI(C));
@@ -32,8 +33,10 @@ PII getClosestCar(VVI m, set<PII> cars, PII user) {
   distances.emplace(0, user);
   while (!distances.empty()) {
     auto top = distances.top();
-    if(cars.count(top.second))
-      return top.second;
+    if(cars.count(top.second)){
+      cout << "closest dis:" << top.first << endl;
+      return {top.second, top.first};
+    }
     distances.pop();
     if (visited.count(top.second))
       continue;//
@@ -42,15 +45,48 @@ PII getClosestCar(VVI m, set<PII> cars, PII user) {
     ds[top.second] = top.first; // top.first is the distance of current point to user
     for (const auto &dr : D) { //{node,len}
       int nx=dr.first+top.second.first, ny = dr.second+top.second.second;
+      if(nx<0 or nx>=R or ny<0 or ny>=C) continue;
       int d = top.first + m[nx][ny];
       if (!ds.count({nx,ny}) or ds[{nx,ny}] > d) { //relax
         ds[{nx,ny}] = d;
-        distances.emplace(d, nx, ny);////into PQ
+        distances.emplace(d, PII({nx, ny}));////into PQ
       }
     }
   }
-  return {INT_MAX,INT_MAX};
+  return {{INT_MAX,INT_MAX},0};
 }
+
+void test(){
+  /*
+   *7 0 4 1 9 3 9 0 6 6
+    8 4 0 6 7 1 2 0 1 3
+    3 3 4 7 9 2 8 5 1 5
+    6 9 7 0 0 6 5 0 6 3
+    8 4 7 1 3 5 2 5 7 5
+    0 0 1 4 9 x 9 7 8 0
+    4 4 1 1 4 4 9 9 4 6
+    3 4 2 2 5 7 9 0 4 6
+    5 5 9 8 9 0 1 0 8 9
+    1 4 3 4 8 9 8 7 8 4
+   */
+  srand(0xdeadbeef);
+  VVI m(10, VI(10));
+#define REP(i,x,y) for(int i=x;i<y;i++)
+  REP(i,0,10){
+    REP(j,0,10){
+      m[i][j] = rand()%10;
+      cout << m[i][j] << " ";
+    }
+    cout << endl;
+  }
+  set<PII> s={{0,0},{9,9},{0,9},{9,0}};
+  auto r=getClosestCar(m,s,{5,5});
+  assert(r.first == PII({9,0}));
+  assert(r.second==24);
+}
+
+}
+
 
 
 
