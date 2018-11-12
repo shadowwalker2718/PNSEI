@@ -49,6 +49,7 @@ function. 打开coderpad要用python写,问可不可以java,同意后就用java�
 
 namespace cruise_20181009 {
 
+// Actually an ordered hashmap ordered by insertion/access time
 class LRUCache {
   list<pair<int, int>> ls;
   map<int, list<pair<int, int>>::iterator> m;
@@ -93,6 +94,23 @@ public:
     }
   }
 };
+
+
+// https://www.openmymind.net/High-Concurrency-LRU-Caching/
+// https://github.com/karlseguin/ccache
+// https://www.ebayinc.com/stories/blogs/tech/high-throughput-thread-safe-lru-caching/
+template <typename KT, typename VT>
+class distributedLRU{
+  int cap;
+public:
+  distributedLRU(int capacity) : cap(capacity) {}
+  void del(const KT&);
+};
+
+template<typename KT, typename VT>
+void distributedLRU<KT, VT>::del(const KT& key) {
+
+}
 
 } // namespace cruise_20181009
 #endif // C_LRU_H

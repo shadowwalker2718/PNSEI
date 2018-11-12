@@ -19,23 +19,30 @@ vector<int> shortestReach(int n, vector<vector<int>> es, int source) {
   map<int, map<int, int>> edges; // node->node->weight/cost/length
   for (auto v: es)
     edges[v[0]][v[1]] = v[2];
+
   priority_queue<PII, vector<PII >, greater<PII>> distances;// min-heap
+
   vector<int> ds = vector<int>(n + 1, INT_MAX); // distance to s
-  distances.emplace(0, source); // {distance, node}
+
+  distances.emplace(0, source); // {distance, to_node}
   set<int> visited;
   while (!distances.empty()) {
-    auto t = distances.top();
+    auto top = distances.top();
     distances.pop();
-    if (visited.HAS(t.S))
+
+    if (visited.HAS(top.S))
       continue;//
-    ds[t.S] = t.F;
-    for (const auto &pr : edges[t.S]) { //{node,len}
-      int d = t.F + edges[t.S][pr.F];
-      if (ds[pr.F] > d) { //relax
-        ds[pr.F] = d, distances.emplace(d, pr.F);////
+
+    ds[top.S] = top.F;
+    for (const auto &neighbor : edges[top.S]) { //{node,len}
+      int d = top.F + edges[top.S][neighbor.F];
+      if (ds[neighbor.F] > d) { //relax
+        ds[neighbor.F] = d;
+        distances.emplace(d, neighbor.F);////
       }
     }
-    visited.insert(t.S);
+
+    visited.insert(top.S);
   }
   ds.erase(ds.begin() + source);
   ds.erase(ds.begin());

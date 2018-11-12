@@ -60,7 +60,7 @@ add_executable(pnsei
         knighttour.h
         KNN.h
         ksum.h
-        lfu.h
+        cruise/LFU.h
         _linkedlist.h
         linkedin/addinterval.h
         linkedin/midstack.h

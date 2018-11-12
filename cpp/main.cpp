@@ -42,7 +42,7 @@
 #include "leetcode/68_Text_Justification.h"
 #include "leetcode/927_Three_Equal_Parts.h"
 #include "leetcode/94_Binary_Tree_Inorder_Traversal.h"
-#include "lfu.h"
+#include "cruise/LFU.h"
 #include "linkedin/addinterval.h"
 #include "linkedin/all_palindrome_subsequences.h"
 #include "linkedin/blowoff_leaf.h"
