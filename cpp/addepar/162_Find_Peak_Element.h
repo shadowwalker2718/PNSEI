@@ -22,6 +22,7 @@ Example 1:
 Input: nums = [1,2,3,1]
 Output: 2
 Explanation: 3 is a peak element and your function should return the index number 2.
+
 Example 2:
 
 Input: nums = [1,2,1,3,5,6,4]
@@ -40,8 +41,8 @@ namespace _162{
             if(nums[m] > nums[m+1]){
                 t=m;
             }else h=m+1;
-        }
-        return h; // h==t
+        }// h==t
+        return h;
     }
 
     void test(){

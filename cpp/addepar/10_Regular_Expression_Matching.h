@@ -13,22 +13,22 @@ namespace _10 {
 // substr(N) - N could be the size of the string, but cannot more than that
 class Solution {
 public:
-  bool isMatch(string s, string p) { // if s empty, p .* a*a*a*.*
+  bool isMatch(string s, string p) {
     // check p's size
     if (p.empty()) return s.empty();
-    else if (p.size() == 1)
-      return s.size() == 1 and (p[0] == s[0] or p[0] == '.');
-    if(s.empty()){
-      return p.empty() or (p[1]=='*' and isMatch(s,p.substr(2)));
+    /*else if (p.size() == 1) // cannot be `*`
+      return s.size() == 1 and (p[0] == s[0] or p[0] == '.');*/
+    if(s.empty()){ // if s empty, p .* or a*a*a*.*
+      return p.empty() or (p[1]=='*' and isMatch(s, p.substr(2)));
     }
 
-    if ('*' == p[1]) {
+    if ('*' == p[1]) { // .*xxxxxxxxxxxx or a*xxxxxxxxxxxxxx
       // x* matches empty string or at least one character: x* -> xx*
       // *s is to ensure s is non-empty
       if (isMatch(s, p.substr(2))) { // [x*] matches 0 char
         return true; /////.*.*.*.*x
       } else //
-        if (!s.empty() && (s[0] == p[0] || '.' == p[0]) && isMatch(s.substr(1), p)) { //[x*] matches 1 char
+        if (!s.empty() && (s[0] == p[0] || '.' == p[0]) && isMatch(s.substr(1), p)) { //[x*] matches 1+ char
         return true;
       } else {
         return false; // return for (abc, .*wq)
@@ -45,7 +45,7 @@ class Solution_DP {
 public:
   bool isMatch(const string& s, const string& p) {
     const int M = s.size(), N = p.size();
-    bool dp[M + 1][N + 1] = {};
+    bool dp[M + 1][N + 1] = {false}; // matching result cache, index is size/length
     dp[0][0] = true;
     for (int i = 1; i <= N; ++i) { // empty s matches "a*" or "a*.*" ...
       if (p[i - 1] == '*' and i>=2)
@@ -61,8 +61,8 @@ public:
           dp[i][j] = (j>=2 and dp[i][j - 2]) or
               ((s[i - 1] == p[j - 2] or p[j - 2] == '.') and dp[i - 1][j]);
 #else
-          dp[i][j] = j>=2 and dp[i][j - 2]; // match 0 char
-          if (s[i - 1] == p[j - 2] or p[j - 2] == '.'){ // match 1 char but no erase in p
+          dp[i][j] = (j>=2 and dp[i][j - 2]); // match 0 char
+          if (s[i - 1] == p[j - 2] or p[j - 2] == '.'){ // match 1+ char but no erase in p, '' => '' true
             dp[i][j] |= dp[i - 1][j]; // |= works but not ||=
           }
 #endif

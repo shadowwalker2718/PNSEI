@@ -18,5 +18,7 @@ for (int i = 0; i < 20; i ++) {
 // http://eric-yuan.me/linear-regression/
 
 /*
-If the training example is very large, we can use this method, and update θj after every single iteration. Maybe we can get θj  which good enough by part of the example, we can avoid continue training instead of using whole example to do training.
+If the training example is very large, we can use this method, and update θj after every single iteration. Maybe we
+ can get θj  which good enough by part of the example, we can avoid continue training instead of using whole example
+ to do training.
 */

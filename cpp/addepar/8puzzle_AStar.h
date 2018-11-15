@@ -26,34 +26,39 @@ You can only switch 9 with 9's up/down/left/right neighbours. Each switch is cou
 // https://www.cs.princeton.edu/courses/archive/spr10/cos226/assignments/8puzzle.html
 // https://stackoverflow.com/questions/32442837/minimum-number-of-steps-to-sort-3x3-matrix-in-a-specific-way
 
+// T: O(?)
+
 // {matrix, steps_so_far}
-typedef pair<iMatrix, int> state;
-const iMatrix GOAL = {{1, 2, 3,},
+using state=pair<iMatrix, int>;
+const iMatrix GOAL = {{1, 2, 3,}, // target matrix
                       {4, 5, 6,},
                       {7, 8, 0,}};
 
-int manhattan(const iMatrix &a, int moves) {
-  int dist = moves;
+// moves - from original matrix, to the current matrix, how many steps we have moved?
+// after `moves` steps, the original matrix becomes the current matrix
+int manhattan_to_goal(const iMatrix &current_matrix, int moves){
+  int distance = moves;
   for (int i = 0; i < 3; i++) {
     for (int j = 0; j < 3; j++) {
-      if (a[i][j] != 0) {
+      if (current_matrix[i][j] != 0) {
+        int t=current_matrix[i][j];
 
         for (int k = 0; k < 3; k++) {
           for (int l = 0; l < 3; l++) {
-            if (a[i][j] == GOAL[k][l])
-              dist += abs(i - k) + abs(j - l);
+            if (t == GOAL[k][l])
+              distance += abs(i - k) + abs(j - l); // manhattan distance
           }
         }
 
       }
     }
   }
-  return dist;
+  return distance;
 }
 
 struct cmp { // min heap
   bool operator()(state &a, state &b) {
-    return manhattan(a.first, a.second) > manhattan(b.first, b.second);
+    return manhattan_to_goal(a.first, a.second) > manhattan_to_goal(b.first, b.second);
   }
 };
 
@@ -92,22 +97,20 @@ public:
     return (i >= 0 && i <= 2 && j >= 0 && j <= 2);
   }
 
-  vector<iMatrix> get_neighbours(iMatrix &a) {
+  vector<iMatrix> get_neighbours(const iMatrix &current) {
     pair<int, int> pos;
     for (int i = 0; i < 3; i++) {
       for (int j = 0; j < 3; j++) {
-        if (a[i][j] == 0) {
-          pos.first = i;
-          pos.second = j;
+        if (current[i][j] == 0) {
+          pos.first = i, pos.second = j;
           break;
         }
       }
     }
     vector<iMatrix> ans;
     for (int k = 0; k < 4; k++) {
-      int cx = pos.first;
-      int cy = pos.second;
-      iMatrix n = a;
+      int cx = pos.first, cy = pos.second;
+      iMatrix n = current;
       if (safe(cx + dx[k], cy + dy[k])) {
         swap(n[cx + dx[k]][cy + dy[k]], n[cx][cy]);
         ans.push_back(n);
@@ -117,23 +120,22 @@ public:
   }
 
   int solve(iMatrix a) {
-    priority_queue<state, vector<state>, cmp> Q;
-    Q.push(state(a, 0));
+    priority_queue<state, vector<state>, cmp> Q; //min heap
+    Q.push(state(a, 0)); // init
     while (!Q.empty()) {
-      auto t = Q.top();
-      Q.pop();
+      auto t = Q.top(); Q.pop();
       iMatrix s = t.first;
       //print(s);
-      int mv = t.second;
+      int moves_so_far = t.second;
       visited.insert(s);
       if (s == GOAL) {
         //print_path(s);
-        return mv;
+        return moves_so_far;
       }
-      for (auto nx: get_neighbours(s)) {
+      for (const auto& nx: get_neighbours(s)) {
         if (visited.count(nx) == 0) {
           parent[nx] = s;
-          Q.emplace(nx, mv + 1);
+          Q.emplace(nx, moves_so_far + 1);
         }
       }
     }

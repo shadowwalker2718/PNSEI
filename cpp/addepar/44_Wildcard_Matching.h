@@ -49,13 +49,13 @@ class Solution_REC_OPT { // TLE
 public:
   bool isMatch(string s, string p) {
     if (p.empty()) return s.empty();
-    if (s.empty()) { //"*****" can match ""
-      return p.empty() or (p[0] == '*' and isMatch(s,p.substr(1)));
+    if (s.empty()) { //p="*****" can match s=""
+      return p.empty() or (p[0] == '*' and isMatch(s,p.substr(1))); // p.back()=='*' and p.pop_back() and isMatch(s,p))
     }
-    if (p[0] == '?') {
+    if (p[0] == '?') { // * can appear anywhere
       return isMatch(s.substr(1), p.substr(1));
     } else if (p[0] == '*') {
-      return isMatch(s.substr(1), p) or isMatch(s, p.substr(1));
+      return isMatch(s.substr(1), p)/*1+ char of s*/ or isMatch(s, p.substr(1))/*0 char of s*/;
     } else if (isalpha(p[0])) {
       return p[0] == s[0] and isMatch(s.substr(1), p.substr(1));
     }
@@ -77,7 +77,7 @@ public:
     for (int i = 1; i <= m; ++i) {
       for (int j = 1; j <= n; ++j) { // j start from 1 because dp[*][0] are also false
         if (p[j - 1] == '*') {
-          dp[i][j] = dp[i - 1][j] || dp[i][j - 1]; // either left or top cell
+          dp[i][j] = dp[i - 1][j] or dp[i][j - 1]; // either left or top cell
         } else if(s[i - 1] == p[j - 1] or '?'== p[j - 1]){
           dp[i][j] = dp[i - 1][j - 1];
         }// else <=false

@@ -23,7 +23,7 @@ Assume we are dealing with an environment which could only store integers within
 range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 231 − 1 when
 the division result overflows.
 
-https://leetcode.com/problems/divide-two-integers/description/
+https://leetcode.com/problems/divide-two-integers/
 
 
 https://kingsfish.github.io/2017/10/11/Leetcode-29-Divide-Two-Integers/

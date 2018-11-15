@@ -94,18 +94,18 @@ bool Solution::dfs(vector<vector<char>> &board, int irow, int icol) {
 }
 
 bool Solution::isValid(vector<vector<char>> &board, int irow, int icol) {
-  char val = board[irow][icol];
-  if (val - '0' < 1 || val - '0' > 9) return false;
+  char target_value = board[irow][icol];
+  if (target_value - '0' < 1 || target_value - '0' > 9) return false;
   for (int i = 0; i < 9; i++) { // check row & col
-    if (board[irow][i] == val && i != icol) return false;
-    if (board[i][icol] == val && i != irow) return false;
+    if (board[irow][i] == target_value && i != icol) return false;
+    if (board[i][icol] == target_value && i != irow) return false;
   }
   //check 3x3 box -- locate the correct index!!!
   int X = irow / 3 * 3;
   int Y = icol / 3 * 3;
   for (int i = X; i < X + 3; i++)
     for (int j = Y; j < Y + 3; j++)
-      if (board[i][j] == val && (i != irow || j != icol))
+      if (board[i][j] == target_value && (i != irow || j != icol))
         return false;
   return true;
 }

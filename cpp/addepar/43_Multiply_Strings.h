@@ -18,30 +18,30 @@ namespace _43{
 
 class Solution {
 public:
-  string multiply(string num1, string num2) {
-    if(num1.empty() || num2.empty())
+  string multiply(string x, string y) {
+    if(x.empty() || y.empty())
       return "";
-    reverse(num1.begin(),num1.end());
-    reverse(num2.begin(),num2.end());
+    reverse(x.begin(),x.end()), reverse(y.begin(),y.end());
 
-    int M=num1.size(), N=num2.size();
-    string ret(M+N,'0');
-    
-    for(int j=0; j<N; j++) {
+    int M=x.size(), N=y.size();
+
+    string r(M+N,'0'); //
+    for(int j=0; j<N; j++) { //???
       int carry = 0;
-      int val = num2[j] - '0';
+      int val = y[j] - '0';
       for(int i=0; i<M; i++) {
-        carry += ((num1[i]-'0')*val + (ret[i+j]-'0'));
-        ret[i+j] = carry%10 + '0';
+        carry += ((x[i]-'0')*val + (r[i+j]-'0'));
+        r[i+j] = carry%10 + '0';
         carry /= 10;
       }
-      if(carry!=0)
-        ret[M+j] = carry + '0';
+      //if(carry==1) //
+      r[M+j] = '0'+carry;
     }
-    while(ret.size()!=1 && ret.back()=='0')
-      ret.pop_back(); // 0*999
-    reverse(ret.begin(),ret.end());
-    return ret;
+
+    while(r.size()!=1 && r.back()=='0') // xxxxxxx00000
+      r.pop_back(); // 0*999
+    reverse(r.begin(),r.end());
+    return r;
   }
 };
 

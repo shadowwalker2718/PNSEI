@@ -5,7 +5,7 @@
 #ifndef PNSEI_329_LONGEST_INCREASING_PATH_IN_A_MATRIX_H
 #define PNSEI_329_LONGEST_INCREASING_PATH_IN_A_MATRIX_H
 
-// https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/
+// https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 /*
  *
  * // DFS + Memoization Solution

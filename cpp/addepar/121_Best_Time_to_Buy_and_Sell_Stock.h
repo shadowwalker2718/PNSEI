@@ -14,8 +14,8 @@ class Solution { // forward looking algo
 public:
     int maxProfit(vector<int>& prices) {
         int r=0, mi=INT_MAX;
-        for(int i: prices)
-            mi=min(i,mi), r=max(i-mi, r);
+        for(int c: prices)
+            mi=min(c,mi), r=max(c-mi, r);
         return r;
     }
 };
@@ -39,8 +39,8 @@ public:
     if (L<=1) return 0;
     vector<int> v;
     int r=0, mi=INT_MAX, mx=INT_MIN;
-    for(int i: prices)
-      mi=min(i,mi), r=max(i-mi, r), v.push_back(r);
+    for(int c: prices)
+      mi=min(c,mi), r=max(c-mi, r), v.push_back(r);
 
     r=0;
     for(int i=prices.size()-1;i>=0;i--){

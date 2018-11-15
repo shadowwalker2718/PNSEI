@@ -28,20 +28,20 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
  * */
 
-namespace _109{
-    // A half-open range is one which includes the first element, but excludes the last one.
-    // which is easier than all inclusive range
-    TreeNode* sortedListToBST(ListNode* head, ListNode* e=NULL) { // [)
-        if(head==e) return NULL;
-        ListNode *s=head, *f=head;
-        while(f!=e and f->next!=e and f->next->next!=e){
-            s=s->next, f=f->next->next;
-        }
-        TreeNode* R=new TreeNode(s->val);
-        R->left=sortedListToBST(head, s);
-        R->right=sortedListToBST(s->next, e);
-        return R;
-    }
+namespace _109 {
+// A half-open range is one which includes the first element, but excludes the last one.
+// which is easier than all inclusive range
+TreeNode *sortedListToBST(ListNode *head, ListNode *_end = NULL) { // [)
+  if (head == _end) return NULL;
+  ListNode *s = head, *f = head;
+  while (f != _end and f->next != _end and f->next->next != _end)
+    s = s->next, f = f->next->next;
+  // s becomes lower median
+  TreeNode *R = new TreeNode(s->val);
+  R->left = sortedListToBST(head, s);
+  R->right = sortedListToBST(s->next, _end);
+  return R;
+}
 }
 
 #endif //PNSEI_109_CONVERT_SORTED_LIST_TO_BINARY_SEARCH_TREE_H
