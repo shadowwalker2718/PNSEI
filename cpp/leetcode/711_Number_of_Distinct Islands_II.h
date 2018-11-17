@@ -1,0 +1,10 @@
+//
+// Created by root on 11/16/18.
+//
+
+#ifndef PNSEI_711_NUMBER_OF_DISTINCT_ISLANDS_II_H
+#define PNSEI_711_NUMBER_OF_DISTINCT_ISLANDS_II_H
+
+#include "henry.h"
+
+#endif //PNSEI_711_NUMBER_OF_DISTINCT_ISLANDS_II_H
