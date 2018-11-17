@@ -11,7 +11,7 @@ namespace _935{
 
 class Solution {
 public:
-#define valid(x,y) (int)(x>=0 && y>=0 && x<R && y<C && (x!=3 or y!=0) and (x!=3 or y!=2))
+#define valid(x,y) (int)(x>=0 && y>=0 && x<R && y<C && (x!=3 || y!=0) && (x!=3 || y!=2))
   vector<pair<int,int>> dirs={{ -1,-2 },{ -2,-1 }, { 1,2 },{ 2,1 },
                               { -1,2 },{ 2,-1 }, { 1,-2 },{ -2,1 }};
   int R=4, C=3;
@@ -26,8 +26,8 @@ public:
   }
   int dfs(int x, int y, int k) {
     if(mm[x][y][k]!=0) return mm[x][y][k];
-    if(y==0 and mm[x][2][k]!=0) return mm[x][2][k];
-    if(y==2 and mm[x][0][k]!=0) return mm[x][0][k];
+    if(y==0 && mm[x][2][k]!=0) return mm[x][2][k];
+    if(y==2 && mm[x][0][k]!=0) return mm[x][0][k];
     if (k < 1) return mm[x][y][k]=1;
     if (k == 1) return mm[x][y][k]=getnum(x, y);
     int r = 0;

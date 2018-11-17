@@ -3,6 +3,7 @@
 // Stream
 #include <fstream>
 #include <iostream>
+#include <sstream> // stringstream, i/ostringstream
 
 // STL
 #include <algorithm>
@@ -48,19 +49,26 @@
 #include <cstring> // strlen
 
 #include <numeric> // accumulate, iota
-
-#include <experimental/filesystem> // C++17
 #include <iterator>                //ostream_iterator
 
 using namespace std;
 using namespace std::chrono;
+
+
+#include <experimental/filesystem> // C++-standard header file name, C++17
+#ifdef _WIN32
+#include <filesystem> // Microsoft-specific implementation header file name
+namespace fs=std::experimental::filesystem::v1;
+#else
 namespace fs = experimental::filesystem;
+#endif
+
 
 // Boost
 //#define BOOST_ALL_DYN_LINK
 //#define BOOST_FILESYSTEM_DYN_LINK
 //#include <boost/filesystem.hpp>
-// using namespace boost::filesystem;
+//using namespace boost::filesystem;
 
 using VB = vector<bool>;
 using VVB = vector<VB>;

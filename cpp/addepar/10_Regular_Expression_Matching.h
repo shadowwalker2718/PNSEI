@@ -17,13 +17,13 @@ public:
     // check p's size
     if (p.empty()) return s.empty();
     /*else if (p.size() == 1) // cannot be `*`
-      return s.size() == 1 and (p[0] == s[0] or p[0] == '.');*/
-    if(s.empty()){ // if s empty, p .* or a*a*a*.*
-      return p.empty() or (p[1]=='*' and isMatch(s, p.substr(2)));
+      return s.size() == 1 and (p[0] == s[0] || p[0] == '.');*/
+    if(s.empty()){ // if s empty, p .* || a*a*a*.*
+      return p.empty() || (p[1]=='*' && isMatch(s, p.substr(2)));
     }
 
-    if ('*' == p[1]) { // .*xxxxxxxxxxxx or a*xxxxxxxxxxxxxx
-      // x* matches empty string or at least one character: x* -> xx*
+    if ('*' == p[1]) { // .*xxxxxxxxxxxx || a*xxxxxxxxxxxxxx
+      // x* matches empty string || at least one character: x* -> xx*
       // *s is to ensure s is non-empty
       if (isMatch(s, p.substr(2))) { // [x*] matches 0 char
         return true; /////.*.*.*.*x
@@ -45,25 +45,26 @@ class Solution_DP {
 public:
   bool isMatch(const string& s, const string& p) {
     const int M = s.size(), N = p.size();
-    bool dp[M + 1][N + 1] = {false}; // matching result cache, index is size/length
+    VVB dp(M + 1, VB(N + 1)); // matching result cache, index is size/length
     dp[0][0] = true;
-    for (int i = 1; i <= N; ++i) { // empty s matches "a*" or "a*.*" ...
-      if (p[i - 1] == '*' and i>=2)
-        dp[0][i] = dp[0][i - 2]; // '' => '.*' or 'a*'
+    for (int i = 1; i <= N; ++i) { // empty s matches "a*" || "a*.*" ...
+      if (p[i - 1] == '*' && i>=2)
+        dp[0][i] = dp[0][i - 2]; // '' => '.*' || 'a*'
     }
 
     for (int i = 1; i <= M; i++) {
       for (int j = 1; j <= N; j++) {
-        if (s[i - 1] == p[j - 1] or p[j - 1] == '.') { // a => a*
+        if (s[i - 1] == p[j - 1] || p[j - 1] == '.') { // a => a*
           dp[i][j] = dp[i - 1][j - 1];
         }else if (p[j - 1] == '*') {
 #ifdef COMPACTCODE
-          dp[i][j] = (j>=2 and dp[i][j - 2]) or
-              ((s[i - 1] == p[j - 2] or p[j - 2] == '.') and dp[i - 1][j]);
+          dp[i][j] = (j>=2 && dp[i][j - 2]) ||
+              ((s[i - 1] == p[j - 2] || p[j - 2] == '.') && dp[i - 1][j]);
 #else
-          dp[i][j] = (j>=2 and dp[i][j - 2]); // match 0 char
-          if (s[i - 1] == p[j - 2] or p[j - 2] == '.'){ // match 1+ char but no erase in p, '' => '' true
-            dp[i][j] |= dp[i - 1][j]; // |= works but not ||=
+          dp[i][j] = (j>=2 && dp[i][j - 2]); // match 0 char
+          if (s[i - 1] == p[j - 2] || p[j - 2] == '.'){ // match 1+ char but no erase in p, '' => '' true
+            //dp[i][j] |= dp[i - 1][j]; // |= works but not ||=
+              dp[i][j] = dp[i][j] | dp[i - 1][j];
           }
 #endif
         }

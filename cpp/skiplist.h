@@ -85,7 +85,7 @@ bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
 }
 
 SkipListNode *searchNode(SkipList *pSkipList, int searchKey) {
-  if (!pSkipList or !pSkipList->head)
+  if (!pSkipList || !pSkipList->head)
     return NULL;
 
   SkipListNode *cur = pSkipList->head, *tn; // insert position

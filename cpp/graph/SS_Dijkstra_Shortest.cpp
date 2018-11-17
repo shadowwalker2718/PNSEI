@@ -63,5 +63,6 @@ bool test() {
   };
   vector<int> r = {24, 3, 15};
   assert(r == shortestReach(4, es, 1));
+  return true;
 }
 }

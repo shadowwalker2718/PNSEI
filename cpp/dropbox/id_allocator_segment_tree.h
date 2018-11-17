@@ -82,7 +82,7 @@ public:
     int i = 1;
     // 1. find
     while (i < tree_size) {
-      if (not segment_tree[i]) {
+      if (!segment_tree[i]) {
         if (segment_tree[2 * i]) {
           i = 2 * i + 1;
         } else {

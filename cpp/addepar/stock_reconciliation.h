@@ -91,7 +91,7 @@ map<string,int> reconcile() {
   // https://stackoverflow.com/questions/24276045/how-to-find-the-difference-of-two-maps
   auto it1 = eod_position.begin(), it2 = eod_position.end();
   auto it3 = ticker2position.begin(), it4 = ticker2position.end();
-  while (it1 != it2 and it3 != it4) {
+  while (it1 != it2 && it3 != it4) {
     if (it1->first == it3->first) {
       if (it1->second != it3->second) {
         diff[it1->first] = it1->second - it3->second;

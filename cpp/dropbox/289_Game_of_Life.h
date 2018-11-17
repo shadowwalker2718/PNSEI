@@ -12,7 +12,7 @@ namespace _289 {
 class Solution {
 public:
   void gameOfLife(vector<vector<int>> &b) {
-    if (b.empty() or b[0].empty())
+    if (b.empty() || b[0].empty())
       return;
     int R = b.size(), C = b[0].size();
     vector<vector<int>> dr = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1},
@@ -23,13 +23,13 @@ public:
         int c = 0;
         for (auto &v : dr) {
           int nx = i + v[0], ny = j + v[1];
-          if (nx < 0 or nx >= R or ny < 0 or ny >= C)
+          if (nx < 0 || nx >= R || ny < 0 || ny >= C)
             continue;
           if (b[nx][ny] & 1)
             c++;
         }
         if (b[i][j] == 1) {
-          if (c < 2 or c > 3)
+          if (c < 2 || c > 3)
             b[i][j] &= 1;
           else
             b[i][j] |= 0b10;

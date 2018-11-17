@@ -107,7 +107,7 @@ public:
           continue;
         int x = points[i].x - points[j].x;
         int y = points[i].y - points[j].y;
-        if (0 == x and 0 == y) { // same points
+        if (0 == x && 0 == y) { // same points
           duplicated_points.emplace(j);
           same++;
           continue;

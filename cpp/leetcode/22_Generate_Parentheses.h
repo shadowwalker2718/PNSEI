@@ -27,7 +27,7 @@ public:
       } // base condition 1
       dfs(vs, s + '(', 1, n);
     } else {
-      if (l > n or n == 0)
+      if (l > n || n == 0)
         return; //base condition 2
       dfs(vs, s + ")", l - 1, n - 1);
       dfs(vs, s + "(", l + 1, n);

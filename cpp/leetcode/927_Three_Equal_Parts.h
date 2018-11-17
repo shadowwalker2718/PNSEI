@@ -45,7 +45,7 @@ public:
   }
 };
 
-bool test() {
+void test() {
   Solution sln;
   vector<int> vi = {
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1,

@@ -72,20 +72,20 @@ namespace _addepar{
      Following this approach, at most 2 nodes per level are being looked at, thus requiring only O(log n) checks.*/
     int get_any_local_minimum(TreeNode *root){
         if(!root) return INT_MAX;
-        if(!root->left and !root->right) return root->val;
+        if(!root->left && !root->right) return root->val;
 
-        if(root->left and root->right){
-            if(root->val < root->left->val and root->val < root->right->val )
+        if(root->left && root->right){
+            if(root->val < root->left->val && root->val < root->right->val )
                 return root->val;
             return get_any_local_minimum(root->left->val > root->right->val?
                                          root->right : root->left);
         }
-        if(root->left){ // and !root->right
+        if(root->left){ // && !root->right
             if (root->val < root->left->val)
                 return root->val;
             return get_any_local_minimum(root->left);
         }
-        if(root->right) { // and !root->left
+        if(root->right) { // && !root->left
             if (root->val < root->right->val)
                 return root->val;
             return get_any_local_minimum(root->right);

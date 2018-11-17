@@ -24,7 +24,7 @@ string simplify_algebraic_string(const string &s) {
       stk.push(s[i - 1] == '-' ? (!b) : b);
     } else if (c == ')') {
       stk.pop();
-    } else if (c == '+' or c == '-') {
+    } else if (c == '+' || c == '-') {
       r += stk.top() ? c : (c == '+' ? '-' : '+');
     } else {
       r += c;

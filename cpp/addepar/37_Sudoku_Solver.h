@@ -80,7 +80,7 @@ bool Solution::dfs(vector<vector<char>> &board, int irow, int icol) {
   if (board[irow][icol] == '.') { // we need to try to fill `1`~`9`
     for (int i = 1; i <= 9; i++) {
       board[irow][icol] = '0' + i;
-      if (isValid(board, irow, icol) and dfs(board, irow2, icol2))
+      if (isValid(board, irow, icol) && dfs(board, irow2, icol2))
         return true;
     }
     board[irow][icol] = '.'; // reset grid - unwind

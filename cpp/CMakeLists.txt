@@ -81,6 +81,35 @@ add_executable(pnsei
         "dropbox/highest_minimum_sharpness.h"
         "dropbox/highest_minimum_sharpness.cpp"
         "addepar/addepar.h"
-        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator_segment_tree.h dropbox/web_crawler.h dropbox/message_queue.h dropbox/highest_minimum_sharpness.h dropbox/bittorrent_merge.h dropbox/key_value_store.h leetcode/655_Print_Binary_Tree.h graph/MST_Kruskal_Prim.cpp graph/MST_Kruskal_Prim.h graph/SS_Dijkstra_Shortest.cpp graph/graph.h graph/787_Cheapest_Flights_Within_K_Stops.cpp graph/787_Cheapest_Flights_Within_K_Stops.h graph/_785_Is_Graph_Bipartite.h addepar/local_minimum_tree.h addepar/stock_reconciliation.h addepar/44_Wildcard_Matching.h addepar/10_Regular_Expression_Matching.h leetcode/307_Range_Sum_Query_Mutable_segmentTree.h utils/binarytree.cpp bolt/Remove_brackets_from_an_algebraic_string.h addepar/Find_a_peak_element_in_a_2D_array.h addepar/162_Find_Peak_Element.h addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h addepar/segment_tree.h addepar/37_Sudoku_Solver.h addepar/wildcard_simplified.h leetcode/935_Knight_Dialer.h addepar/465_Optimal_Account_Balancing.h addepar/8puzzle_AStar.h addepar/43_Multiply_Strings.h addepar/121_Best_Time_to_Buy_and_Sell_Stock.h addepar/boggle.h addepar/329_Longest_Increasing_Path_in_a_Matrix.h cruise/number_of_islands_variant1.h cruise/closest_car.h cruise/no_or_single_parent_graph.h cruise/224_Basic_Calculator.h cruise/build_tree_by_indentation.h cruise/overlap_interval.h cruise/all_points_in_Kmiles.h cruise/task_scheduler_with_cooldown.h cruise/529_Minesweeper.h cruise/dup_strings_in_two_arrays.h cruise/union_find.h cruise/euclidean_clustering.h cruise/oa.h cruise/real_time_moving_average.h cruise/word_cloud.h cruise/kalman_filter.h cruise/heatmap_argmax.h cruise/overlap_polygon.h cruise/design_excel.h cruise/166_Fraction_to_Recurring_Decimal.h cruise/RANSAC.h cruise/reversing_strings_inside_parentheses.h cruise/308_Range_Sum_Query_2D_Mutable.h cruise/816_Ambiguous_Coordinates.h cruise/227_Basic_Calculator_II.h cruise/150_Evaluate_Reverse_Polish_Notation.h cruise/304_Range_Sum_Query_2D_Immutable.h cruise/Pairwise_swap_elements_of_a_given_linked_list.h cruise/interval_subtraction.h uber/267_Palindrome_Permutation_II.h uber/160_Intersection_of_Two_Linked_Lists.h uber/uber_LRU_optimized_delete.h uber/short_message_formatting.h leetcode/22_Generate_Parentheses.h leetcode/200_Number_of_Islands.h leetcode/305_Number_of_Islands_II.h leetcode/406_Queue_Reconstruction_by_Height.h leetcode/694_Number_of_Distinct_Islands.h "leetcode/711_Number_of_Distinct Islands_II.h" uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h)
+        "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator_segment_tree.h dropbox/web_crawler.h
+        dropbox/message_queue.h dropbox/highest_minimum_sharpness.h dropbox/bittorrent_merge.h dropbox/key_value_store.h
+        leetcode/655_Print_Binary_Tree.h graph/MST_Kruskal_Prim.cpp graph/MST_Kruskal_Prim.h graph/SS_Dijkstra_Shortest.cpp
+        graph/graph.h graph/787_Cheapest_Flights_Within_K_Stops.cpp graph/787_Cheapest_Flights_Within_K_Stops.h
+        graph/_785_Is_Graph_Bipartite.h addepar/local_minimum_tree.h addepar/stock_reconciliation.h
+        addepar/44_Wildcard_Matching.h addepar/10_Regular_Expression_Matching.h
+        leetcode/307_Range_Sum_Query_Mutable_segmentTree.h utils/binarytree.cpp
+        bolt/Remove_brackets_from_an_algebraic_string.h addepar/Find_a_peak_element_in_a_2D_array.h
+        addepar/162_Find_Peak_Element.h addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h addepar/segment_tree.h
+        addepar/37_Sudoku_Solver.h addepar/wildcard_simplified.h leetcode/935_Knight_Dialer.h
+        addepar/465_Optimal_Account_Balancing.h addepar/8puzzle_AStar.h addepar/43_Multiply_Strings.h
+        addepar/121_Best_Time_to_Buy_and_Sell_Stock.h addepar/boggle.h addepar/329_Longest_Increasing_Path_in_a_Matrix.h
+        cruise/number_of_islands_variant1.h cruise/closest_car.h cruise/no_or_single_parent_graph.h
+        cruise/224_Basic_Calculator.h cruise/build_tree_by_indentation.h cruise/overlap_interval.h
+        cruise/all_points_in_Kmiles.h cruise/task_scheduler_with_cooldown.h cruise/529_Minesweeper.h
+        cruise/dup_strings_in_two_arrays.h cruise/union_find.h cruise/euclidean_clustering.h cruise/oa.h
+        cruise/real_time_moving_average.h cruise/word_cloud.h cruise/kalman_filter.h cruise/heatmap_argmax.h
+        cruise/overlap_polygon.h cruise/design_excel.h cruise/166_Fraction_to_Recurring_Decimal.h cruise/RANSAC.h
+        cruise/reversing_strings_inside_parentheses.h cruise/308_Range_Sum_Query_2D_Mutable.h
+        cruise/816_Ambiguous_Coordinates.h cruise/227_Basic_Calculator_II.h cruise/150_Evaluate_Reverse_Polish_Notation.h
+        cruise/304_Range_Sum_Query_2D_Immutable.h cruise/Pairwise_swap_elements_of_a_given_linked_list.h
+        cruise/interval_subtraction.h uber/267_Palindrome_Permutation_II.h uber/160_Intersection_of_Two_Linked_Lists.h
+        uber/uber_LRU_optimized_delete.h uber/short_message_formatting.h leetcode/22_Generate_Parentheses.h
+        leetcode/200_Number_of_Islands.h leetcode/305_Number_of_Islands_II.h leetcode/406_Queue_Reconstruction_by_Height.h
+        leetcode/694_Number_of_Distinct_Islands.h "leetcode/711_Number_of_Distinct Islands_II.h"
+        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h)
 
-target_link_libraries(${PROJECT_NAME} stdc++fs)
+IF (WIN32)
+    # set stuff for windows
+ELSE()
+    target_link_libraries(${PROJECT_NAME} stdc++fs)
+ENDIF()

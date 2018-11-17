@@ -22,12 +22,12 @@ public:
       for(int i=1;i<x.size();i++){
         auto l=x.substr(0,i);
         auto r=x.substr(i);
-        if(l[0]=='0' and l.size()>1) continue;
+        if(l[0]=='0' && l.size()>1) continue;
         if(r.back()=='0') continue;
         vs.push_back(l+"."+r);
       }
       // no dot to add
-      if(x[0]!='0' or x=="0")
+      if(x[0]!='0' || x=="0")
         vs.push_back(x);
       return vs;
     };

@@ -93,6 +93,8 @@
 #include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator_segment_tree.h"
 #include "uber/rate_limiter_Token_Bucket.h"
+
+#include "cplusplus/mytime.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -116,6 +118,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _mytime::system_info();
   _uber_rate_limiter::test();
   _cruise_dijkstra::test();
   dropbox_find_highest_minimum_sharpness::test_find_highest_minimum_sharpness();

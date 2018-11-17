@@ -130,10 +130,10 @@ bool quadtree::inBB(Point p) { // depends on the direction of coordinate system
 
 // Insert a node into the quadtree
 void quadtree::insert(Node *node) {
-  if (node == NULL or !inBB(node->pos)) // Current quad cannot contain it
+  if (node == NULL || !inBB(node->pos)) // Current quad cannot contain it
     return;
   // We are at a quad of unit area, We cannot subdivide this quad further
-  if (abs(l.x - r.x) <= MIN_BB_LEN and abs(l.y - r.y) <= MIN_BB_LEN) {
+  if (abs(l.x - r.x) <= MIN_BB_LEN && abs(l.y - r.y) <= MIN_BB_LEN) {
     nodes.push_back(node);
     return;
   }
@@ -170,7 +170,7 @@ Node *quadtree::search(Point p) {
   // We are at a quad of unit length, We cannot subdivide this quad further
   if (!nodes.empty()) { // ONLY leaf nodes have data information
     for (Node *nd: nodes) {
-      if (nd->pos.x == p.x and nd->pos.y == p.y)
+      if (nd->pos.x == p.x && nd->pos.y == p.y)
         return nd;
     }
     return NULL;
@@ -198,7 +198,7 @@ Node *quadtree::nn(const Point &p) {
 
 
 Node *quadtree::nn_dfs(const Point &p, int &mx2) {
-  if (not inBB(p)) { //////
+  if (!inBB(p)) { //////
     // compare with (point - BB) distance; ~ To be improved!
     int dis_square_to_BB = min(min((l.x - p.x) * (l.x - p.x), (r.x - p.x) * (r.x - p.x)),
                                min((l.y - p.y) * (l.y - p.y), (r.y - p.y) * (r.y - p.y)));
@@ -230,14 +230,14 @@ vector<Node *> quadtree::knn(const Point &p, int k) {
   priority_queue<pair<int, Node *>, vector<pair<int, Node *>>, comp> q;
   int distance = INT_MAX;
   knn_dfs(p, distance, q);
-  while (k-- and !q.empty()) {
+  while (k-- && !q.empty()) {
     r.push_back(q.top().second), q.pop();
   }
   return r;
 }
 
 void quadtree::knn_dfs(const Point &p, int &mx2, PriorityQueueT &q) {
-  if (not inBB(p)) { //////
+  if (!inBB(p)) { //////
     // compare with (point - BB) distance; ~ To be improved!
     int dis_square_to_BB = min(min((l.x - p.x) * (l.x - p.x), (r.x - p.x) * (r.x - p.x)),
                                min((l.y - p.y) * (l.y - p.y), (r.y - p.y) * (r.y - p.y)));
@@ -264,7 +264,7 @@ vector<Node *> quadtree::neighbors(const Point &p, int distance) {
 }
 
 void quadtree::neighbors_dfs(const Point &p, int dd, vector<Node *> & v) {
-  if (not inBB(p)) { //////
+  if (!inBB(p)) { //////
     // compare with (point - BB) distance; ~ To be improved!
     int dis_square_to_BB = min(min((l.x - p.x) * (l.x - p.x), (r.x - p.x) * (r.x - p.x)),
                                min((l.y - p.y) * (l.y - p.y), (r.y - p.y) * (r.y - p.y)));

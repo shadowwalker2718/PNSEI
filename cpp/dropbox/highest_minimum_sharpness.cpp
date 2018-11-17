@@ -76,7 +76,7 @@ X O O O O               X O O O O
 namespace dropbox_find_highest_minimum_sharpness {
 
 int find_highest_minimum_sharpness(vector<vector<int>> &m) {
-  if (m.empty() or m[0].empty())
+  if (m.empty() || m[0].empty())
     return INT_MIN;
   int R = m.size(), C = m[0].size();
   for (int j = 1; j < C; j++) {

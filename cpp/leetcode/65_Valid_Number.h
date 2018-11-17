@@ -14,7 +14,7 @@ public:
     int i = 0, L = s.size();
     while (isspace(s[i]))
       i++;
-    if (s[i] == '+' or s[i] == '-')
+    if (s[i] == '+' || s[i] == '-')
       i++;
     bool b = false;
     while (isdigit(s[i]))
@@ -23,11 +23,11 @@ public:
       i++;
     while (isdigit(s[i]))
       i++, b = true;
-    if (s[i] == 'e' or s[i] == 'E') {
+    if (s[i] == 'e' || s[i] == 'E') {
       if (!b)
         return false;
       b = false, i++;
-      if (s[i] == '+' or s[i] == '-')
+      if (s[i] == '+' || s[i] == '-')
         i++;
       while (isdigit(s[i]))
         i++, b = true;

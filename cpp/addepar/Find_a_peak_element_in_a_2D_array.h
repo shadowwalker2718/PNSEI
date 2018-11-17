@@ -7,7 +7,9 @@
 
 /*
  *
- * An element is a peak element if it is greater than or equal to its four neighbors, left, right, top and bottom. For example neighbors for A[i][j] are A[i-1][j], A[i+1][j], A[i][j-1] and A[i][j+1]. For corner elements, missing neighbors are considered of negative infinite value.
+ * An element is a peak element if it is greater than or equal to its four neighbors, left, right, top and bottom. For
+ * example neighbors for A[i][j] are A[i-1][j], A[i+1][j], A[i][j-1] and A[i][j+1]. For corner elements, missing
+ * neighbors are considered of negative infinite value.
 
 Examples:
 
@@ -41,20 +43,20 @@ If max < mat[max_index][mid+1], recur for right half of matrix.
 namespace _addepar_find_peak_2D{
 
     int find_peak_2D(vector<vector<int>> m){ // T: O(C*LogR)
-        if(m.empty() or m[0].empty()) return INT_MAX;
+        if(m.empty() || m[0].empty()) return INT_MAX;
         int R=m.size(), C=m[0].size(), row_head=0, row_tail=R-1, j;
         while(row_head<row_tail){ // O(LogR)
             int row_mid= row_head+(row_tail-row_head)/2;
             int max_index=max_element(m[row_mid].begin(),m[row_mid].end())-m[row_mid].begin();  //O(C)
             bool ismax=true;
-            if((row_mid-1>=0 and m[row_mid][max_index]<=m[row_mid-1][max_index]) or
-                (row_mid+1<R and m[row_mid][max_index]<=m[row_mid+1][max_index])){
+            if((row_mid-1>=0 && m[row_mid][max_index]<=m[row_mid-1][max_index]) ||
+                (row_mid+1<R && m[row_mid][max_index]<=m[row_mid+1][max_index])){
                 ismax=false;
             }
             if(ismax) return m[row_mid][max_index];
             // find the max of the three and narrow down the range
             if(row_mid-1>=0){
-                if (row_mid+1<R and m[row_mid+1][max_index]>m[row_mid-1][max_index]){
+                if (row_mid+1<R && m[row_mid+1][max_index]>m[row_mid-1][max_index]){
                     row_head=row_mid+1;
                 }else{
                     row_tail=row_mid-1;
