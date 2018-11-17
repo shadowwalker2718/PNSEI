@@ -19,14 +19,14 @@ namespace _44 {
 class Solution_REC { // TLE
 public:
   bool isMatch(string s, string p) {
-    //p.erase(unique(p.begin(), p.end(), [](char x, char y) { return x == y and x == '*'; }), p.end());
+    //p.erase(unique(p.begin(), p.end(), [](char x, char y) { return x == y && x == '*'; }), p.end());
     return rec(s, p);
   }
 
   bool rec(string s, string p) {
     if (p.empty()) return s.empty();
     if (s.empty()) { //"*****" can match ""
-      return p.empty() or (p[0] == '*' and rec(s,p.substr(1)));
+      return p.empty() || (p[0] == '*' && rec(s,p.substr(1)));
     }
 
     if (p[0] == '?') {
@@ -40,7 +40,7 @@ public:
       return false;*/
       return rec(s.substr(1), p);
     } else if (isalpha(p[0])) {
-      return p[0] == s[0] and rec(s.substr(1), p.substr(1));
+      return p[0] == s[0] && rec(s.substr(1), p.substr(1));
     }
   }
 };
@@ -50,14 +50,14 @@ public:
   bool isMatch(string s, string p) {
     if (p.empty()) return s.empty();
     if (s.empty()) { //p="*****" can match s=""
-      return p.empty() or (p[0] == '*' and isMatch(s,p.substr(1))); // p.back()=='*' and p.pop_back() and isMatch(s,p))
+      return p.empty() || (p[0] == '*' && isMatch(s,p.substr(1))); // p.back()=='*' && p.pop_back() && isMatch(s,p))
     }
     if (p[0] == '?') { // * can appear anywhere
       return isMatch(s.substr(1), p.substr(1));
     } else if (p[0] == '*') {
-      return isMatch(s.substr(1), p)/*1+ char of s*/ or isMatch(s, p.substr(1))/*0 char of s*/;
+      return isMatch(s.substr(1), p)/*1+ char of s*/ || isMatch(s, p.substr(1))/*0 char of s*/;
     } else if (isalpha(p[0])) {
-      return p[0] == s[0] and isMatch(s.substr(1), p.substr(1));
+      return p[0] == s[0] && isMatch(s.substr(1), p.substr(1));
     }
   }
 };
@@ -70,15 +70,15 @@ public:
     // dp means `s from 0 to i matches p from 0 to j?`
     vector<vector<bool>> dp(m + 1, vector<bool>(n + 1));
     dp[0][0] = true;  // empty s matches empty p
-    for (int i = 1; i <= n; ++i) { // empty s matches multiple stars("*" or "**" ...)
+    for (int i = 1; i <= n; ++i) { // empty s matches multiple stars("*" || "**" ...)
       if (p[i - 1] == '*')
         dp[0][i] = dp[0][i - 1]; // p erase the last one char
     }
     for (int i = 1; i <= m; ++i) {
       for (int j = 1; j <= n; ++j) { // j start from 1 because dp[*][0] are also false
         if (p[j - 1] == '*') {
-          dp[i][j] = dp[i - 1][j] or dp[i][j - 1]; // either left or top cell
-        } else if(s[i - 1] == p[j - 1] or '?'== p[j - 1]){
+          dp[i][j] = dp[i - 1][j] || dp[i][j - 1]; // either left || top cell
+        } else if(s[i - 1] == p[j - 1] || '?'== p[j - 1]){
           dp[i][j] = dp[i - 1][j - 1];
         }// else <=false
       }

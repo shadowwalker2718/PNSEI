@@ -50,7 +50,7 @@ namespace _162{
         assert(findPeakElement(v)==2);
         v={1,2,1,3,5,6,4};
         int r=findPeakElement(v);
-        assert(r==2 or r==5);
+        assert(r==2 || r==5);
     }
 }
 

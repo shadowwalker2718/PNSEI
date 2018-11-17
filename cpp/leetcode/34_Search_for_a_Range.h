@@ -127,7 +127,7 @@ int _last_equal_or_less(const vector<int> &v, int T) {
         else
           t = m;
       }
-      if (h < v.size() and v[h]>T)
+      if (h < v.size() && v[h]>T)
         return h;
       return -1;
     }
@@ -140,7 +140,7 @@ int _last_equal_or_less(const vector<int> &v, int T) {
         else
           t = m;
       }
-      if (h < v.size() and v[h]>=T)
+      if (h < v.size() && v[h]>=T)
         return h;
       return -1;
     }
@@ -168,7 +168,7 @@ int _last_equal_or_less(const vector<int> &v, int T) {
         else
           t = m - 1; //等于的时候应用这个logic
       }
-      if (h < v.size() and v[h]<T)
+      if (h < v.size() && v[h]<T)
         return h;
       return -1;
     }
@@ -196,7 +196,7 @@ int _last_equal_or_less(const vector<int> &v, int T) {
         else
           t = m - 1;
       }
-      if (h < v.size() and v[h]<=T)
+      if (h < v.size() && v[h]<=T)
         return h;
       return -1;
     }

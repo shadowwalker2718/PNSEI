@@ -82,7 +82,7 @@ public:
     while (start < accnt.size() && accnt[start] == 0)
       ++start;
     for (int i = start + 1; i < accnt.size(); ++i) {
-      if (accnt[i]!=0 and (accnt[i] ^ accnt[start]) < 0) {
+      if (accnt[i]!=0 && (accnt[i] ^ accnt[start]) < 0) {
         accnt[i] += accnt[start];
         res = min(res, rec(accnt, start + 1, deal_number + 1));
         accnt[i] -= accnt[start];

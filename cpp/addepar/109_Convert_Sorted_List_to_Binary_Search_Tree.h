@@ -34,7 +34,7 @@ namespace _109 {
 TreeNode *sortedListToBST(ListNode *head, ListNode *_end = NULL) { // [)
   if (head == _end) return NULL;
   ListNode *s = head, *f = head;
-  while (f != _end and f->next != _end and f->next->next != _end)
+  while (f != _end && f->next != _end && f->next->next != _end)
     s = s->next, f = f->next->next;
   // s becomes lower median
   TreeNode *R = new TreeNode(s->val);

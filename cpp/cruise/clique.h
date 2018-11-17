@@ -2,7 +2,7 @@
 // Created by henry on 10/21/18.
 //
 #include "henry.h"
-#include <unistd.h>
+//#include <unistd.h>
 #ifndef C_LRU_H
 #define C_LRU_H
 
@@ -64,10 +64,10 @@ int clique(int n, int m) { // 3,2
   return lo;
 }
 
-string get_working_path() {
+/*string get_working_path() {
   char temp[1024];
   return (getcwd(temp, 2014) ? std::string(temp) : std::string(""));
-}
+}*/
 
 vector<string> split(string s) {
   vector<string> r;
@@ -83,7 +83,7 @@ vector<string> split(string s) {
 
 void test() {
   ifstream fi("../cruise/clique.input");
-  cout << get_working_path() << endl;
+  //cout << get_working_path() << endl;
 
   cout << (clique(19, 166) == 14) << endl;
   string line;

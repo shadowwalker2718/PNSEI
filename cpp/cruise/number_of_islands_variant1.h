@@ -205,7 +205,7 @@ struct Solution {
     bm[i][j] = true;
     for (auto d: D) { // left right connected
       int x = i + d.first, y = (j + d.second + COL) % COL;
-      if (x >= 0 and x < ROW and !bm[x][y] and grid[x][y] == c) {
+      if (x >= 0 && x < ROW && !bm[x][y] && grid[x][y] == c) {
         dfs2(x, y, c);
       }
     }
@@ -221,7 +221,7 @@ struct Solution {
       for (int j = 0; j < COL; ++j) {
         for(auto d: D){
           int x=i+d.first, y=j+d.second;
-          if(x>=0 and x<ROW and y>=0 and y<COL and grid[i][j]==grid[x][y])
+          if(x>=0 && x<ROW && y>=0 && y<COL && grid[i][j]==grid[x][y])
             ufo.u(COL*i+j, COL*x+y);
         }
       }
@@ -239,7 +239,7 @@ struct Solution {
       for (int j = 0; j < COL; ++j) {
         for(auto d: D){
           int x=i+d.first, y=(j+d.second+COL)%COL;
-          if(x>=0 and x<ROW and grid[i][j]==grid[x][y])
+          if(x>=0 && x<ROW && grid[i][j]==grid[x][y])
             ufo.u(COL*i+j, COL*x+y);
         }
       }

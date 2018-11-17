@@ -34,7 +34,7 @@ vector<pair<int,int>> interval_subtraction(vector<pair<int,int>> intervals, pair
     i+=pr.second;
     if(i==1){
       tmp.first=pr.first;
-    }else if (i==0 and tmp.first!=INT_MAX){
+    }else if (i==0 && tmp.first!=INT_MAX){
       tmp.second=pr.first;
       r.push_back(tmp);
       tmp = {INT_MAX,0};

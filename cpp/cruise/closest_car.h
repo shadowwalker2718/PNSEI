@@ -44,9 +44,9 @@ pair<PII,int> getClosestCar(VVI m, set<PII> cars, PII user) {
     point_to_distance[top.second] = top.first; // top.first is the distance of current point to user
     for (const auto &dr : D) { //{node,len}
       int nx=dr.first+top.second.first, ny = dr.second+top.second.second;
-      if(nx<0 or nx>=R or ny<0 or ny>=C) continue;
+      if(nx<0 || nx>=R || ny<0 || ny>=C) continue;
       int new_distance = top.first + m[nx][ny];
-      if (!point_to_distance.count({nx,ny}) or point_to_distance[{nx,ny}] > new_distance) { //relax
+      if (!point_to_distance.count({nx,ny}) || point_to_distance[{nx,ny}] > new_distance) { //relax
         point_to_distance[{nx,ny}] = new_distance;
         distances.emplace(new_distance, PII({nx, ny}));////into PQ
       }
@@ -74,9 +74,9 @@ pair<PII,int> getClosestCar_with_visited(VVI m, set<PII> cars, PII user) {
     point_to_distance[top.second] = top.first; // top.first is the distance of current point to user
     for (const auto &dr : D) { //{node,len}
       int nx=dr.first+top.second.first, ny = dr.second+top.second.second;
-      if(nx<0 or nx>=R or ny<0 or ny>=C) continue;
+      if(nx<0 || nx>=R || ny<0 || ny>=C) continue;
       int new_distance = top.first + m[nx][ny];
-      if (!point_to_distance.count({nx,ny}) or point_to_distance[{nx,ny}] > new_distance) { //relax
+      if (!point_to_distance.count({nx,ny}) || point_to_distance[{nx,ny}] > new_distance) { //relax
         point_to_distance[{nx,ny}] = new_distance;
         distances.emplace(new_distance, PII({nx, ny}));////into PQ
       }
@@ -123,8 +123,15 @@ void test(){
     }
     set<PII> s={{0,0},{9,9},{0,9},{9,0}};
     auto r=getClosestCar(m,s,{5,5});
+    cout << "\n" << r.first.first << ", " << r.second << endl;
+#ifdef _WIN32
+    assert(r.first == PII({9,9}));
+    assert(r.second==17);
+#else
     assert(r.first == PII({9,0}));
     assert(r.second==24);
+#endif
+
   }
 }
 

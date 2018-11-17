@@ -51,9 +51,9 @@ public:
     int counter = 0;
     for (int i = -1; i <= 1; i++){
       for (int j = -1; j <= 1; j++) {
-        if(i==0 and j==0) continue;
+        if(i==0 && j==0) continue;
         int nx = x + i, ny = y + j;
-        if (nx < 0 or nx >= R or ny < 0 or ny >= C) continue;
+        if (nx < 0 || nx >= R || ny < 0 || ny >= C) continue;
         if (board[nx][ny] == 'M') counter++;
       }
     }
@@ -66,7 +66,7 @@ public:
       for (int i = -1; i <= 1; i++)
         for (int j = -1; j <= 1; j++) {
           int nx = x + i, ny = y + j;
-          if (nx < 0 or nx >= R or ny < 0 or ny >= C or board[nx][ny] != 'E') continue;
+          if (nx < 0 || nx >= R || ny < 0 || ny >= C || board[nx][ny] != 'E') continue;
           vector<int> nextClick = {nx, ny};
           updateBoard(board, nextClick);
         }
