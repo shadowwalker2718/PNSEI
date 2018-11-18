@@ -97,6 +97,7 @@
 #include "cplusplus/mytime.h"
 
 #include "leetcode/18_4Sum.h"
+#include "leetcode/464_Can_I_Win.h"
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -120,6 +121,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _464::test();
   _ksum::test();
   _mytime::system_info();
   _465_account_balancing::test();

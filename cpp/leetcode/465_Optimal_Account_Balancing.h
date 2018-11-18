@@ -24,8 +24,8 @@ Addepar Front End onsite 面试 一共 五轮.
  * person x gave person y $z. Assuming Alice, Bill, and Chris are person 0, 1, and 2 respectively (0, 1, 2 are the
  * person's ID), the transactions can be represented as [[0, 1, 10], [2, 0, 5]].
 
-  Given a list of transactions between a group of people, return the **minimum deal_numberber of transactions** required to
-  settle the debt.
+  Given a list of transactions between a group of people,
+  return the **minimum deal_numberber of transactions** required to settle the debt.
 
   Note:
 
@@ -62,8 +62,9 @@ Addepar Front End onsite 面试 一共 五轮.
   Therefore, person #1 only need to give person #0 $4, and all debt is settled.*/
 
 // O(N!)
-class Solution_Recursive {
+class Solution_Recursive { // NP Hard?
 public:
+  // return the **minimum deal_numberber of transactions** required to settle the debt.
   int minTransfers(vector<vector<int>> &transactions) {
     unordered_map<int, int> m;
     for (auto t : transactions) {
@@ -79,15 +80,16 @@ public:
     return rec(accnt, 0, 0);
   }
 
-  int rec(vector<int> &accnt, int start, int deal_number) {
+  // BF
+  int rec(vector<int> &accnt, int head, int deal_number) {
     int res = INT_MAX;
-    while (start < accnt.size() && accnt[start] == 0)
-      ++start;
-    for (int i = start + 1; i < accnt.size(); ++i) {
-      if (accnt[i] != 0 && (accnt[i] ^ accnt[start]) < 0) {
-        accnt[i] += accnt[start];
-        res = min(res, rec(accnt, start + 1, deal_number + 1));
-        accnt[i] -= accnt[start];
+    while (head < accnt.size() && accnt[head] == 0) // find the first non-0 item in the vector
+      ++head;
+    for (int i = head + 1; i < accnt.size(); ++i) {
+      if (accnt[i] != 0 && (accnt[i] ^ accnt[head]) < 0) {
+        accnt[i] += accnt[head];
+        res = min(res, rec(accnt, head + 1, deal_number + 1));
+        accnt[i] -= accnt[head];
       }
     }
     return res == INT_MAX ? deal_number : res;
@@ -95,35 +97,42 @@ public:
 };
 
 class Solution_Ksum {
-  void setErase(unordered_multiset<int> &balance, vector<int> v) {
+  // examplify how to remove one element from multiset
+  void setErase(unordered_multiset<int>& balance, vector<int> v) {
     for (int i: v) {
       auto itr = balance.find(i);
       if (itr != balance.end())
-        balance.erase(itr);
+        balance.erase(itr); // erase only 1 item
     }
   }
 
+  // return transaction number
   int kSum(int K, unordered_multiset<int> &balance, int T) {
+    // examplify how to erase multiset when looping
+    // using a temp vector...
     vector<int> bal(balance.begin(), balance.end());
-    if (K == 2) {
-      for (int i : bal)
+    if (K == 2) { // base case 2SUM
+      for (int i : bal){ // -2, 2, 2,-1; [2,-1]
         if (balance.count(T - i)) {
           setErase(balance, {i, T - i});
-          return 1;
+          return 1; //!!
         }
+      }
+      return 0;
     } else {
-      for (int i : bal) {
+      for (int i : bal) { // [-2,2,1,-1]; [2,1,-1], 2
         setErase(balance, {i});
-        int res = kSum(K - 1, balance, T - i);
-        if (res != 0)
+        int res = kSum(K - 1, balance, T - i); // res == K-2
+        if (res > 0)
           return res + 1;
         balance.insert(i);
       }
+      return 0;
     }
-    return 0;
   }
 
 public:
+  // clique problem
   int minTransfers(const vector<vector<int>> &transactions) {
     unordered_multiset<int> balance;
     unordered_map<int, int> balanceMap;
@@ -137,9 +146,9 @@ public:
     }
     if (balance.size() == 0)
       return 0;
-    int res = 0, clique = 2;
+    int res = 0, clique = 2; // from smallest clique coz?
     while (clique < balance.size()) {
-      int r = kSum(clique, balance, 0);
+      int r = kSum(clique, balance, 0); // clique-1==r or r==0
       if (r == 0) // not found
         clique++;
       else
@@ -149,8 +158,11 @@ public:
   }
 };
 
-// First calculate the net balance of each one, then the idea is try to find smallest clique that sum up to 0. Once find
-// one, we erase the clique from the balance set and increase the result by n(clique)-1. Optimized with 2Sum and 3Sum.
+/*
+// First calculate the net balance of each one, then the idea is try to find smallest clique that
+// sum up to 0. Once find
+// one, we erase the clique from the balance set and increase the result by n(clique)-1.
+// Optimized with 2Sum and 3Sum.
 class Solution {
   int _kSum(int K, unordered_multiset<int> &balance, int T) {
     auto it = balance.begin();
@@ -233,7 +245,7 @@ public:
       balance.erase(remove(balance.begin(), balance.end(), INT_MAX), balance.end());
       clique++;
     }
-    return r + balance.empty()?0:balance.size()-1;
+    return r + balance.empty()?0:(balance.size()-1);
   }
 
   int __kSum(vector<int>& v, vector<int> p, set<int>& m, int K, int T) {
@@ -275,10 +287,10 @@ public:
     }
   }
 };
-
+*/
 
 void test() {
-  Solution sln;
+  Solution_Recursive sln;
   vector<vector<int>> vi = {{0, 1, 10},
                             {1, 0, 1},
                             {1, 2, 5},
@@ -293,10 +305,11 @@ void test() {
         {5, 11, 61},
         {6, 12, 59},
         {7, 13, 60}};
-  assert(sln.minTransfers2(vi) == 8);
+  Solution_Ksum sln2;
+  assert(sln2.minTransfers(vi) == 8);
 
   vi={{2,0,5},{3,4,4}};
-  assert(sln.minTransfers2(vi) == 2);
+  assert(sln2.minTransfers(vi) == 2);
 
 };
 

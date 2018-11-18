@@ -8,7 +8,7 @@ namespace _ksum {
 // return solution number
 // return all feasible solutions
 
-class Solution {
+/*class Solution {
 public:
   int kSum(vector<int> A, int K, int target) {
     if (A.size() < K || K < 2)
@@ -38,7 +38,7 @@ public:
       }
     }
   }
-};
+};*/
 
 // As no dup, we can use hash!
 class Solution_No_Duplicate {
@@ -78,6 +78,7 @@ public:
 // http://sde.quant365.com/combinatorics.html#combination-sum-ii
 // http://sde.quant365.com/combinatorics.html#subsetspowerset-dag-dfs-ii
 // http://sde.quant365.com/combinatorics.html#permutation-ii
+// http://sde.quant365.com/google-2016-10.html#sum-1
 class Solution_With_Duplicates {
 public:
   VVI kSum(vector<int> A, int K, int target) {
@@ -93,25 +94,25 @@ public:
   void dfs(VI &A, VVI &r, VI p, int K, int T, int head) {
     if (K > 2) {
       for (int i = head; i < A.size(); ++i) {
-        if(i>head && A[i-1]==A[i]){ continue; } ////
-        VI t = p;
+        if (i > head && A[i - 1] == A[i]) { continue; } ////
+        VI t = p; // to avoid unwind stack changing data in container, use a temp var, use pass by value
         t.push_back(A[i]);
         dfs(A, r, t, K - 1, T - A[i], i + 1);
       }
     } else if (K == 2) { // 2sum
-      int i=head, j=A.size()-1;
-      while (i<j){
-        while(i+1<A.size() && A[i]==A[i+1]) i++; // remove duplicates
-        while(j-1>=0 && A[j]==A[j-1]) j--;
-        int sum=A[i]+A[j];
-        if(sum==T){
+      int i = head, j = A.size() - 1;
+      while (i < j) {
+        while (i + 1 < A.size() && A[i] == A[i + 1]) i++; // remove duplicates
+        while (j - 1 >= 0 && A[j] == A[j - 1]) j--; // remove dups
+        int sum = A[i] + A[j];
+        if (sum == T) {
           VI t = p;
           t.push_back(A[i]), t.push_back(A[j]);
-          r.push_back(t);
+          r.push_back(t); // cherry pick, different from account balancing problem
           i++, j--;
-        }else if(sum<T){
+        } else if (sum < T) {
           i++;
-        }else{
+        } else {
           j--;
         }
       }
@@ -120,9 +121,9 @@ public:
 };
 
 void test() {
-  Solution sln;
-  int r = sln.kSum({1, 4, 7, 10, 12, 15, 16, 18, 21, 23, 24, 25, 26, 29}, 5, 13);
-  assert(r == 0);
+  /*Solution_No_Duplicate sln;
+  auto r = sln.kSum({1, 4, 7, 10, 12, 15, 16, 18, 21, 23, 24, 25, 26, 29}, 5, 65);
+  assert(r == 33);*/
 
   Solution_No_Duplicate sln2;
   auto r2 = sln2.kSum({1, 4, 7, 10, 12, 15, 16, 18, 21, 23, 24, 25, 26, 29}, 5, 65);
@@ -138,10 +139,10 @@ void test() {
   assert(33 == r2.size());
 
   Solution_With_Duplicates sln_with_dups;
-  auto r3=sln_with_dups.kSum({16, 1, 4, 7, 10, 12, 15,
-                              16, 18, 21, 23, 24, 25, 26, 29}, 5, 65);
+  auto r3 = sln_with_dups.kSum({16, 1, 4, 7, 10, 12, 15,
+                                16, 18, 21, 23, 24, 25, 26, 29}, 5, 65);
   // one more result: [1 7 16 16 25]
-  assert(r3.size()==34);
+  assert(r3.size() == 34);
 }
 
 } // namespace _ksum
