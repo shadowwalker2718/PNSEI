@@ -50,7 +50,7 @@ add_executable(pnsei
         google/gg_intrange.h
         concurrency_parallel/h2o.h
         linkedin/hangman.h
-        "HDU_1254.h"
+        "HDU_pushbox.h"
         henry.h
         IndexMaxPQ.h
         linkedin/intersected.h
@@ -91,7 +91,7 @@ add_executable(pnsei
         bolt/Remove_brackets_from_an_algebraic_string.h addepar/Find_a_peak_element_in_a_2D_array.h
         addepar/162_Find_Peak_Element.h addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h addepar/segment_tree.h
         addepar/37_Sudoku_Solver.h addepar/wildcard_simplified.h leetcode/935_Knight_Dialer.h
-        addepar/465_Optimal_Account_Balancing.h addepar/8puzzle_AStar.h addepar/43_Multiply_Strings.h
+        leetcode/465_Optimal_Account_Balancing.h addepar/8puzzle_AStar.h addepar/43_Multiply_Strings.h
         addepar/121_Best_Time_to_Buy_and_Sell_Stock.h addepar/boggle.h addepar/329_Longest_Increasing_Path_in_a_Matrix.h
         cruise/number_of_islands_variant1.h cruise/closest_car.h cruise/no_or_single_parent_graph.h
         cruise/224_Basic_Calculator.h cruise/build_tree_by_indentation.h cruise/overlap_interval.h
@@ -106,7 +106,7 @@ add_executable(pnsei
         uber/uber_LRU_optimized_delete.h uber/short_message_formatting.h leetcode/22_Generate_Parentheses.h
         leetcode/200_Number_of_Islands.h leetcode/305_Number_of_Islands_II.h leetcode/406_Queue_Reconstruction_by_Height.h
         leetcode/694_Number_of_Distinct_Islands.h "leetcode/711_Number_of_Distinct Islands_II.h"
-        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h)
+        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h leetcode/18_4Sum.h leetcode/454_4Sum_II.h leetcode/943_Find_the_Shortest_Superstring.h leetcode/944_Delete_Columns_to_Make_Sorted.h)
 
 IF (WIN32)
     # set stuff for windows
