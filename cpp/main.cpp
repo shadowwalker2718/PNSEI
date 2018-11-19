@@ -98,6 +98,8 @@
 
 #include "leetcode/18_4Sum.h"
 #include "leetcode/464_Can_I_Win.h"
+#include "leetcode/587_Erect_the_Fence.h"
+
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -121,6 +123,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _587::test();
   _464::test();
   _ksum::test();
   _mytime::system_info();
