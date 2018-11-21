@@ -92,7 +92,9 @@
 
 #include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator_segment_tree.h"
+
 #include "uber/rate_limiter_Token_Bucket.h"
+#include "uber/longest_poolchain.h"
 
 #include "cplusplus/mytime.h"
 
@@ -123,6 +125,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _uber_longest_poolchain::test();
   _587::test();
   _464::test();
   _ksum::test();
