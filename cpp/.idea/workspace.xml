@@ -16,13 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/745.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/745_Prefix_and_Suffix_Search.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo.ods" beforeDir="false" afterPath="$PROJECT_DIR$/../algo.ods" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropbox/isDownloadComplete.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber/longest_poolchain.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/longest_poolchain.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,7 +154,7 @@
           <entry key="bitset" value="3" />
           <entry key="cmath" value="1" />
           <entry key="cpp" value="37" />
-          <entry key="h" value="284" />
+          <entry key="h" value="287" />
           <entry key="hpp" value="7" />
           <entry key="iostream" value="1" />
           <entry key="ipynb" value="1" />
@@ -176,7 +172,7 @@
           <entry key="Disassembly" value="38" />
           <entry key="Image" value="5" />
           <entry key="Markdown" value="5" />
-          <entry key="ObjectiveC" value="337" />
+          <entry key="ObjectiveC" value="340" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="24" />
         </counts>
@@ -186,7 +182,7 @@
           <entry key="GDB" value="28" />
           <entry key="cpp" value="2737" />
           <entry key="dummy" value="49" />
-          <entry key="h" value="30647" />
+          <entry key="h" value="31665" />
           <entry key="md" value="111" />
           <entry key="mm" value="24" />
           <entry key="py" value="2195" />
@@ -198,7 +194,7 @@
           <entry key="Doxygen file" value="3" />
           <entry key="GDBCommands" value="28" />
           <entry key="Markdown" value="111" />
-          <entry key="ObjectiveC" value="33405" />
+          <entry key="ObjectiveC" value="34423" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="Python" value="2195" />
           <entry key="RegExp" value="2" />
@@ -245,46 +241,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/nary_tree_codec.py">
+        <entry file="file://$PROJECT_DIR$/dropbox/web_crawler.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/nary_tree_codec.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber/longest_poolchain.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-            </state>
+            <state relative-caret-position="-285" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/745_Prefix_and_Suffix_Search.h">
+        <entry file="file://$PROJECT_DIR$/dropbox/isDownloadComplete.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/745.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="975">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -297,15 +264,6 @@
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/149_Max_Points_on_a_Line.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -415,7 +373,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/711_Number_of_Distinct Islands_II.py" />
         <option value="$PROJECT_DIR$/uber/359_Logger_Rate_Limiter.h" />
         <option value="$PROJECT_DIR$/uber/rate_limiter_Token_Bucket.h" />
         <option value="$PROJECT_DIR$/cplusplus/mytime.h" />
@@ -466,6 +423,7 @@
         <option value="$PROJECT_DIR$/uber/longest_poolchain.h" />
         <option value="$PROJECT_DIR$/leetcode/745.py" />
         <option value="$PROJECT_DIR$/leetcode/745_Prefix_and_Suffix_Search.h" />
+        <option value="$PROJECT_DIR$/dropbox/isDownloadComplete.h" />
       </list>
     </option>
   </component>
@@ -528,6 +486,11 @@
             <path>
               <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
@@ -761,12 +724,12 @@
       <workItem from="1542595044835" duration="2139000" />
       <workItem from="1542601603435" duration="3193000" />
       <workItem from="1542671746386" duration="6053000" />
-      <workItem from="1542763031358" duration="8218000" />
+      <workItem from="1542763031358" duration="11944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412457000" />
+    <option name="totallyTimeSpent" value="416183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -781,8 +744,8 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.16839238" />
-      <window_info id="Structure" order="1" sideWeight="0.50222224" side_tool="true" weight="0.25027934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49605262" visible="true" weight="0.21416894" />
+      <window_info id="Structure" order="1" sideWeight="0.5039474" side_tool="true" weight="0.2793296" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4465479" />
@@ -803,7 +766,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" visible="true" weight="0.31280655" />
+      <window_info anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" visible="true" weight="0.18910082" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" weight="0.42742857" />
@@ -1110,11 +1073,6 @@
           <line>89</line>
           <option name="timeStamp" value="314" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/leetcode/745_Prefix_and_Suffix_Search.h</url>
-          <line>74</line>
-          <option name="timeStamp" value="317" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
           <line>37</line>
@@ -1314,27 +1272,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addepar/37_Sudoku_Solver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addepar/Find_a_peak_element_in_a_2D_array.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/254_Factor_Combinations.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addepar/162_Find_Peak_Element.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -1655,24 +1592,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uber/longest_poolchain.h">
+    <entry file="file://$PROJECT_DIR$/dropbox/find_duplicate_files.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-        </state>
+        <state relative-caret-position="-494" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/745.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/745_Prefix_and_Suffix_Search.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+        <state relative-caret-position="270">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/longest_poolchain.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/web_crawler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/isDownloadComplete.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>
