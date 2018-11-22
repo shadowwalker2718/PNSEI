@@ -21,6 +21,14 @@
  * thread结束就终止还是所有thread都退出才终止.
  * 昨晚以后还有10分钟左右,小哥又问了问我正在做的项目,看来真的是挺感兴趣.
  *
+ *
+ * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=459243
+ * 2018(10-12月)-[]CS本科+<3个月短暂实习/全职 - 内推| 码农类General实习@Dropbox其他
+上周五 onsite 发一下面经 攒个人品第一轮 国人小哥问的 isdownloadcomplete的问题 和地里的基本一摸一样
+第二轮 一道给了一个网址 让返回所有这个网址可以访问到的地址 给了一个 getlink的API.
+ 写的时候忘了考虑重复的link会有cycle的问题
+ 然后稳bottleneck. 最后问了怎么解决
+第三轮 老题duplicate fil 只给了一个根目录 然后让你用提供的几个API来做。其他思路完全一样 follow up也和地里面经一样
  * */
 
 // http://massivetechinterview.blogspot.com/2015/06/design-web-crawler.html

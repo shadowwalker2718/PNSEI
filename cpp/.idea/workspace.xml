@@ -16,9 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/253_Meeting_Rooms_II.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/henry.h" beforeDir="false" afterPath="$PROJECT_DIR$/henry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algo.ods" beforeDir="false" afterPath="$PROJECT_DIR$/../algo.ods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/distributed_LRU.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/distributed_LRU.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropbox/web_crawler.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/web_crawler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/253_Meeting_Rooms_II.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/253_Meeting_Rooms_II.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,18 +136,18 @@
     <session id="-2035416784">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="6" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="5" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -155,7 +157,7 @@
           <entry key="bitset" value="3" />
           <entry key="cmath" value="1" />
           <entry key="cpp" value="37" />
-          <entry key="h" value="289" />
+          <entry key="h" value="291" />
           <entry key="hpp" value="7" />
           <entry key="iostream" value="1" />
           <entry key="ipynb" value="1" />
@@ -173,7 +175,7 @@
           <entry key="Disassembly" value="38" />
           <entry key="Image" value="5" />
           <entry key="Markdown" value="5" />
-          <entry key="ObjectiveC" value="342" />
+          <entry key="ObjectiveC" value="344" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="24" />
         </counts>
@@ -183,7 +185,7 @@
           <entry key="GDB" value="28" />
           <entry key="cpp" value="2737" />
           <entry key="dummy" value="49" />
-          <entry key="h" value="31733" />
+          <entry key="h" value="31770" />
           <entry key="md" value="111" />
           <entry key="mm" value="24" />
           <entry key="py" value="2195" />
@@ -195,7 +197,7 @@
           <entry key="Doxygen file" value="3" />
           <entry key="GDBCommands" value="28" />
           <entry key="Markdown" value="111" />
-          <entry key="ObjectiveC" value="34491" />
+          <entry key="ObjectiveC" value="34528" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="Python" value="2195" />
           <entry key="RegExp" value="2" />
@@ -244,24 +246,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dropbox/web_crawler.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dropbox/isDownloadComplete.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+            <state relative-caret-position="555">
+              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cruise/distributed_LRU.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dropbox/bittorrent_merge.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dropbox/isDownloadComplete.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/253_Meeting_Rooms_II.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -269,7 +287,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/henry.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
+            <state relative-caret-position="1335">
               <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
             </state>
           </provider>
@@ -278,8 +296,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="1680">
+              <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -392,8 +410,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uber/rate_limiter_Token_Bucket.h" />
-        <option value="$PROJECT_DIR$/cplusplus/mytime.h" />
         <option value="$PROJECT_DIR$/leetcode/149_Max_Points_on_a_Line.h" />
         <option value="$PROJECT_DIR$/leetcode/34_Search_for_a_Range.h" />
         <option value="$PROJECT_DIR$/leetcode/65_Valid_Number.h" />
@@ -440,9 +456,11 @@
         <option value="$PROJECT_DIR$/uber/longest_poolchain.h" />
         <option value="$PROJECT_DIR$/leetcode/745.py" />
         <option value="$PROJECT_DIR$/leetcode/745_Prefix_and_Suffix_Search.h" />
-        <option value="$PROJECT_DIR$/dropbox/isDownloadComplete.h" />
         <option value="$PROJECT_DIR$/henry.h" />
+        <option value="$PROJECT_DIR$/dropbox/isDownloadComplete.h" />
         <option value="$PROJECT_DIR$/leetcode/253_Meeting_Rooms_II.h" />
+        <option value="$PROJECT_DIR$/dropbox/web_crawler.h" />
+        <option value="$PROJECT_DIR$/cruise/distributed_LRU.h" />
       </list>
     </option>
   </component>
@@ -453,11 +471,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="39" />
-    <option name="y" value="25" />
-    <option name="width" value="941" />
-    <option name="height" value="1055" />
+    <option name="y" value="114" />
+    <option name="width" value="931" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -499,6 +517,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -506,11 +525,15 @@
               <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="cruise" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -733,12 +756,13 @@
       <workItem from="1542595044835" duration="2139000" />
       <workItem from="1542601603435" duration="3193000" />
       <workItem from="1542671746386" duration="6053000" />
-      <workItem from="1542763031358" duration="12328000" />
+      <workItem from="1542763031358" duration="15892000" />
+      <workItem from="1542856674916" duration="2201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="416567000" />
+    <option name="totallyTimeSpent" value="422332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,15 +774,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
+    <frame x="39" y="114" width="931" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49605262" visible="true" weight="0.21416894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49605262" visible="true" weight="0.44858757" />
       <window_info id="Structure" order="1" sideWeight="0.5039474" side_tool="true" weight="0.2793296" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4465479" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49863762" visible="true" weight="0.54333335" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49863762" weight="0.54333335" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
@@ -767,7 +791,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.4989339" weight="0.3226152" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.6785714" weight="0.23888889" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.6785714" visible="true" weight="0.23888889" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
@@ -775,7 +799,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" visible="true" weight="0.18910082" />
+      <window_info anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" weight="0.18910082" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" weight="0.42742857" />
@@ -1281,20 +1305,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/clique.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cruise/all_points_in_Kmiles.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1546,40 +1556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/454_4Sum_II.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/465_Optimal_Account_Balancing.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4695">
-          <caret line="313" selection-start-line="313" selection-end-line="313" />
-          <folding>
-            <element signature="e#4535#7955#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/943_Find_the_Shortest_Superstring.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1613,29 +1589,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/web_crawler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dropbox/isDownloadComplete.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/henry.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+        <state relative-caret-position="480">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/253_Meeting_Rooms_II.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henry.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/454_4Sum_II.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/465_Optimal_Account_Balancing.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4695">
+          <caret line="313" selection-start-line="313" selection-end-line="313" />
+          <folding>
+            <element signature="e#4535#7955#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/943_Find_the_Shortest_Superstring.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/bittorrent_merge.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/web_crawler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/distributed_LRU.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>

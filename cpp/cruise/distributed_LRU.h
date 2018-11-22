@@ -63,7 +63,7 @@ public:
       return -1;
     int r = m[key]->second;
     if (m[key] != ls.begin()) {
-      ls.splice(ls.begin(), ls, m[key], next(m[key]));
+      ls.splice(ls.begin(), ls, m[key], next(m[key])); // move to front
       m[key] = ls.begin();
     }
     return r;
@@ -99,6 +99,7 @@ public:
 // https://www.openmymind.net/High-Concurrency-LRU-Caching/
 // https://github.com/karlseguin/ccache
 // https://www.ebayinc.com/stories/blogs/tech/high-throughput-thread-safe-lru-caching/
+// https://www.openmymind.net/Shard-Your-Hash-table-to-reduce-write-locks/
 template <typename KT, typename VT>
 class distributedLRU{
   int cap;
