@@ -109,10 +109,17 @@ struct Intervals { // bool - 起始点或者终止点
       int r = 0, count = 0;
       stack<int> stk; // max size are 2
       for (int i = 0; i < intervals.size(); i++) {
-        if (stk.empty()) { stk.push(intervals[i].first); }
-        if (intervals[i].second) count++; else count--;
+        if (stk.empty()) {
+          stk.push(intervals[i].first);
+        }
+        if (intervals[i].second)
+          count++;
+        else
+          count--;
         if (count == 0) { // we have found a `continuously covered range`
-          r += intervals[i].first - stk.top(); stk.pop(); }
+          r += intervals[i].first - stk.top();
+          stk.pop();
+        }
       }
       return r;
     }
