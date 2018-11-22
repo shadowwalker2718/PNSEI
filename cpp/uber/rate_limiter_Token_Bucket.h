@@ -26,6 +26,8 @@ namespace _uber_rate_limiter {
 // bool isPermitted(callerId)
 // bool isPermitted()
 
+#define current_time() time_point_cast<milliseconds>(high_resolution_clock::now()).time_since_epoch().count()
+
 class TokenBucket {
   int tokenPerSecond;
   long timestamp;
@@ -36,11 +38,12 @@ public:
   TokenBucket(int rps) {
     capacity = tokenPerSecond = rps;
     tokens = rps;
-    timestamp = time(NULL);
+    timestamp = current_time();//time(NULL);
+
   }
 
   bool isPermitted() {
-    long now = time(NULL);
+    long now = current_time();
     tokens += (now - timestamp) * tokenPerSecond;
     timestamp = now;
     if (tokens > capacity)
@@ -66,11 +69,11 @@ public:
   TokenBucketForCaller(int rps) {
     capacity = tokenPerSecond = rps;
     tokens = rps; // give it some initial token, could be 0 too
-    timestamp = time(NULL);
+    timestamp = current_time();
   }
 
   bool isPermitted(callerId id) {
-    long now = time(NULL);
+    long now = current_time();
     m[id].first += (now - m[id].second) * tokenPerSecond;
     m[id].second = now;
     m[id].first = min(m[id].first, capacity);

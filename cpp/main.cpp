@@ -76,7 +76,8 @@
 #include "leetcode/465_Optimal_Account_Balancing.h"
 #include "addepar/8puzzle_AStar.h"
 #include "addepar/37_Sudoku_Solver.h"
-#include "addepar/concurrent_hashmap.h"
+#include "concurrency_parallel/concurrent_hashmap.h"
+#include "concurrency_parallel/concurrent_linkedlist.h"
 
 #include "cruise/clique.h"
 #include "cruise/LFU.h"
@@ -125,6 +126,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _uber_rate_limiter::test();
+  _concurrent::test();
   _uber_longest_poolchain::test();
   _587::test();
   _464::test();
@@ -138,7 +141,6 @@ int main(int argc, char **argv) {
 
   _hdu_1254::test();
   _529_minesweeper::test();
-  _uber_rate_limiter::test();
   _cruise_dijkstra::test();
   dropbox_find_highest_minimum_sharpness::test_find_highest_minimum_sharpness();
   _cruise_interval::test();

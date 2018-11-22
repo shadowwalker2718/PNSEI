@@ -89,3 +89,5 @@ struct Interval {
   Interval(int s, int e) : start(s), end(e) {}
 };
 
+#define REP(i,begin,end) for(int i=begin;i<end;i++)
+

@@ -18,7 +18,7 @@ struct hashentry {
 };
 
 // single thread hash map by chaining
-class hmap {
+class STHashMap {
   array<hashentry, 8> p; // 注意bucket里面是一个empty slot
 public:
   double get(int k) {
@@ -75,7 +75,7 @@ public:
 void test() {
   vector<int> vi(100);
   iota(vi.begin(), vi.end(), 1);
-  hmap hm;
+  STHashMap hm;
   for (int i : vi)
     hm.put(i, i * 0.23);
   for (int i : vi) {
@@ -94,7 +94,7 @@ struct seg {
 };
 
 // int -> double
-class chmap {
+class ConcurrentHashMap {
   array<seg, 8> p;
 
 public:

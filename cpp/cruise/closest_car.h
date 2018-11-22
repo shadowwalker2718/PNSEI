@@ -103,7 +103,6 @@ void test() {
     5 5 9 8 9 0 1 0 8 9
     1 4 3 4 8 9 8 7 8 4
    */
-#define REP(i, x, y) for(int i=x;i<y;i++)
   srand(0xdeadbeef);
   int k = 20;
   while (k--) {
