@@ -47,13 +47,24 @@ function. 打开coderpad要用python写,问可不可以java,同意后就用java�
  *
  * */
 
+#include "../concurrency_parallel/concurrent_linkedlist.h"
+#include "../concurrency_parallel/concurrent_hashmap.h"
+
 namespace cruise_20181009 {
 
 // Actually an ordered hashmap ordered by insertion/access time
 class LRUCache {
-  list<pair<int, int>> ls;
-  map<int, list<pair<int, int>>::iterator> m;
+  list<PII> ls;
+  unordered_map<int, list<PII>::iterator> m;
   int cnt;
+
+  bool promote(list<PII>& ls,list<PII>::iterator it){
+    if (it != ls.begin()) {
+      ls.splice(ls.begin(), ls, it, next(it)); // move it to front
+      return true;
+    }
+    return false;
+  }
 
 public:
   LRUCache(int capacity) : cnt(capacity) {}
@@ -62,29 +73,25 @@ public:
     if (!m.count(key))
       return -1;
     int r = m[key]->second;
-    if (m[key] != ls.begin()) {
-      ls.splice(ls.begin(), ls, m[key], next(m[key])); // move to front
+    if (promote(ls, m[key]))
       m[key] = ls.begin();
-    }
     return r;
   }
 
   void put(int key, int value) {
     if (m.count(key)) {
-      if (m[key] != ls.begin()) {
-        ls.splice(ls.begin(), ls, m[key], next(m[key]));
+      if (promote(ls, m[key]))
         m[key] = ls.begin();
-      }
       ls.begin()->second = value; // dont forget this
       return;
     }
-    if (cnt == ls.size()) {
-      m.erase(ls.back().first); // the reason why we need list<Key,Value>
-                                // instead of list<Value>
+    ls.emplace_front(key, value); // add to front of the list
+    m[key] = ls.begin();
+    // evict
+    if (cnt < ls.size()) {
+      m.erase(ls.back().first); // the reason why we need list<Key,Value> instead of list<Value>
       ls.pop_back();
     }
-    ls.emplace_front(key, value);
-    m[key] = ls.begin();
   }
 
   void del(int key) {
@@ -102,9 +109,14 @@ public:
 // https://www.openmymind.net/Shard-Your-Hash-table-to-reduce-write-locks/
 template <typename KT, typename VT>
 class distributedLRU{
-  int cap;
+  _concurrent_ll::concurrent_linkedlist l;
+  _concurrent_hashmap::concurrent_hashmap m;
+  atomic<int> cap;
 public:
-  distributedLRU(int capacity) : cap(capacity) {}
+  distributedLRU(int capacity) {
+    cap.store(capacity, memory_order_seq_cst);
+  }
+  //int get(int key){}
   void del(const KT&);
 };
 

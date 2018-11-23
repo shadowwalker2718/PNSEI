@@ -6,7 +6,9 @@
 
 namespace _concurrent_hashmap {
 
-int hash(int i) { return i * 3 % 8; }
+const int SEGMENT_SIZE=32;
+
+int hash(int i) { return i * 3 % SEGMENT_SIZE; }
 
 struct hashentry {
   int k;
@@ -19,7 +21,7 @@ struct hashentry {
 
 // single thread hash map by chaining
 class STHashMap {
-  array<hashentry, 8> p; // 注意bucket里面是一个empty slot
+  array<hashentry, SEGMENT_SIZE> p; // 注意bucket里面是一个empty slot
 public:
   double get(int k) {
     int ha = hash(k);
@@ -94,14 +96,14 @@ struct seg {
 };
 
 // int -> double
-class ConcurrentHashMap {
-  array<seg, 8> p;
+class concurrent_hashmap {
+  array<seg, SEGMENT_SIZE> segs;
 
 public:
   double get(int k) {
     int ha = hash(k);
-    shared_lock<shared_mutex> lock(p[ha].mu);
-    auto c = p[ha].next;
+    shared_lock<shared_mutex> lock(segs[ha].mu);
+    auto c = segs[ha].next;
     while (c) {
       if (c->k == k)
         return c->v;
@@ -112,10 +114,10 @@ public:
   void put(int k, double v) {
     int ha = hash(k);
     auto t = new hashentry(k, v);
-    unique_lock<shared_mutex> lock(p[ha].mu);
-    auto c = p[ha].next;
+    unique_lock<shared_mutex> lock(segs[ha].mu);
+    auto c = segs[ha].next;
     if (c == 0) {
-      p[ha].next = t;
+      segs[ha].next = t;
     } else {
       while (c->next)
         c = c->next;
@@ -124,24 +126,27 @@ public:
   }
   void erase(int k) {
     int ha = hash(k);
-    unique_lock<shared_mutex> lock(p[ha].mu);
-    auto hd = p[ha].next;
+    unique_lock<shared_mutex> lock(segs[ha].mu);
+    auto& hd = segs[ha].next;
     if (hd == 0)
       return;
-    if (hd->next == 0 && hd->k == k) {
-      hd->next = 0;
+    if (hd->next == 0 && hd->k == k) { // remove head
+      delete hd, hd = 0;
       return;
     }
     auto pv = hd;
-    hd = hd->next;
-    while (hd) {
-      if (hd->k == k) {
-        pv->next = hd->next;
-        delete hd;
+    auto c = hd->next;
+    while (c) {
+      if (c->k == k) {
+        pv->next = c->next;
+        delete c;
         return;
       }
-      pv = hd, hd = hd->next;
+      pv = c, c = c->next;
     }
+  }
+  bool contain(int k){
+    return !isnan(get(k));
   }
 };
 

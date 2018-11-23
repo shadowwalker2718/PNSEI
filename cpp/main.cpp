@@ -90,12 +90,15 @@
 #include "cruise/number_of_islands_variant1.h"
 #include "cruise/interval_subtraction.h"
 #include "cruise/closest_car.h"
+#include "cruise/LFU.h"
+#include "cruise/432_All_Oone_Data_Structure_LFU_Variant.h"
 
 #include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator_segment_tree.h"
 
 #include "uber/rate_limiter_Token_Bucket.h"
 #include "uber/longest_poolchain.h"
+#include "uber/uber_LRU_customized_eviction.h"
 
 #include "cplusplus/mytime.h"
 
@@ -126,8 +129,12 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _432::test();
+  _uber_lru::test();
+  _lfu::test();
+  _concurrent_ll::test();
+
   _uber_rate_limiter::test();
-  _concurrent::test();
   _uber_longest_poolchain::test();
   _587::test();
   _464::test();
@@ -218,7 +225,7 @@ int main(int argc, char **argv) {
 
   _multi_dimension_array::test();
   _lnkd_is_intersected::test();
-  _lfu::test();
+
   justify_text_line::test();
 
   _print_matrix::test();

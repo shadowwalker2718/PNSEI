@@ -52,5 +52,132 @@
  >多谢楼主分享！第五题中rider是不是刚开始位置一致不变化因为在等driver？如果碰面了的话位置上有相同点吗 ...
  <这个不清楚。他们碰面的时候不一定是位置相等，有可能是很小的距离
  */
+#include "henry.h"
+
+namespace _uber_lru {
+
+struct node {
+  int k;
+  int v;
+  int z; // vol, or size
+};
+
+class LRU_By_Size {
+  list<node> l; // key is unique in the ll
+  unordered_map<int, list<node>::iterator> m;
+  const int CAPSIZE;
+
+protected:
+  int cz = 0;// current size
+  bool __promote(list<node> &l, list<node>::iterator it) {
+    if (l.begin() != it) {
+      l.splice(l.begin(), l, it, next(it)); // a.splice(x, b, [, ))
+      return true;
+    }
+    return false;
+  }
+
+  void __remove_node(list<node>::iterator it) {
+    m.erase(it->k);
+    l.erase(it);
+    cz -= it->z;
+  }
+
+  // nn - new node we just add to the list
+  void __evict(const node &nn) {
+    while (CAPSIZE < cz) {
+      // eviction policy
+      // traverse ll backward and find the node with size equal to nn.z and distance(or time) less than T with tail
+      // (concept of time window), if we couldn't find it, evict the last one
+      // policy 1
+      auto it = l.end();
+      int count = 0, T = 10, evicted = 0;
+      // https://stackoverflow.com/questions/3610933/iterating-c-vector-from-the-end-to-the-begin
+      while (it != l.begin() && count < T) {
+        it--;
+        count++;
+        if (it->z == nn.z && it->k != nn.k) {
+          __remove_node(it);
+          evicted = 1;
+          break;
+        }
+      }
+      // policy 2
+      if (!evicted) { // remove from the last one until the capacity is enough ????
+        while (CAPSIZE < cz && !l.empty()) {
+          __remove_node(prev(l.end()));
+        }
+      }
+    }
+  }
+
+public:
+  LRU_By_Size(int cap_) : CAPSIZE(cap_) {}
+
+  int get(int k) {
+    if (!m.count(k))
+      return INT_MIN;
+    int r = m[k]->v;
+    if (__promote(l, m[k]))
+      m[k] = l.begin();
+    return r;
+  }
+
+  // first we don't consider constraint of size, we just blindly push_front/promote
+  // then we do evict
+  bool put(int k, int v, int z) {
+    // 0. edge case
+    if (z > CAPSIZE)
+      return false;
+    node nn = {k, v, z};
+    // 1. old node
+    if (m.count(k)) {
+      if (__promote(l, m[k]))
+        m[k] = l.begin();
+      if (l.front().z != z) {
+        cz += z - l.front().z;
+        l.front().z = z;
+      }
+      if (l.front().v != v)
+        l.front().v = v;
+    } else {
+      // 2. new code
+      // 2.1 evict ?
+      // 2.2 add new node to front
+      l.push_front(nn);
+      m[k] = l.begin();
+      cz += z;
+    }
+    __evict(nn);
+    return true;
+  }
+
+  int getsize() { return cz; }
+};
+
+/*
+ *  第二轮， LRU， follow up 优化删除的算法,现在LRU的size不是用Number of element来算,
+ 而是用byte 比如里面存有: 2 byte data-> 3 byte data -> 8 byte data -> 50 byte
+ data, LRU size 是 65 bytes。现在有另外一个8 bytes 的data 要进来。 因为lru已经有
+ 63 bytes的data, 需要删除。 按照原来的算法，50 bytes data 被删除。 但这不是最优化
+ 的，最优化的是删除8 byte的data. 这是一个比较Open end 的，LZ最后也只是乱说了一通，
+ 后面想想，还是应该把那些rule都搞清楚。 recruiter说不错所以这个可能不是挂点吧
+ * */
+void test() {
+  LRU_By_Size lru(65);
+
+  lru.put(3, 13, 50);
+  lru.put(1, 12, 8);
+  lru.put(2, 11, 3);
+  lru.put(0, 1, 2);
+
+  lru.put(4, 11, 8);
+
+  assert(lru.getsize() == 63);
+  assert(lru.get(3) == 13);
+}
+
+}
+
 
 #endif //PNSEI_UBER_LRU_OPTIMIZED_DELETE_H

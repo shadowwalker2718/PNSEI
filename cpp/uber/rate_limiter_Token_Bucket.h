@@ -96,6 +96,7 @@ int test() {
   assert(bs.count() == 2);
   while (k--)
     tb.isPermitted() ? bs.set(k) : bs.reset(k);
+  cout << bs.count() << endl;
   assert(bs.count() == 4);
   return 0;
 }

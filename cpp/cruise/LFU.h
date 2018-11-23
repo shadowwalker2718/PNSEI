@@ -4,17 +4,17 @@
 
 namespace _lfu {
 #define LFUKEY int
-#define LFUFEQ int
 
 // LFU - Least Frequently Used
 class FreqNode {
 public:
-  LFUFEQ freq;
+  int freq;
   // We use a SET in lieu of a linked list for storing elements with the same
-  // access frequency for simplicitly of implementation. HASH SET structure
+  // access frequency for simplicity of implementation. HASH SET structure
   // which holds the keys of such elements that have the same access frequency.
   // Its insertion, lookup and deletion runtime complexity is O(1).
   unordered_set<LFUKEY> items;
+
   FreqNode(int f) { this->freq = f; }
 };
 
@@ -27,21 +27,22 @@ public:
   // key   : item (key of element)
   // value : point to its parent freqNode.
   //         Those nodes with the same access frequency share a single parent.
-  unordered_map<LFUKEY, list<FreqNode *>::iterator> bykey;
+  unordered_map<LFUKEY, list<FreqNode *>::iterator> m;
 
-  FreqNode *createNode(int freq, list<FreqNode *>::iterator next) {
+
+  FreqNode *__createNode(int freq, list<FreqNode *>::iterator next) {
     FreqNode *newNode = new FreqNode(freq);
-    if (newNode == NULL) {
-      return NULL;
-    }
     freqNodes.insert(next, newNode);
     return newNode;
   }
 
-  void deleteNode(list<FreqNode *>::iterator it) { freqNodes.erase(it); }
+  void __deleteNode(list<FreqNode *>::iterator it) {
+    freqNodes.erase(it);
+  }
 
 public:
   LFUCache() {}
+
   ~LFUCache() {
     for (auto it = freqNodes.begin(); it != freqNodes.end(); it++)
       delete (*it);
@@ -52,26 +53,26 @@ public:
   // Assuming the element(key) already exists beforehand.
   // O(1)
   void access(LFUKEY key) {
-    if (bykey.find(key) == bykey.end()) {
+    if (!m.count(key)) {
       // not exist
       return;
     }
-    list<FreqNode *>::iterator nodeIt = bykey[key];
+    list<FreqNode *>::iterator nodeIt = m[key];
     int freqNow = (*nodeIt)->freq;
 
     list<FreqNode *>::iterator nextNodeIt = nodeIt;
     nextNodeIt++;
     if (nextNodeIt == freqNodes.end() || (*nextNodeIt)->freq != (freqNow + 1)) {
-      createNode(freqNow + 1, nextNodeIt);
+      __createNode(freqNow + 1, nextNodeIt);
     }
     nextNodeIt = nodeIt;
     nextNodeIt++;
-    bykey[key] = nextNodeIt;
+    m[key] = nextNodeIt;
     (*nextNodeIt)->items.insert(key);
 
     (*nodeIt)->items.erase(key);
     if ((*nodeIt)->items.empty()) {
-      deleteNode(nodeIt);
+      __deleteNode(nodeIt);
     }
   }
 
@@ -87,17 +88,17 @@ public:
     }
     auto nodeIt = freqNodes.begin();
     (*nodeIt)->items.insert(key);
-    bykey[key] = nodeIt;
+    m[key] = nodeIt;
   }
 
   // Look up an item with key, return its usage count
   // O(1)
   int getFreq(LFUKEY key) {
-    if (bykey.find(key) == bykey.end()) {
+    if (m.find(key) == m.end()) {
       // error out
       return -1;
     }
-    return (*bykey[key])->freq;
+    return (*m[key])->freq;
   }
 
   // Fetches an item with the least usage count (the least frequently used item)
@@ -136,7 +137,7 @@ void printFreq(LFUCache &lfu) {
   for (auto it = lfu.freqNodes.begin(); it != lfu.freqNodes.end(); it++) {
     cout << "Freq = " << (*it)->freq << ": ";
     for (auto iIt = (*it)->items.begin(); iIt != (*it)->items.end(); iIt++) {
-      cout << (char)*iIt << " ";
+      cout << (char) *iIt << " ";
     }
     cout << endl;
   }

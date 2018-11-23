@@ -103,10 +103,10 @@ add_executable(pnsei
         cruise/816_Ambiguous_Coordinates.h cruise/227_Basic_Calculator_II.h cruise/150_Evaluate_Reverse_Polish_Notation.h
         cruise/304_Range_Sum_Query_2D_Immutable.h cruise/Pairwise_swap_elements_of_a_given_linked_list.h
         cruise/interval_subtraction.h uber/267_Palindrome_Permutation_II.h uber/160_Intersection_of_Two_Linked_Lists.h
-        uber/uber_LRU_optimized_delete.h uber/short_message_formatting.h leetcode/22_Generate_Parentheses.h
+        uber/uber_LRU_customized_eviction.h uber/short_message_formatting.h leetcode/22_Generate_Parentheses.h
         leetcode/200_Number_of_Islands.h leetcode/305_Number_of_Islands_II.h leetcode/406_Queue_Reconstruction_by_Height.h
         leetcode/694_Number_of_Distinct_Islands.h "leetcode/711_Number_of_Distinct_Islands_II.h"
-        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h leetcode/18_4Sum.h leetcode/454_4Sum_II.h leetcode/943_Find_the_Shortest_Superstring.h leetcode/944_Delete_Columns_to_Make_Sorted.h leetcode/464_Can_I_Win.h weride/postman_pass_checkpoints.h leetcode/587_Erect_the_Fence.h leetcode/469_Convex_Polygon.h leetcode/189_Rotate_Array.h leetcode/nary_tree_codec.h uber/longest_poolchain.h leetcode/745_Prefix_and_Suffix_Search.h dropbox/isDownloadComplete.h leetcode/253_Meeting_Rooms_II.h concurrency_parallel/concurrent_linkedlist.h concurrency_parallel/concurrent_queue.h concurrency_parallel/threadpool.h concurrency_parallel/objectpool.h)
+        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h leetcode/18_4Sum.h leetcode/454_4Sum_II.h leetcode/943_Find_the_Shortest_Superstring.h leetcode/944_Delete_Columns_to_Make_Sorted.h leetcode/464_Can_I_Win.h weride/postman_pass_checkpoints.h leetcode/587_Erect_the_Fence.h leetcode/469_Convex_Polygon.h leetcode/189_Rotate_Array.h leetcode/nary_tree_codec.h uber/longest_poolchain.h leetcode/745_Prefix_and_Suffix_Search.h dropbox/isDownloadComplete.h leetcode/253_Meeting_Rooms_II.h concurrency_parallel/concurrent_linkedlist.h concurrency_parallel/concurrent_queue.h concurrency_parallel/threadpool.h concurrency_parallel/objectpool.h concurrency_parallel/scopedlock.h concurrency_parallel/rwlock.h cruise/432_All_Oone_Data_Structure_LFU_Variant.h)
 
 IF (WIN32)
     # set stuff for windows
