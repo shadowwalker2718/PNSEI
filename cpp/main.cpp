@@ -92,6 +92,7 @@
 #include "cruise/closest_car.h"
 #include "cruise/LFU.h"
 #include "cruise/432_All_Oone_Data_Structure_LFU_Variant.h"
+#include "cruise/distributed_LRU.h"
 
 #include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator_segment_tree.h"
@@ -129,6 +130,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  //Cache-eviction related
+  _lru_classic::test();
   _432::test();
   _uber_lru::test();
   _lfu::test();

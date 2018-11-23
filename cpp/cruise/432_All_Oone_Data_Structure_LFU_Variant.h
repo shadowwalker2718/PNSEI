@@ -26,7 +26,7 @@ struct node{
   int f;
   // 如果上面的set用unordered_set代替,getMaxKey就会出错,因为unordered_set不支持反向loop.
   // 还有set可以保留插入顺序by key,替换之后不行.
-  set<string> nset;
+  unordered_set<string> nset;
   node(string& s,int f_):f(f_){nset.insert(s);}
 };
 
@@ -97,7 +97,7 @@ public:
   // Returns **one** of the keys with maximal value. If no element exists, return an empty string "".
   string getMaxKey() {
     if(flist.empty()) return "";
-    return *flist.back().nset.rbegin();
+    return * flist.back().nset.begin();
   }
 
   //  Returns **one** of the keys with minimal value. If no element exists, return an empty string "".

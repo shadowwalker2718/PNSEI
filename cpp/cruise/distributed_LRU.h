@@ -2,8 +2,8 @@
 // Created by henry on 10/21/18.
 //
 
-#ifndef C_LRU_H
-#define C_LRU_H
+#ifndef C_LRU_CLASSIC_H
+#define C_LRU_CLASSIC_H
 
 #include "henry.h"
 /*
@@ -33,7 +33,7 @@ function. 打开coderpad要用python写,问可不可以java,同意后就用java�
  *
  *
  * 2018(7-9月) 码农类General 硕士 全职@Cruise - 猎头 - Onsite  | Other | 在职跳槽
-1点开始4点半结束,4个面试官,连饭好不好吃都不给体验一下的...productivitiy 组. 一亩-三分-地,独家发布
+1点开始4点半结束,4个面试官,连饭好不好吃都不给体验一下的...productivitiy 组. 
 1.聊了挺久现在在做啥,然后上个design问题,因为面试官的是productivity组里的搭测试framework的,所以就问我要怎么样搭个给他们跑测试的环境
  ,刚好和我现在工作的framework沾边,所以可以扯挺多.他们每个test都需要跑很长时间,而且test data也很大,要怎样优化这些.
  讲一些scalability的东东,跟面试官聊的挺不错的感觉
@@ -50,7 +50,7 @@ function. 打开coderpad要用python写,问可不可以java,同意后就用java�
 #include "../concurrency_parallel/concurrent_linkedlist.h"
 #include "../concurrency_parallel/concurrent_hashmap.h"
 
-namespace cruise_20181009 {
+namespace _lru_classic {
 
 // Actually an ordered hashmap ordered by insertion/access time
 class LRUCache {
@@ -122,7 +122,10 @@ public:
 
 template<typename KT, typename VT>
 void distributedLRU<KT, VT>::del(const KT& key) {
+}
 
+void test(){
+  LRUCache lru(100);
 }
 
 } // namespace cruise_20181009
