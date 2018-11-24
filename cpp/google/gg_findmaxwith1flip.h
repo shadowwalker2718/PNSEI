@@ -2,7 +2,7 @@
 
 #include "henry.h"
 
-namespace google {
+namespace _google_MaxWithOneFlip {
 
 // http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=216404&page=1#pid2701309
 

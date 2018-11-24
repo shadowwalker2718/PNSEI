@@ -8,6 +8,10 @@
 
 namespace _289 {
 
+/*
+ *
+ * */
+
 // https://leetcode.com/problems/game-of-life/
 class Solution {
 public:

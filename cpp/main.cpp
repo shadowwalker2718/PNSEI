@@ -59,25 +59,27 @@
 #include "skiplist.h"
 #include "sparsematrix.h"
 #include "stree.h"
-#include "graph/graph.h"
+#include "graph/SS_Dijkstra_Shortest.h"
 #include "graph/_785_Is_Graph_Bipartite.h"
+#include "graph/787_Cheapest_Flights_Within_K_Stops.h"
 #include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
 #include "bolt/Remove_brackets_from_an_algebraic_string.h"
 
 #include "addepar/addepar.h"
 #include "addepar/winner_tree.h"
 #include "addepar/stock_reconciliation.h"
-#include "addepar/44_Wildcard_Matching.h"
+#include "leetcode/44_Wildcard_Matching.h"
 #include "addepar/local_minimum_tree.h"
 #include "addepar/Find_a_peak_element_in_a_2D_array.h"
-#include "addepar/162_Find_Peak_Element.h"
+#include "leetcode/162_Find_Peak_Element.h"
 #include "addepar/segment_tree.h"
-#include "addepar/10_Regular_Expression_Matching.h"
+#include "leetcode/10_Regular_Expression_Matching.h"
 #include "leetcode/465_Optimal_Account_Balancing.h"
 #include "addepar/8puzzle_AStar.h"
-#include "addepar/37_Sudoku_Solver.h"
+#include "leetcode/37_Sudoku_Solver.h"
 #include "concurrency_parallel/concurrent_hashmap.h"
 #include "concurrency_parallel/concurrent_linkedlist.h"
+#include "concurrency_parallel/rwlock.h"
 
 #include "cruise/clique.h"
 #include "cruise/LFU.h"
@@ -106,6 +108,15 @@
 #include "leetcode/18_4Sum.h"
 #include "leetcode/464_Can_I_Win.h"
 #include "leetcode/587_Erect_the_Fence.h"
+#include "leetcode/127_Word_Ladder.h"
+#include "leetcode/126_Word_Ladder_II.h"
+#include "leetcode/295_Find_Median_from_Data_Stream.h"
+#include "graph/MST_Kruskal_Prim.h"
+
+#include "weride/480_Sliding_Window_Median.h"
+#include "weride/k_means_DP.h"
+#include "weride/hamiltonian_cycle_string_chain.h"
+#include "weride/N_Choose_K_with_different_prob.h"
 
 /*class Solutionx {
 public:
@@ -130,19 +141,58 @@ public:
 };*/
 
 int main(int argc, char **argv) {
-  //Cache-eviction related
+  _weride_prob::test();
+  _weride_hamiltonian::test();
+  _480_medianSlidingWindow::test();
+  _weride_kmeans::test();
+  ///////////////////////////////////////////////////////////////
+  // Graph Theory
+  ///////////////////////////////////////////////////////////////
+  // BFS, Bi, MSBFS
+  _127::test();
+  _126::test();
+
+  // Toplogical Sort, DFS, Khan Algo
+
+  // Bipartite
+  _785_Is_Graph_Bipartite::test();
+
+  // BF, Dijkstra
+  _787::test();
+  _cruise_dijkstra::test();
+  graph_Dijkstra::test();
+
+  // MST(Prim, Kruskal)
+  graph_MST::test();
+
+  ///////////////////////////////////////////////////////////////
+  // Augmented Data Structure
+  ///////////////////////////////////////////////////////////////
+  //
+  // Cache-eviction related
   _lru_classic::test();
   _432::test();
   _uber_lru::test();
   _lfu::test();
   _concurrent_ll::test();
 
+  _midstack::test();
+  _minmaxstack::test();
+  _480_medianSlidingWindow::test();
+  _295::test();
+
+  ///////////////////////////////////////////////////////////////
+  // Concurrency
+  ///////////////////////////////////////////////////////////////
+  _concurrent_shared_mutex::test();
+
+
+
   _uber_rate_limiter::test();
   _uber_longest_poolchain::test();
   _587::test();
   _464::test();
   _ksum::test();
-  _mytime::system_info();
   _465_account_balancing::test();
   _4sum::test();
 
@@ -151,7 +201,7 @@ int main(int argc, char **argv) {
 
   _hdu_1254::test();
   _529_minesweeper::test();
-  _cruise_dijkstra::test();
+
   dropbox_find_highest_minimum_sharpness::test_find_highest_minimum_sharpness();
   _cruise_interval::test();
 
@@ -179,9 +229,7 @@ int main(int argc, char **argv) {
   _307_segmentTree::test();
 
 
-  _785_Is_Graph_Bipartite::test();
-  graph_Dijkstra::test();
-  graph_MST::test();
+
   _allLPS::test();
   _frequent_element::test();
   _214::test();
@@ -222,7 +270,7 @@ int main(int argc, char **argv) {
   _knighttour::test();
   segregate_even_odd_ll::test();
   blowoff_leaf::test();
-  _minmaxstack::test();
+
   K_th_Smallest_in_Lexicographical_Order::test();
   bbg_encode_list_with_dups::test();
 
@@ -242,10 +290,10 @@ int main(int argc, char **argv) {
   _indexheap::test();
   _indexheap::test2();
 
-  google::test();
+  _google_MaxWithOneFlip::test();
 
   _lnkd_is_serialized_tree::test();
-  _midstack::test();
+
   _65::test();
   _361::test();
   _42::test();
@@ -265,6 +313,7 @@ int main(int argc, char **argv) {
 
   _407::test();
 
+  _mytime::system_info();
 
   return 0;
 }

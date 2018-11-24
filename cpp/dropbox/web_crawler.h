@@ -29,6 +29,104 @@
  写的时候忘了考虑重复的link会有cycle的问题
  然后稳bottleneck. 最后问了怎么解决
 第三轮 老题duplicate fil 只给了一个根目录 然后让你用提供的几个API来做。其他思路完全一样 follow up也和地里面经一样
+
+
+ https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=409815&highlight=dropbox
+
+ Q1: FindSharpness Val
+---------------------------
+The same question but change the way it asks... into water level, land elevation.
+But, my interview seems not very familiar with the solution, I need to explain him the dp. and the logics all these things...
+the i, j , all these indexing make it hard to understand as well...
+I make one logic bug and find out during testing... it is I switch the two nested loop
+I made wrong...
+for(int i=0; i<m...)
+   for(int j=1; j<n; ...)
+This is wrong, the outer loop should be the col loop as we move from left to right...
+
+Talk a bit about my proposal on optimised space usage... just store one prev column and use one var called prev...
+There is no ask on what if the input is very large etc....
+
+Problem in details:
+Let say, I have a water level x;
+
+in the matrix, left to right, find a path that is not get flooded by the water...(means the height/elevation that cell represents should be > x)///
+well, in the path, we pick the smallest val, and that smallest val has to be >x...
+Then we find the path which give that best value... so we can assue there is always a path if x is not greater or equal to that value...
+(same problem as sharpness val then)
+
+No follow up... the space optimised is suggested by me.... 1point3acres
+
+Lunch
+Demo
+
+Q2: Find the largest island...
+-----------------------------------------------
+Just leetcode question,
+I got one small bug regarding visited marking,... I didn't mark the starting point as visited... find it out during testing and corrected.
+
+Follow up:
+1. What if we start with board with all 0... and there is fun can flip the cell (i, j) value;
+each time after the function call, return the current largest island...
+like leetcode addLand... num of island II
+
+//no need to write exact working code...
+//explained Union find ... and
+// assumed api for find set... and set set ... etc...
+just write a piece of logic..
+
+2. Ask about the running time...-baidu 1point3acres
+- I gave some explanation over the worst case of UF, and path compression and weighting etc... saying hard to prove the running time ... it is nlog*n after optimised etc
+
+
+Q3: Web Crawler
+-------------------
+First, single thread version...-baidu 1point3acres
+Talked a bit about DFS, BFS, stack overflow... endless depth etc problem...
+Implemented simple BFS, using result set to do visisted checking as well
+
+Multithreading:
+Which part is bottle neck: the getURL part... network latency etc... parser etc
+I mentioned Master / slave model, and how it can be achieved using ThreadPool, Callable, and check futures...
+and metioned it is even more efficient if we don't do the syn of these queue, set checking logic just let master manage all these... he seems like this...
+
+Then, he asked, in some language/machine, there is no support of threadPool, how would we do it ...
+He gave an API... to let you avoid writing some setup code///
+setThread(THREAD_COUNT, method)...
+implement the method... actually it is the BFS method... but with right locking
+
+
+
+There is some back and forth about where to put lock, and
+also asked the terminating conditions... (queue is empty and no working thread)
+public void crawl() {
+        while(true){ //this simplify my code for locking / unlock
+                lock.lock();
+                if(q.isEmpty() && workingThread<1) {
+                        lock.unlock();
+                        break;
+                }
+
+                //need to use while to guard it
+                while(q.isEmpty()) {//queue is empty but cannot terminate yet
+                        wait(); //wait will release the lock...
+                }
+                String currURL = q.poll();
+                lock.unlock();
+
+                //you don't want to lock the part that takes most time and that part is not accessing common data
+                String newURLGathered = getURL(currURL);
+
+                lock.lock();. 1point3acres
+                for(each){
+                        add to q & add to result set
+                }
+                notifyAll(); //in case there is someone waiting due to empty queue.
+                lock.unlock();
+
+        }
+
+}
  * */
 
 // http://massivetechinterview.blogspot.com/2015/06/design-web-crawler.html

@@ -42,6 +42,7 @@
 #include <future>
 #include <mutex>
 #include <thread>
+#include <shared_mutex>
 
 // Numerics
 #include <climits>
@@ -78,9 +79,13 @@ using VVS = vector<VS>;
 using VVC = vector<VC>;
 using VI = vector<int>;
 using VVI = vector<VI>;
+using VD = vector<double>;
+using VVD = vector<VD>;
 using PII = pair<int,int>;
-
+using VVS = vector<vector<string>>;
+using USS = unordered_set<string>;
 using iMatrix=VVI;
+#define REP(i,begin,end) for(int i=begin;i<end;i++)
 
 struct Interval {
   int start;
@@ -89,5 +94,5 @@ struct Interval {
   Interval(int s, int e) : start(s), end(e) {}
 };
 
-#define REP(i,begin,end) for(int i=begin;i<end;i++)
+
 

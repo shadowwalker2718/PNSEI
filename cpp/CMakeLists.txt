@@ -77,26 +77,25 @@ add_executable(pnsei
         skiplist.h
         sparsematrix.h
         stree.h
-        addepar/winner_tree.h "leetcode/927_Three_Equal_Parts.h" cruise/clique.h cruise/distributed_LRU.h cruise/encircular.h "dropbox/289_Game_of_Life.h"
+        addepar/winner_tree.h "leetcode/927_Three_Equal_Parts.h" cruise/clique.h cruise/distributed_LRU.h cruise/encircular.h "dropbox/todo_289_Game_of_Life.h"
         "dropbox/highest_minimum_sharpness.h"
-        "dropbox/highest_minimum_sharpness.cpp"
         "addepar/addepar.h"
         "addepar/addepar.cpp" dropbox/find_duplicate_files.h dropbox/id_allocator_segment_tree.h dropbox/web_crawler.h
         dropbox/message_queue.h dropbox/highest_minimum_sharpness.h dropbox/bittorrent_merge.h dropbox/key_value_store.h
-        leetcode/655_Print_Binary_Tree.h graph/MST_Kruskal_Prim.cpp graph/MST_Kruskal_Prim.h graph/SS_Dijkstra_Shortest.cpp
-        graph/graph.h graph/787_Cheapest_Flights_Within_K_Stops.cpp graph/787_Cheapest_Flights_Within_K_Stops.h
+        leetcode/655_Print_Binary_Tree.h graph/MST_Kruskal_Prim.h graph/SS_Dijkstra_Shortest.h
+        graph/787_Cheapest_Flights_Within_K_Stops.h
         graph/_785_Is_Graph_Bipartite.h addepar/local_minimum_tree.h addepar/stock_reconciliation.h
-        addepar/44_Wildcard_Matching.h addepar/10_Regular_Expression_Matching.h
+        leetcode/44_Wildcard_Matching.h leetcode/10_Regular_Expression_Matching.h
         leetcode/307_Range_Sum_Query_Mutable_segmentTree.h utils/binarytree.cpp
         bolt/Remove_brackets_from_an_algebraic_string.h addepar/Find_a_peak_element_in_a_2D_array.h
-        addepar/162_Find_Peak_Element.h addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h addepar/segment_tree.h
-        addepar/37_Sudoku_Solver.h addepar/wildcard_simplified.h leetcode/935_Knight_Dialer.h
-        leetcode/465_Optimal_Account_Balancing.h addepar/8puzzle_AStar.h addepar/43_Multiply_Strings.h
-        addepar/121_Best_Time_to_Buy_and_Sell_Stock.h addepar/boggle.h addepar/329_Longest_Increasing_Path_in_a_Matrix.h
+        leetcode/162_Find_Peak_Element.h leetcode/109_Convert_Sorted_List_to_Binary_Search_Tree.h addepar/segment_tree.h
+        leetcode/37_Sudoku_Solver.h addepar/wildcard_simplified.h leetcode/935_Knight_Dialer.h
+        leetcode/465_Optimal_Account_Balancing.h addepar/8puzzle_AStar.h leetcode/43_Multiply_Strings.h
+        leetcode/121_Best_Time_to_Buy_and_Sell_Stock.h addepar/boggle.h leetcode/329_Longest_Increasing_Path_in_a_Matrix.h
         cruise/number_of_islands_variant1.h cruise/closest_car.h cruise/no_or_single_parent_graph.h
         cruise/224_Basic_Calculator.h cruise/build_tree_by_indentation.h cruise/overlap_interval.h
-        cruise/all_points_in_Kmiles.h cruise/task_scheduler_with_cooldown.h cruise/529_Minesweeper.h
-        cruise/dup_strings_in_two_arrays.h cruise/union_find.h cruise/euclidean_clustering.h cruise/oa.h
+        cruise/all_points_in_Kmiles.h cruise/todo_task_scheduler_with_cooldown.h cruise/529_Minesweeper.h
+        cruise/dup_strings_in_two_arrays.h cruise/union_find.h cruise/todo_euclidean_clustering.h cruise/oa.h
         cruise/real_time_moving_average.h cruise/word_cloud.h cruise/kalman_filter.h cruise/heatmap_argmax.h
         cruise/overlap_polygon.h cruise/design_excel.h cruise/166_Fraction_to_Recurring_Decimal.h cruise/RANSAC.h
         cruise/reversing_strings_inside_parentheses.h cruise/308_Range_Sum_Query_2D_Mutable.h
@@ -106,7 +105,7 @@ add_executable(pnsei
         uber/uber_LRU_customized_eviction.h uber/short_message_formatting.h leetcode/22_Generate_Parentheses.h
         leetcode/200_Number_of_Islands.h leetcode/305_Number_of_Islands_II.h leetcode/406_Queue_Reconstruction_by_Height.h
         leetcode/694_Number_of_Distinct_Islands.h "leetcode/711_Number_of_Distinct_Islands_II.h"
-        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h leetcode/18_4Sum.h leetcode/454_4Sum_II.h leetcode/943_Find_the_Shortest_Superstring.h leetcode/944_Delete_Columns_to_Make_Sorted.h leetcode/464_Can_I_Win.h weride/postman_pass_checkpoints.h leetcode/587_Erect_the_Fence.h leetcode/469_Convex_Polygon.h leetcode/189_Rotate_Array.h leetcode/nary_tree_codec.h uber/longest_poolchain.h leetcode/745_Prefix_and_Suffix_Search.h dropbox/isDownloadComplete.h leetcode/253_Meeting_Rooms_II.h concurrency_parallel/concurrent_linkedlist.h concurrency_parallel/concurrent_queue.h concurrency_parallel/threadpool.h concurrency_parallel/objectpool.h concurrency_parallel/scopedlock.h concurrency_parallel/rwlock.h cruise/432_All_Oone_Data_Structure_LFU_Variant.h)
+        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h leetcode/18_4Sum.h leetcode/454_4Sum_II.h leetcode/943_Find_the_Shortest_Superstring.h leetcode/944_Delete_Columns_to_Make_Sorted.h leetcode/464_Can_I_Win.h weride/todo_postman_pass_checkpoints.h leetcode/587_Erect_the_Fence.h leetcode/469_Convex_Polygon.h leetcode/189_Rotate_Array.h leetcode/nary_tree_codec.h uber/longest_poolchain.h leetcode/745_Prefix_and_Suffix_Search.h dropbox/isDownloadComplete.h leetcode/253_Meeting_Rooms_II.h concurrency_parallel/concurrent_linkedlist.h concurrency_parallel/concurrent_queue.h concurrency_parallel/threadpool.h concurrency_parallel/objectpool.h concurrency_parallel/scopedlock.h concurrency_parallel/rwlock.h cruise/432_All_Oone_Data_Structure_LFU_Variant.h concurrency_parallel/memorypool.h linkedin/set_cover_3rd_degree_friends.h weride/shortest_path.h leetcode/774_Minimize_Max_Distance_to_Gas_Station.h leetcode/127_Word_Ladder.h leetcode/126_Word_Ladder_II.h weride/480_Sliding_Window_Median.h leetcode/295_Find_Median_from_Data_Stream.h leetcode/285_Inorder_Successor_in_BST.h weride/k_means_DP.h weride/todo_poj_1160_Post_Office.h weride/hamiltonian_cycle_string_chain.h weride/todo_179_Largest_Number.h weride/todo_864_Shortest_Path_to_Get_All_Keys.h weride/N_Choose_K_with_different_prob.h)
 
 IF (WIN32)
     # set stuff for windows

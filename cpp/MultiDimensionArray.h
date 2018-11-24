@@ -6,7 +6,6 @@ namespace _multi_dimension_array {
 
 struct MDA {};
 
-#define VI vector<int>
 int getval(MDA *p, VI vi) {
   for (int i = 0; i < vi.size(); ++i)
     printf("%d,", vi[i]);

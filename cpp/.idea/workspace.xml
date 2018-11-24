@@ -2,7 +2,7 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/main.cpp" />
-    <bookmark url="file://$PROJECT_DIR$/main.cpp" line="111" />
+    <bookmark url="file://$PROJECT_DIR$/main.cpp" line="122" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
@@ -16,9 +16,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cruise/432_All_Oone_Data_Structure_LFU_Variant.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/432_All_Oone_Data_Structure_LFU_Variant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/distributed_LRU.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/distributed_LRU.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency_parallel/memorypool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropbox/_ie.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/126_Word_Ladder_II.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/127_Word_Ladder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/285_Inorder_Successor_in_BST.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/295_Find_Median_from_Data_Stream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/295_Find_Median_from_Data_Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/774_Minimize_Max_Distance_to_Gas_Station.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/set_cover_3rd_degree_friends.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/179_Largest_Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/480_Sliding_Window_Median.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/864_Shortest_Path_to_Get_All_Keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/N_Choose_K_with_different_prob.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/hamiltonian_cycle_string_chain.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/k_means_DP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/shortest_path.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/todo_179_Largest_Number.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/todo_864_Shortest_Path_to_Get_All_Keys.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weride/todo_poj_1160_Post_Office.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algo.ods" beforeDir="false" afterPath="$PROJECT_DIR$/../algo.ods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiDimensionArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/MultiDimensionArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/109_Convert_Sorted_List_to_Binary_Search_Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/109_Convert_Sorted_List_to_Binary_Search_Tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/10_Regular_Expression_Matching.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/121_Best_Time_to_Buy_and_Sell_Stock.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/121_Best_Time_to_Buy_and_Sell_Stock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/162_Find_Peak_Element.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/162_Find_Peak_Element.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/329_Longest_Increasing_Path_in_a_Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/329_Longest_Increasing_Path_in_a_Matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/37_Sudoku_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/37_Sudoku_Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/43_Multiply_Strings.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/43_Multiply_Strings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addepar/44_Wildcard_Matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/44_Wildcard_Matching.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_parallel/concurrent_hashmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_parallel/concurrent_hashmap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_parallel/objectpool.h" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_parallel/objectpool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_parallel/rwlock.h" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_parallel/rwlock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_parallel/threadpool.h" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_parallel/threadpool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/euclidean_clustering.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/todo_euclidean_clustering.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/reversing_strings_inside_parentheses.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/reversing_strings_inside_parentheses.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruise/task_scheduler_with_cooldown.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/todo_task_scheduler_with_cooldown.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropbox/289_Game_of_Life.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/todo_289_Game_of_Life.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropbox/web_crawler.h" beforeDir="false" afterPath="$PROJECT_DIR$/dropbox/web_crawler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google/gg_findmaxwith1flip.h" beforeDir="false" afterPath="$PROJECT_DIR$/google/gg_findmaxwith1flip.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h" beforeDir="false" afterPath="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/MST_Kruskal_Prim.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/MST_Kruskal_Prim.h" beforeDir="false" afterPath="$PROJECT_DIR$/graph/MST_Kruskal_Prim.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/graph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/henry.h" beforeDir="false" afterPath="$PROJECT_DIR$/henry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/maxstack.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/maxstack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weride/postman_pass_checkpoints.h" beforeDir="false" afterPath="$PROJECT_DIR$/weride/todo_postman_pass_checkpoints.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,18 +184,20 @@
     <session id="-2035416784">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.17" value="6" />
+          <entry key="project.closed" value="34" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="6" />
+          <entry key="project.open.time.16" value="6" />
+          <entry key="project.open.time.17" value="7" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="5" />
-          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -153,41 +205,44 @@
           <entry key="Build All (disassembly)" value="1" />
           <entry key="array" value="2" />
           <entry key="bitset" value="3" />
-          <entry key="chrono" value="2" />
+          <entry key="chrono" value="3" />
           <entry key="cmath" value="1" />
-          <entry key="cpp" value="38" />
-          <entry key="h" value="325" />
+          <entry key="cpp" value="43" />
+          <entry key="h" value="399" />
           <entry key="hpp" value="7" />
           <entry key="iostream" value="1" />
           <entry key="ipynb" value="1" />
+          <entry key="java" value="1" />
           <entry key="jpeg" value="3" />
-          <entry key="md" value="5" />
+          <entry key="md" value="6" />
           <entry key="png" value="2" />
-          <entry key="pnsei (disassembly)" value="47" />
-          <entry key="py" value="24" />
+          <entry key="pnsei (disassembly)" value="64" />
+          <entry key="py" value="26" />
+          <entry key="shared_mutex" value="2" />
           <entry key="tcc" value="1" />
           <entry key="thread" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Disassembly" value="48" />
+          <entry key="Disassembly" value="65" />
           <entry key="Image" value="5" />
-          <entry key="Markdown" value="5" />
-          <entry key="ObjectiveC" value="381" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="24" />
+          <entry key="Markdown" value="6" />
+          <entry key="ObjectiveC" value="463" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="GDB" value="28" />
-          <entry key="cpp" value="2873" />
+          <entry key="cpp" value="3487" />
           <entry key="dummy" value="50" />
-          <entry key="h" value="37577" />
+          <entry key="h" value="47141" />
+          <entry key="java" value="1" />
           <entry key="md" value="111" />
           <entry key="mm" value="24" />
-          <entry key="py" value="2195" />
+          <entry key="py" value="2285" />
           <entry key="regexp" value="2" />
         </counts>
       </usages-collector>
@@ -196,9 +251,9 @@
           <entry key="Doxygen file" value="3" />
           <entry key="GDBCommands" value="28" />
           <entry key="Markdown" value="111" />
-          <entry key="ObjectiveC" value="40471" />
-          <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="2195" />
+          <entry key="ObjectiveC" value="50649" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Python" value="2285" />
           <entry key="RegExp" value="2" />
         </counts>
       </usages-collector>
@@ -242,35 +297,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dropbox/web_crawler.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cruise/distributed_LRU.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-              <folding>
-                <element signature="e#1701#1759#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="289">
+              <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/Gradient_Descent_LR.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cruise/todo_euclidean_clustering.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/todo_task_scheduler_with_cooldown.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/union_find.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/interval_subtraction.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cruise/kalman_filter.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dropbox/find_duplicate_files.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -287,18 +377,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sortedListToBST</find>
-      <find>end</find>
-      <find>treenode</find>
-      <find>-&gt;l</find>
-      <find>-&gt;r</find>
-      <find>lnode</find>
-      <find>_34</find>
-      <find>visit</find>
-      <find>isGoal</find>
-      <find>vector&lt;vector&lt;int&gt; &gt;</find>
-      <find>winner</find>
-      <find>num2.size()</find>
       <find>forward</find>
       <find>skip</find>
       <find>Quad</find>
@@ -316,7 +394,19 @@
       <find>_ksum</find>
       <find>pair&lt;int, int&gt;</find>
       <find>_lfu</find>
+      <find>shared_mutex</find>
       <find>distributed_LRU</find>
+      <find>cond_var</find>
+      <find>findCheapestPrice</find>
+      <find>_787</find>
+      <find>graph_Dijkstra</find>
+      <find>MST</find>
+      <find>_midstack</find>
+      <find>_minmaxstack</find>
+      <find>lower_median.</find>
+      <find>295</find>
+      <find>make</find>
+      <find>push_back</find>
     </findStrings>
     <replaceStrings>
       <replace>LONG_MAX</replace>
@@ -343,6 +433,9 @@
       <replace>!</replace>
       <replace>||</replace>
       <replace>PII</replace>
+      <replace>condition_variable</replace>
+      <replace>lower_median-&gt;</replace>
+      <replace>insert</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -351,57 +444,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/addepar/465_Optimal_Account_Balancing.h" />
-        <option value="$PROJECT_DIR$/addepar/37_Sudoku_Solver.h" />
-        <option value="$PROJECT_DIR$/addepar/Find_a_peak_element_in_a_2D_array.h" />
-        <option value="$PROJECT_DIR$/addepar/162_Find_Peak_Element.h" />
-        <option value="$PROJECT_DIR$/addepar/10_Regular_Expression_Matching.h" />
-        <option value="$PROJECT_DIR$/cruise/clique.h" />
-        <option value="$PROJECT_DIR$/cruise/all_points_in_Kmiles.h" />
-        <option value="$PROJECT_DIR$/cruise/816_Ambiguous_Coordinates.h" />
-        <option value="$PROJECT_DIR$/cruise/529_Minesweeper.h" />
-        <option value="$PROJECT_DIR$/leetcode/927_Three_Equal_Parts.h" />
-        <option value="$PROJECT_DIR$/addepar/8puzzle_AStar.h" />
-        <option value="$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h" />
-        <option value="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.cpp" />
-        <option value="$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp" />
-        <option value="$PROJECT_DIR$/addepar/addepar.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/encode_list_with_dups.h" />
-        <option value="$PROJECT_DIR$/HDU_1254.h" />
-        <option value="$PROJECT_DIR$/leetcode/18_4Sum.h" />
-        <option value="$PROJECT_DIR$/leetcode/454_4Sum_II.h" />
-        <option value="$PROJECT_DIR$/leetcode/944.py" />
-        <option value="$PROJECT_DIR$/leetcode/944_Delete_Columns_to_Make_Sorted.h" />
-        <option value="$PROJECT_DIR$/leetcode/943.py" />
-        <option value="$PROJECT_DIR$/leetcode/943_Find_the_Shortest_Superstring.h" />
-        <option value="$PROJECT_DIR$/leetcode/465_Optimal_Account_Balancing.h" />
-        <option value="$PROJECT_DIR$/ksum.h" />
-        <option value="$PROJECT_DIR$/leetcode/464_Can_I_Win.h" />
-        <option value="$PROJECT_DIR$/weride/postman_pass_checkpoints.h" />
-        <option value="$PROJECT_DIR$/leetcode/587_Erect_the_Fence.h" />
-        <option value="$PROJECT_DIR$/leetcode/469_Convex_Polygon.h" />
-        <option value="$PROJECT_DIR$/leetcode/189_Rotate_Array.h" />
-        <option value="$PROJECT_DIR$/leetcode/nary_tree_codec.py" />
-        <option value="$PROJECT_DIR$/leetcode/nary_tree_codec.h" />
-        <option value="$PROJECT_DIR$/uber/longest_poolchain.h" />
-        <option value="$PROJECT_DIR$/leetcode/745.py" />
-        <option value="$PROJECT_DIR$/leetcode/745_Prefix_and_Suffix_Search.h" />
-        <option value="$PROJECT_DIR$/dropbox/isDownloadComplete.h" />
         <option value="$PROJECT_DIR$/leetcode/253_Meeting_Rooms_II.h" />
-        <option value="$PROJECT_DIR$/dropbox/web_crawler.h" />
-        <option value="$PROJECT_DIR$/henry.h" />
         <option value="$PROJECT_DIR$/cruise/closest_car.h" />
         <option value="$PROJECT_DIR$/uber/rate_limiter_Token_Bucket.h" />
-        <option value="$PROJECT_DIR$/concurrency_parallel/concurrent_hashmap.h" />
         <option value="$PROJECT_DIR$/concurrency_parallel/scopedlock.h" />
         <option value="$PROJECT_DIR$/concurrency_parallel/concurrent_linkedlist.h" />
         <option value="$PROJECT_DIR$/uber/uber_LRU_optimized_delete.h" />
         <option value="$PROJECT_DIR$/uber/uber_LRU_customized_eviction.h" />
         <option value="$PROJECT_DIR$/cruise/LFU.h" />
         <option value="$PROJECT_DIR$/cruise/432_All_Oone_Data_Structure_LFU_Variant.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/cruise/distributed_LRU.h" />
+        <option value="$PROJECT_DIR$/concurrency_parallel/concurrent_hashmap.h" />
+        <option value="$PROJECT_DIR$/concurrency_parallel/objectpool.h" />
+        <option value="$PROJECT_DIR$/concurrency_parallel/memorypool.h" />
+        <option value="$PROJECT_DIR$/linkedin/set_cover_3rd_degree_friends.h" />
+        <option value="$PROJECT_DIR$/dropbox/289_Game_of_Life.h" />
+        <option value="$PROJECT_DIR$/dropbox/web_crawler.h" />
+        <option value="$PROJECT_DIR$/concurrency_parallel/threadpool.h" />
+        <option value="$PROJECT_DIR$/cruise/reversing_strings_inside_parentheses.h" />
+        <option value="$PROJECT_DIR$/leetcode/774_Minimize_Max_Distance_to_Gas_Station.h" />
+        <option value="$PROJECT_DIR$/leetcode/127_Word_Ladder.h" />
+        <option value="$PROJECT_DIR$/leetcode/126_Word_Ladder_II.h" />
+        <option value="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.cpp" />
+        <option value="$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h" />
+        <option value="$PROJECT_DIR$/graph/MST_Kruskal_Prim.h" />
+        <option value="$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.cpp" />
+        <option value="$PROJECT_DIR$/concurrency_parallel/rwlock.h" />
+        <option value="$PROJECT_DIR$/google/gg_findmaxwith1flip.h" />
+        <option value="$PROJECT_DIR$/linkedin/maxstack.h" />
+        <option value="$PROJECT_DIR$/weride/480_Sliding_Window_Median.h" />
+        <option value="$PROJECT_DIR$/leetcode/285_Inorder_Successor_in_BST.h" />
+        <option value="$PROJECT_DIR$/leetcode/295.java" />
+        <option value="$PROJECT_DIR$/leetcode/295_Find_Median_from_Data_Stream.h" />
+        <option value="$PROJECT_DIR$/weride/postoffice.h" />
+        <option value="$PROJECT_DIR$/weride/poj_1160_Post_Office.h" />
+        <option value="$PROJECT_DIR$/MultiDimensionArray.h" />
+        <option value="$PROJECT_DIR$/henry.h" />
+        <option value="$PROJECT_DIR$/weride/k_means_DP.h" />
+        <option value="$PROJECT_DIR$/weride/string_chain.h" />
+        <option value="$PROJECT_DIR$/weride/179_Largest_Number.py" />
+        <option value="$PROJECT_DIR$/weride/todo_179_Largest_Number.h" />
+        <option value="$PROJECT_DIR$/weride/hamiltonian_cycle_string_chain.h" />
+        <option value="$PROJECT_DIR$/weride/shortest_path.h" />
+        <option value="$PROJECT_DIR$/weride/864_Shortest_Path_to_Get_All_Keys.py" />
+        <option value="$PROJECT_DIR$/weride/todo_864_Shortest_Path_to_Get_All_Keys.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/weride/N_Choose_K_with_different_prob.h" />
+        <option value="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.cpp" />
+        <option value="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h" />
+        <option value="$PROJECT_DIR$/cruise/euclidean_clustering.h" />
+        <option value="$PROJECT_DIR$/dropbox/ie.md" />
+        <option value="$PROJECT_DIR$/cruise/todo_euclidean_clustering.h" />
       </list>
     </option>
   </component>
@@ -413,10 +506,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="455" />
-    <option name="y" value="107" />
-    <option name="width" value="976" />
-    <option name="height" value="735" />
+    <option name="x" value="39" />
+    <option name="y" value="25" />
+    <option name="width" value="941" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -469,27 +562,12 @@
             <path>
               <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="addepar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency_parallel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpp" type="462c0819:PsiDirectoryNode" />
               <item name="cruise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
               <item name="dropbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="uber" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -502,12 +580,13 @@
     <property name="last_opened_file_path" value="$USER_HOME$/handson-ml/06_decision_trees.ipynb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/concurrency_parallel" />
       <recent name="$PROJECT_DIR$/leetcode" />
+      <recent name="$PROJECT_DIR$/concurrency_parallel" />
       <recent name="$PROJECT_DIR$/indeed" />
       <recent name="$PROJECT_DIR$/cruise" />
       <recent name="$PROJECT_DIR$/cruise/img" />
@@ -536,7 +615,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="711_Number_of_Distinct Islands_II" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="179_Largest_Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="c++" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -544,11 +623,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weride" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/711_Number_of_Distinct_Islands_II.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weride/179_Largest_Number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -644,19 +723,19 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.pnsei" />
-      <item itemvalue="Python.711_Number_of_Distinct Islands_II" />
       <item itemvalue="Python.944" />
       <item itemvalue="Python.943" />
       <item itemvalue="Python.nary_tree_codec" />
       <item itemvalue="Python.745" />
+      <item itemvalue="Python.179_Largest_Number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.179_Largest_Number" />
         <item itemvalue="Python.745" />
         <item itemvalue="Python.nary_tree_codec" />
         <item itemvalue="Python.943" />
         <item itemvalue="Python.944" />
-        <item itemvalue="Python.711_Number_of_Distinct Islands_II" />
       </list>
     </recent_temporary>
   </component>
@@ -718,12 +797,27 @@
       <workItem from="1542601603435" duration="3193000" />
       <workItem from="1542671746386" duration="6053000" />
       <workItem from="1542763031358" duration="15892000" />
-      <workItem from="1542856674916" duration="32300000" />
+      <workItem from="1542856674916" duration="40061000" />
+      <workItem from="1542957409128" duration="29841000" />
+      <workItem from="1543026973199" duration="3467000" />
+      <workItem from="1543057636235" duration="660000" />
+      <workItem from="1543058345758" duration="137000" />
+      <workItem from="1543058528535" duration="66000" />
+      <workItem from="1543058639075" duration="361000" />
+      <workItem from="1543059042214" duration="47000" />
+      <workItem from="1543059132062" duration="424000" />
+      <workItem from="1543059602317" duration="277000" />
+      <workItem from="1543059918879" duration="123000" />
+      <workItem from="1543060085562" duration="50000" />
+      <workItem from="1543060178330" duration="207000" />
+      <workItem from="1543060432106" duration="1050000" />
+      <workItem from="1543061520126" duration="90000" />
+      <workItem from="1543061652671" duration="20839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="452431000" />
+    <option name="totallyTimeSpent" value="517831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,7 +832,35 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.46757492" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.15986949" />
+      <window_info id="Structure" order="1" sideWeight="0.50555557" side_tool="true" weight="0.14877385" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44493392" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49863762" weight="0.27312776" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
+      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.4989339" weight="0.3226152" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.6785714" weight="0.29405287" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" />
+      <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" weight="0.37901032" />
+      <window_info anchor="right" id="CodeMR Metrics" order="6" />
+      <window_info anchor="right" id="CodeMR" order="7" />
+      <window_info anchor="right" id="Redis Servers" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.3944134" />
       <window_info id="Structure" order="1" sideWeight="0.50555557" side_tool="true" weight="0.14877385" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -752,7 +874,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.4989339" weight="0.3226152" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.6785714" visible="true" weight="0.15333334" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.6785714" weight="0.15333334" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
@@ -760,8 +882,8 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" weight="0.8204301" />
-    </layout>
+      <window_info anchor="right" id="Debug" order="5" sideWeight="0.7558583" side_tool="true" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -814,7 +936,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>211</line>
+          <line>259</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -824,13 +946,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>207</line>
+          <line>255</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/dropbox/highest_minimum_sharpness.cpp</url>
-          <line>90</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/leetcode/68_Text_Justification.h</url>
@@ -844,7 +961,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>206</line>
+          <line>254</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -854,22 +971,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>205</line>
+          <line>253</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>204</line>
+          <line>252</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>203</line>
+          <line>251</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>202</line>
+          <line>250</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -879,12 +996,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>199</line>
+          <line>247</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>197</line>
+          <line>245</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -899,37 +1016,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>196</line>
+          <line>244</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>194</line>
+          <line>242</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>193</line>
+          <line>241</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>192</line>
+          <line>240</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>191</line>
+          <line>239</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>190</line>
+          <line>238</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>189</line>
+          <line>237</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -949,27 +1066,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>157</line>
+          <line>207</line>
           <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>156</line>
+          <line>206</line>
           <option name="timeStamp" value="240" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>151</line>
+          <line>201</line>
           <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>147</line>
+          <line>197</line>
           <option name="timeStamp" value="249" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>145</line>
+          <line>195</line>
           <option name="timeStamp" value="256" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -984,12 +1101,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>144</line>
-          <option name="timeStamp" value="301" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>143</line>
+          <line>194</line>
           <option name="timeStamp" value="302" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -999,7 +1111,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>142</line>
+          <line>193</line>
           <option name="timeStamp" value="304" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -1009,7 +1121,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>141</line>
+          <line>192</line>
           <option name="timeStamp" value="306" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -1029,7 +1141,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>140</line>
+          <line>191</line>
           <option name="timeStamp" value="311" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -1043,54 +1155,79 @@
           <option name="timeStamp" value="314" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/concurrency_parallel/concurrent_linkedlist.h</url>
-          <line>117</line>
-          <option name="timeStamp" value="319" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>139</line>
+          <line>190</line>
           <option name="timeStamp" value="328" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/concurrency_parallel/concurrent_hashmap.h</url>
-          <line>104</line>
+          <line>102</line>
           <option name="timeStamp" value="332" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/uber/uber_LRU_customized_eviction.h</url>
-          <line>173</line>
-          <option name="timeStamp" value="333" />
+          <url>file://$PROJECT_DIR$/concurrency_parallel/rwlock.h</url>
+          <line>182</line>
+          <option name="timeStamp" value="344" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>135</line>
-          <option name="timeStamp" value="334" />
+          <line>186</line>
+          <option name="timeStamp" value="345" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/uber/uber_LRU_customized_eviction.h</url>
-          <line>168</line>
-          <option name="timeStamp" value="336" />
+          <url>file://$PROJECT_DIR$/leetcode/295_Find_Median_from_Data_Stream.h</url>
+          <line>225</line>
+          <option name="timeStamp" value="364" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/uber/uber_LRU_customized_eviction.h</url>
-          <line>176</line>
-          <option name="timeStamp" value="337" />
+          <url>file://$PROJECT_DIR$/leetcode/295_Find_Median_from_Data_Stream.h</url>
+          <line>223</line>
+          <option name="timeStamp" value="365" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>134</line>
-          <option name="timeStamp" value="338" />
+          <line>146</line>
+          <option name="timeStamp" value="369" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cruise/432_All_Oone_Data_Structure_LFU_Variant.h</url>
-          <line>112</line>
-          <option name="timeStamp" value="339" />
+          <url>file://$PROJECT_DIR$/weride/k_means_DP.h</url>
+          <line>160</line>
+          <option name="timeStamp" value="378" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cruise/432_All_Oone_Data_Structure_LFU_Variant.h</url>
-          <line>98</line>
-          <option name="timeStamp" value="340" />
+          <url>file://$PROJECT_DIR$/weride/hamiltonian_cycle_string_chain.h</url>
+          <line>95</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>144</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/weride/hamiltonian_cycle_string_chain.h</url>
+          <line>56</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/weride/hamiltonian_cycle_string_chain.h</url>
+          <line>64</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/weride/hamiltonian_cycle_string_chain.h</url>
+          <line>80</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>143</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/weride/N_Choose_K_with_different_prob.h</url>
+          <line>63</line>
+          <option name="timeStamp" value="392" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/930_Binary_Subarrays_With_Sum.py</url>
@@ -1291,350 +1428,348 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/944_Delete_Columns_to_Make_Sorted.h">
+    <entry file="file://$PROJECT_DIR$/graph/MST_Kruskal_Prim.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/944.py">
+    <entry file="file://$PROJECT_DIR$/graph/SS_Dijkstra_Shortest.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/943.py">
+    <entry file="file://$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="240">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/handson-ml/06_decision_trees.ipynb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_set.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10110">
-          <caret line="674" selection-start-line="674" selection-end-line="674" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ksum.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/464_Can_I_Win.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weride/postman_pass_checkpoints.h">
+    <entry file="file://$PROJECT_DIR$/google/gg_findmaxwith1flip.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/189_Rotate_Array.h">
+    <entry file="file://$PROJECT_DIR$/linkedin/midstack.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/587_Erect_the_Fence.h">
+    <entry file="file://$PROJECT_DIR$/linkedin/maxstack.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/469_Convex_Polygon.h">
+    <entry file="file://$PROJECT_DIR$/leetcode/126_Word_Ladder_II.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/nary_tree_codec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/nary_tree_codec.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/149_Max_Points_on_a_Line.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="325" selection-start-line="325" selection-end-line="325" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/find_duplicate_files.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/745.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/745_Prefix_and_Suffix_Search.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/longest_poolchain.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/isDownloadComplete.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/253_Meeting_Rooms_II.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/454_4Sum_II.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/465_Optimal_Account_Balancing.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4695">
-          <caret line="313" selection-start-line="313" selection-end-line="313" />
-          <folding>
-            <element signature="e#4535#7955#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/943_Find_the_Shortest_Superstring.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/bittorrent_merge.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/concurrent_queue.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/threadpool.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/move.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/shared_ptr_base.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="375" selection-start-line="375" selection-end-line="375" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/shared_ptr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/henry.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/chrono">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="193" column="6" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/DelayQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/rate_limiter_Token_Bucket.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/std_mutex.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/objectpool.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/rwlock.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/concurrent_hashmap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="104" column="28" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="483" selection-start-line="483" selection-end-line="483" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency_parallel/scopedlock.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/hashtable_policy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="284" selection-start-line="284" selection-end-line="284" />
+        <state relative-caret-position="482">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/432_All_Oone_Data_Structure_LFU_Variant.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="119" column="29" lean-forward="true" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/euclidean_clustering.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency_parallel/concurrent_linkedlist.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
+        <state relative-caret-position="408">
           <caret line="117" selection-start-line="117" selection-end-line="117" />
-          <folding>
-            <element signature="e#116#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/LFU.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/closest_car.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="111" column="30" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uber/uber_LRU_customized_eviction.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1677">
-          <caret line="165" column="13" lean-forward="true" selection-start-line="165" selection-start-column="13" selection-end-line="165" selection-end-column="13" />
+        <state relative-caret-position="498">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dropbox/web_crawler.h">
+    <entry file="file:///usr/include/c++/7/ext/new_allocator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="226">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/285_Inorder_Successor_in_BST.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/ext/atomicity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/295_Find_Median_from_Data_Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="70" column="71" lean-forward="true" selection-start-line="70" selection-start-column="71" selection-end-line="70" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addepar/segment_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency_parallel/rwlock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1158">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/shared_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/shared_ptr_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="375" selection-start-line="375" selection-end-line="375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henry.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/math.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="765" column="9" selection-start-line="765" selection-start-column="9" selection-end-line="765" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/string_chain.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/todo_179_Largest_Number.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/179_Largest_Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/hamiltonian_cycle_string_chain.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/todo_poj_1160_Post_Office.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiDimensionArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/295_Find_Median_from_Data_Stream.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/k_means_DP.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding>
+            <element signature="e#2460#2928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/todo_postman_pass_checkpoints.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/480_Sliding_Window_Median.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/shortest_path.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/864_Shortest_Path_to_Get_All_Keys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#1190#1208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weride/todo_864_Shortest_Path_to_Get_All_Keys.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="289">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/distributed_LRU.h">
+    <entry file="file://$PROJECT_DIR$/weride/N_Choose_K_with_different_prob.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-          <folding>
-            <element signature="e#1701#1759#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/todo_289_Game_of_Life.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/message_queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/isDownloadComplete.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/id_allocator_segment_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/highest_minimum_sharpness.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/Gradient_Descent_LR.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/todo_task_scheduler_with_cooldown.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/union_find.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/interval_subtraction.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/kalman_filter.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/_ie.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-739">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropbox/find_duplicate_files.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/todo_euclidean_clustering.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
         </state>
       </provider>
     </entry>

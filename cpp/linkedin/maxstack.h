@@ -17,6 +17,7 @@ public:
   }
 };
 
+// http://sde.quant365.com/linkedin-2016-11.html#medianmaxmin-stack
 struct maxstack {
   list<int> stk;
   list<list<int>::iterator> max_itr;
