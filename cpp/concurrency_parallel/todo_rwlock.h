@@ -21,13 +21,13 @@ namespace _concurrent_shared_mutex {
 // i see other implementation count reader and
 
 // Cannot write when reading is not finished!
-class rwlock {
+class todo_rwlock {
   mutex mu;
   condition_variable cv;
   atomic<int> reader;
   atomic<bool> writer;
 public:
-  rwlock() {
+  todo_rwlock() {
     writer.store(false, memory_order_seq_cst);
   }
 
@@ -216,7 +216,7 @@ void my_shared_mutex::unlock_shared() {
   }
 }*/
 
-static rwlock my_global_rwlock_var;
+static todo_rwlock my_global_rwlock_var;
 
 int func_read() {
   my_global_rwlock_var.read_lock();

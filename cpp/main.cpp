@@ -62,7 +62,7 @@
 #include "graph/SS_Dijkstra_Shortest.h"
 #include "graph/_785_Is_Graph_Bipartite.h"
 #include "graph/787_Cheapest_Flights_Within_K_Stops.h"
-#include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
+#include "cruise/307_Range_Sum_Query_Mutable_segmentTree.h"
 #include "bolt/Remove_brackets_from_an_algebraic_string.h"
 
 #include "addepar/kway_merge_file.h"
@@ -79,7 +79,7 @@
 #include "leetcode/37_Sudoku_Solver.h"
 #include "concurrency_parallel/concurrent_hashmap.h"
 #include "concurrency_parallel/concurrent_linkedlist.h"
-#include "concurrency_parallel/rwlock.h"
+#include "concurrency_parallel/todo_rwlock.h"
 
 #include "cruise/clique.h"
 #include "cruise/LFU.h"
@@ -95,6 +95,7 @@
 #include "cruise/LFU.h"
 #include "cruise/432_All_Oone_Data_Structure_LFU_Variant.h"
 #include "cruise/distributed_LRU.h"
+#include "cruise/segment_tree_2d.h"
 
 #include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator_segment_tree.h"
@@ -143,6 +144,10 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  segment_tree_2d::test();
+  _cruise_geometry::__quadtree::test();
+
+  _307_segmentTree::test();
   binarytree_test_bug();
   _dropbox_dp::test_find_highest_minimum_sharpness();
   _addepar_kway_merge::test();
@@ -220,7 +225,6 @@ int main(int argc, char **argv) {
   _224::test();
   _816::test();
   cruise_recover_tree::test();
-  _cruise_geometry::__quadtree::test();
   _skiplist::test();
   _37_dfs::test();
   addepar_reconcile::test();
@@ -235,7 +239,7 @@ int main(int argc, char **argv) {
 
   _addepar::test();
   bolt::test();
-  _307_segmentTree::test();
+
 
 
 

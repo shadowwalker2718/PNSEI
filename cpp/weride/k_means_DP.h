@@ -79,7 +79,7 @@ class solution {
 
   // C(i, j) = 将仓库建在Vi, ..., Vj中点处的cost
   // Can be optimized with partial_sum
-  void build_costmatrix_with_one_warehouse() { // O(L^3)
+  void build_costmatrix_with_one_centroid() { // O(L^3)
     //VI ps(villages);
     //partial_sum(ps.begin(), ps.end(), ps.begin());
     REP(i, 1, L + 1) {
@@ -145,7 +145,7 @@ public:
   }
 
   double SOS() { // sum of square
-    build_costmatrix_with_one_warehouse();
+    build_costmatrix_with_one_centroid();
     build_dp();
     return dp[L][W];
   }

@@ -15,6 +15,7 @@ public:
     n = values.size();
     data = std::vector<int>(2 * n);
     std::copy(values.begin(), values.end(), &data[0] + n);
+    //build segment tree
     for (int idx = n - 1; idx > 0; idx--)
       data[idx] = std::min(data[idx * 2], data[idx * 2 + 1]);
   }
@@ -25,7 +26,7 @@ public:
 
     while (idx > 1) {
       idx /= 2;
-      cout << data[2 * idx] << " " << data[2 * idx + 1] << endl;
+      //cout << data[2 * idx] << " " << data[2 * idx + 1] << endl;
       data[idx] = std::min(data[2 * idx], data[2 * idx + 1]);
     }
   }

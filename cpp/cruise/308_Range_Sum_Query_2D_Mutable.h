@@ -72,9 +72,18 @@ private:
 }
 
 
-namespace _bit{
+namespace _BIT{
 // Binary Indexed Tree
 class NumMatrix {
+  void update(int row, int col, int val) { // O(LogR* LogC)
+    int diff = val - mat[row + 1][col + 1];
+    for (int i = row + 1; i < mat.size(); i += i&-i) {
+      for (int j = col + 1; j < mat[i].size(); j += j&-j) {
+        bit[i][j] += diff;
+      }
+    }
+    mat[row + 1][col + 1] = val;
+  }
 public:
   NumMatrix(vector<vector<int>> &matrix) {
     if (matrix.empty() || matrix[0].empty()) return;
@@ -85,16 +94,6 @@ public:
         update(i, j, matrix[i][j]);
       }
     }
-  }
-
-  void update(int row, int col, int val) { // O(LogR* LogC)
-    int diff = val - mat[row + 1][col + 1];
-    for (int i = row + 1; i < mat.size(); i += i&-i) {
-      for (int j = col + 1; j < mat[i].size(); j += j&-j) {
-        bit[i][j] += diff;
-      }
-    }
-    mat[row + 1][col + 1] = val;
   }
 
   int sumRegion(int row1, int col1, int row2, int col2) {
@@ -119,7 +118,77 @@ private:
 }
 
 namespace _segment_tree{
+class NumMatrix {
 
+public:
+  NumMatrix(vector<vector<int>> &matrix) {
+    if (matrix.empty() || matrix[0].empty()) return;
+    R = matrix.size();
+    mat = matrix;
+    segment_tree_2D.resize(R, vector<int>(C, 0));
+    // build tree
+    for (int i = R-1; i >= 1; --i) {
+      for (int j = C-1; j >= 1; --j) {
+        segment_tree_2D[i][j] = mat[2*i-R][j*2-C] + mat[2*i+1-R][j*2+1-C];
+      }
+    }
+  }
+
+  void update(int row, int col, int val) { // O(LogR* LogC)
+    int inc = val - mat[row][col];
+    mat[row][col] = val;
+    int x=row+R;
+    while(x>0){
+      int y=col+C;
+      while(y>0){
+        segment_tree_2D[x/2][y/2]=mat[x/2*2-R][y/2*2-C] + mat[x/2*2+1-R][y/2*2+1-C];
+        y/=2;
+      }
+      x/=2;
+    }
+  }
+
+  int sumRegion(int row1, int col1, int row2, int col2) {
+    int r=0, extra=0;
+    row1 += R, row2 += R;
+    while(row1<row2){
+      col1+=C, col2+=C;
+      while(col1<col2){
+        if(col1%2==1){
+          if(row1%2==1){
+            if(row1>=R){
+              extra += (col1>=C)?mat[row1-R][col1-C]:segment_tree_2D[row1-R][col1];
+            }else{
+              extra += (col1>=C)?mat[row1][col1-C]:segment_tree_2D[row1][col1];
+            }
+            row1++;
+          }
+          col1++;
+        }
+        if(col2%2==0){
+          if(row2%2==0){
+            if(row2>=R){
+              extra += (col2>=C)?mat[row2-R][col2-C]:segment_tree_2D[row2-R][col2];
+            }else{
+              extra += (col2>=C)?mat[row2][col2-C]:segment_tree_2D[row2][col2];
+            }
+            row2--;
+          }
+          col2--;
+        }
+        col1/=2, col2/=2;
+      }
+      r += (col1==col2?(segment_tree_2D[row1][col1]+segment_tree_2D[row2][col1]):0);
+    }
+    return 0;
+  }
+
+
+private:
+  int R=0, C=0; // original matrix width M, height N
+  VVI segment_tree_2D;
+  VVI mat;
+};
 }
 
 
