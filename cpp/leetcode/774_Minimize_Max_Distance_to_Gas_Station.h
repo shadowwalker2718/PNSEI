@@ -8,7 +8,7 @@
 /*
  * https://leetcode.com/contest/weekly-contest-69/problems/minimize-max-distance-to-gas-station/
 
-On a horizontal number line, we have gas stations at positions stations[0], stations[1], …, stations[N-1],
+On a horizontal number line, we have gas stations at positions stations[0], stations[1], ..., stations[N-1],
  where N = stations.length.
 
 Now, we add K more gas stations so that D, the maximum distance between adjacent gas stations, is minimized.

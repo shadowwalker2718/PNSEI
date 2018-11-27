@@ -69,5 +69,68 @@ https://automationrhapsody.com/md5-sha-1-sha-256-sha-512-speed-performance/
 */
 
 // https://stackoverflow.com/questions/8236/how-do-you-determine-the-size-of-a-file-in-c
+#include "henry.h"
+
+namespace _dup_file_detection {
+
+// CityHash: Fast Hash Functions for Strings
+// https://web.stanford.edu/class/ee380/Abstracts/121017-slides.pdf
+unsigned long cityhash(const vector<char> &) { return 0UL; }
+// faster for big files
+unsigned long xxhash(const vector<char> &) { return 0UL; } // 5 times faster than cityhash?! 5.4G/s
+
+struct fobj {
+  string path;
+  size_t z;
+  static const int SMA_HASH_BLOCK_LEN = 1024*1024;     // 1M
+  static const int BIG_HASH_BLOCK_LEN = 1024*1024*512; // 512M
+
+  long long hash(int start = 0, int len = SMA_HASH_BLOCK_LEN) const {
+    if (start >= z) return -1;
+    if (start + len > z)
+      len = z - start;
+    ifstream is(path);
+    is.seekg(start);
+    vector<char> buf(len);
+    is.read(&buf[0], len);
+    // calculate hash value
+    // https://softwareengineering.stackexchange.com/questions/49550/which-hashing-algorithm-is-best-for-uniqueness-and-speed
+    // using murmur or city hash, non-cryptographic hash!!!
+    return cityhash(buf);
+  }
+
+  bool operator==(const fobj &f) {
+    if (z != f.z)
+      return z < f.z;
+    long long h, t;
+    // file size <= 512M
+    if (z <= BIG_HASH_BLOCK_LEN) { // 1M
+      int start = 0;
+      while (start < z) {
+        h = hash(start);
+        t = f.hash(start);
+        if (h != t)
+          return h < t;
+        start += SMA_HASH_BLOCK_LEN;
+      }
+    }else{
+      int start = 0;
+      while (start < z) {
+        h = hash(start, BIG_HASH_BLOCK_LEN);
+        t = f.hash(start, BIG_HASH_BLOCK_LEN);
+        if (h != t)
+          return h < t;
+        start += BIG_HASH_BLOCK_LEN;
+      }
+    }
+    return true;
+  }
+};
+
+vector<set<string>> find_dup_files(string path){
+
+}
+
+}
 
 #endif // PNSEI_FIND_DUPLICATE_FILES_H

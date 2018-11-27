@@ -56,7 +56,9 @@ int dep_by_node(TreeNode* n);
 void print_binary_tree_horizontal_dfs(TreeNode* n, vector<vector<string>>& r, int i, int j, int c);
 void print_binary_tree_horizontal(TreeNode* root);
 void print_binary_tree_vertical(TreeNode* root);
+void cleanup();
 void binarytree_test();
+void binarytree_test_bug();
 
 
 

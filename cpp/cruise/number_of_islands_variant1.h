@@ -53,6 +53,42 @@ struct UFO{ //union find object
   int z(){ // size of connected comp
     return count_if(sz.begin(), sz.end(), [](int i) {return i>0; });
   }
+  int z2() {
+    int r = 0;
+    for (int i = 0; i < bo.size(); i++){
+      if (i == bo[i])
+        r++;
+    }
+    return r;
+  }
+  int c(int x, int y){
+    return f(x)==f(y);
+  }
+};
+
+struct UF{ //union find object
+  vector<int> bo;
+  explicit UF(int len) {
+    bo.resize(len);
+    iota(bo.begin(), bo.end(), 0);
+  }
+  int f(int x) {
+    return (x==bo[x])?x:f(bo[x]);
+  };
+  void u(int x, int y) {
+    int b = f(x), m = f(y);// after this line, no x and y any more!!
+    if (b == m) { return; }
+    if(b<m) swap(b,m); // b is big boss, m is small boss
+    bo[m]=b;
+  };
+  int z(){
+    int r = 0;
+    for (int i = 0; i < bo.size(); i++){
+      if (i == bo[i])
+        r++;
+    }
+    return r;
+  }
   int c(int x, int y){
     return f(x)==f(y);
   }
@@ -213,10 +249,8 @@ struct Solution {
 
   int numIslands_different_char_ufo(VVC &grid){
     if (grid.empty() || grid[0].empty()) return 0;
-    int r = 0;
-    ROW = grid.size(), COL = grid[0].size();
-    UFO ufo;
-    ufo.o(ROW*COL);
+    int r = 0, ROW = grid.size(), COL = grid[0].size();
+    UF ufo(ROW*COL);
     for (int i = 0; i < ROW; ++i) {
       for (int j = 0; j < COL; ++j) {
         for(auto d: D){

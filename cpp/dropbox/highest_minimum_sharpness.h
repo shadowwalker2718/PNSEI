@@ -76,7 +76,7 @@ X O O O O               X O O O O
 // https://stackoverflow.com/questions/1053928/very-large-matrices-using-python-and-numpy/1054113
 // https://stackoverflow.com/questions/16737298/what-is-the-fastest-way-to-transpose-a-matrix-in-c
 
-namespace dropbox_find_highest_minimum_sharpness {
+namespace _dropbox_dp {
 
 int find_highest_minimum_sharpness(vector<vector<int>> &m) {
   if (m.empty() || m[0].empty())
@@ -99,7 +99,9 @@ int find_highest_minimum_sharpness(vector<vector<int>> &m) {
 }
 
 void test_find_highest_minimum_sharpness() {
-  vector<vector<int>> board = {{5, 7, 2}, {7, 5, 8}, {9, 1, 5}};
+  vector<vector<int>> board = {{5, 7, 2},
+                               {7, 5, 8},
+                               {9, 1, 5}};
   assert(find_highest_minimum_sharpness(board) == 7);
 }
 

@@ -41,19 +41,19 @@ public:
   void read_unlock() {
     unique_lock ul(mu);
     reader--;
-    if(reader==0) // if all readers are done, notify writer
+    if (reader == 0) // if all readers are done, notify writer
       cv.notify_all();
   }
 
   void write_lock() {
     unique_lock ul(mu);
-    while(writer || reader>0) // if there are other writers, or readers are not done, WAIT!
+    while (writer || reader > 0) // if there are other writers, or readers are not done, WAIT!
       cv.wait(ul);
     writer.store(true, memory_order_seq_cst);
   }
 
   void write_unlock() {
-    if(!writer) return;
+    //if(!writer) return;
     unique_lock ul(mu);
     writer.store(false, memory_order_seq_cst);
     cv.notify_all();
@@ -61,7 +61,61 @@ public:
 };
 
 
-class my_shared_mutex {
+struct mymutex {
+  void lock() {}
+
+  void unlock() {}
+};
+
+struct condition {
+  void wait(mymutex &) {}
+};
+
+void signal() {}
+
+void broadcast() {}
+
+class myRWLock {
+  mymutex mu;
+  condition cv;
+  atomic<int> readers;
+  atomic<bool> writer;
+
+  myRWLock() {
+    readers = 0, writer = false;
+  }
+
+  void acquire_read() {
+    mu.lock();
+    while (writer)
+      cv.wait(mu);
+    readers++;
+    mu.unlock();
+  }
+
+  void release_read() {
+    mu.lock();
+    readers--;
+    if (readers == 0)
+      signal();
+    mu.unlock();
+  }
+
+  void acquire_write() {
+    mu.lock();
+    while (readers > 0)
+      cv.wait(mu);
+    writer = true;
+  }
+
+  void release_write() {
+    writer = false;
+    mu.unlock();
+    broadcast();
+  }
+};
+
+/*class my_shared_mutex {
   mutex mut_;
   condition_variable gate1_;
   condition_variable gate2_;
@@ -160,25 +214,25 @@ void my_shared_mutex::unlock_shared() {
     if (num_readers == n_readers_ - 1)
       gate1_.notify_one();
   }
-}
+}*/
 
 static rwlock my_global_rwlock_var;
 
-int func_read(){
+int func_read() {
   my_global_rwlock_var.read_lock();
   //read
   my_global_rwlock_var.read_unlock();
   return 0;
 }
 
-int func_write(){
+int func_write() {
   my_global_rwlock_var.write_lock();
-  //read
+  //write
   my_global_rwlock_var.write_unlock();
   return 1;
 }
 
-void test(){
+void test() {
   //my_shared_mutex msm;
   //shared_lock<my_shared_mutex> sl(msm);
   auto handle = async(func_read);

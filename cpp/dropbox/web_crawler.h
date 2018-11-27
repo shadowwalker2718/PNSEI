@@ -28,7 +28,7 @@
 第二轮 一道给了一个网址 让返回所有这个网址可以访问到的地址 给了一个 getlink的API.
  写的时候忘了考虑重复的link会有cycle的问题
  然后稳bottleneck. 最后问了怎么解决
-第三轮 老题duplicate fil 只给了一个根目录 然后让你用提供的几个API来做。其他思路完全一样 follow up也和地里面经一样
+第三轮 老题duplicate fil 只给了一个根目录 然后让你用提供的几个API来做.其他思路完全一样 follow up也和地里面经一样
 
 
  https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=409815&highlight=dropbox
@@ -81,11 +81,12 @@ just write a piece of logic..
 
 Q3: Web Crawler
 -------------------
-First, single thread version...-baidu 1point3acres
+First, single thread version...
 Talked a bit about DFS, BFS, stack overflow... endless depth etc problem...
 Implemented simple BFS, using result set to do visisted checking as well
 
 Multithreading:
+
 Which part is bottle neck: the getURL part... network latency etc... parser etc
 I mentioned Master / slave model, and how it can be achieved using ThreadPool, Callable, and check futures...
 and metioned it is even more efficient if we don't do the syn of these queue, set checking logic just let master manage all these... he seems like this...
@@ -117,7 +118,7 @@ public void crawl() {
                 //you don't want to lock the part that takes most time and that part is not accessing common data
                 String newURLGathered = getURL(currURL);
 
-                lock.lock();. 1point3acres
+                lock.lock();
                 for(each){
                         add to q & add to result set
                 }
@@ -127,10 +128,21 @@ public void crawl() {
         }
 
 }
- * */
+
+https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=213058
+2016(10-12月) 码农类General 硕士 全职@Dropbox - 网上海投 - 其他  | Other | fresh grad应届毕业生
+新新新鲜的面经,来回报地里
+前两周去onsite,后一周告知要加面T T,刚刚面完
+onsite:
+ 1. duplicate file,代码要写查size,查hash(md5 vs sha1)
+ （2. 吃饭...食堂逼格看起来很高...还有产品展示)
+ 3. 多线程的一道题,什么filling rate,bucket,之类..之前面经有提到!但是我这时还不太懂他家多线程的套路,所以答得很一般..说错了好多,
+  具体细节也很晕,就不详细说,误导大家了
+ 4. buy soda,代码要写backtracking和dp的,分析复杂度
+ 5. 又是多线程..web crawler,先写dfs单线程,再多个线程一起爬,主要是加锁解锁,wait,notify.经过第三轮面试官的train和我的learn,
+  这轮我的test结果,面试官竟然蜜汁觉得还不错已经不容易了.*/
 
 // http://massivetechinterview.blogspot.com/2015/06/design-web-crawler.html
-
 #include "henry.h"
 
 namespace dropbox_concurrency {
@@ -139,7 +151,7 @@ bool isInternal(string url) { return true; };
 vector<LINK> getLinks(string url) { return vector<string>(); };
 
 // BFS
-vector<LINK> crawl(const string &root_url) {
+vector<LINK> crawl_bfs(const string &root_url) {
   set<LINK> result_set;
   queue<LINK> q; // a queue for all internal URLS
   q.push(root_url);
@@ -161,37 +173,84 @@ vector<LINK> crawl(const string &root_url) {
   return vector<LINK>(result_set.begin(), result_set.end());
 }
 
-class BBQ {
+/* We need a concurrent stack for multithread DFS version */
+vector<LINK> crawl_dfs(const string &root_url) {
+  set<LINK> result_set;
+  stack<LINK> stk; // a stack for all internal URLS
+  stk.push(root_url);
+  while (!stk.empty()) {
+    LINK lnk = stk.top();
+    stk.pop();
+    if (result_set.count(lnk) == 0) {
+      result_set.insert(lnk);
+      vector<LINK> new_links = getLinks(lnk);
+      for (const LINK &e : new_links) {
+        if (isInternal(e))
+          stk.push(e);
+      }
+    }
+  }
+  return vector<LINK>(result_set.begin(), result_set.end());
+}
+
+
+class BBS {
   mutex mu;
   condition_variable cv;
-  queue<LINK> q;
+  set<LINK> st;
   int cap;
 
 public:
-  BBQ(int x) : cap(x) {}
-  void push(LINK &s) {
+  BBS(int x) : cap(x) {}
+  void push(const LINK &s) {
     unique_lock<mutex> ul;
-    while (q.size() == cap) {
+    while (st.size() == cap) {
       cv.wait(ul);
     }
-    q.push(s);
-    if (q.size() == 1)
+    st.insert(s);
+    if (st.size() == 1)
       cv.notify_one();
+  }
+  bool contain(const LINK& lnk){
+    lock_guard<mutex> lg(mu);
+    return st.find(lnk)!=st.end();
   }
   LINK pop() {
     unique_lock<mutex> ul;
-    while (q.size() == 0) {
+    while (st.size() == 0) {
       cv.wait(ul);
     }
-    LINK r = q.front();
-    q.pop();
-    if (q.size() == cap - 1)
+    LINK r = *st.begin();
+    st.erase(st.begin());
+    if (st.size() == cap - 1)
       cv.notify_one();
     return r;
   }
 };
 
-BBQ global_queue(1024);
+BBS global_bbs(1024);
+
+vector<LINK> crawl_dfs_multihread(const string &root_url) {
+  set<LINK> result_set;
+  stack<LINK> stk; // a stack for all internal URLS
+  global_bbs.push(root_url);
+  while (!stk.empty()) {
+    LINK lnk = stk.top();
+    stk.pop();
+    if (result_set.count(lnk) == 0) {
+      result_set.insert(lnk);
+      vector<LINK> new_links = getLinks(lnk);
+      for (const LINK &e : new_links) {
+        if (isInternal(e))
+          stk.push(e);
+      }
+    }
+  }
+  return vector<LINK>(result_set.begin(), result_set.end());
+}
+
+// https://stackoverflow.com/questions/9849641/the-best-way-to-check-duplicated-url-in-python
+//
 vector<LINK> crawl_multithread(const string &lnk) {}
 
 } // namespace dropbox_concurrency

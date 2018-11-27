@@ -23,8 +23,8 @@ int driver_id
 int passenger_id
 String pickup / dropoff
 
-poolchain的定义：
-直接或者间接的有overalp的行程（乘客）数目
+poolchain的定义:
+直接或者间接的有overalp的行程（乘客)数目
 
 Algo: meeting room
 */

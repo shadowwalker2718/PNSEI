@@ -52,10 +52,14 @@ namespace dropbox_sgementtree {
 class IDAllocator {
   int tree_size; // even number always
   vector<bool> segment_tree;
-  int alloc_num = 0;
+
+  void __build_tree(int n) {
+    segment_tree.resize(2 * n); // all false when initialization
+    tree_size = 2 * n;
+  }
 
   // O(LogN)
-  void _update(int tree_index, bool b) {
+  void __update(int tree_index, bool b) {
     segment_tree[tree_index] = b;
     int i = tree_index;
     while (i > 0) {
@@ -69,16 +73,15 @@ class IDAllocator {
   }
 
 public:
-  void build_tree(int n) {
-    segment_tree.resize(2 * n); // all false when initialization
-    tree_size = 2 * n;
+  IDAllocator(int n){
+    __build_tree(n);
   }
 
   // O(LogN)
   int allocate() {
-    if (alloc_num >= tree_size / 2)
+    if (segment_tree[1])
       return -1;
-    alloc_num++;
+    // We can always get you allocated!!!
     int i = 1;
     // 1. find
     while (i < tree_size) {
@@ -88,11 +91,13 @@ public:
         } else {
           i = 2 * i;
         }
+      }else{
+        assert("You should not come here!");
       }
     }
     int tree_index = i / 2;
     // 2. update
-    _update(tree_index, true);
+    __update(tree_index, true);
     return tree_index - tree_size / 2;
   }
 
@@ -101,47 +106,50 @@ public:
     int tree_index = n + tree_size / 2;
     if (!segment_tree[tree_index])
       return false;
-    alloc_num--;
-    _update(n + tree_size / 2, false); // update
+    __update(tree_index, false); // update
     return true;
   }
 };
 
-void tes() {
-  IDAllocator o;
-  for (int k = 100; k <= 1000; k++) {
+void test() {
+  for (int k = 100; k <= 500; k+=30) {
     int n = k;
-    o.build_tree(n);
+    IDAllocator o(n);
     vector<int> v(n);
     int i = n;
     while (i--) {
       int t = o.allocate();
-      cout << t << endl;
       v[t] = 1;
     }
     assert(std::accumulate(v.begin(), v.end(), 0) == n);
     assert(o.allocate() == -1);
   }
-}
 
-void test2() {
-  // test if the newly released id will be allocated first!?
-  // use a queue
-  int n = 10, i = n / 3, t = 0;
-  IDAllocator o;
-  o.build_tree(n);
-  vector<int> v;
-  while (i--) {
-    t = o.allocate();
-    v.push_back(t);
-  }
-  vector<int> v2(v);
-  for (int i = 0; i < v.size(); i++) {
-    if (i & 1) {
-      o.release(v2[i]);
+  {
+    // test if the newly released id will be allocated first!?
+    // YES. Segment tree has this property!!!
+    srand(0xdeadbeef);
+    int n = 100, i = n / 3, t = 0;
+    IDAllocator o(n);
+    vector<int> v;
+    while (i--) {
+      t = o.allocate();
+      v.push_back(t);
     }
+    vector<int> released_ids;
+    for (int i = 0; i < v.size(); i++) {
+      if (rand()&1) {
+        released_ids.push_back(v[i]);
+        o.release(v[i]);
+      }
+    }
+    REP(k,0,released_ids.size()){
+      t = o.allocate();
+      assert(t==released_ids[k]);
+    }
+
   }
-  //???
+
 }
 
 } // namespace dropbox_find_highest_minimum_sharpness

@@ -2,7 +2,7 @@
 // Created by henry on 10/24/18.
 //
 
-#include "addepar.h"
+#include "kway_merge_file.h"
 
 /* My environment is Ubuntu 18 and g++ version 7.3.0.
 
@@ -20,7 +20,7 @@ to err is human
 
 */
 
-int addepar::run(int argc, vector<string> argv) {
+int _addepar_kway_merge::run(int argc, vector<string> argv) {
   if (argc < 3) {
     cout << "Usage:\n./merge input_dir output_file\n";
     return 0;
@@ -82,4 +82,6 @@ int addepar::run(int argc, vector<string> argv) {
   return 0;
 }
 
-void addepar::test() { addepar::run(3, {"", "../addepar/data", "output.txt"}); }
+void _addepar_kway_merge::test() {
+  _addepar_kway_merge::run(3, {"", "../addepar/data", "output.txt"});
+}

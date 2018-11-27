@@ -7,7 +7,7 @@
 
 #include "henry.h"
 
-namespace addepar {
+namespace _addepar_kway_merge {
 struct node {
   ifstream *infile;
   string val;

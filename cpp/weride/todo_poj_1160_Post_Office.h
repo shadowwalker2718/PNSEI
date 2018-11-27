@@ -47,10 +47,10 @@ int test() {
   return 0;
 }
 /*  ---------------------
-      作者：殷华
-  来源：CSDN
-  原文：https://blog.csdn.net/u011639256/article/details/38926387
-  版权声明：本文为博主原创文章，转载请附上博文链接！*/
+      作者:殷华
+  来源:CSDN
+  原文:https://blog.csdn.net/u011639256/article/details/38926387
+  版权声明:本文为博主原创文章,转载请附上博文链接!*/
 }
 
 

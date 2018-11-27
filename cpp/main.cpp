@@ -1,6 +1,6 @@
 #include "henry.h"
 
-#include "utils/binarytree.h"
+#include "utils/todo_binarytree.h"
 #include "HDU_pushbox.h"
 #include "IndexMaxPQ.h"
 #include "Kth_Smallest_in_Lexicographical_Order.h"
@@ -65,7 +65,7 @@
 #include "leetcode/307_Range_Sum_Query_Mutable_segmentTree.h"
 #include "bolt/Remove_brackets_from_an_algebraic_string.h"
 
-#include "addepar/addepar.h"
+#include "addepar/kway_merge_file.h"
 #include "addepar/winner_tree.h"
 #include "addepar/stock_reconciliation.h"
 #include "leetcode/44_Wildcard_Matching.h"
@@ -118,6 +118,8 @@
 #include "weride/hamiltonian_cycle_string_chain.h"
 #include "weride/N_Choose_K_with_different_prob.h"
 
+#include "leetcode/947_Most_Stones_Removed_with_Same_Row_or_Column.h"
+
 /*class Solutionx {
 public:
   vector<int> grayCode(int n) {
@@ -141,6 +143,13 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  binarytree_test_bug();
+  _dropbox_dp::test_find_highest_minimum_sharpness();
+  _addepar_kway_merge::test();
+  binarytree_test();
+  dropbox_sgementtree::test();
+  _cruise_islands::test();
+  _947::test();
   _weride_prob::test();
   _weride_hamiltonian::test();
   _480_medianSlidingWindow::test();
@@ -202,10 +211,10 @@ int main(int argc, char **argv) {
   _hdu_1254::test();
   _529_minesweeper::test();
 
-  dropbox_find_highest_minimum_sharpness::test_find_highest_minimum_sharpness();
+
   _cruise_interval::test();
 
-  _cruise_islands::test();
+
 
   _150::test();
   _224::test();
@@ -223,7 +232,7 @@ int main(int argc, char **argv) {
   _162::test();
   _addepar_find_peak_2D::test();
   _34::test();
-  binarytree_test();
+
   _addepar::test();
   bolt::test();
   _307_segmentTree::test();
@@ -237,8 +246,8 @@ int main(int argc, char **argv) {
   _68::test();
   lc_438::test();
 
-  dropbox_sgementtree::tes();
-  addepar::test();
+
+
   cruise_2017_09_20::test();
   _927::test();
 
