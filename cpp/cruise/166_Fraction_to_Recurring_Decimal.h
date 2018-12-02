@@ -32,9 +32,9 @@ onsite:一共三轮,主要都是算法,少量 BQ,因为是组里是做 data pipe
 
 时间过去的有点久,题目的具体细节有点忘记了,只能说个大概,请见谅.
  *
- * https://leetcode.com/problems/fraction-to-recurring-decimal/description/
+ * https://leetcode.com/problems/fraction-to-recurring-decimal/
  *
- * https://leetcode.com/problems/divide-two-integers/description/
+ * https://leetcode.com/problems/divide-two-integers/
  *
  * Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
 

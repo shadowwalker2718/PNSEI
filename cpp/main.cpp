@@ -124,6 +124,7 @@
 #include "linkedin/sqrt_double.h"
 #include "weride/Fibonacci_Number.h"
 #include "leetcode/todo_668_Kth_Smallest_Number_in_Multiplication_Table.h"
+#include "probability.h"
 
 /*class Solutionx {
 public:
@@ -148,6 +149,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _probability::test();
   _668::test();
   _fib::test();
   _480_medianSlidingWindow::test();
