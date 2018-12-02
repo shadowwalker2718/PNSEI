@@ -1,5 +1,5 @@
 //
-// Created by root on 11/2/18.
+// Created by Henry Wu on 11/2/18.
 //
 
 #ifndef PNSEI_REMOVE_BRACKETS_FROM_AN_ALGEBRAIC_STRING_H

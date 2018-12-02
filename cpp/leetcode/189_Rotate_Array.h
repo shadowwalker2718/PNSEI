@@ -1,5 +1,5 @@
 //
-// Created by root on 11/19/18.
+// Created by Henry Wu on 11/19/18.
 //
 
 #ifndef PNSEI_189_ROTATE_ARRAY_H

@@ -1,5 +1,5 @@
 //
-// Created by root on 11/12/18.
+// Created by Henry Wu on 11/12/18.
 //
 
 #ifndef PNSEI_160_INTERSECTION_OF_TWO_LINKED_LISTS_H

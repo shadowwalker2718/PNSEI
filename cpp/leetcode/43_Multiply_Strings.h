@@ -1,5 +1,5 @@
 //
-// Created by root on 11/4/18.
+// Created by Henry Wu on 11/4/18.
 //
 
 #ifndef PNSEI_43_MULTIPLY_STRINGS_H

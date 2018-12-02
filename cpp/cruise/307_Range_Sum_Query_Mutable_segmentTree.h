@@ -1,5 +1,5 @@
 //
-// Created by root on 11/2/18.
+// Created by Henry Wu on 11/2/18.
 //
 
 #ifndef PNSEI_307_RANGE_SUM_QUERY_MUTABLE_H

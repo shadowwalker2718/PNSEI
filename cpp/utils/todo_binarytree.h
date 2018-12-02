@@ -20,7 +20,7 @@ struct ttnode {
     ttnode(int v) : val(v), l(0), m(0), r(0) {}
 };
 
-// Nary node
+// Nary node - n is unkown beforehand
 struct nnode {
     char key;
     vector<nnode*> children;  // An array of pointers for N children

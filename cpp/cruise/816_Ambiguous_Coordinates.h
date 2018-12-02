@@ -1,5 +1,5 @@
 //
-// Created by root on 11/11/18.
+// Created by Henry Wu on 11/11/18.
 //
 
 #ifndef PNSEI_816_AMBIGUOUS_COORDINATES_H

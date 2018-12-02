@@ -1,5 +1,5 @@
 //
-// Created by root on 11/23/18.
+// Created by Henry Wu on 11/23/18.
 //
 
 #ifndef PNSEI_SHORTEST_PATH_H

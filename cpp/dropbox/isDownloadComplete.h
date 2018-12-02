@@ -1,5 +1,5 @@
 //
-// Created by root on 11/21/18.
+// Created by Henry Wu on 11/21/18.
 //
 
 #ifndef PNSEI_ISDOWNLOADCOMPLETE_H

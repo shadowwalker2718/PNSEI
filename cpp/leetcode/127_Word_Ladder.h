@@ -1,5 +1,5 @@
 //
-// Created by root on 11/23/18.
+// Created by Henry Wu on 11/23/18.
 //
 
 #ifndef PNSEI_127_WORD_LADDER_H

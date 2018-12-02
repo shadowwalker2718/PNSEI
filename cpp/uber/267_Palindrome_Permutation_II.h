@@ -1,5 +1,5 @@
 //
-// Created by root on 11/12/18.
+// Created by Henry Wu on 11/12/18.
 //
 
 #ifndef PNSEI_267_PALINDROME_PERMUTATION_II_H

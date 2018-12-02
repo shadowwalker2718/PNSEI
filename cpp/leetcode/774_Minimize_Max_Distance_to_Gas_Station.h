@@ -1,5 +1,5 @@
 //
-// Created by root on 11/23/18.
+// Created by Henry Wu on 11/23/18.
 //
 
 #ifndef PNSEI_774_MINIMIZE_MAX_DISTANCE_TO_GAS_STATION_H

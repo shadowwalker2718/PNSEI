@@ -1,5 +1,5 @@
 //
-// Created by root on 11/23/18.
+// Created by Henry Wu on 11/23/18.
 //
 
 #ifndef PNSEI_SET_COVER_3RD_DEGREE_FRIENDS_H

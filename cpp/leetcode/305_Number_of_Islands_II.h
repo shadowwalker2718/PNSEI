@@ -1,5 +1,5 @@
 //
-// Created by root on 11/16/18.
+// Created by Henry Wu on 11/16/18.
 //
 
 #ifndef PNSEI_305_NUMBER_OF_ISLANDS_II_H

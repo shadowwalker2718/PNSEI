@@ -5,8 +5,9 @@ We are given a 2-dimensional grid. "." is an empty cell, "#" is a wall, "@" is t
 keys, and ("A", "B", ...) are locks.
 
 We start at the starting point, and one move consists of walking one space in one of the 4 cardinal directions.  We
-cannot walk outside the grid, or walk into a wall.  If we walk over a key, we pick it up.  We can't walk over a lock
-unless we have the corresponding key.
+cannot walk outside the grid, or walk into a wall.  If we walk over a key, we pick it up.
+
+We can't walk over a lock unless we have the corresponding key!!!!
 
 For some 1 <= K <= 6, there is exactly one lowercase and one uppercase letter of the first K letters of the English
 alphabet in the grid.  This means that there is exactly one key for each lock, and one lock for each key; and also
@@ -31,6 +32,7 @@ The number of keys is in [1, 6].  Each key has a different letter and opens exac
 import collections
 import heapq
 
+
 class Solution(object):
     def shortestPathAllKeys(self, grid):
         R, C = len(grid), len(grid[0])
@@ -42,7 +44,7 @@ class Solution(object):
                     if v not in '.#'}
 
         def neighbors(r, c):
-            for cr, cc in ((r-1, c), (r, c-1), (r+1, c), (r, c+1)):
+            for cr, cc in ((r - 1, c), (r, c - 1), (r + 1, c), (r, c + 1)):
                 if 0 <= cr < R and 0 <= cc < C:
                     yield cr, cc
 
@@ -57,34 +59,42 @@ class Solution(object):
                 r, c, d = queue.popleft()
                 if source != grid[r][c] != '.':
                     dist[grid[r][c]] = d
-                    continue # Stop walking from here if we reach a point of interest
+                    continue  # Stop walking from here if we reach a point of interest
                 for cr, cc in neighbors(r, c):
                     if grid[cr][cc] != '#' and not seen[cr][cc]:
                         seen[cr][cc] = True
-                        queue.append((cr, cc, d+1))
+                        queue.append((cr, cc, d + 1))
             return dist
 
         dists = {place: bfs_from(place) for place in location}
         target_state = 2 ** sum(p.islower() for p in location) - 1
 
-        #Dijkstra
+        # Dijkstra
         pq = [(0, '@', 0)]
         final_dist = collections.defaultdict(lambda: float('inf'))
         final_dist['@', 0] = 0
         while pq:
             d, place, state = heapq.heappop(pq)
-            if final_dist[place, state] < d: continue
-            if state == target_state: return d
+            if final_dist[place, state] < d:
+                continue
+            if state == target_state:
+                return d
             for destination, d2 in dists[place].iteritems():
                 state2 = state
-                if destination.islower(): #key
+                if destination.islower():  # key
                     state2 |= (1 << (ord(destination) - ord('a')))
-                elif destination.isupper(): #lock
-                    if not(state & (1 << (ord(destination) - ord('A')))): #no key
+                elif destination.isupper():  # lock
+                    if not (state & (1 << (ord(destination) - ord('A')))):  # no key
                         continue
 
                 if d + d2 < final_dist[destination, state2]:
                     final_dist[destination, state2] = d + d2
-                    heapq.heappush(pq, (d+d2, destination, state2))
+                    heapq.heappush(pq, (d + d2, destination, state2))
 
         return -1
+
+
+sln = Solution()
+assert (sln.shortestPathAllKeys(["@.a.#",
+                                 "###.#",
+                                 "b.A.B"]) == 8)

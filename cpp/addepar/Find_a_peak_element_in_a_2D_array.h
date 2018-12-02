@@ -1,5 +1,5 @@
 //
-// Created by root on 11/3/18.
+// Created by Henry Wu on 11/3/18.
 //
 
 #ifndef PNSEI_FIND_A_PEAK_ELEMENT_IN_A_2D_ARRAY_H

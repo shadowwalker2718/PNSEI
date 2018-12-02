@@ -1,5 +1,5 @@
 //
-// Created by root on 11/17/18.
+// Created by Henry Wu on 11/17/18.
 //
 
 #ifndef PNSEI_944_DELETE_COLUMNS_TO_MAKE_SORTED_H

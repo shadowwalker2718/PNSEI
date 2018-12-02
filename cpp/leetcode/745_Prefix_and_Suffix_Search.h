@@ -1,5 +1,5 @@
 //
-// Created by root on 11/20/18.
+// Created by Henry Wu on 11/20/18.
 //
 
 #ifndef PNSEI_745_PREFIX_AND_SUFFIX_SEARCH_H

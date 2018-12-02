@@ -79,6 +79,8 @@ using VVS = vector<VS>;
 using VVC = vector<VC>;
 using VI = vector<int>;
 using VVI = vector<VI>;
+using VL = vector<long long>;
+using VVL = vector<VL>;
 using VD = vector<double>;
 using VVD = vector<VD>;
 using PII = pair<int,int>;
@@ -92,6 +94,23 @@ struct Interval {
   int end;
   Interval() : start(0), end(0) {}
   Interval(int s, int e) : start(s), end(e) {}
+};
+
+class AutoProfiler {
+public:
+  AutoProfiler(std::string name)
+      : m_name(std::move(name)),
+        m_beg(std::chrono::high_resolution_clock::now()) {}
+
+  ~AutoProfiler() {
+    auto end = std::chrono::high_resolution_clock::now();
+    auto dur = std::chrono::duration_cast<std::chrono::microseconds>(end - m_beg);
+    cout << m_name << " : " << dur.count() << " us\n";
+  }
+
+private:
+  std::string m_name;
+  std::chrono::time_point<std::chrono::high_resolution_clock> m_beg;
 };
 
 

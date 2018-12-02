@@ -1,5 +1,5 @@
 //
-// Created by root on 11/7/18.
+// Created by Henry Wu on 11/7/18.
 //
 
 #ifndef PNSEI_166_FRACTION_TO_RECURRING_DECIMAL_H

@@ -1,5 +1,5 @@
 //
-// Created by root on 11/17/18.
+// Created by Henry Wu on 11/17/18.
 //
 
 #ifndef PNSEI_943_FIND_THE_SHORTEST_SUPERSTRING_H

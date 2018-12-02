@@ -1,5 +1,5 @@
 //
-// Created by root on 11/6/18.
+// Created by Henry Wu on 11/6/18.
 //
 
 #ifndef PNSEI_CALCULATOR_H
@@ -42,101 +42,96 @@ public:
   }
 };*/
 
-// 只有加减号,数字
-int sum(string s) { // 1+2-3
-  int r = 0, sign = 1, n = 0; // sign is for next calculation
-
+// Only consider plus and minus operators
+int sum_with_only_plus_minus(string s) { // 1+2-3, -1+2 == 1
+  int r = 0, sign_of_next_calculation = 1, n = 0; // sign is for next calculation
   for (char c: s) {
-    if (c == '-') {
-      r += sign * n; // always + here as we have sign
-      n = 0, sign = -1;
-    } else if (c == '+') {
-      r += sign * n;
-      n = 0, sign = 1;
+    if (c == '-' || c =='+') { // always + here as we have sign
+      r += sign_of_next_calculation * n;
+      n = 0, sign_of_next_calculation = c=='-'?-1:1;
     } else if (isdigit(c)) {
       n = n * 10 + c - '0';
     }
   }
-  r += n * sign;
+  r += n * sign_of_next_calculation; //!!
   return r;
 }
 
 class Solution {
-  /*
-   * 只有加减号,数字,括号和空格,没有乘除
-   *
+  /* With plus minus and parenthesis operators, and NO multiplication and division
    * 那么就没啥计算的优先级之分了.于是这道题就变的没有那么复杂了.
    * 我们需要一个栈来辅助计算,用个变量sign来表示当前的符号,我们遍历给定的字符串s,如果遇到了数字,由于可能是个多位数,所
    * 以我们要用while循环把之后的数字都读进来,然后用sign*num来更新结果res;如果遇到了加号,则sign赋为1,如果遇到了符号,
    * 则赋为-1;如果遇到了左括号,则把当前结果res和符号sign压入栈,res重置为0,sign重置为1;如果遇到了右括号,结果res乘以
    * 栈顶的符号,栈顶元素出栈,结果res加上栈顶的数字,栈顶元素出栈.
-   * */
+   */
+  // When see this parenthesis, we can think of DFS's parenthesis property(CLRS graph chapter),
+  // which we can use stack of recursive function
 public:
   int calculate(string s) {
-    int res = 0, num = 0, sign = 1, n = s.size();
-    stack<int> st;
-    for (int i = 0; i < n; ++i) {
+    int r = 0, n = 0, sign = 1, L = s.size();
+    stack<int> stk;
+    for (int i = 0; i < L; ++i) {
       char c = s[i];
       if (isdigit(c)) {
-        num = 10 * num + (c - '0');
+        n = 10 * n + (c - '0');
       } else if (c == '+' || c == '-') {
-        res += sign * num;
-        num = 0;
-        sign = (c == '+') ? 1 : -1;
+        r += sign * n;
+        n = 0, sign = (c == '+') ? 1 : -1;
       } else if (c == '(') {
-        st.push(res);
-        st.push(sign);
-        res = 0;
-        sign = 1;
+        stk.push(r);
+        stk.push(sign);
+        r = 0, sign = 1; // reset
       } else if (c == ')') {
-        res += sign * num;
-        num = 0;
-        res *= st.top();
-        st.pop();
-        res += st.top();
-        st.pop();
+        r += sign * n;
+        n = 0;
+        r *= stk.top(), stk.pop();// top of stack is sign(1 or -1)
+        // if(stk.top()==-1) r=-r; stk.pop();
+        r += stk.top(), stk.pop();
       }
     }
-    res += sign * num;
-    return res;
+    r += sign * n;
+    return r;
   }
 };
 
 class Solution2 {
 public:
   int calculate(string s) {
-    int res = 0, num = 0, sign = 1, n = s.size();
+    int r = 0, n = 0, sign = 1;
     stack<pair<int, char>> st; // result,sign
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < s.size(); ++i) {
       char c = s[i];
       if (isdigit(c)) {
-        num = 10 * num + (c - '0');
+        n = 10 * n + (c - '0');
       } else if (c == '+' || c == '-') {
-        res += sign * num;
-        num = 0;
+        r += sign * n;
+        n = 0;
         sign = (c == '+') ? 1 : -1;
       } else if (c == '(') {
-        st.emplace(res, sign);
-        res = 0, sign = 1; // clear states!
+        st.emplace(r, sign);
+        r = 0, sign = 1; // clear states!
       } else if (c == ')') {
-        res += sign * num;
-        num = 0;
+        r += sign * n;
+        n = 0;
         auto pr = st.top();
         st.pop();
-        res *= pr.second;
-        res += pr.first;
+        r *= pr.second;
+        r += pr.first;
       }
     }
-    res += sign * num;
-    return res;
+    r += sign * n;
+    return r;
   }
 };
 
 void test() {
-  assert(sum("1+2-3") == 0);
-  assert(sum("-3") == -3);
-  assert(sum("-3-2") == -5);
-  assert(sum("+0-2") == -2);
+
+  assert(sum_with_only_plus_minus("1+2-3") == 0);
+  assert(sum_with_only_plus_minus("-3") == -3);
+  assert(sum_with_only_plus_minus("-3-2") == -5);
+  assert(sum_with_only_plus_minus("+0-2") == -2);
+
   Solution2 sln;
   assert(sln.calculate("1-(5)") == -4);
   assert(sln.calculate("-(5)") == -5);

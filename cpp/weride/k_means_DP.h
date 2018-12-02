@@ -1,5 +1,5 @@
 //
-// Created by root on 11/23/18.
+// Created by Henry Wu on 11/23/18.
 //
 
 #ifndef PNSEI_POSTOFFICE_H
@@ -98,7 +98,7 @@ class solution {
   }
 
   // dp[x][y] means MSE of clustering x villages with y warehouses
-  double build_dp() { // O(L^2)
+  void build_dp() { // O(L^2)
     //init dp and bootstrap dp[k][1]
     fill(dp[0].begin(), dp[0].end(), 0.);
     REP(i, 1, L + 1) {
@@ -111,7 +111,7 @@ class solution {
           continue;
         }
 #if DEBUG
-        double sos = MAXFLOAT, prev, co, mz;
+        double sos = numeric_limits<double>::max(), prev, co, mz;
         // z is the # of villages clustering with the last warehouse
         REP(z, 1, x + 1) {
           double t=dp[x - z][y - 1] + costs[x - z + 1][x];
@@ -124,7 +124,7 @@ class solution {
         << ",sos:" << sos << ",(prev=" << prev
         << ",co=" << co << ")" << endl;
 #else
-        double sos = MAXFLOAT;
+        double sos = numeric_limits<double>::max();
         // z is the # of villages clustering with the last warehouse
         REP(z, 1, x + 1) {
           sos = min(sos, dp[x - z][y - 1] + costs[x - z + 1][x]); //!!

@@ -1,5 +1,5 @@
 //
-// Created by root on 11/6/18.
+// Created by Henry Wu on 11/6/18.
 //
 
 #ifndef PNSEI_ALL_POINTS_IN_KMILES_H
@@ -37,7 +37,7 @@ Rectangle intersectionRect = null;
 
 int leftX   = Math.max( r1.getX(), r2.getX() );
 int rightX  = Math.min( r1.getX() + r1.getWidth(), r2.getX() + r2.getWidth() );
-int topY    = Math.max( r1.getY(), r2.getY() );
+int topY    = Math.min( r1.getY(), r2.getY() );
 int bottomY = Math.min( r1.getY() + r1.getHeight(), r2.getY() + r2.getHeight() );
 
 if ( leftX < rightX && topY < bottomY ) {

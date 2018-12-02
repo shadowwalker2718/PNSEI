@@ -1,5 +1,5 @@
 //
-// Created by root on 11/22/18.
+// Created by Henry Wu on 11/22/18.
 //
 
 #ifndef PNSEI_CONCURRENT_LINKEDLIST_H
@@ -65,8 +65,8 @@ public:
     shared_ptr<list_node> dummy = make_shared<list_node>(INT_MIN, head);// list_node dummy; prev=&dummy; (X)
     shared_ptr<list_node> prev = dummy; // copy, not move
     while (c) {
-      scoped_lock lock(prev->mu, c->mu); // c++17, fine grained lock, do we need it?
-      //myscoped_lock slk(prev->mu, c->mu);
+      //scoped_lock lock(prev->mu, c->mu); // c++17, fine grained lock, do we need it?
+      myscoped_lock slk(prev->mu, c->mu);
       if (c->val == i) {
         prev->next = c->next; // remove current node
         z--;

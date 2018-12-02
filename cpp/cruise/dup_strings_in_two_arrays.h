@@ -1,5 +1,5 @@
 //
-// Created by root on 11/6/18.
+// Created by Henry Wu on 11/6/18.
 //
 
 #ifndef PNSEI_DUP_STRINGS_IN_TWO_ARRAYS_H

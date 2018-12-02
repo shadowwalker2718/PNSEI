@@ -114,12 +114,16 @@
 #include "leetcode/295_Find_Median_from_Data_Stream.h"
 #include "graph/MST_Kruskal_Prim.h"
 
-#include "weride/480_Sliding_Window_Median.h"
+#include "weride/todo_480_Sliding_Window_Median.h"
 #include "weride/k_means_DP.h"
 #include "weride/hamiltonian_cycle_string_chain.h"
 #include "weride/N_Choose_K_with_different_prob.h"
 
 #include "leetcode/947_Most_Stones_Removed_with_Same_Row_or_Column.h"
+#include "cruise/no_or_single_parent_graph.h"
+#include "linkedin/sqrt_double.h"
+#include "weride/Fibonacci_Number.h"
+#include "leetcode/todo_668_Kth_Smallest_Number_in_Multiplication_Table.h"
 
 /*class Solutionx {
 public:
@@ -144,6 +148,12 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _668::test();
+  _fib::test();
+  _480_medianSlidingWindow::test();
+  _sqrt_double::test();
+  _multiparent_tree::test();
+  _224::test();
   segment_tree_2d::test();
   _cruise_geometry::__quadtree::test();
 
@@ -157,7 +167,7 @@ int main(int argc, char **argv) {
   _947::test();
   _weride_prob::test();
   _weride_hamiltonian::test();
-  _480_medianSlidingWindow::test();
+
   _weride_kmeans::test();
   ///////////////////////////////////////////////////////////////
   // Graph Theory
@@ -222,7 +232,7 @@ int main(int argc, char **argv) {
 
 
   _150::test();
-  _224::test();
+
   _816::test();
   cruise_recover_tree::test();
   _skiplist::test();
