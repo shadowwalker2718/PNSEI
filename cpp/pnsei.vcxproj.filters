@@ -611,7 +611,10 @@
     <ClInclude Include="probability.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="geometric_median.h">
+    <ClInclude Include="212_Word_Search_II.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="todo_geometric_median.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

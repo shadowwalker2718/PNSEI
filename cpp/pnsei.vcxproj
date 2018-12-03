@@ -110,6 +110,7 @@
     <ClCompile Include="utils\todo_binarytree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="212_Word_Search_II.h" />
     <ClInclude Include="addepar\8puzzle_AStar.h" />
     <ClInclude Include="addepar\boggle.h" />
     <ClInclude Include="addepar\Find_a_peak_element_in_a_2D_array.h" />
@@ -186,7 +187,7 @@
     <ClInclude Include="dropbox\web_crawler.h" />
     <ClInclude Include="dup.h" />
     <ClInclude Include="encode_list_with_dups.h" />
-    <ClInclude Include="geometric_median.h" />
+    <ClInclude Include="todo_geometric_median.h" />
     <ClInclude Include="google\bzoj1090.h" />
     <ClInclude Include="google\gg_findmaxwith1flip.h" />
     <ClInclude Include="google\gg_intrange.h" />

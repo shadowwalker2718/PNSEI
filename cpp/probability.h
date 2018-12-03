@@ -12,9 +12,9 @@ int get_01_pq() { return rand() % 2; }
 
 //////////////////////////////////////////////////////////////////
 /*
-1. coding: ¸ø¶¨Ò»¸öº¯Êıgetbiasrandom(), ÒÔp¸ÅÂÊ·µ»Ø1£¬
-£¨p-1£©¸ÅÂÊ·µ»Ø0¡£ÊµÏÖÒ»¸ögetrandom()º¯Êı£¬ÒÔÏàÍ¬¸ÅÂÊ·µ»Ø0-6ÖĞµÄÒ»¸öÊı
-        ÎÒãÂÁË£¬ÌØ±ğãÂ£¬£¬ÌáÊ¾ÏÂÖ»ÊµÏÖÁËÒÔÏàÍ¬¸ÅÂÊ·µ»Ø0/1£¬Ã»×ö¹ıµÄÌâÄÔ×Ó²»×ªÁË£¬µ±³¡¾õµÃ¹ÒÁË¡£
+1. coding: ç»™å®šä¸€ä¸ªå‡½æ•°getbiasrandom(), ä»¥pæ¦‚ç‡è¿”å›1ï¼Œ
+ï¼ˆp-1ï¼‰æ¦‚ç‡è¿”å›0ã€‚å®ç°ä¸€ä¸ªgetrandom()å‡½æ•°ï¼Œä»¥ç›¸åŒæ¦‚ç‡è¿”å›0-6ä¸­çš„ä¸€ä¸ªæ•°
+        æˆ‘æ‡µäº†ï¼Œç‰¹åˆ«æ‡µï¼Œï¼Œæç¤ºä¸‹åªå®ç°äº†ä»¥ç›¸åŒæ¦‚ç‡è¿”å›0/1ï¼Œæ²¡åšè¿‡çš„é¢˜è„‘å­ä¸è½¬äº†ï¼Œå½“åœºè§‰å¾—æŒ‚äº†ã€‚
 */
 int get_01_uniform() {
   int prev = get_01_pq(), cur = get_01_pq();
@@ -58,10 +58,10 @@ int get_0_to_N_uniform(int n = 6) {
 int get_A_to_B_uniform(int a, int b) { return a + get_0_to_N_uniform(b - a); }
 
 
-// r()º¯ÊıµÈ¸ÅÂÊËæ»ú²úÉú1µ½5,ÈçºÎµÈ¸ÅÂÊËæ»ú²úÉú1-7?
+// r()å‡½æ•°ç­‰æ¦‚ç‡éšæœºäº§ç”Ÿ1åˆ°5,å¦‚ä½•ç­‰æ¦‚ç‡éšæœºäº§ç”Ÿ1-7?
 int get_1toM_uniform(int a = 1, int M = 5) { return get_A_to_B_uniform(a, M); }
 // N > M
-// Sum of two uniform random var is not uniform, to get a uniform distribution, we need to use ²å¿×·¨.
+// Sum of two uniform random var is not uniform, to get a uniform distribution, we need to use æ’å­”æ³•.
 int get_1toN_uniform_by_1toM(int M = 5, int N = 7) {
   int t = (get_1toM_uniform(1, M) - 1) * M; // 0,5,10,15,20
   t += get_1toM_uniform(1, M) - 1;          // t ~ [0,24], t must be uniform in [0 ~ M*M-1]
