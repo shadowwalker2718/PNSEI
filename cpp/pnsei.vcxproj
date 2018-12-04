@@ -187,6 +187,8 @@
     <ClInclude Include="dropbox\web_crawler.h" />
     <ClInclude Include="dup.h" />
     <ClInclude Include="encode_list_with_dups.h" />
+    <ClInclude Include="ml_friends_recommendation.h" />
+    <ClInclude Include="ml_kmeans_geo_mean.h" />
     <ClInclude Include="todo_geometric_median.h" />
     <ClInclude Include="google\bzoj1090.h" />
     <ClInclude Include="google\gg_findmaxwith1flip.h" />

@@ -22,6 +22,9 @@
     <Filter Include="Header Files\geo">
       <UniqueIdentifier>{c037cb4a-85cb-405b-a9e9-94cfb9da84c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ML">
+      <UniqueIdentifier>{346c9e2c-abf8-4b17-9ff4-2fe7e64de242}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -616,6 +619,12 @@
     </ClInclude>
     <ClInclude Include="todo_geometric_median.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ml_friends_recommendation.h">
+      <Filter>Header Files\ML</Filter>
+    </ClInclude>
+    <ClInclude Include="ml_kmeans_geo_mean.h">
+      <Filter>Header Files\ML</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
