@@ -24,7 +24,7 @@
 #include "leetcode/208_Implement_Trie_Prefix_Tree.h"
 #include "leetcode/208_Implement_Trie_Prefix_Tree_ext.h"
 #include "leetcode/214_Shortest_Palindrome.h"
-#include "leetcode/254_Factor_Combinations.h"
+#include "linkedin/254_Factor_Combinations.h"
 #include "leetcode/307_Range_Sum_Query_Mutable_Fenwick.h"
 #include "leetcode/34_Search_for_a_Range.h"
 #include "leetcode/361_Bomb_Enemy.h"
@@ -44,12 +44,12 @@
 #include "linkedin/addinterval.h"
 #include "linkedin/all_palindrome_subsequences.h"
 #include "linkedin/blowoff_leaf.h"
-#include "linkedin/canPlaceFlower.h"
+#include "linkedin/605_Can_Place_Flowers.h"
 #include "linkedin/frequent_element.h"
 #include "linkedin/intersected.h"
 #include "linkedin/maxstack.h"
 #include "linkedin/midstack.h"
-#include "minwindowsub.h"
+#include "76_Minimum_Window_Substring.h"
 #include "print_matrix.h"
 #include "reliterator.h"
 #include "reverse_string.h"
@@ -125,6 +125,8 @@
 #include "weride/Fibonacci_Number.h"
 #include "leetcode/todo_668_Kth_Smallest_Number_in_Multiplication_Table.h"
 #include "probability.h"
+#include "linkedin/605_Can_Place_Flowers.h"
+#include "linkedin/_binary_search.h"
 
 /*class Solutionx {
 public:
@@ -149,6 +151,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _binary_search::test();
+  _canPlaceFlower::test();
   _probability::test();
   _668::test();
   _fib::test();

@@ -61,7 +61,7 @@ public:
     if (counter > 0) {
       board[x][y] = counter + '0';
       return board;
-    } else {
+    } else { // if the counter is 0, it makes sense to show up all the cells adjacent to it.
       board[x][y] = 'B';
       for (int i = -1; i <= 1; i++)
         for (int j = -1; j <= 1; j++) {

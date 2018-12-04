@@ -14,7 +14,7 @@ add_executable(pnsei
         leetcode/208_Implement_Trie_Prefix_Tree.h
         "leetcode/214_Shortest_Palindrome.h"
         "leetcode/230_Kth_Smallest_Element_in_a_BST.h"
-        "leetcode/254_Factor_Combinations.h"
+        "linkedin/254_Factor_Combinations.h"
         "leetcode/307_Range_Sum_Query_Mutable_Fenwick.h"
         "leetcode/34_Search_for_a_Range.h"
         "leetcode/361_Bomb_Enemy.h"
@@ -31,13 +31,13 @@ add_executable(pnsei
         "leetcode/94_Binary_Tree_Inorder_Traversal.h"
         "leetcode/99_Recover_Binary_Search_Tree.h"
         linkedin/all_palindrome_subsequences.h
-        avl.h
+        todo_avl.h
         utils/todo_binarytree.h
         linkedin/blowoff_leaf.h
         concurrency_parallel/BoundedBlockingQueue.h
         google/bzoj1090.h
         calendar.h
-        linkedin/canPlaceFlower.h
+        linkedin/605_Can_Place_Flowers.h
         comb_sum.h
         concurrency_parallel/concurrent_hashmap.h
         concurrency_parallel/deadlock.h
@@ -66,7 +66,7 @@ add_executable(pnsei
         linkedin/midstack.h
         main.cpp
         linkedin/maxstack.h
-        minwindowsub.h
+        76_Minimum_Window_Substring.h
         MultiDimensionArray.h
         print_matrix.h
         reliterator.h
@@ -96,7 +96,7 @@ add_executable(pnsei
         cruise/224_Basic_Calculator.h cruise/build_tree_by_indentation.h cruise/overlap_interval.h
         cruise/all_points_in_Kmiles.h cruise/todo_task_scheduler_with_cooldown.h cruise/529_Minesweeper.h
         cruise/dup_strings_in_two_arrays.h cruise/todo_union_find.h cruise/todo_euclidean_clustering.h cruise/oa.h
-        cruise/real_time_moving_average.h cruise/word_cloud.h cruise/kalman_filter.h cruise/heatmap_argmax.h
+        cruise/real_time_moving_average.h cruise/word_cloud.h cruise/kalman_filter.h cruise/todo_heatmap_argmax.h
         cruise/overlap_polygon.h cruise/design_excel.h cruise/166_Fraction_to_Recurring_Decimal.h cruise/RANSAC.h
         cruise/reversing_strings_inside_parentheses.h cruise/308_Range_Sum_Query_2D_Mutable.h
         cruise/816_Ambiguous_Coordinates.h cruise/227_Basic_Calculator_II.h cruise/150_Evaluate_Reverse_Polish_Notation.h
@@ -105,7 +105,7 @@ add_executable(pnsei
         uber/uber_LRU_customized_eviction.h uber/short_message_formatting.h leetcode/22_Generate_Parentheses.h
         leetcode/200_Number_of_Islands.h leetcode/305_Number_of_Islands_II.h leetcode/406_Queue_Reconstruction_by_Height.h
         leetcode/694_Number_of_Distinct_Islands.h "leetcode/711_Number_of_Distinct_Islands_II.h"
-        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h leetcode/18_4Sum.h leetcode/454_4Sum_II.h leetcode/943_Find_the_Shortest_Superstring.h leetcode/944_Delete_Columns_to_Make_Sorted.h leetcode/464_Can_I_Win.h weride/todo_postman_pass_checkpoints.h leetcode/587_Erect_the_Fence.h leetcode/469_Convex_Polygon.h leetcode/189_Rotate_Array.h leetcode/nary_tree_codec.h uber/longest_poolchain.h leetcode/745_Prefix_and_Suffix_Search.h dropbox/isDownloadComplete.h leetcode/253_Meeting_Rooms_II.h concurrency_parallel/concurrent_linkedlist.h concurrency_parallel/concurrent_queue.h concurrency_parallel/threadpool.h concurrency_parallel/objectpool.h concurrency_parallel/scopedlock.h concurrency_parallel/todo_rwlock.h cruise/432_All_Oone_Data_Structure_LFU_Variant.h concurrency_parallel/memorypool.h linkedin/set_cover_3rd_degree_friends.h weride/shortest_path.h leetcode/774_Minimize_Max_Distance_to_Gas_Station.h leetcode/127_Word_Ladder.h leetcode/126_Word_Ladder_II.h weride/todo_480_Sliding_Window_Median.h leetcode/295_Find_Median_from_Data_Stream.h leetcode/285_Inorder_Successor_in_BST.h weride/k_means_DP.h weride/todo_poj_1160_Post_Office.h weride/hamiltonian_cycle_string_chain.h weride/todo_179_Largest_Number.h weride/todo_864_Shortest_Path_to_Get_All_Keys.h weride/N_Choose_K_with_different_prob.h concurrency_parallel/concurrent_stack.h leetcode/947_Most_Stones_Removed_with_Same_Row_or_Column.h cruise/segment_tree_2d.h leetcode/todo_850_Rectangle_Area_II.h dropbox/todo_multithread_token_bucket.h linkedin/sqrt_double.h weride/Fibonacci_Number.h leetcode/773_sliding_puzzle.h leetcode/415_Add_Strings.h leetcode/todo_668_Kth_Smallest_Number_in_Multiplication_Table.h)
+        uber/359_Logger_Rate_Limiter.h uber/rate_limiter_Token_Bucket.h cplusplus/mytime.h leetcode/18_4Sum.h leetcode/454_4Sum_II.h leetcode/943_Find_the_Shortest_Superstring.h leetcode/944_Delete_Columns_to_Make_Sorted.h leetcode/464_Can_I_Win.h weride/todo_postman_pass_checkpoints.h leetcode/587_Erect_the_Fence.h leetcode/469_Convex_Polygon.h leetcode/189_Rotate_Array.h leetcode/nary_tree_codec.h uber/longest_poolchain.h leetcode/745_Prefix_and_Suffix_Search.h dropbox/isDownloadComplete.h leetcode/253_Meeting_Rooms_II.h concurrency_parallel/concurrent_linkedlist.h concurrency_parallel/concurrent_queue.h concurrency_parallel/threadpool.h concurrency_parallel/objectpool.h concurrency_parallel/scopedlock.h concurrency_parallel/todo_rwlock.h cruise/432_All_Oone_Data_Structure_LFU_Variant.h concurrency_parallel/memorypool.h linkedin/set_cover_3rd_degree_friends.h weride/shortest_path.h leetcode/774_Minimize_Max_Distance_to_Gas_Station.h leetcode/127_Word_Ladder.h leetcode/126_Word_Ladder_II.h weride/todo_480_Sliding_Window_Median.h leetcode/295_Find_Median_from_Data_Stream.h leetcode/285_Inorder_Successor_in_BST.h weride/k_means_DP.h weride/todo_poj_1160_Post_Office.h weride/hamiltonian_cycle_string_chain.h weride/todo_179_Largest_Number.h weride/todo_864_Shortest_Path_to_Get_All_Keys.h weride/N_Choose_K_with_different_prob.h concurrency_parallel/concurrent_stack.h leetcode/947_Most_Stones_Removed_with_Same_Row_or_Column.h cruise/segment_tree_2d.h leetcode/todo_850_Rectangle_Area_II.h dropbox/todo_multithread_token_bucket.h linkedin/sqrt_double.h weride/Fibonacci_Number.h leetcode/773_sliding_puzzle.h leetcode/415_Add_Strings.h leetcode/todo_668_Kth_Smallest_Number_in_Multiplication_Table.h todo_graph_partition.h todo_727_Minimum_Window_Subsequence.h linkedin/628_Maximum_Product_of_Three_Numbers.h linkedin/256_Paint_House.h linkedin/265_Paint_House_II.h linkedin/150_Evaluate_Reverse_Polish_Notation.h linkedin/_binary_search.h linkedin/272_Closest_Binary_Search_Tree_Value_II.h)
 
 IF (WIN32)
     # set stuff for windows
