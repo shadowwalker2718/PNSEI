@@ -70,9 +70,36 @@ int get_1toN_uniform_by_1toM(int M = 5, int N = 7) {
   return t % N + 1;
 }
 
+/*类似这个意思给你一个probablity list, 比如{0.25, 0.25,0.5}，让你
+    按照这个probablity随机生成相应的N个数，比如N等于8的话，那
+    么output list就是{1 2 3 3 1 2 3 3}，output list里边数字的顺序可
+以改变，比如{1 1 2 2 3 3 3 3}也行，满足那个概率分布就行，之
+    前面经里也有这题。然后follow up是如果probablity list很长，比
+    如{0.0001, 0.0002, 0.0004, ....,}，怎么办？ 其实就是加入一个
+    cdf序列，然后去判断random生成的数，在某个区间，然后相应
+    生成就行*/
+
+vector<int> cdf(vector<double> vd, vector<int> v, int N){
+  for(int i=1;i<vd.size();i++){
+    vd[i] += vd[i-1];
+  }
+  VI r(N);
+  REP(i,0,N){
+    double t=double(rand())/RAND_MAX;
+    r[i] = v[lower_bound(vd.begin(), vd.end(), t) - vd.begin()];
+  }
+  return r;
+}
+
 void test() {
   std::string s = std::bitset<64>(12345).to_string();
   srand(time(NULL));
+
+  auto r=cdf({0.25, 0.25,0.5}, {0,1,2}, 8);
+  for(int i: r){
+    cout << i << ",";
+  }
+  cout << endl;
 
   AutoProfiler ap(__FUNCTION__);
   static const int LEN = 102400*5;

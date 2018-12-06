@@ -71,7 +71,26 @@ TreeNode *createTree4() {
   return vn[1];
 };
 
-
+// http://sde.quant365.com/img/InOrder-Successor-use-binray-search-techique-Case-2.png
+/*********************************************************************************
+               15
+       10               20
+   5               17       25
+ 1   7
+      8
+*********************************************************************************/
+TreeNode *create_A_BST(){
+  TreeNode *R = new TreeNode(15);
+  R->left = new TreeNode(10);
+  R->left->left = new TreeNode(5);
+  R->left->left->left = new TreeNode(1);
+  R->left->left->right = new TreeNode(7);
+  R->left->left->right->right = new TreeNode(8);
+  R->right = new TreeNode(20);
+  R->right->left = new TreeNode(17);
+  R->right->right = new TreeNode(25);
+  return R;
+}
 
 // Segment Tree
 /////////////////////////////////////////////////////////////////////////////////

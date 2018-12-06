@@ -124,9 +124,12 @@
 #include "linkedin/sqrt_double.h"
 #include "weride/Fibonacci_Number.h"
 #include "leetcode/todo_668_Kth_Smallest_Number_in_Multiplication_Table.h"
-#include "probability.h"
+#include "linkedin/probability.h"
 #include "linkedin/605_Can_Place_Flowers.h"
 #include "linkedin/_binary_search.h"
+#include "linkedin/272_Closest_Binary_Search_Tree_Value_II.h"
+#include "linkedin/onsite1.h"
+#include "leetcode/98_Validate_Binary_Search_Tree.h"
 
 /*class Solutionx {
 public:
@@ -151,9 +154,12 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _probability::test();
+  _98::test();
+  linkedin_onsite1::test1();
+  _272::test();
   _binary_search::test();
   _canPlaceFlower::test();
-  _probability::test();
   _668::test();
   _fib::test();
   _480_medianSlidingWindow::test();

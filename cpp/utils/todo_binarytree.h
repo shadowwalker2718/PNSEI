@@ -41,6 +41,8 @@ TreeNode *createTree2();
 TreeNode *createTree3();
 TreeNode *createTree4();
 
+TreeNode *create_A_BST();
+
 // https://www.geeksforgeeks.org/segment-tree-efficient-implementation/
 /*
 ```

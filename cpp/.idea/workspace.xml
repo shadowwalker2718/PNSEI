@@ -15,24 +15,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedin/150_Evaluate_Reverse_Polish_Notation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/256_Paint_House.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/265_Paint_House_II.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/628_Maximum_Product_of_Three_Numbers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/_binary_search.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_727_Minimum_Window_Subsequence.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_graph_partition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/255_Verify_Preorder_Sequence_in_Binary_Search_Tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/98_Validate_Binary_Search_Tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/onsite1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avl.h" beforeDir="false" afterPath="$PROJECT_DIR$/todo_avl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/529_Minesweeper.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/529_Minesweeper.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/heatmap_argmax.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/todo_heatmap_argmax.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/254_Factor_Combinations.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/254_Factor_Combinations.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/canPlaceFlower.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/605_Can_Place_Flowers.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/frequent_element.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/frequent_element.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minwindowsub.h" beforeDir="false" afterPath="$PROJECT_DIR$/76_Minimum_Window_Substring.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/probability.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/probability.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/todo_binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils/todo_binarytree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/todo_binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils/todo_binarytree.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +51,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Build All (disassembly)" value="3" />
-          <entry key="cpp" value="2" />
-          <entry key="h" value="46" />
+          <entry key="cpp" value="3" />
+          <entry key="h" value="54" />
           <entry key="png" value="1" />
           <entry key="pnsei (disassembly)" value="3" />
           <entry key="py" value="2" />
@@ -70,32 +63,32 @@
         <counts>
           <entry key="Disassembly" value="6" />
           <entry key="Image" value="1" />
-          <entry key="ObjectiveC" value="48" />
+          <entry key="ObjectiveC" value="57" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="69" />
-          <entry key="h" value="2539" />
+          <entry key="cpp" value="189" />
+          <entry key="h" value="4667" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="2606" />
+          <entry key="Doxygen file" value="3" />
+          <entry key="ObjectiveC" value="4853" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="154" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="179">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -103,11 +96,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkedin/onsite1.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="886">
+              <caret line="116" column="58" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/255_Verify_Preorder_Sequence_in_Binary_Search_Tree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/98_Validate_Binary_Search_Tree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+              <folding>
+                <element signature="e#796#814#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkedin/maxstack.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-99" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkedin/probability.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="324">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="e#155#173#0" expanded="true" />
               </folding>
@@ -116,42 +155,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/628_Maximum_Product_of_Three_Numbers.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/256_Paint_House.h">
+        <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="447">
+              <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/265_Paint_House_II.h">
+        <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/150_Evaluate_Reverse_Polish_Notation.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/_binary_search.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="288">
+              <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -159,26 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/7/bits/basic_string.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="510" selection-start-line="510" selection-end-line="510" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/7/bits/char_traits.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="320" selection-start-line="320" selection-end-line="320" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henry.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="89" selection-start-line="89" selection-end-line="89" selection-end-column="51" />
+            <state relative-caret-position="180">
+              <caret line="509" selection-start-line="509" selection-end-line="509" />
             </state>
           </provider>
         </entry>
@@ -265,10 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dropbox/ie.md" />
-        <option value="$PROJECT_DIR$/cruise/todo_euclidean_clustering.h" />
-        <option value="$PROJECT_DIR$/dropbox/web_crawler.h" />
-        <option value="$PROJECT_DIR$/concurrency_parallel/concurrent_stack.h" />
         <option value="$PROJECT_DIR$/leetcode/947_Most_Stones_Removed_with_Same_Row_or_Column.py" />
         <option value="$PROJECT_DIR$/leetcode/947.h" />
         <option value="$PROJECT_DIR$/cruise/number_of_islands_variant1.h" />
@@ -278,7 +272,6 @@
         <option value="$PROJECT_DIR$/addepar/addepar.cpp" />
         <option value="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h" />
         <option value="$PROJECT_DIR$/addepar/kway_merge_file.cpp" />
-        <option value="$PROJECT_DIR$/utils/todo_binarytree.cpp" />
         <option value="$PROJECT_DIR$/concurrency_parallel/rwlock.h" />
         <option value="$PROJECT_DIR$/concurrency_parallel/rwlock.md" />
         <option value="$PROJECT_DIR$/dropbox/id_allocator_segment_tree.h" />
@@ -292,7 +285,6 @@
         <option value="$PROJECT_DIR$/cruise/all_points_in_Kmiles.h" />
         <option value="$PROJECT_DIR$/leetcode/850_Rectangle_Area_II.py" />
         <option value="$PROJECT_DIR$/cruise/heatmap_argmax.h" />
-        <option value="$PROJECT_DIR$/utils/todo_binarytree.h" />
         <option value="$PROJECT_DIR$/dropbox/todo_multithread_token_bucket.h" />
         <option value="$PROJECT_DIR$/cruise/224_Basic_Calculator.h" />
         <option value="$PROJECT_DIR$/cruise/no_or_single_parent_graph.h" />
@@ -313,9 +305,15 @@
         <option value="$PROJECT_DIR$/linkedin/256_Paint_House.h" />
         <option value="$PROJECT_DIR$/linkedin/265_Paint_House_II.h" />
         <option value="$PROJECT_DIR$/linkedin/150_Evaluate_Reverse_Polish_Notation.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/linkedin/_binary_search.h" />
+        <option value="$PROJECT_DIR$/utils/todo_binarytree.h" />
+        <option value="$PROJECT_DIR$/utils/todo_binarytree.cpp" />
         <option value="$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h" />
+        <option value="$PROJECT_DIR$/linkedin/onsite1.h" />
+        <option value="$PROJECT_DIR$/leetcode/255_Verify_Preorder_Sequence_in_Binary_Search_Tree.h" />
+        <option value="$PROJECT_DIR$/leetcode/98_Validate_Binary_Search_Tree.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/linkedin/probability.h" />
       </list>
     </option>
   </component>
@@ -654,12 +652,12 @@
       <workItem from="1543713412602" duration="4779000" />
       <workItem from="1543794679601" duration="1351000" />
       <workItem from="1543796257789" duration="473000" />
-      <workItem from="1543797058054" duration="14978000" />
+      <workItem from="1543797058054" duration="30095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="638950000" />
+    <option name="totallyTimeSpent" value="654067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,9 +670,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49444443" weight="0.21121393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.21121393" />
       <window_info id="Structure" order="1" sideWeight="0.50555557" side_tool="true" weight="0.14877385" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -692,10 +689,10 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.4989339" weight="0.3226152" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48013064" weight="0.35494506" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48013064" visible="true" weight="0.4065934" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.5198693" side_tool="true" weight="0.35494506" />
+      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.5198693" side_tool="true" visible="true" weight="0.4065934" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -733,7 +730,7 @@
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48013064" visible="true" weight="0.35494506" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.5198693" side_tool="true" weight="0.35494506" />
+      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.5198693" side_tool="true" visible="true" weight="0.35494506" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -771,7 +768,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>156</line>
+          <line>162</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -786,12 +783,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>155</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>154</line>
+          <line>161</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -801,13 +793,88 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>153</line>
+          <line>160</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/linkedin/_binary_search.h</url>
           <line>60</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>159</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h</url>
+          <line>59</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/onsite1.h</url>
+          <line>105</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>158</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/onsite1.h</url>
+          <line>37</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/onsite1.h</url>
+          <line>22</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/onsite1.h</url>
+          <line>106</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/onsite1.h</url>
+          <line>101</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/onsite1.h</url>
+          <line>73</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/leetcode/98_Validate_Binary_Search_Tree.h</url>
+          <line>65</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>157</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/probability.h</url>
+          <line>94</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedin/probability.h</url>
+          <line>82</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>156</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -855,32 +922,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/850_Rectangle_Area_II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/438_Find_All_Anagrams_in_a_String.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/22_Generate_Parentheses.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/774_Minimize_Max_Distance_to_Gas_Station.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/highest_minimum_sharpness.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file:///usr/include/math.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="505" column="1" lean-forward="true" selection-start-line="505" selection-start-column="1" selection-end-line="505" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="749">
@@ -957,13 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/probability.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IndexMaxPQ.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -976,11 +1010,6 @@
         <state relative-caret-position="342">
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/maxstack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/intersected.h">
@@ -1022,13 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>
@@ -1121,13 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="510" selection-start-line="510" selection-end-line="510" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/7/bits/char_traits.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -1142,22 +1157,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="447">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="324">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
             <element signature="e#155#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="509" selection-start-line="509" selection-end-line="509" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="797" selection-start-line="797" selection-end-line="797" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/maxstack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/onsite1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="116" column="58" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/98_Validate_Binary_Search_Tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <element signature="e#796#814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/255_Verify_Preorder_Sequence_in_Binary_Search_Tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/probability.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
