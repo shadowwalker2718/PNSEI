@@ -63,7 +63,7 @@ void kalman_filter(){
     p_mid = p_last + Q;
     kg = p_mid / (p_mid + R);
     z_measure = z_real + frand()*0.03;//测量值
-    x_now = x_mid + kg*(z_measure - x_mid);//估计出的最有值
+    x_now = x_mid + kg*(z_measure - x_mid);//估计出的最you值
     p_now = (1 - kg)*p_mid;//最优值对应的协方差
 
     printf("Real position:%6.3f\n", z_real);

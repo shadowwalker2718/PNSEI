@@ -130,6 +130,7 @@
 #include "linkedin/272_Closest_Binary_Search_Tree_Value_II.h"
 #include "linkedin/onsite1.h"
 #include "leetcode/98_Validate_Binary_Search_Tree.h"
+#include "cruise/29_Divide_Two_Integers.h"
 
 /*class Solutionx {
 public:
@@ -154,6 +155,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _29::test();
   _probability::test();
   _98::test();
   linkedin_onsite1::test1();

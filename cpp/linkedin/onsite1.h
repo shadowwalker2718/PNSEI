@@ -8,10 +8,10 @@
 /* https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=460470&highlight=linkedin%2B%BE%AD
 2018(10-12月) 码农类General 硕士 全职@Linkedin - 猎头 - Onsite  | Other | 在职跳槽
 1. 给一个字符串S ,看是否能够包括一列目标子串[s1, s2, ..., sn]并且子串在S中位置不重合
-2. 给一列数[n1, n2, ...]可能有元素重复，返回所有可能的排列
-3. 设计一个文本数据库，对于query 高效的返回某个key在数据库中出现的所有位置, 出现次数是否大于k
-4. behavior question: 你在项目中遇到过最难的问题是什么，跟经理意见不一致怎么办，等等
-5.设计一个传感器网络，有大量的传感器实时发送数据，access point 向这些传感器发送query,如何快速得到结果
+2. 给一列数[n1, n2, ...]可能有元素重复,返回所有可能的排列
+3. 设计一个文本数据库,对于query 高效的返回某个key在数据库中出现的所有位置, 出现次数是否大于k
+4. behavior question: 你在项目中遇到过最难的问题是什么,跟经理意见不一致怎么办,等等
+5.设计一个传感器网络,有大量的传感器实时发送数据,access point 向这些传感器发送query,如何快速得到结果
 */
 
 #include "henry.h"
@@ -114,7 +114,7 @@ void test1() {
   assert(!contain_nonoverlap_children("ab", {"a", "ab"}));
 }
 
-/* 3. 设计一个文本数据库，对于query 高效的返回某个key在数据库中出现的所有位置, 出现次数是否大于k */
+/* 3. 设计一个文本数据库,对于query 高效的返回某个key在数据库中出现的所有位置, 出现次数是否大于k */
 // Array is an index based `database`
 //
 // index:    [0]     [1]   [2]

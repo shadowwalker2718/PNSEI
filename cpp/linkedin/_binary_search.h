@@ -12,7 +12,7 @@ namespace _binary_search {
 // https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=461616
 
 /*
-2. binary search 的应用， 找到比自己大一号的字母
+2. binary search 的应用, 找到比自己大一号的字母
 arr = [a,b,d,f,v,z], key = z, ret= a
 arr = [a,b,d,f,v,z], key = b, ret= d
 */

@@ -6,7 +6,7 @@
 #define PNSEI_OVERLAP_POLYGON_H
 
 /*
- * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=311821&highlight=cruise
+ * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=311821
  *
  * 2018(10-12月) 码农类General 硕士 全职@cruise - 内推 - Onsite  | Fail | fresh grad应届毕业生
 感恩节时候面的.这公司比较扣,一晚住宿,不包饭,交通补贴100刀（刚刚够打车).面的planning team
@@ -29,5 +29,22 @@
 周五面的周一据信了.好在有其他保底offer,也不算很伤心
  *
  * */
+
+// 1. manager面,先几个behavior,然后
+// 一个brain teaser, 在路上的自动车,前面有个障碍物,如何判断该等一会还是绕过去.
+/*
+* 1. Check what the object is? (Pattern Recognition)
+ *  Radar or Lidar
+ *  3D vision
+ *
+* 2. Trajectory analysis - will there be collision
+ *
+ *
+* 3. Path Planning
+ *
+ *
+*/
+// Obstacle Avoidance Using Stereo Camera https://arxiv.org/ftp/arxiv/papers/1705/1705.04114.pdf
+// https://cloud.tencent.com/developer/news/203781
 
 #endif //PNSEI_OVERLAP_POLYGON_H

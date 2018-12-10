@@ -12,9 +12,9 @@ int get_01_pq() { return rand() % 2; }
 
 //////////////////////////////////////////////////////////////////
 /*
-1. coding: 给定一个函数getbiasrandom(), 以p概率返回1，
-（p-1）概率返回0。实现一个getrandom()函数，以相同概率返回0-6中的一个数
-        我懵了，特别懵，，提示下只实现了以相同概率返回0/1，没做过的题脑子不转了，当场觉得挂了。
+1. coding: 给定一个函数getbiasrandom(), 以p概率返回1,
+（p-1)概率返回0.实现一个getrandom()函数,以相同概率返回0-6中的一个数
+        我懵了,特别懵,,提示下只实现了以相同概率返回0/1,没做过的题脑子不转了,当场觉得挂了.
 */
 int get_01_uniform() {
   int prev = get_01_pq(), cur = get_01_pq();
@@ -70,13 +70,13 @@ int get_1toN_uniform_by_1toM(int M = 5, int N = 7) {
   return t % N + 1;
 }
 
-/*类似这个意思给你一个probablity list, 比如{0.25, 0.25,0.5}，让你
-    按照这个probablity随机生成相应的N个数，比如N等于8的话，那
-    么output list就是{1 2 3 3 1 2 3 3}，output list里边数字的顺序可
-以改变，比如{1 1 2 2 3 3 3 3}也行，满足那个概率分布就行，之
-    前面经里也有这题。然后follow up是如果probablity list很长，比
-    如{0.0001, 0.0002, 0.0004, ....,}，怎么办？ 其实就是加入一个
-    cdf序列，然后去判断random生成的数，在某个区间，然后相应
+/*类似这个意思给你一个probablity list, 比如{0.25, 0.25,0.5},让你
+    按照这个probablity随机生成相应的N个数,比如N等于8的话,那
+    么output list就是{1 2 3 3 1 2 3 3},output list里边数字的顺序可
+以改变,比如{1 1 2 2 3 3 3 3}也行,满足那个概率分布就行,之
+    前面经里也有这题.然后follow up是如果probablity list很长,比
+    如{0.0001, 0.0002, 0.0004, ....,},怎么办? 其实就是加入一个
+    cdf序列,然后去判断random生成的数,在某个区间,然后相应
     生成就行*/
 
 vector<int> cdf(vector<double> vd, vector<int> v, int N){
@@ -95,7 +95,7 @@ void test() {
   std::string s = std::bitset<64>(12345).to_string();
   srand(time(NULL));
 
-  auto r=cdf({0.25, 0.25,0.5}, {0,1,2}, 8);
+  auto r=cdf({0.25, 0.25,0.5}, {0,1,2}, 18);
   for(int i: r){
     cout << i << ",";
   }
