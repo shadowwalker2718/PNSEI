@@ -15,19 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cruise/29_Divide_Two_Integers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruise/key_value_with_transaction/kvdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clean_punc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../clean_punc.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cruise/christmas_tree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/29_Divide_Two_Integers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/29_Divide_Two_Integers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/kalman_filter.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/kalman_filter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cruise/overlap_polygon.h" beforeDir="false" afterPath="$PROJECT_DIR$/cruise/todo_overlap_polygon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/256_Paint_House.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/256_Paint_House.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/_binary_search.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/_binary_search.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/onsite1.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/onsite1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/probability.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/probability.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +30,8 @@
     <session id="1072889092">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -49,17 +39,17 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Build All (disassembly)" value="3" />
           <entry key="cpp" value="4" />
-          <entry key="h" value="60" />
+          <entry key="h" value="61" />
           <entry key="png" value="1" />
           <entry key="pnsei (disassembly)" value="3" />
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
           <entry key="vcxproj" value="1" />
         </counts>
       </usages-collector>
@@ -67,23 +57,23 @@
         <counts>
           <entry key="Disassembly" value="6" />
           <entry key="Image" value="1" />
-          <entry key="ObjectiveC" value="64" />
+          <entry key="ObjectiveC" value="65" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="206" />
-          <entry key="h" value="5346" />
-          <entry key="py" value="52" />
+          <entry key="h" value="5485" />
+          <entry key="py" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="3" />
-          <entry key="ObjectiveC" value="5549" />
-          <entry key="Python" value="52" />
+          <entry key="ObjectiveC" value="5688" />
+          <entry key="Python" value="54" />
         </counts>
       </usages-collector>
     </session>
@@ -93,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="2355">
               <caret line="157" selection-start-line="157" selection-end-line="157" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -102,23 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/98_Validate_Binary_Search_Tree.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cruise/christmas_tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="e#796#814#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cruise/kalman_filter.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="75" />
+            <state relative-caret-position="204">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -142,11 +120,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cruise/key_value_with_transaction/kvdb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+            <state relative-caret-position="150">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -247,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/addepar/addepar.cpp" />
         <option value="$PROJECT_DIR$/dropbox/highest_minimum_sharpness.h" />
         <option value="$PROJECT_DIR$/addepar/kway_merge_file.cpp" />
         <option value="$PROJECT_DIR$/concurrency_parallel/rwlock.h" />
@@ -298,6 +275,7 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/cruise/29_Divide_Two_Integers.h" />
         <option value="$PROJECT_DIR$/cruise/key_value_with_transaction/kvdb.py" />
+        <option value="$PROJECT_DIR$/cruise/christmas_tree.h" />
       </list>
     </option>
   </component>
@@ -384,12 +362,6 @@
               <item name="pnsei" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="cruise" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="pnsei" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="cruise" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="key_value_with_transaction" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -646,12 +618,13 @@
       <workItem from="1543797058054" duration="40243000" />
       <workItem from="1544310815399" duration="651000" />
       <workItem from="1544403207744" duration="739000" />
-      <workItem from="1544416230355" duration="2435000" />
+      <workItem from="1544416230355" duration="4130000" />
+      <workItem from="1544465378297" duration="1262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="668040000" />
+    <option name="totallyTimeSpent" value="670997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,7 +639,7 @@
     <frame x="39" y="25" width="1881" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.21750952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.21968462" />
       <window_info id="Structure" order="1" sideWeight="0.50555557" side_tool="true" weight="0.14877385" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -687,7 +660,7 @@
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.24034801" visible="true" weight="0.378022" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.75965196" side_tool="true" visible="true" weight="0.378022" />
+      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.75965196" side_tool="true" weight="0.378022" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -944,13 +917,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kth_Smallest_in_Lexicographical_Order.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="1" selection-start-line="38" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/773_sliding_puzzle.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1203,43 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/kalman_filter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/Pairwise_swap_elements_of_a_given_linked_list.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/maxstack.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/probability.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cruise/todo_overlap_polygon.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cruise/29_Divide_Two_Integers.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -1252,8 +1181,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/29_Divide_Two_Integers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
+        <state relative-caret-position="-117">
           <caret line="2" column="116" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/kalman_filter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/Pairwise_swap_elements_of_a_given_linked_list.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/todo_overlap_polygon.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -1262,8 +1218,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cruise/key_value_with_transaction/kvdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/maxstack.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/probability.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cruise/christmas_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
         </state>
       </provider>
     </entry>
