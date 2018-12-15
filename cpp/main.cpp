@@ -131,6 +131,8 @@
 #include "linkedin/onsite1.h"
 #include "leetcode/98_Validate_Binary_Search_Tree.h"
 #include "cruise/29_Divide_Two_Integers.h"
+#include "cplusplus/cpp_faster_than_c.h"
+#include "uber/uber_carpool.h"
 
 /*class Solutionx {
 public:
@@ -155,6 +157,8 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _uber_carpool::simple::test();
+  _cpp_c::test();
   _29::test();
   _probability::test();
   _98::test();
