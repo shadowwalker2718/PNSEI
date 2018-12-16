@@ -133,6 +133,7 @@
 #include "cruise/29_Divide_Two_Integers.h"
 #include "cplusplus/cpp_faster_than_c.h"
 #include "uber/uber_carpool.h"
+#include "concurrency_parallel/my_memory_order.h"
 
 /*class Solutionx {
 public:
@@ -157,6 +158,7 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _mem_order::_ordering::test();
   _uber_carpool::simple::test();
   _cpp_c::test();
   _29::test();

@@ -17,9 +17,9 @@ struct point {
 
   point(int a, int b) { x = a, y = b; }
 
-  bool operator==(point &o) { return x == o.x && y == o.y; }
+  bool operator==(point &o) const { return x == o.x && y == o.y; }
 
-  bool operator<=(point &o) { return x <= o.x && y <= o.y; }
+  bool operator<=(point &o) const { return x <= o.x && y <= o.y; }
 };
 
 struct bb {
@@ -33,7 +33,6 @@ struct bb {
 
   vector<bb> split() {
     vector<bb> r;
-    // TODO - bugs [0,0] [1,1]
     point p1, p2;
     r.push_back(bb{tl, {(tl.x + br.x) / 2, (tl.y + br.y) / 2}});
     p1.x = (tl.x + br.x) / 2 + 1, p1.y = (tl.y + br.y) / 2 + 1;
@@ -115,8 +114,8 @@ struct segment_tree_2d { // sum segment tree
     v = t;
   }
 
-  bb b;
-  int v = INT_MAX; // sum
+  bb b; // bounding box for the current segment tree
+  int v = INT_MAX; // value corresponding to the current bounding box, could be sum or min or whatever
   segment_tree_2d *children[4] = {};
 };
 
