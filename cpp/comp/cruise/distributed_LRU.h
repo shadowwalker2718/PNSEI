@@ -47,8 +47,8 @@ function. 打开coderpad要用python写,问可不可以java,同意后就用java�
  *
  * */
 
-#include "../concurrency_parallel/concurrent_linkedlist.h"
-#include "../concurrency_parallel/concurrent_hashmap.h"
+#include "concurrency_parallel/concurrent_linkedlist.h"
+#include "concurrency_parallel/concurrent_hashmap.h"
 
 namespace _lru_classic {
 
