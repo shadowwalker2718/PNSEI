@@ -40,6 +40,9 @@ public:
 };
 
 namespace _semaphore_example{
+
+// https://austingwalters.com/multithreading-semaphores/
+
 mutex mtx;              // mutex for critical section
 condition_variable cv;  // condition variable for critical section
 bool ready = false;     // Tell threads to run

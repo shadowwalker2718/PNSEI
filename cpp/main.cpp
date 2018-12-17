@@ -100,9 +100,9 @@
 #include "dropbox/highest_minimum_sharpness.h"
 #include "dropbox/id_allocator_segment_tree.h"
 
-#include "uber/rate_limiter_Token_Bucket.h"
-#include "uber/longest_poolchain.h"
-#include "uber/uber_LRU_customized_eviction.h"
+#include "practice/rate_limiter_Token_Bucket.h"
+#include "practice/longest_poolchain.h"
+#include "practice/practice_LRU_customized_eviction.h"
 
 #include "cplusplus/mytime.h"
 
@@ -132,8 +132,9 @@
 #include "leetcode/98_Validate_Binary_Search_Tree.h"
 #include "cruise/29_Divide_Two_Integers.h"
 #include "cplusplus/cpp_faster_than_c.h"
-#include "uber/uber_carpool.h"
+#include "practice/practice_carpool.h"
 #include "concurrency_parallel/my_memory_order.h"
+#include "concurrency_parallel/my_semaphore.h"
 
 /*class Solutionx {
 public:
@@ -158,8 +159,9 @@ public:
 };*/
 
 int main(int argc, char **argv) {
+  _concurrency::_semaphore_example::test();
   _mem_order::_ordering::test();
-  _uber_carpool::simple::test();
+  _practice_carpool::simple::test();
   _cpp_c::test();
   _29::test();
   _probability::test();
@@ -216,7 +218,7 @@ int main(int argc, char **argv) {
   // Cache-eviction related
   _lru_classic::test();
   _432::test();
-  _uber_lru::test();
+  _practice_lru::test();
   _lfu::test();
   _concurrent_ll::test();
 
@@ -232,8 +234,8 @@ int main(int argc, char **argv) {
 
 
 
-  _uber_rate_limiter::test();
-  _uber_longest_poolchain::test();
+  _practice_rate_limiter::test();
+  _practice_longest_poolchain::test();
   _587::test();
   _464::test();
   _ksum::test();

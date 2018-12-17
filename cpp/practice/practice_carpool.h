@@ -2,13 +2,13 @@
 // Created by henry on 12/15/18.
 //
 
-#ifndef PNSEI_UBER_CARPOOL_H
-#define PNSEI_UBER_CARPOOL_H
+#ifndef PNSEI_practice_CARPOOL_H
+#define PNSEI_practice_CARPOOL_H
 
-// image/uber_riders.png
+// image/practice_riders.png
 #include "henry.h"
 
-namespace _uber_carpool {
+namespace _practice_carpool {
 
   namespace simple {
 
@@ -122,4 +122,4 @@ namespace _uber_carpool {
 
 }
 
-#endif //PNSEI_UBER_CARPOOL_H
+#endif //PNSEI_practice_CARPOOL_H

@@ -2,13 +2,13 @@
 // Created by Henry Wu on 11/12/18.
 //
 
-#ifndef PNSEI_UBER_LRU_OPTIMIZED_DELETE_H
-#define PNSEI_UBER_LRU_OPTIMIZED_DELETE_H
+#ifndef PNSEI_practice_LRU_OPTIMIZED_DELETE_H
+#define PNSEI_practice_LRU_OPTIMIZED_DELETE_H
 /*
- * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=454039&highlight=uber
+ * https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=454039&highlight=practice
  *
- * 2018(10-12月) 码农类General 本科 全职@Uber - 内推 - Onsite  | Fail | fresh grad应届毕业生
- Uber 10.12 onsite,  感觉面的不错 但还是挂了, LZ还挂了FB 和 Two Sigma,但只有Uber让我痛心,因为对他家的products很喜欢
+ * 2018(10-12月) 码农类General 本科 全职@practice - 内推 - Onsite  | Fail | fresh grad应届毕业生
+ practice 10.12 onsite,  感觉面的不错 但还是挂了, LZ还挂了FB 和 Two Sigma,但只有practice让我痛心,因为对他家的products很喜欢
  一共五轮
 
  第一轮 team manager behavior
@@ -54,7 +54,7 @@
  */
 #include "henry.h"
 
-namespace _uber_lru {
+namespace _practice_lru {
 
 struct node {
   int k;
@@ -180,4 +180,4 @@ void test() {
 }
 
 
-#endif //PNSEI_UBER_LRU_OPTIMIZED_DELETE_H
+#endif //PNSEI_practice_LRU_OPTIMIZED_DELETE_H

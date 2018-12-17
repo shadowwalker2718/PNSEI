@@ -7,7 +7,7 @@
 
 /*
  * https://www.glassdoor.com/Interview/Given-the-travel-time-of-each-customer-Find-the-driver-with-the-longest-chain-of-trips-which-means-there-is-always-at-lea-QTN_2278730.htm
- * 2018(10-12月) 码农类General 博士 全职@Uber - 内推 - 技术电面  | Other | fresh grad应届毕业生
+ * 2018(10-12月) 码农类General 博士 全职@practice - 内推 - 技术电面  | Other | fresh grad应届毕业生
 新鲜电面面经
 
 
@@ -31,7 +31,7 @@ Algo: meeting room
 
 #include "henry.h"
 
-namespace _uber_longest_poolchain {
+namespace _practice_longest_poolchain {
 
 struct travel_log {
   size_t timestamp;
