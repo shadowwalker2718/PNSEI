@@ -16,7 +16,7 @@
 
 #include "henry.h"
 
-namespace linkedin_onsite1 {
+namespace lki_1 {
 
 /*1. 给一个字符串S ,看是否能够包括一列目标子串[s1, s2, ..., sn]并且子串在S中位置不重合*/
 bool _dfs(vector<set<int>> vs, set<int> visited, int head) {

@@ -124,8 +124,10 @@
 #include "concurrency_parallel/DelayQueue.h"
 #include "concurrency_parallel/deadlock.h"
 #include "concurrency_parallel/h2o.h"
+#include "practice/uber_onsite.h"
 
 int main(int argc, char **argv) {
+  uber_onsite::test3();
   _concurrency::_semaphore_example::test();
   _mem_order::_ordering::test();
   _practice_carpool::simple::test();
@@ -133,7 +135,7 @@ int main(int argc, char **argv) {
   _29::test();
   _probability::test();
   _98::test();
-  linkedin_onsite1::test1();
+  lki_1::test1();
   _272::test();
   _binary_search::test();
   _canPlaceFlower::test();
@@ -144,20 +146,16 @@ int main(int argc, char **argv) {
   _multiparent_tree::test();
   _224::test();
   segment_tree_2d::test();
-  _cruise_geometry::__quadtree::test();
+
 
   _307_segmentTree::test();
   binarytree_test_bug();
-  _dropbox_dp::test_find_highest_minimum_sharpness();
-  _addepar_kway_merge::test();
-  binarytree_test();
-  dropbox_sgementtree::test();
-  _cruise_islands::test();
-  _947::test();
-  _weride_prob::test();
-  _weride_hamiltonian::test();
+  db_dp::test_find_highest_minimum_sharpness();
 
-  _weride_kmeans::test();
+  binarytree_test();
+
+  _947::test();
+
   ///////////////////////////////////////////////////////////////
   // Graph Theory
   ///////////////////////////////////////////////////////////////
@@ -172,7 +170,7 @@ int main(int argc, char **argv) {
 
   // BF, Dijkstra
   _787::test();
-  _cruise_dijkstra::test();
+
   graph_Dijkstra::test();
 
   // MST(Prim, Kruskal)
@@ -215,8 +213,62 @@ int main(int argc, char **argv) {
   _hdu_1254::test();
   _529_minesweeper::test();
 
+  _segment_tree::test();
+  _shortest_non_substring::test();
+  _RLEIterator::test();
+  minwindowsub::test();
 
+  _comb_sum::test();
+
+  _canPlaceFlower::test();
+
+  _winner_tree::test();
+
+  _reverse_string::test();
+
+  _sparsematrix::test();
+
+  _kangaroos::test();
+
+  _254::test();
+  justify_text_line::test();
+  _65::test();
+  _361::test();
+  _42::test();
+  _42::test2();
+
+  _208::test();
+  _208_ext::test();
+  _391::test();
+  _394::test();
+  _388::test();
+  _307::test();
+  _425::test();
+  _425::test2();
+  _425::test3();
+
+  _422::test();
+
+  _407::test();
+  _print_matrix::test();
+  _h2o::mainthread2();
+  _h2o::test();
+  deadlock::test();
+  _concurrent_hashmap::test();
+
+  _find_dup::test();
+  _knighttour::test();
+  segregate_even_odd_ll::test();
+  blowoff_leaf::test();
   _cruise_interval::test();
+  _cruise_dijkstra::test();
+  _cruise_islands::test();
+  _cruise_geometry::__quadtree::test();
+  dropbox_sgementtree::test();
+  _addepar_kway_merge::test();
+  _weride_prob::test();
+  _weride_hamiltonian::test();
+  _weride_kmeans::test();
 
 
 
@@ -257,31 +309,7 @@ int main(int argc, char **argv) {
   /*Solutionx x;
   x.grayCode(2);*/
 
-  _segment_tree::test();
-  _shortest_non_substring::test();
-  _RLEIterator::test();
-  minwindowsub::test();
 
-  _comb_sum::test();
-
-  _canPlaceFlower::test();
-
-  _winner_tree::test();
-
-  _reverse_string::test();
-
-  _sparsematrix::test();
-
-  _kangaroos::test();
-
-  _254::test();
-
-  _concurrent_hashmap::test();
-
-  _find_dup::test();
-  _knighttour::test();
-  segregate_even_odd_ll::test();
-  blowoff_leaf::test();
 
   K_th_Smallest_in_Lexicographical_Order::test();
   bbg_encode_list_with_dups::test();
@@ -289,12 +317,7 @@ int main(int argc, char **argv) {
   _multi_dimension_array::test();
   _lnkd_is_intersected::test();
 
-  justify_text_line::test();
 
-  _print_matrix::test();
-  _h2o::mainthread2();
-  _h2o::test();
-  deadlock::test();
   _linkedin::test();
   _lnkd_totalcovered_length::test();
   _149::test();
@@ -306,24 +329,7 @@ int main(int argc, char **argv) {
 
   _lnkd_is_serialized_tree::test();
 
-  _65::test();
-  _361::test();
-  _42::test();
-  _42::test2();
 
-  _208::test();
-  _208_ext::test();
-  _391::test();
-  _394::test();
-  _388::test();
-  _307::test();
-  _425::test();
-  _425::test2();
-  _425::test3();
-
-  _422::test();
-
-  _407::test();
 
   _mytime::system_info();
 
