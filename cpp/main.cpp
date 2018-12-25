@@ -1,5 +1,4 @@
 #include "henry.h"
-
 #include "utils/todo_binarytree.h"
 #include "HDU_pushbox.h"
 #include "IndexMaxPQ.h"
@@ -32,7 +31,6 @@
 #include "comp/cruise/number_of_islands_variant1.h"
 #include "comp/cruise/interval_subtraction.h"
 #include "comp/cruise/closest_car.h"
-#include "comp/cruise/LFU.h"
 #include "comp/cruise/432_All_Oone_Data_Structure_LFU_Variant.h"
 #include "comp/cruise/distributed_LRU.h"
 #include "comp/cruise/segment_tree_2d.h"
@@ -127,6 +125,8 @@
 #include "practice/uber_onsite.h"
 
 int main(int argc, char **argv) {
+  _sgement_tree::test();
+  return 0;
   uber_onsite::test3();
   _concurrency::_semaphore_example::test();
   _mem_order::_ordering::test();
@@ -146,14 +146,10 @@ int main(int argc, char **argv) {
   _multiparent_tree::test();
   _224::test();
   segment_tree_2d::test();
-
-
   _307_segmentTree::test();
   binarytree_test_bug();
   db_dp::test_find_highest_minimum_sharpness();
-
   binarytree_test();
-
   _947::test();
 
   ///////////////////////////////////////////////////////////////
@@ -162,17 +158,12 @@ int main(int argc, char **argv) {
   // BFS, Bi, MSBFS
   _127::test();
   _126::test();
-
   // Toplogical Sort, DFS, Khan Algo
-
   // Bipartite
   _785_Is_Graph_Bipartite::test();
-
   // BF, Dijkstra
   _787::test();
-
   graph_Dijkstra::test();
-
   // MST(Prim, Kruskal)
   graph_MST::test();
 
@@ -186,19 +177,14 @@ int main(int argc, char **argv) {
   _practice_lru::test();
   _lfu::test();
   _concurrent_ll::test();
-
   _midstack::test();
   _minmaxstack::test();
   _480_medianSlidingWindow::test();
   _295::test();
-
   ///////////////////////////////////////////////////////////////
   // Concurrency
   ///////////////////////////////////////////////////////////////
   _concurrent_shared_mutex::test();
-
-
-
   _practice_rate_limiter::test();
   _practice_longest_poolchain::test();
   _587::test();
@@ -206,37 +192,25 @@ int main(int argc, char **argv) {
   _ksum::test();
   _465_account_balancing::test();
   _4sum::test();
-
   _bzoj1090::test();
-
-
   _hdu_1254::test();
   _529_minesweeper::test();
-
   _segment_tree::test();
   _shortest_non_substring::test();
   _RLEIterator::test();
   minwindowsub::test();
-
   _comb_sum::test();
-
   _canPlaceFlower::test();
-
   _winner_tree::test();
-
   _reverse_string::test();
-
   _sparsematrix::test();
-
   _kangaroos::test();
-
   _254::test();
   justify_text_line::test();
   _65::test();
   _361::test();
   _42::test();
   _42::test2();
-
   _208::test();
   _208_ext::test();
   _391::test();
@@ -246,16 +220,13 @@ int main(int argc, char **argv) {
   _425::test();
   _425::test2();
   _425::test3();
-
   _422::test();
-
   _407::test();
   _print_matrix::test();
   _h2o::mainthread2();
   _h2o::test();
   deadlock::test();
   _concurrent_hashmap::test();
-
   _find_dup::test();
   _knighttour::test();
   segregate_even_odd_ll::test();
@@ -264,16 +235,11 @@ int main(int argc, char **argv) {
   _cruise_dijkstra::test();
   _cruise_islands::test();
   _cruise_geometry::__quadtree::test();
-  dropbox_sgementtree::test();
   _addepar_kway_merge::test();
   _weride_prob::test();
   _weride_hamiltonian::test();
   _weride_kmeans::test();
-
-
-
   _150::test();
-
   _816::test();
   cruise_recover_tree::test();
   _skiplist::test();
@@ -287,50 +253,29 @@ int main(int argc, char **argv) {
   _162::test();
   _addepar_find_peak_2D::test();
   _34::test();
-
   _addepar::test();
   bolt::test();
-
-
-
-
   _allLPS::test();
   _frequent_element::test();
   _214::test();
   _delayqueue::test();
   _68::test();
   lc_438::test();
-
-
-
   cruise_2017_09_20::test();
   _927::test();
-
   /*Solutionx x;
   x.grayCode(2);*/
-
-
-
   K_th_Smallest_in_Lexicographical_Order::test();
   bbg_encode_list_with_dups::test();
-
   _multi_dimension_array::test();
   _lnkd_is_intersected::test();
-
-
   _linkedin::test();
   _lnkd_totalcovered_length::test();
   _149::test();
-
   _indexheap::test();
   _indexheap::test2();
-
   _google_MaxWithOneFlip::test();
-
   _lnkd_is_serialized_tree::test();
-
-
-
   _mytime::system_info();
 
   return 0;

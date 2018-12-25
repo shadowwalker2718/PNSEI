@@ -109,6 +109,7 @@ TreeNode *build_segment_tree_algo1(const vector<int> &v) { // sum segment tree
   for (int i = 0; i < L; i++) {
     vn[i + L] = new TreeNode(v[i]);
   }
+  // starting with the last inner node!!!
   for (int i = L - 1; i > 0; i--) {
     int t = vn[2 * i]->val + vn[2 * i + 1]->val;
     vn[i] = new TreeNode(t);

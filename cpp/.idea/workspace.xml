@@ -13,12 +13,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/uber_onsite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cplusplus/profiler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algo.ods" beforeDir="false" afterPath="$PROJECT_DIR$/../algo.ods" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comp/dropbox/highest_minimum_sharpness.h" beforeDir="false" afterPath="$PROJECT_DIR$/comp/dropbox/highest_minimum_sharpness.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comp/linkedin/onsite1.h" beforeDir="false" afterPath="$PROJECT_DIR$/comp/linkedin/onsite1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/short_message_formatting.h" beforeDir="false" afterPath="$PROJECT_DIR$/practice/short_message_formatting.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/todo_binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils/todo_binarytree.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -34,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            <state relative-caret-position="888">
+              <caret line="281" selection-start-line="281" selection-end-line="281" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -44,19 +46,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/uber_onsite.h">
+        <entry file="file://$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1086">
-              <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
+            <state relative-caret-position="260">
+              <caret line="568" column="35" lean-forward="true" selection-start-line="568" selection-start-column="35" selection-end-line="568" selection-end-column="35" />
+              <folding>
+                <element signature="e#1421#1439#0" expanded="true" />
+                <element signature="e#2528#2557#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henry.h">
+        <entry file="file://$PROJECT_DIR$/average_segment_tree.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comp/addepar/local_minimum_tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="275">
+              <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="108" column="31" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cplusplus/profiler.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="677">
+              <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+              <folding>
+                <element signature="e#248#266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cplusplus/mytime.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stree.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -73,14 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_midstack</find>
-      <find>_minmaxstack</find>
-      <find>lower_median.</find>
-      <find>295</find>
-      <find>make</find>
-      <find>push_back</find>
-      <find>_cruise_islands</find>
-      <find>dropbox_sgementtree</find>
       <find>build_segment_tree_algo2</find>
       <find>binarytree_test</find>
       <find>addepar</find>
@@ -99,13 +156,20 @@
       <find>COMMIT</find>
       <find>segment</find>
       <find>async</find>
-      <find>std::</find>
       <find>uber</find>
       <find>#include &quot;weride/</find>
       <find>_cruise</find>
+      <find>sky</find>
+      <find>idallocator</find>
+      <find>id_allo</find>
+      <find>std::</find>
+      <find>dropbox_sgementtree</find>
+      <find>int</find>
+      <find>segment_tree</find>
+      <find>Segment</find>
+      <find>K-ary</find>
     </findStrings>
     <replaceStrings>
-      <replace>head</replace>
       <replace>e</replace>
       <replace>TreeNode</replace>
       <replace>-&gt;left</replace>
@@ -135,6 +199,7 @@
       <replace>numeric_limits&lt;double&gt;::max()</replace>
       <replace>practice</replace>
       <replace>#include &quot;comp/weride/</replace>
+      <replace>long long</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -143,9 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weride/k_means_DP.h" />
-        <option value="$PROJECT_DIR$/stree.h" />
-        <option value="$PROJECT_DIR$/leetcode/307_Range_Sum_Query_Mutable_segmentTree.h" />
         <option value="$PROJECT_DIR$/cruise/307_Range_Sum_Query_Mutable_segmentTree.h" />
         <option value="$PROJECT_DIR$/cruise/308_Range_Sum_Query_2D_Mutable.h" />
         <option value="$PROJECT_DIR$/cruise/all_points_in_Kmiles.h" />
@@ -173,7 +235,6 @@
         <option value="$PROJECT_DIR$/linkedin/150_Evaluate_Reverse_Polish_Notation.h" />
         <option value="$PROJECT_DIR$/linkedin/_binary_search.h" />
         <option value="$PROJECT_DIR$/utils/todo_binarytree.h" />
-        <option value="$PROJECT_DIR$/utils/todo_binarytree.cpp" />
         <option value="$PROJECT_DIR$/linkedin/272_Closest_Binary_Search_Tree_Value_II.h" />
         <option value="$PROJECT_DIR$/linkedin/onsite1.h" />
         <option value="$PROJECT_DIR$/leetcode/255_Verify_Preorder_Sequence_in_Binary_Search_Tree.h" />
@@ -192,8 +253,12 @@
         <option value="$PROJECT_DIR$/cruise/segment_tree_2d.h" />
         <option value="$PROJECT_DIR$/concurrency_parallel/my_memory_order.h" />
         <option value="$PROJECT_DIR$/concurrency_parallel/my_semaphore.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/practice/uber_onsite.h" />
+        <option value="$PROJECT_DIR$/cplusplus/timer.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/utils/todo_binarytree.cpp" />
+        <option value="$PROJECT_DIR$/cplusplus/profiler.h" />
+        <option value="$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h" />
       </list>
     </option>
   </component>
@@ -203,11 +268,11 @@
     </ignored-facets>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="27" />
-    <option name="width" value="931" />
-    <option name="height" value="1053" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="35" />
+    <option name="y" value="25" />
+    <option name="width" value="943" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -217,17 +282,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -239,6 +293,17 @@
               <item name="pnsei" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="cplusplus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pnsei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -508,11 +573,17 @@
       <workItem from="1544927965331" duration="5942000" />
       <workItem from="1544970041249" duration="4084000" />
       <workItem from="1545070642582" duration="6356000" />
+      <workItem from="1545263044595" duration="76000" />
+      <workItem from="1545263153032" duration="56000" />
+      <workItem from="1545345267621" duration="651000" />
+      <workItem from="1545348647332" duration="1360000" />
+      <workItem from="1545351394153" duration="6521000" />
+      <workItem from="1545674853281" duration="24361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="701129000" />
+    <option name="totallyTimeSpent" value="734154000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,31 +595,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="25" width="1885" height="1055" extended-state="6" />
+    <frame x="35" y="25" width="1885" height="1055" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.2055465" />
-      <window_info id="Structure" order="1" sideWeight="0.50555557" side_tool="true" weight="0.14877385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49322033" visible="true" weight="0.17400761" />
+      <window_info id="Structure" order="1" sideWeight="0.5067797" side_tool="true" weight="0.23871669" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.44395605" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49755302" weight="0.27213824" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.4989339" weight="0.32181427" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.23762915" visible="true" weight="0.237581" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info anchor="bottom" id="Tail" order="14" />
-      <window_info anchor="bottom" id="Debug" order="15" sideWeight="0.7623708" side_tool="true" weight="0.237581" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49918434" weight="0.44370124" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7759652" weight="0.27201784" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6014138" side_tool="true" weight="0.6934225" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962137" />
+      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.4989339" weight="0.32181427" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.39858618" visible="true" weight="0.28093645" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -567,28 +639,29 @@
       <window_info anchor="right" id="R Graphics" order="15" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.16258836" />
-      <window_info id="Structure" order="1" sideWeight="0.50555557" side_tool="true" weight="0.14877385" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49322033" visible="true" weight="0.17400761" />
+      <window_info id="Structure" order="1" sideWeight="0.5067797" side_tool="true" weight="0.23871669" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.44395605" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980968" visible="true" weight="0.27213824" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.4989339" weight="0.3226152" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.23926046" weight="0.21058315" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" />
-      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49918434" weight="0.44370124" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49755302" weight="0.27213824" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5992387" side_tool="true" visible="true" weight="0.5206243" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962137" />
+      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.4989339" weight="0.32181427" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.40076128" visible="true" weight="0.5206243" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -605,7 +678,6 @@
       <window_info anchor="right" id="JuliaSciView" order="13" />
       <window_info anchor="right" id="R Packages" order="14" />
       <window_info anchor="right" id="R Graphics" order="15" />
-      <window_info anchor="right" id="Debug" order="16" sideWeight="0.7607395" side_tool="true" visible="true" weight="0.45894507" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,18 +863,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/practice/uber_onsite.h</url>
-          <line>60</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/practice/uber_onsite.h</url>
           <line>79</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/practice/uber_onsite.h</url>
-          <line>63</line>
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>52</line>
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h</url>
+          <line>270</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h</url>
+          <line>238</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/comp/cruise/29_Divide_Two_Integers.py</url>
@@ -829,6 +906,18 @@
     </find-history>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i==1</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i=1</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="watch">
       <expression>
         <expression-string>(*TreeNode)(0x562fc5e9d880)</expression-string>
@@ -860,113 +949,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stree.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/cruise/todo_heatmap_argmax.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/628_Maximum_Product_of_Three_Numbers.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/256_Paint_House.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/265_Paint_House_II.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/150_Evaluate_Reverse_Polish_Notation.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/char_traits.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/_binary_search.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/272_Closest_Binary_Search_Tree_Value_II.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#155#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="509" selection-start-line="509" selection-end-line="509" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="797" selection-start-line="797" selection-end-line="797" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/weride/todo_480_Sliding_Window_Median.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="37" selection-start-line="118" selection-start-column="37" selection-end-line="118" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/onsite1.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" column="58" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/255_Verify_Preorder_Sequence_in_Binary_Search_Tree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1077,16 +1059,6 @@
     <entry file="file://$PROJECT_DIR$/comp/cruise/816_Ambiguous_Coordinates.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cplusplus/cpp_faster_than_c.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#110#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/practice_carpool.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -1179,27 +1151,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice/longest_poolchain.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IndexMaxPQ.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/uber_onsite.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/henry.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        <state relative-caret-position="-540">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+            <element signature="e#123#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cplusplus/cpp_faster_than_c.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#110#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cplusplus/mytime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/boost/interprocess/mapped_region.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="581" column="30" selection-start-line="581" selection-start-column="30" selection-end-line="581" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/confname.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/unistd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="621" column="16" selection-start-line="621" selection-start-column="16" selection-end-line="621" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stree.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_bvector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1250" selection-start-line="1250" selection-end-line="1250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comp/addepar/local_minimum_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/cmath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="176" column="4" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/todo_binarytree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="108" column="31" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cplusplus/profiler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding>
+            <element signature="e#248#266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="888">
+          <caret line="281" selection-start-line="281" selection-end-line="281" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/uber_onsite.h">
+    <entry file="file://$PROJECT_DIR$/average_segment_tree.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1086">
-          <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
+        <state relative-caret-position="260">
+          <caret line="568" column="35" lean-forward="true" selection-start-line="568" selection-start-column="35" selection-end-line="568" selection-end-column="35" />
+          <folding>
+            <element signature="e#1421#1439#0" expanded="true" />
+            <element signature="e#2528#2557#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
