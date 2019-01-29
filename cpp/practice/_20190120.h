@@ -7,7 +7,7 @@
 
 #include "henry.h"
 
-namespace snapchat{
+namespace sc{
 
 
 vector<pair<int,int>> dirs={{0,1},{0,-1},{1,0},{-1,0}};

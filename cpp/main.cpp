@@ -124,10 +124,9 @@
 #include "concurrency_parallel/h2o.h"
 #include "practice/_20181217.h"
 #include "leetcode/459_Repeated_Substring_Pattern.h"
-#include "practice/snapchat.h"
+#include "practice/_20190120.h"
 
 int main(int argc, char **argv) {
-  snapchat::test();
   return 0;
   _459::test();
   _sgement_tree::test();
