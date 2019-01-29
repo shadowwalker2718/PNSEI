@@ -122,12 +122,17 @@
 #include "concurrency_parallel/DelayQueue.h"
 #include "concurrency_parallel/deadlock.h"
 #include "concurrency_parallel/h2o.h"
-#include "practice/uber_onsite.h"
+#include "practice/_20181217.h"
+#include "leetcode/459_Repeated_Substring_Pattern.h"
+#include "practice/snapchat.h"
 
 int main(int argc, char **argv) {
-  _sgement_tree::test();
+  snapchat::test();
   return 0;
-  uber_onsite::test3();
+  _459::test();
+  _sgement_tree::test();
+
+  _20181227::test3();
   _concurrency::_semaphore_example::test();
   _mem_order::_ordering::test();
   _practice_carpool::simple::test();
