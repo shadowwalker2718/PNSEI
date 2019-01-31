@@ -125,6 +125,7 @@
 #include "practice/_20181217.h"
 #include "leetcode/459_Repeated_Substring_Pattern.h"
 #include "practice/_20190120.h"
+#include "practice/thumbtack.h"
 
 int main(int argc, char **argv) {
   return 0;
