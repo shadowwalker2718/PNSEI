@@ -17,7 +17,7 @@ namespace addepar_AStar {
 given a 3*3 matrix filling by unique numbers from 1 to 9.
 原来的MATRIX我不记得了,就是打乱顺序的.只记得9在第二行最左边.
 You can only switch 9 with 9's up/down/left/right neighbours. Each switch is counted as a step.
- Question: what's the minimum number of steps to reach the state that the matrix is like
+Question: what's the minimum number of steps to reach the state that the matrix is like
 1 2 3
 4 5 6
 7 8 9
@@ -139,6 +139,7 @@ public:
         }
       }
     }
+    return 0;
   }
 
 };

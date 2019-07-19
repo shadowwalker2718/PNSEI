@@ -13,7 +13,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a0edb5-9b45-414e-9cf8-4c0ef917bba7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algo.ods" beforeDir="false" afterPath="$PROJECT_DIR$/../algo.ods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/c++.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/c++.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexMaxPQ.h" beforeDir="false" afterPath="$PROJECT_DIR$/IndexMaxPQ.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/8puzzle_AStar.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/8puzzle_AStar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/Coding Practicum Prompt.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/Coding Practicum Prompt.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/Find_a_peak_element_in_a_2D_array.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/Find_a_peak_element_in_a_2D_array.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/boggle.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/boggle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/data/1/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/data/1/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/data/2/3/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/data/2/3/c.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/data/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/data/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/kway_merge_file.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/kway_merge_file.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/kway_merge_file.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/kway_merge_file.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/local_minimum_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/local_minimum_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/segment_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/segment_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/settling-debts.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/settling-debts.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/stock_reconciliation.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/stock_reconciliation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/wildcard_simplified.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/wildcard_simplified.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/addepar/winner_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/addepar/winner_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/bolt/Remove_brackets_from_an_algebraic_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/bolt/Remove_brackets_from_an_algebraic_string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/150_Evaluate_Reverse_Polish_Notation.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/150_Evaluate_Reverse_Polish_Notation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/150_Evaluate_Reverse_Polish_Notation.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/150_Evaluate_Reverse_Polish_Notation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/166_Fraction_to_Recurring_Decimal.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/166_Fraction_to_Recurring_Decimal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/166_Fraction_to_Recurring_Decimal.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/166_Fraction_to_Recurring_Decimal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/224_Basic_Calculator.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/224_Basic_Calculator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/227_Basic_Calculator_II.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/227_Basic_Calculator_II.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/227_Basic_Calculator_II.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/227_Basic_Calculator_II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/29_Divide_Two_Integers.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/29_Divide_Two_Integers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/29_Divide_Two_Integers.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/29_Divide_Two_Integers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/304_Range_Sum_Query_2D_Immutable.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/304_Range_Sum_Query_2D_Immutable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/304_Range_Sum_Query_2D_Immutable.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/304_Range_Sum_Query_2D_Immutable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/307_Range_Sum_Query_Mutable_segmentTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/307_Range_Sum_Query_Mutable_segmentTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/308_Range_Sum_Query_2D_Mutable.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/308_Range_Sum_Query_2D_Mutable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/432_All_Oone_Data_Structure_LFU_Variant.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/432_All_Oone_Data_Structure_LFU_Variant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/529_Minesweeper.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/529_Minesweeper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/770_Basic_Calculator_IV.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/770_Basic_Calculator_IV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/772_Basic_Calculator_III.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/772_Basic_Calculator_III.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/816_Ambiguous_Coordinates.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/816_Ambiguous_Coordinates.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/816_Ambiguous_Coordinates.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/816_Ambiguous_Coordinates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/Gradient_Descent_LR.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/Gradient_Descent_LR.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/LFU.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/LFU.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/Pairwise_swap_elements_of_a_given_linked_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/Pairwise_swap_elements_of_a_given_linked_list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/RANSAC.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/RANSAC.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/all_points_in_Kmiles.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/all_points_in_Kmiles.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/build_tree_by_indentation.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/build_tree_by_indentation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/christmas_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/christmas_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/clique.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/clique.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/clique.input" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/clique.input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/clique.output" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/clique.output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/clique.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/clique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/closest_car.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/closest_car.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/cruiseOA.png" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/cruiseOA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/design_excel.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/design_excel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/distributed_LRU.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/distributed_LRU.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/dup_strings_in_two_arrays.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/dup_strings_in_two_arrays.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/encircular.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/encircular.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/encircular.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/encircular.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/img/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/img/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/img/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/img/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/img/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/img/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/img/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/img/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/img/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/img/5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/interval_subtraction.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/interval_subtraction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/kalman_filter.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/kalman_filter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/key_value_with_transaction/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/key_value_with_transaction/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/key_value_with_transaction/kvdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/key_value_with_transaction/kvdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/ln_1467_Ask_For_Cooling_Time.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/ln_1467_Ask_For_Cooling_Time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/no_or_single_parent_graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/no_or_single_parent_graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/number_of_islands_variant1.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/number_of_islands_variant1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/oa.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/oa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/overlap_interval.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/overlap_interval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/real_time_moving_average.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/real_time_moving_average.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/reversing_strings_inside_parentheses.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/reversing_strings_inside_parentheses.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/segment_tree_2d.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/segment_tree_2d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/todo_euclidean_clustering.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/todo_euclidean_clustering.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/todo_heatmap_argmax.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/todo_heatmap_argmax.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/todo_overlap_polygon.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/todo_overlap_polygon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/todo_task_scheduler_with_cooldown.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/todo_task_scheduler_with_cooldown.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/todo_union_find.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/todo_union_find.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/cruise/word_cloud.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/cruise/word_cloud.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/_ie.md" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/_ie.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/bittorrent_merge.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/bittorrent_merge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/find_duplicate_files.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/find_duplicate_files.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/highest_minimum_sharpness.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/highest_minimum_sharpness.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/id_allocator_segment_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/isDownloadComplete.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/isDownloadComplete.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/key_value_store.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/key_value_store.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/message_queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/message_queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/todo_289_Game_of_Life.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/todo_289_Game_of_Life.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/todo_multithread_token_bucket.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/todo_multithread_token_bucket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/dropbox/web_crawler.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/dropbox/web_crawler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/google/bzoj1090.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/google/bzoj1090.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/google/gg_findmaxwith1flip.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/google/gg_findmaxwith1flip.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/google/gg_intrange.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/google/gg_intrange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/indeed/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/indeed/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/indeed/indeed_related_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/indeed/indeed_related_query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/150_Evaluate_Reverse_Polish_Notation.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/150_Evaluate_Reverse_Polish_Notation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/254_Factor_Combinations.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/254_Factor_Combinations.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/256_Paint_House.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/256_Paint_House.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/265_Paint_House_II.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/265_Paint_House_II.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/272_Closest_Binary_Search_Tree_Value_II.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/272_Closest_Binary_Search_Tree_Value_II.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/605_Can_Place_Flowers.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/605_Can_Place_Flowers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/628_Maximum_Product_of_Three_Numbers.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/628_Maximum_Product_of_Three_Numbers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/_binary_search.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/_binary_search.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/addinterval.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/addinterval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/all_palindrome_subsequences.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/all_palindrome_subsequences.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/blowoff_leaf.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/blowoff_leaf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/frequent_element.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/frequent_element.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/hangman.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/hangman.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/intersected.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/intersected.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/maxstack.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/maxstack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/midstack.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/midstack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/onsite1.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/onsite1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/probability.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/probability.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/set_cover_3rd_degree_friends.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/set_cover_3rd_degree_friends.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/linkedin/sqrt_double.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/linkedin/sqrt_double.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/179_Largest_Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/179_Largest_Number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/864_Shortest_Path_to_Get_All_Keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/864_Shortest_Path_to_Get_All_Keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/Fibonacci_Number.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/Fibonacci_Number.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/N_Choose_K_with_different_prob.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/N_Choose_K_with_different_prob.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/hamiltonian_cycle_string_chain.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/hamiltonian_cycle_string_chain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/k_means_DP.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/k_means_DP.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/shortest_path.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/shortest_path.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/todo_179_Largest_Number.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/todo_179_Largest_Number.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/todo_480_Sliding_Window_Median.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/todo_480_Sliding_Window_Median.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/todo_864_Shortest_Path_to_Get_All_Keys.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/todo_864_Shortest_Path_to_Get_All_Keys.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/todo_poj_1160_Post_Office.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/todo_poj_1160_Post_Office.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comp/weride/todo_postman_pass_checkpoints.h" beforeDir="false" afterPath="$PROJECT_DIR$/company/weride/todo_postman_pass_checkpoints.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_parallel/deadlock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_parallel/deadlock.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnsei.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/pnsei.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnsei.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/pnsei.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/160_Intersection_of_Two_Linked_Lists.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/160_Intersection_of_Two_Linked_Lists.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/267_Palindrome_Permutation_II.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/267_Palindrome_Permutation_II.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/359_Logger_Rate_Limiter.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/359_Logger_Rate_Limiter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/_20181217.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/_20181217.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/_20190120.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/_20190120.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/longest_poolchain.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/longest_poolchain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/practice_LRU_customized_eviction.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/uber_LRU_customized_eviction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/practice_carpool.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/uber_carpool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/rate_limiter_Token_Bucket.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/rate_limiter_Token_Bucket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/short_message_formatting.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/short_message_formatting.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/thumbtack.h" beforeDir="false" afterPath="$PROJECT_DIR$/uber/thumbtack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/LC_1054_Distant_Barcodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/main/java/LC_1054_Distant_Barcodes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -23,31 +175,92 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+        <entry file="file://$PROJECT_DIR$/uber/160_Intersection_of_Two_Linked_Lists.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1778">
-              <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-798" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/267_Palindrome_Permutation_II.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/_20181217.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1064">
+              <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/longest_poolchain.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/rate_limiter_Token_Bucket.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1372">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/short_message_formatting.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/thumbtack.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/uber_carpool.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-364">
+              <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/segment_tree_analysis.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-            </state>
+        <entry file="file://$PROJECT_DIR$/uber/uber_LRU_customized_eviction.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1050" />
           </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/uber_riders.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -62,10 +275,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>build_segment_tree_algo2</find>
-      <find>binarytree_test</find>
-      <find>addepar</find>
-      <find>_dropbox_dp</find>
       <find>cruise</find>
       <find>Max</find>
       <find>INF</find>
@@ -92,12 +301,12 @@
       <find>segment_tree</find>
       <find>Segment</find>
       <find>K-ary</find>
+      <find>comp/</find>
+      <find>practice/</find>
+      <find>image/practice</find>
+      <find>practice</find>
     </findStrings>
     <replaceStrings>
-      <replace>e</replace>
-      <replace>TreeNode</replace>
-      <replace>-&gt;left</replace>
-      <replace>-&gt;right</replace>
       <replace>ListNode</replace>
       <replace>treenode</replace>
       <replace>iMatrix</replace>
@@ -124,6 +333,10 @@
       <replace>practice</replace>
       <replace>#include &quot;comp/weride/</replace>
       <replace>long long</replace>
+      <replace>company/</replace>
+      <replace>uber/</replace>
+      <replace>image/uber</replace>
+      <replace>uber</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -132,14 +345,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cruise/224_Basic_Calculator.h" />
-        <option value="$PROJECT_DIR$/cruise/no_or_single_parent_graph.h" />
-        <option value="$PROJECT_DIR$/weride/480_Sliding_Window_Median.h" />
-        <option value="$PROJECT_DIR$/weride/864_Shortest_Path_to_Get_All_Keys.py" />
-        <option value="$PROJECT_DIR$/henry.h" />
-        <option value="$PROJECT_DIR$/weride/Fibonacci_Number.h" />
-        <option value="$PROJECT_DIR$/leetcode/464_Can_I_Win.h" />
-        <option value="$PROJECT_DIR$/linkedin/sqrt_double.h" />
         <option value="$PROJECT_DIR$/leetcode/415_Add_Strings.h" />
         <option value="$PROJECT_DIR$/leetcode/668_Kth_Smallest_Number_in_Multiplication_Table.h" />
         <option value="$PROJECT_DIR$/probability.h" />
@@ -181,8 +386,16 @@
         <option value="$PROJECT_DIR$/practice/uber_onsite.h" />
         <option value="$PROJECT_DIR$/practice/snapchat.h" />
         <option value="$PROJECT_DIR$/practice/_20190120.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/practice/tt.h" />
+        <option value="$PROJECT_DIR$/comp/weride/todo_480_Sliding_Window_Median.h" />
+        <option value="$PROJECT_DIR$/concurrency_parallel/deadlock.cpp" />
+        <option value="$PROJECT_DIR$/practice/longest_poolchain.h" />
+        <option value="$PROJECT_DIR$/uber/short_message_formatting.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/uber/practice_carpool.h" />
+        <option value="$PROJECT_DIR$/company/addepar/8puzzle_AStar.h" />
+        <option value="$PROJECT_DIR$/company/addepar/local_minimum_tree.h" />
       </list>
     </option>
   </component>
@@ -190,6 +403,9 @@
     <ignored-facets>
       <facet id="c++/invalid/Python facet" />
     </ignored-facets>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="oTRAheEV" />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -210,7 +426,17 @@
           <expand>
             <path>
               <item name="pnsei" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="pnsei" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="image" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="pnsei" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="uber" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -231,13 +457,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="settings.editor.selected.configurable" value="de.wieselbau.clion.clangtidy.OptionTab" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -260,12 +488,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pnsei">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.pnsei">
     <configuration name="pnsei" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -377,8 +600,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.pnsei" />
+      <item itemvalue="CMake Application.pnsei" />
       <item itemvalue="Python.29_Divide_Two_Integers" />
       <item itemvalue="Python.864_Shortest_Path_to_Get_All_Keys" />
       <item itemvalue="Python.947_Most_Stones_Removed_with_Same_Row_or_Column" />
@@ -509,11 +731,12 @@
       <workItem from="1549462243241" duration="479000" />
       <workItem from="1549462765431" duration="99000" />
       <workItem from="1549462903318" duration="220000" />
+      <workItem from="1563519161443" duration="4933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="758474000" />
+    <option name="totallyTimeSpent" value="763407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,10 +748,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1020" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1018" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49322033" visible="true" weight="0.20811099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49322033" visible="true" weight="0.21024546" />
       <window_info id="Structure" order="1" sideWeight="0.5067797" side_tool="true" weight="0.23871669" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -536,23 +759,25 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="DB Browser" order="7" />
+      <window_info anchor="bottom" id="GraphQL" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49918434" weight="0.44315544" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49918434" weight="0.44314185" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.41728923" weight="0.17285383" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5827108" side_tool="true" weight="0.27142859" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22969837" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22860493" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32142857" side_tool="true" weight="0.46945336" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962137" />
-      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.4989339" weight="0.32181427" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.3959445" weight="0.3690476" />
+      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.4989339" weight="0.32121924" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.3959445" visible="true" weight="0.17467761" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="14" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="bottom" id="DB Execution Console" order="16" />
+      <window_info anchor="right" id="make" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -627,7 +852,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/cruise/no_or_single_parent_graph.h</url>
+          <url>file://$PROJECT_DIR$/company/cruise/no_or_single_parent_graph.h</url>
           <line>101</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -657,7 +882,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/605_Can_Place_Flowers.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/605_Can_Place_Flowers.h</url>
           <line>87</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -667,7 +892,7 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/_binary_search.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/_binary_search.h</url>
           <line>60</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -677,17 +902,17 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/272_Closest_Binary_Search_Tree_Value_II.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/272_Closest_Binary_Search_Tree_Value_II.h</url>
           <line>59</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/272_Closest_Binary_Search_Tree_Value_II.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/272_Closest_Binary_Search_Tree_Value_II.h</url>
           <line>36</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/onsite1.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/onsite1.h</url>
           <line>105</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -697,27 +922,27 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/onsite1.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/onsite1.h</url>
           <line>37</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/onsite1.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/onsite1.h</url>
           <line>22</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/onsite1.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/onsite1.h</url>
           <line>106</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/onsite1.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/onsite1.h</url>
           <line>101</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/onsite1.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/onsite1.h</url>
           <line>73</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
@@ -732,12 +957,12 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/probability.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/probability.h</url>
           <line>94</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/linkedin/probability.h</url>
+          <url>file://$PROJECT_DIR$/company/linkedin/probability.h</url>
           <line>82</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -747,12 +972,12 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/cruise/29_Divide_Two_Integers.h</url>
+          <url>file://$PROJECT_DIR$/company/cruise/29_Divide_Two_Integers.h</url>
           <line>50</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/cruise/29_Divide_Two_Integers.h</url>
+          <url>file://$PROJECT_DIR$/company/cruise/29_Divide_Two_Integers.h</url>
           <line>16</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
@@ -777,7 +1002,7 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/practice/practice_carpool.h</url>
+          <url>file://$PROJECT_DIR$/uber/uber_carpool.h</url>
           <line>30</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
@@ -792,7 +1017,7 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/practice/_20181217.h</url>
+          <url>file://$PROJECT_DIR$/uber/_20181217.h</url>
           <line>79</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
@@ -802,12 +1027,12 @@
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h</url>
+          <url>file://$PROJECT_DIR$/company/dropbox/id_allocator_segment_tree.h</url>
           <line>270</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h</url>
+          <url>file://$PROJECT_DIR$/company/dropbox/id_allocator_segment_tree.h</url>
           <line>238</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
@@ -822,17 +1047,17 @@
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/practice/_20190120.h</url>
+          <url>file://$PROJECT_DIR$/uber/_20190120.h</url>
           <line>53</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/comp/cruise/29_Divide_Two_Integers.py</url>
+          <url>file://$PROJECT_DIR$/company/cruise/29_Divide_Two_Integers.py</url>
           <line>48</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/comp/cruise/key_value_with_transaction/kvdb.py</url>
+          <url>file://$PROJECT_DIR$/company/cruise/key_value_with_transaction/kvdb.py</url>
           <line>66</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
@@ -894,72 +1119,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/x86_64-linux-gnu/bits/resource.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="130" column="10" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
-          <folding>
-            <element signature="e#4038#4064#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/x86_64-linux-gnu/bits/typesizes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_pair.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="330" selection-start-line="330" selection-end-line="330" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/quadtree.py" />
-    <entry file="file://$PROJECT_DIR$/comp/cruise/key_value_with_transaction/kvdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/cruise/segment_tree_2d.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/weride/179_Largest_Number.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/cruise/816_Ambiguous_Coordinates.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/practice_carpool.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/thread">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/semaphore.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/7/bits/invoke.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -967,7 +1126,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comp/weride/864_Shortest_Path_to_Get_All_Keys.py">
+    <entry file="file://$PROJECT_DIR$/company/weride/864_Shortest_Path_to_Get_All_Keys.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
@@ -994,14 +1153,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/practice_LRU_customized_eviction.h">
+    <entry file="file://$PROJECT_DIR$/company/linkedin/maxstack.h">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/maxstack.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/uber_riders.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency_parallel/my_semaphore.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -1010,24 +1163,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comp/linkedin/probability.h">
+    <entry file="file://$PROJECT_DIR$/company/linkedin/probability.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/267_Palindrome_Permutation_II.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/longest_poolchain.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -1091,14 +1230,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comp/addepar/local_minimum_tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comp/dropbox/id_allocator_segment_tree.h">
+    <entry file="file://$PROJECT_DIR$/company/dropbox/id_allocator_segment_tree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3346">
           <caret line="239" selection-start-line="239" selection-end-line="239" />
@@ -1113,13 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="108" column="31" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1141,13 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/rate_limiter_Token_Bucket.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1498">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
@@ -1190,13 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/_20181217.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/7/iostream">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1215,41 +1326,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/_20190120.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/thumbtack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1778">
-          <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/segment_tree_analysis.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-1050" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/787_Cheapest_Flights_Within_K_Stops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/_785_Is_Graph_Bipartite.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/8/bits/stl_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="456" column="20" selection-start-line="456" selection-start-column="20" selection-end-line="456" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/weride/todo_480_Sliding_Window_Median.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency_parallel/deadlock.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/359_Logger_Rate_Limiter.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/addepar/8puzzle_AStar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="141" column="13" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/addepar/local_minimum_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/160_Intersection_of_Two_Linked_Lists.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/267_Palindrome_Permutation_II.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/longest_poolchain.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/rate_limiter_Token_Bucket.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1372">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/short_message_formatting.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/thumbtack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/_20190120.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/_20181217.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/uber_riders.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/uber_carpool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/uber_LRU_customized_eviction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050" />
       </provider>
     </entry>
   </component>

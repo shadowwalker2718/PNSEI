@@ -7,55 +7,55 @@
 #include "comb_sum.h"
 #include "dup.h"
 #include "encode_list_with_dups.h"
-#include "comp/google/bzoj1090.h"
-#include "comp/google/gg_findmaxwith1flip.h"
-#include "comp/linkedin/254_Factor_Combinations.h"
-#include "comp/linkedin/addinterval.h"
-#include "comp/linkedin/all_palindrome_subsequences.h"
-#include "comp/linkedin/blowoff_leaf.h"
-#include "comp/linkedin/605_Can_Place_Flowers.h"
-#include "comp/linkedin/frequent_element.h"
-#include "comp/linkedin/intersected.h"
-#include "comp/linkedin/maxstack.h"
-#include "comp/linkedin/midstack.h"
-#include "comp/cruise/29_Divide_Two_Integers.h"
-#include "comp/cruise/307_Range_Sum_Query_Mutable_segmentTree.h"
-#include "comp/cruise/clique.h"
-#include "comp/cruise/LFU.h"
-#include "comp/cruise/all_points_in_Kmiles.h"
-#include "comp/cruise/build_tree_by_indentation.h"
-#include "comp/cruise/816_Ambiguous_Coordinates.h"
-#include "comp/cruise/224_Basic_Calculator.h"
-#include "comp/cruise/150_Evaluate_Reverse_Polish_Notation.h"
-#include "comp/cruise/529_Minesweeper.h"
-#include "comp/cruise/number_of_islands_variant1.h"
-#include "comp/cruise/interval_subtraction.h"
-#include "comp/cruise/closest_car.h"
-#include "comp/cruise/432_All_Oone_Data_Structure_LFU_Variant.h"
-#include "comp/cruise/distributed_LRU.h"
-#include "comp/cruise/segment_tree_2d.h"
-#include "comp/cruise/no_or_single_parent_graph.h"
-#include "comp/linkedin/sqrt_double.h"
-#include "comp/linkedin/probability.h"
-#include "comp/linkedin/605_Can_Place_Flowers.h"
-#include "comp/linkedin/_binary_search.h"
-#include "comp/linkedin/272_Closest_Binary_Search_Tree_Value_II.h"
-#include "comp/linkedin/onsite1.h"
-#include "comp/bolt/Remove_brackets_from_an_algebraic_string.h"
-#include "comp/addepar/kway_merge_file.h"
-#include "comp/addepar/winner_tree.h"
-#include "comp/addepar/stock_reconciliation.h"
-#include "comp/addepar/8puzzle_AStar.h"
-#include "comp/addepar/local_minimum_tree.h"
-#include "comp/addepar/Find_a_peak_element_in_a_2D_array.h"
-#include "comp/addepar/segment_tree.h"
-#include "comp/dropbox/highest_minimum_sharpness.h"
-#include "comp/dropbox/id_allocator_segment_tree.h"
-#include "comp/weride/todo_480_Sliding_Window_Median.h"
-#include "comp/weride/k_means_DP.h"
-#include "comp/weride/hamiltonian_cycle_string_chain.h"
-#include "comp/weride/N_Choose_K_with_different_prob.h"
-#include "comp/weride/Fibonacci_Number.h"
+#include "company/google/bzoj1090.h"
+#include "company/google/gg_findmaxwith1flip.h"
+#include "company/linkedin/254_Factor_Combinations.h"
+#include "company/linkedin/addinterval.h"
+#include "company/linkedin/all_palindrome_subsequences.h"
+#include "company/linkedin/blowoff_leaf.h"
+#include "company/linkedin/605_Can_Place_Flowers.h"
+#include "company/linkedin/frequent_element.h"
+#include "company/linkedin/intersected.h"
+#include "company/linkedin/maxstack.h"
+#include "company/linkedin/midstack.h"
+#include "company/cruise/29_Divide_Two_Integers.h"
+#include "company/cruise/307_Range_Sum_Query_Mutable_segmentTree.h"
+#include "company/cruise/clique.h"
+#include "company/cruise/LFU.h"
+#include "company/cruise/all_points_in_Kmiles.h"
+#include "company/cruise/build_tree_by_indentation.h"
+#include "company/cruise/816_Ambiguous_Coordinates.h"
+#include "company/cruise/224_Basic_Calculator.h"
+#include "company/cruise/150_Evaluate_Reverse_Polish_Notation.h"
+#include "company/cruise/529_Minesweeper.h"
+#include "company/cruise/number_of_islands_variant1.h"
+#include "company/cruise/interval_subtraction.h"
+#include "company/cruise/closest_car.h"
+#include "company/cruise/432_All_Oone_Data_Structure_LFU_Variant.h"
+#include "company/cruise/distributed_LRU.h"
+#include "company/cruise/segment_tree_2d.h"
+#include "company/cruise/no_or_single_parent_graph.h"
+#include "company/linkedin/sqrt_double.h"
+#include "company/linkedin/probability.h"
+#include "company/linkedin/605_Can_Place_Flowers.h"
+#include "company/linkedin/_binary_search.h"
+#include "company/linkedin/272_Closest_Binary_Search_Tree_Value_II.h"
+#include "company/linkedin/onsite1.h"
+#include "company/bolt/Remove_brackets_from_an_algebraic_string.h"
+#include "company/addepar/kway_merge_file.h"
+#include "company/addepar/winner_tree.h"
+#include "company/addepar/stock_reconciliation.h"
+#include "company/addepar/8puzzle_AStar.h"
+#include "company/addepar/local_minimum_tree.h"
+#include "company/addepar/Find_a_peak_element_in_a_2D_array.h"
+#include "company/addepar/segment_tree.h"
+#include "company/dropbox/highest_minimum_sharpness.h"
+#include "company/dropbox/id_allocator_segment_tree.h"
+#include "company/weride/todo_480_Sliding_Window_Median.h"
+#include "company/weride/k_means_DP.h"
+#include "company/weride/hamiltonian_cycle_string_chain.h"
+#include "company/weride/N_Choose_K_with_different_prob.h"
+#include "company/weride/Fibonacci_Number.h"
 #include "justifytextline.h"
 #include "kangaroos.h"
 #include "knighttour.h"
@@ -106,13 +106,13 @@
 #include "graph/SS_Dijkstra_Shortest.h"
 #include "graph/_785_Is_Graph_Bipartite.h"
 #include "graph/787_Cheapest_Flights_Within_K_Stops.h"
-#include "practice/rate_limiter_Token_Bucket.h"
-#include "practice/longest_poolchain.h"
-#include "practice/practice_LRU_customized_eviction.h"
+#include "uber/rate_limiter_Token_Bucket.h"
+#include "uber/longest_poolchain.h"
+#include "uber/uber_LRU_customized_eviction.h"
 #include "cplusplus/mytime.h"
 #include "graph/MST_Kruskal_Prim.h"
 #include "cplusplus/cpp_faster_than_c.h"
-#include "practice/practice_carpool.h"
+#include "uber/uber_carpool.h"
 #include "concurrency_parallel/my_memory_order.h"
 #include "concurrency_parallel/my_semaphore.h"
 #include "concurrency_parallel/concurrent_hashmap.h"
@@ -122,10 +122,10 @@
 #include "concurrency_parallel/DelayQueue.h"
 #include "concurrency_parallel/deadlock.h"
 #include "concurrency_parallel/h2o.h"
-#include "practice/_20181217.h"
+#include "uber/_20181217.h"
 #include "leetcode/459_Repeated_Substring_Pattern.h"
-#include "practice/_20190120.h"
-#include "practice/thumbtack.h"
+#include "uber/_20190120.h"
+#include "uber/thumbtack.h"
 
 int main(int argc, char **argv) {
   return 0;
@@ -135,7 +135,7 @@ int main(int argc, char **argv) {
   _20181227::test3();
   _concurrency::_semaphore_example::test();
   _mem_order::_ordering::test();
-  _practice_carpool::simple::test();
+  _uber_carpool::simple::test();
   _cpp_c::test();
   _29::test();
   _probability::test();
@@ -179,7 +179,7 @@ int main(int argc, char **argv) {
   // Cache-eviction related
   _lru_classic::test();
   _432::test();
-  _practice_lru::test();
+  _uber_lru::test();
   _lfu::test();
   _concurrent_ll::test();
   _midstack::test();
@@ -190,8 +190,8 @@ int main(int argc, char **argv) {
   // Concurrency
   ///////////////////////////////////////////////////////////////
   _concurrent_shared_mutex::test();
-  _practice_rate_limiter::test();
-  _practice_longest_poolchain::test();
+  _uber_rate_limiter::test();
+  _uber_longest_poolchain::test();
   _587::test();
   _464::test();
   _ksum::test();

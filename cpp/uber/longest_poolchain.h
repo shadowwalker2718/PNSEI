@@ -7,14 +7,14 @@
 
 /*
  * https://www.glassdoor.com/Interview/Given-the-travel-time-of-each-customer-Find-the-driver-with-the-longest-chain-of-trips-which-means-there-is-always-at-lea-QTN_2278730.htm
- * 2018(10-12月) 码农类General 博士 全职@practice - 内推 - 技术电面  | Other | fresh grad应届毕业生
+ * 2018(10-12月) 码农类General 博士 全职@uber - 内推 - 技术电面  | Other | fresh grad应届毕业生
 新鲜电面面经
 
 
 
 Find longest poolChain
 
-input: List<Log>. check 1point3acres for more.
+input: List<Log>
 output: 最长的poolchain
 
 log结构:
@@ -31,7 +31,7 @@ Algo: meeting room
 
 #include "henry.h"
 
-namespace _practice_longest_poolchain {
+namespace _uber_longest_poolchain {
 
 struct travel_log {
   size_t timestamp;
@@ -41,7 +41,7 @@ struct travel_log {
 };
 
 struct cmp {
-  bool operator()(const travel_log &a, const travel_log &b) {
+  bool operator()(const travel_log &a, const travel_log &b) const{
     return a.timestamp < b.timestamp || (a.timestamp == b.timestamp && a.passenger_id < b.passenger_id);
   }
 };

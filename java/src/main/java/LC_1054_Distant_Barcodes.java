@@ -12,7 +12,7 @@ public class LC_1054_Distant_Barcodes {
     public int[] rearrangeBarcodes(int[] barcodes) {
         if(barcodes == null || barcodes.length == 0)
             return new int[0];
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> map = new HashMap<>();
         for(int i: barcodes)
             map.put(i, map.getOrDefault(i, 0) + 1);
         PriorityQueue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<Map.Entry<Integer, Integer>>(

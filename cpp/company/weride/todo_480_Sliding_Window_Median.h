@@ -91,8 +91,8 @@ struct xxx{
   int v, e;
   xxx(int a, int b):v(a),e(b){}
 };
-struct comp{
-  bool operator()(const xxx& a, const xxx& b){
+struct xxxcomp{
+  inline bool operator()(const xxx& a, const xxx& b) const{
     return a.v < b.v;
   }
 };
@@ -106,7 +106,7 @@ void test(){
   // the behavior of multiset with dup numbers
   // If the container has elements with equivalent key, inserts at the upper bound of that range.
   // But erase will erase all with the same key!!!!!
-  multiset<xxx,comp> mp;
+  multiset<xxx,xxxcomp> mp;
   mp.emplace(1,1),mp.emplace(1,0),mp.emplace(1,-1),mp.emplace(1,-100);
   for(auto pr: mp){
     cout << pr.v << "," << pr.e << endl;

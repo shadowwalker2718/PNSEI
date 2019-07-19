@@ -554,25 +554,25 @@
     <ClInclude Include="linkedin\sqrt_double.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="practice\160_Intersection_of_Two_Linked_Lists.h">
+    <ClInclude Include="uber\160_Intersection_of_Two_Linked_Lists.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="practice\267_Palindrome_Permutation_II.h">
+    <ClInclude Include="uber\267_Palindrome_Permutation_II.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="practice\359_Logger_Rate_Limiter.h">
+    <ClInclude Include="uber\359_Logger_Rate_Limiter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="practice\longest_poolchain.h">
+    <ClInclude Include="uber\longest_poolchain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="practice\rate_limiter_Token_Bucket.h">
+    <ClInclude Include="uber\rate_limiter_Token_Bucket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="practice\short_message_formatting.h">
+    <ClInclude Include="uber\short_message_formatting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="practice\practice_LRU_customized_eviction.h">
+    <ClInclude Include="uber\uber_LRU_customized_eviction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="utils\todo_binarytree.h">

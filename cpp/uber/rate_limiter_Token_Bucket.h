@@ -7,7 +7,7 @@
 
 #include "henry.h"
 
-namespace _practice_rate_limiter {
+namespace _uber_rate_limiter {
 // Design and develop an implementation of a rate limiter.
 // The only required configuration parameter is the allowed rate.
 // The rate is defined as "allowed requests per second".

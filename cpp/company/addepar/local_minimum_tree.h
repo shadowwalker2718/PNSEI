@@ -90,6 +90,7 @@ namespace _addepar{
                 return root->val;
             return get_any_local_minimum(root->right);
         }
+        return 0;
     }
 
     void test(){

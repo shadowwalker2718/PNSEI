@@ -193,7 +193,7 @@ int test() {
   index_priority_queue h;
   vector<pair<string, int>> data = {
       {"FB", 102},   {"GOOG", 101}, {"AMZ", 103},  {"IBM", 100},  {"UB", 105},
-      {"LNKD", 104}, {"BIDU", 106}, {"BBG", 210},  {"MSFT", 321}, {"practice", 268},
+      {"LNKD", 104}, {"BIDU", 106}, {"BBG", 210},  {"MSFT", 321}, {"uber", 268},
       {"YHOO", 12},  {"AAPL", 234}, {"TWTR", 160}, {"EBAY", 89}};
   for (auto &pr : data)
     h.push(pr.first, pr.second);
@@ -217,7 +217,7 @@ void test2() {
   index_heap ih;
   vector<stock> data = {
       {"FB", 102},   {"GOOG", 101}, {"AMZ", 103},  {"IBM", 100},  {"UB", 105},
-      {"LNKD", 104}, {"BIDU", 106}, {"BBG", 210},  {"MSFT", 321}, {"practice", 268},
+      {"LNKD", 104}, {"BIDU", 106}, {"BBG", 210},  {"MSFT", 321}, {"uber", 268},
       {"YHOO", 12},  {"AAPL", 234}, {"TWTR", 160}, {"EBAY", 89}};
   for (auto &pr : data)
     ih.push(pr);
