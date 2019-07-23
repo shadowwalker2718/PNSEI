@@ -128,7 +128,6 @@
 #include "uber/thumbtack.h"
 
 int main(int argc, char **argv) {
-  return 0;
   _459::test();
   _sgement_tree::test();
 

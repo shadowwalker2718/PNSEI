@@ -54,11 +54,13 @@ namespace _lru_classic {
 
 // Actually an ordered hashmap ordered by insertion/access time
 class LRUCache {
-  list<PII> ls;
+  list<PII> l;
   unordered_map<int, list<PII>::iterator> m;
-  int cnt;
+  int cap;
 
-  bool promote(list<PII>& ls,list<PII>::iterator it){
+  // true - node `it` is moved
+  // false - nothing is touched
+  static bool promote(list<PII>& ls,list<PII>::iterator it){
     if (it != ls.begin()) {
       ls.splice(ls.begin(), ls, it, next(it)); // move it to front
       return true;
@@ -67,36 +69,36 @@ class LRUCache {
   }
 
 public:
-  LRUCache(int capacity) : cnt(capacity) {}
+  LRUCache(int capacity) : cap(capacity) {}
 
   int get(int key) {
     if (!m.count(key))
       return -1;
     int r = m[key]->second;
-    if (promote(ls, m[key]))
-      m[key] = ls.begin();
+    if (promote(l, m[key]))
+      m[key] = l.begin();
     return r;
   }
 
   void put(int key, int value) {
     if (m.count(key)) {
-      if (promote(ls, m[key]))
-        m[key] = ls.begin();
-      ls.begin()->second = value; // dont forget this
+      if (promote(l, m[key]))
+        m[key] = l.begin();
+      l.begin()->second = value; // don't forget this
       return;
     }
-    ls.emplace_front(key, value); // add to front of the list
-    m[key] = ls.begin();
+    l.emplace_front(key, value); // add to front of the list
+    m[key] = l.begin();
     // evict
-    if (cnt < ls.size()) {
-      m.erase(ls.back().first); // the reason why we need list<Key,Value> instead of list<Value>
-      ls.pop_back();
+    if (cap < l.size()) {
+      m.erase(l.back().first); // the reason why we need list<Key,Value> instead of list<Value>
+      l.pop_back();
     }
   }
 
   void del(int key) {
     if (m.count(key)) {
-      ls.erase(m[key]);
+      l.erase(m[key]);
       m.erase(key);
     }
   }
