@@ -106,13 +106,13 @@
 #include "graph/SS_Dijkstra_Shortest.h"
 #include "graph/_785_Is_Graph_Bipartite.h"
 #include "graph/787_Cheapest_Flights_Within_K_Stops.h"
-#include "uber/rate_limiter_Token_Bucket.h"
-#include "uber/longest_poolchain.h"
-#include "uber/uber_LRU_customized_eviction.h"
+#include "company/uber/rate_limiter_Token_Bucket.h"
+#include "company/uber/longest_poolchain.h"
+#include "company/uber/uber_LRU_customized_eviction.h"
 #include "cplusplus/mytime.h"
 #include "graph/MST_Kruskal_Prim.h"
 #include "cplusplus/cpp_faster_than_c.h"
-#include "uber/uber_carpool.h"
+#include "company/uber/uber_carpool.h"
 #include "concurrency_parallel/my_memory_order.h"
 #include "concurrency_parallel/my_semaphore.h"
 #include "concurrency_parallel/concurrent_hashmap.h"
@@ -122,12 +122,13 @@
 #include "concurrency_parallel/DelayQueue.h"
 #include "concurrency_parallel/deadlock.h"
 #include "concurrency_parallel/h2o.h"
-#include "uber/_20181217.h"
+#include "company/uber/_20181217.h"
 #include "leetcode/459_Repeated_Substring_Pattern.h"
-#include "uber/_20190120.h"
-#include "uber/thumbtack.h"
+#include "company/uber/_20190120.h"
+#include "company/uber/thumbtack.h"
 
 int main(int argc, char **argv) {
+  _uber_rate_limiter::test();
   _459::test();
   _sgement_tree::test();
 

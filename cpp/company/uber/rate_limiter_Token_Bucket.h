@@ -35,7 +35,7 @@ class TokenBucket {
   double capacity;
   double tokens;
 public:
-  TokenBucket(int rps) {
+  explicit TokenBucket(int rps) {
     capacity = tokenPerSecond = rps;
     tokens = rps;
     timestamp = current_time();//time(NULL);
@@ -64,9 +64,9 @@ class TokenBucketForCaller {
   double tokens;
   double capacity;
 
-  map<callerId, pair<double, long>> m;// map of caller to his tokenbuket info {token, timestamp}
+  map<callerId, pair<double, long>> m;// map of caller to his token bucket info {token, timestamp}
 public:
-  TokenBucketForCaller(int rps) {
+  explicit TokenBucketForCaller(int rps) {
     capacity = tokenPerSecond = rps;
     tokens = rps; // give it some initial token, could be 0 too
     timestamp = current_time();
