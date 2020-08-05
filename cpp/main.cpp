@@ -126,8 +126,43 @@
 #include "leetcode/459_Repeated_Substring_Pattern.h"
 #include "company/uber/_20190120.h"
 #include "company/uber/thumbtack.h"
+#include "company/databricks/division.h"
+#include "leetcode/[13]Roman to Integer.h"
+
+#include "leetcode/722.h"
+#include "leetcode/987.h"
+#include "leetcode/314_binary-tree-vertical-order-traversal.h"
+
+
+bool abbyDeng(vector<int> vi){
+  int mx = -1;
+  vector<int> stk;
+  for(int e: vi){
+    if (!stk.empty()){
+      if (e != stk.back() && e<=mx){
+        return false;
+      } else if(e==stk.back()){
+        stk.pop_back();
+      }
+    }
+    for(int j=mx+1;j<e;j++)
+      stk.push_back(j);
+    mx = max(e,mx);
+  }
+  return true;
+}
 
 int main(int argc, char **argv) {
+  _987::test();
+  _314::test();
+  _314::test2();
+  _722::test();
+  _42::test3();
+  databricks::test();
+  bool b = abbyDeng({0,3,6,5,4,7,2,1});
+  b = abbyDeng({7,6,5,4,3,2,1,0});
+  _13::test();
+  _uber_carpool::simple::test();
   _uber_rate_limiter::test();
   _459::test();
   _sgement_tree::test();
@@ -135,7 +170,6 @@ int main(int argc, char **argv) {
   _20181227::test3();
   _concurrency::_semaphore_example::test();
   _mem_order::_ordering::test();
-  _uber_carpool::simple::test();
   _cpp_c::test();
   _29::test();
   _probability::test();

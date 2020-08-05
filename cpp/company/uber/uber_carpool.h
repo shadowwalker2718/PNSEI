@@ -35,9 +35,9 @@ namespace _uber_carpool {
         map<node, set<node>> suc;
 
         node n={start, 0};
-        set<PII> vd;
+        set<PII> visited;
         queue<node> q;
-        q.push(n), vd.insert(n.loc);
+        q.push(n), visited.insert(n.loc);
         bool found=false;
         while(!q.empty()){
           int z=q.size();
@@ -48,7 +48,7 @@ namespace _uber_carpool {
             q.pop();
             for (auto pr: d) {
               int nx = t.loc.first + pr.first, ny = t.loc.second + pr.second;
-              if (valid(nx, ny) and !vd.count({nx, ny})) {
+              if (valid(nx, ny) and !visited.count({nx, ny})) {
                 tmp_vd.insert({nx, ny});
                 if (city[nx][ny] == 'B') continue;
                 if (city[nx][ny] == 'R') {
@@ -67,7 +67,7 @@ namespace _uber_carpool {
             }
           }
           for(auto p: tmp_vd)
-            vd.insert(p);
+            visited.insert(p);
         }
 
         vector<vector<PII>> r;
@@ -103,7 +103,7 @@ namespace _uber_carpool {
       assert(r[1] == vector<PII>({{1,3},{1,4}}));
       r=sln.pickup(city,3,{0,0});
       cout << "number of possible paths:" << r.size() << endl;
-      for(auto e: r){
+      for(const auto& e: r){
         cout << string(80,'*') << endl;
         for(auto loc: e){
           cout << "rider(" << loc.first << "," << loc.second << ")" << endl;

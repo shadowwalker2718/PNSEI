@@ -57,6 +57,23 @@ struct Solution2 { // maxMinMax, 9ms
   }
 };
 
+struct Solution3 { // maxMinMax, 9ms
+  int trap(vector<int> &height) {
+    int L = height.size(), r = 0;
+    if (L <= 2)
+      return r;
+    vector<int> lm(L), rm(L); // left view max, right right max
+    lm[0] = 0, rm[L-1] = 0;
+    for (int i = 0; i < L-1; ++i)
+      lm[i+1] = max(lm[i], height[i]);
+    for (int i = L-1; i >= 1; --i)
+      rm[i-1] = max(rm[i], height[i]);
+    for (int i = 0; i < L; ++i) // ignore the first and last point safely
+      r += max(min(lm[i], rm[i]) - height[i], 0);
+    return r;
+  }
+};
+
 void test() {
   Solution sln;
   vector<int> vi = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
@@ -67,5 +84,14 @@ void test2() {
   Solution2 sln;
   vector<int> vi = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
   assert(sln.trap(vi) == 6);
+}
+
+void test3() {
+  Solution3 sln;
+  vector<int> vi = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+  assert(sln.trap(vi) == 6);
+
+  vi = {2, 0, 2};
+  assert(sln.trap(vi) == 2);
 }
 } // namespace _42
