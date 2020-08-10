@@ -4,21 +4,19 @@
 #include "henry.h"
 // https://www.1point3acres.com/bbs/thread-295955-1-1.html
 
-namespace databricks {
-
-namespace sql_split {
+namespace databricks::sql_split {
 
   struct Solution {
-    vector<string> split(string s) {
+    static vector<string> split(string s) {
       vector<string> vs;
-      bool b=false;
+      bool in_string =false;
       string q;
       for (int i=0;i<s.size();i++) {
         if (s[i]=='"' and i>1 and s[i-1]!='\\'){
-          b=!b;
+          in_string =!in_string;
         }
         q+=s[i];
-        if (!b and s[i]==';'){
+        if (!in_string and s[i]==';'){
           vs.push_back(q), q.clear();
         }
       }
@@ -39,7 +37,6 @@ namespace sql_split {
     assert(sln.split("select \"hello\";\nselect \"world;next;\" ;").size() ==
            2);
   }
-}
 }
 
 

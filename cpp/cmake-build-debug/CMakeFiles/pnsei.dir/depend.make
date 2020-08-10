@@ -43,7 +43,9 @@ CMakeFiles/pnsei.dir/main.cpp.o: ../company/cruise/number_of_islands_variant1.h
 CMakeFiles/pnsei.dir/main.cpp.o: ../company/cruise/segment_tree_2d.h
 CMakeFiles/pnsei.dir/main.cpp.o: ../company/databricks/csv_query.h
 CMakeFiles/pnsei.dir/main.cpp.o: ../company/databricks/division.h
+CMakeFiles/pnsei.dir/main.cpp.o: ../company/databricks/sql_comment.h
 CMakeFiles/pnsei.dir/main.cpp.o: ../company/databricks/sql_split.h
+CMakeFiles/pnsei.dir/main.cpp.o: ../company/databricks/traverse_bt_parent.h
 CMakeFiles/pnsei.dir/main.cpp.o: ../company/dropbox/highest_minimum_sharpness.h
 CMakeFiles/pnsei.dir/main.cpp.o: ../company/dropbox/id_allocator_segment_tree.h
 CMakeFiles/pnsei.dir/main.cpp.o: ../company/google/bzoj1090.h

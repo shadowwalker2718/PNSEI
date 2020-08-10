@@ -3,6 +3,11 @@
 
 #include "henry.h"
 
+// http://hbasefly.com/2017/03/19/sparksql-basic-join/
+// https://cloud.tencent.com/developer/article/1180112
+// https://blog.csdn.net/fz2543122681/article/details/76861713
+// https://blog.csdn.net/weixin_33836223/article/details/86205172?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+
 // Class - Camel, namespace - lower, function - lower snake, typename - Upper
 namespace databricks::csv_query {
 
@@ -119,6 +124,7 @@ public:
     set_rows(new_data);
   }
 
+  // Hash Join
   // This is `Inner Join` implementation. Left join will be a little different.
   // O(R2+R1*(C1+C2))
   void join(CSV &new_csv, const string& column) {

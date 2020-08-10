@@ -134,6 +134,8 @@
 #include "leetcode/987.h"
 #include "leetcode/314_binary-tree-vertical-order-traversal.h"
 #include "company/databricks/csv_query.h"
+#include "company/databricks/traverse_bt_parent.h"
+#include "company/databricks/sql_comment.h"
 
 
 bool abbyDeng(vector<int> vi){
@@ -155,6 +157,10 @@ bool abbyDeng(vector<int> vi){
 }
 
 int main(int argc, char **argv) {
+  databricks::comments::test();
+  databricks::traverse::post_order_traversal();
+  databricks::traverse::pre_order_traversal();
+  databricks::traverse::in_order_traversal();
   databricks::csv_query::test();
   //databricks::csv_query::parse("FROM city.csv");
   databricks::sql_split::test();
