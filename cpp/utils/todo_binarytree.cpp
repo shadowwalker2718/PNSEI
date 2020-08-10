@@ -71,6 +71,23 @@ TreeNode *createTree4() {
   return vn[1];
 };
 
+BTPNode *createTree5() {
+  /*0,1,2,3...  ==> left 2i, right 2i+1*/
+  vector<int> v = {INT_MAX, 70, 77, 60, 1, 8, 9, 14, 3, 4, 5, 6, 2, 7, 15};
+  int L = v.size();
+  vector<BTPNode *> vn(L);
+  for (int i = L - 1; i > 0; i--) {
+    vn[i] = new BTPNode(v[i]);
+    if (2 * i < L) {
+      vn[i]->left = vn[2 * i], vn[2 * i]->parent = vn[i];
+    }
+    if (2 * i + 1 < L) {
+      vn[i]->right = vn[2 * i + 1], vn[2 * i + 1]->parent = vn[i];
+    }
+  }
+  return vn[1];
+};
+
 // http://sde.quant365.com/img/InOrder-Successor-use-binray-search-techique-Case-2.png
 /*********************************************************************************
                15

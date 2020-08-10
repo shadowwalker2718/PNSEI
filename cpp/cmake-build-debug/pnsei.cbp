@@ -37,6 +37,54 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="pnsei_test">
+				<Option output="/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/pnsei_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henry.wu/src/PNSEI/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/henry.wu/src/PNSEI/cpp/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 pnsei_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pnsei_test/fast">
+				<Option output="/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/pnsei_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henry.wu/src/PNSEI/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/henry.wu/src/PNSEI/cpp/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 pnsei_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="pnsei">
 				<Option output="/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/pnsei" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/henry.wu/src/PNSEI/cpp/cmake-build-debug"/>
@@ -259,6 +307,9 @@
 		</Unit>
 		<Unit filename="/home/henry.wu/src/PNSEI/cpp/company/cruise/word_cloud.h">
 			<Option target="pnsei"/>
+		</Unit>
+		<Unit filename="/home/henry.wu/src/PNSEI/cpp/company/databricks/csv_query_test.cpp">
+			<Option target="pnsei_test"/>
 		</Unit>
 		<Unit filename="/home/henry.wu/src/PNSEI/cpp/company/dropbox/bittorrent_merge.h">
 			<Option target="pnsei"/>

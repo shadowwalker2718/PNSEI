@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pnsei_test
+
+# Build rule for target.
+pnsei_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pnsei_test
+.PHONY : pnsei_test
+
+# fast build rule for target.
+pnsei_test/fast:
+	$(MAKE) -f CMakeFiles/pnsei_test.dir/build.make CMakeFiles/pnsei_test.dir/build
+.PHONY : pnsei_test/fast
+
+#=============================================================================
 # Target rules for targets named pnsei
 
 # Build rule for target.
@@ -149,6 +162,33 @@ company/addepar/kway_merge_file.s: company/addepar/kway_merge_file.cpp.s
 company/addepar/kway_merge_file.cpp.s:
 	$(MAKE) -f CMakeFiles/pnsei.dir/build.make CMakeFiles/pnsei.dir/company/addepar/kway_merge_file.cpp.s
 .PHONY : company/addepar/kway_merge_file.cpp.s
+
+company/databricks/csv_query_test.o: company/databricks/csv_query_test.cpp.o
+
+.PHONY : company/databricks/csv_query_test.o
+
+# target to build an object file
+company/databricks/csv_query_test.cpp.o:
+	$(MAKE) -f CMakeFiles/pnsei_test.dir/build.make CMakeFiles/pnsei_test.dir/company/databricks/csv_query_test.cpp.o
+.PHONY : company/databricks/csv_query_test.cpp.o
+
+company/databricks/csv_query_test.i: company/databricks/csv_query_test.cpp.i
+
+.PHONY : company/databricks/csv_query_test.i
+
+# target to preprocess a source file
+company/databricks/csv_query_test.cpp.i:
+	$(MAKE) -f CMakeFiles/pnsei_test.dir/build.make CMakeFiles/pnsei_test.dir/company/databricks/csv_query_test.cpp.i
+.PHONY : company/databricks/csv_query_test.cpp.i
+
+company/databricks/csv_query_test.s: company/databricks/csv_query_test.cpp.s
+
+.PHONY : company/databricks/csv_query_test.s
+
+# target to generate assembly for a file
+company/databricks/csv_query_test.cpp.s:
+	$(MAKE) -f CMakeFiles/pnsei_test.dir/build.make CMakeFiles/pnsei_test.dir/company/databricks/csv_query_test.cpp.s
+.PHONY : company/databricks/csv_query_test.cpp.s
 
 concurrency_parallel/deadlock.o: concurrency_parallel/deadlock.cpp.o
 
@@ -239,10 +279,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... pnsei_test"
 	@echo "... pnsei"
 	@echo "... company/addepar/kway_merge_file.o"
 	@echo "... company/addepar/kway_merge_file.i"
 	@echo "... company/addepar/kway_merge_file.s"
+	@echo "... company/databricks/csv_query_test.o"
+	@echo "... company/databricks/csv_query_test.i"
+	@echo "... company/databricks/csv_query_test.s"
 	@echo "... concurrency_parallel/deadlock.o"
 	@echo "... concurrency_parallel/deadlock.i"
 	@echo "... concurrency_parallel/deadlock.s"

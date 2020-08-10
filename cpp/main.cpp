@@ -127,11 +127,13 @@
 #include "company/uber/_20190120.h"
 #include "company/uber/thumbtack.h"
 #include "company/databricks/division.h"
+#include "company/databricks/sql_split.h"
 #include "leetcode/[13]Roman to Integer.h"
 
 #include "leetcode/722.h"
 #include "leetcode/987.h"
 #include "leetcode/314_binary-tree-vertical-order-traversal.h"
+#include "company/databricks/csv_query.h"
 
 
 bool abbyDeng(vector<int> vi){
@@ -153,6 +155,9 @@ bool abbyDeng(vector<int> vi){
 }
 
 int main(int argc, char **argv) {
+  databricks::csv_query::test();
+  //databricks::csv_query::parse("FROM city.csv");
+  databricks::sql_split::test();
   _987::test();
   _314::test();
   _314::test2();
