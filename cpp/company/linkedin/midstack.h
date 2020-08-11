@@ -6,7 +6,7 @@ namespace _midstack {
 
 // stack with O(1) peek and pop (not at top)
 // http://stackoverflow.com/questions/10793404/behaviour-of-stdlistbegin-when-list-is-empty
-struct midstack {
+struct MedianStack {
   list<int> stk;
   list<int>::iterator it;
 
@@ -44,7 +44,7 @@ struct midstack {
 };
 
 void test() {
-  midstack mt;
+  MedianStack mt;
   assert(mt.peek_median() == INT_MIN);
   mt.push(3);
   assert(mt.peek_median() == 3);

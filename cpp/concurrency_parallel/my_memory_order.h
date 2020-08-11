@@ -33,7 +33,7 @@ sem_t endSema;
 int X, Y;
 int r1, r2;
 
-void *thread1Func(void *param) {
+[[noreturn]] void *thread1Func(void *param) {
   while (1) {
     sem_wait(&beginSema1);  // Wait for signal -1
     // ----- THE TRANSACTION! -----
@@ -49,7 +49,7 @@ void *thread1Func(void *param) {
   return NULL;  // Never returns
 };
 
-void *thread2Func(void *param) {
+[[noreturn]] void *thread2Func(void *param) {
   while (1) {
     sem_wait(&beginSema2);  // Wait for signal -1
     // ----- THE TRANSACTION! -----

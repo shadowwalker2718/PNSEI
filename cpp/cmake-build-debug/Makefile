@@ -217,6 +217,33 @@ concurrency_parallel/deadlock.cpp.s:
 	$(MAKE) -f CMakeFiles/pnsei.dir/build.make CMakeFiles/pnsei.dir/concurrency_parallel/deadlock.cpp.s
 .PHONY : concurrency_parallel/deadlock.cpp.s
 
+graph/SS_Dijkstra_Shortest_test.o: graph/SS_Dijkstra_Shortest_test.cpp.o
+
+.PHONY : graph/SS_Dijkstra_Shortest_test.o
+
+# target to build an object file
+graph/SS_Dijkstra_Shortest_test.cpp.o:
+	$(MAKE) -f CMakeFiles/pnsei_test.dir/build.make CMakeFiles/pnsei_test.dir/graph/SS_Dijkstra_Shortest_test.cpp.o
+.PHONY : graph/SS_Dijkstra_Shortest_test.cpp.o
+
+graph/SS_Dijkstra_Shortest_test.i: graph/SS_Dijkstra_Shortest_test.cpp.i
+
+.PHONY : graph/SS_Dijkstra_Shortest_test.i
+
+# target to preprocess a source file
+graph/SS_Dijkstra_Shortest_test.cpp.i:
+	$(MAKE) -f CMakeFiles/pnsei_test.dir/build.make CMakeFiles/pnsei_test.dir/graph/SS_Dijkstra_Shortest_test.cpp.i
+.PHONY : graph/SS_Dijkstra_Shortest_test.cpp.i
+
+graph/SS_Dijkstra_Shortest_test.s: graph/SS_Dijkstra_Shortest_test.cpp.s
+
+.PHONY : graph/SS_Dijkstra_Shortest_test.s
+
+# target to generate assembly for a file
+graph/SS_Dijkstra_Shortest_test.cpp.s:
+	$(MAKE) -f CMakeFiles/pnsei_test.dir/build.make CMakeFiles/pnsei_test.dir/graph/SS_Dijkstra_Shortest_test.cpp.s
+.PHONY : graph/SS_Dijkstra_Shortest_test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -290,6 +317,9 @@ help:
 	@echo "... concurrency_parallel/deadlock.o"
 	@echo "... concurrency_parallel/deadlock.i"
 	@echo "... concurrency_parallel/deadlock.s"
+	@echo "... graph/SS_Dijkstra_Shortest_test.o"
+	@echo "... graph/SS_Dijkstra_Shortest_test.i"
+	@echo "... graph/SS_Dijkstra_Shortest_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

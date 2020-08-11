@@ -2,15 +2,16 @@
 
 #include "henry.h"
 #include <sstream> //getline
+#include "utils/todo_binarytree.h"
 
 namespace _lnkd_is_serialized_tree {
 
 /* A binary graph TreeNode has val, pointer to left and right children */
-struct TreeNode {
+/*struct TreeNode {
   int val;
   struct TreeNode *left = 0, *right = 0;
   TreeNode(int _val) : val(_val) {}
-};
+};*/
 
 struct Codec { //考虑general graph, graph的序列化
                // Encodes a graph to a single string.

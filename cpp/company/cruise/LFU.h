@@ -27,7 +27,7 @@ public:
   // key   : item (key of element)
   // value : point to its parent freqNode.
   //         Those nodes with the same access frequency share a single parent.
-  unordered_map<LFUKEY, list<FreqNode *>::iterator> m;
+  unordered_map<LFUKEY, list<FreqNode *>::iterator> key_to_freqNodes_iter;
 
 
   FreqNode *__createNode(int freq, list<FreqNode *>::iterator next) {
@@ -53,11 +53,11 @@ public:
   // Assuming the element(key) already exists beforehand.
   // O(1)
   void access(LFUKEY key) {
-    if (!m.count(key)) {
+    if (!key_to_freqNodes_iter.count(key)) {
       // not exist
       return;
     }
-    list<FreqNode *>::iterator nodeIt = m[key];
+    list<FreqNode *>::iterator nodeIt = key_to_freqNodes_iter[key];
     int freqNow = (*nodeIt)->freq;
 
     list<FreqNode *>::iterator nextNodeIt = nodeIt;
@@ -67,7 +67,7 @@ public:
     }
     nextNodeIt = nodeIt;
     nextNodeIt++;
-    m[key] = nextNodeIt;
+    key_to_freqNodes_iter[key] = nextNodeIt;
     (*nextNodeIt)->items.insert(key);
 
     (*nodeIt)->items.erase(key);
@@ -88,17 +88,19 @@ public:
     }
     auto nodeIt = freqNodes.begin();
     (*nodeIt)->items.insert(key);
-    m[key] = nodeIt;
+    key_to_freqNodes_iter[key] = nodeIt;
   }
 
   // Look up an item with key, return its usage count
   // O(1)
   int getFreq(LFUKEY key) {
-    if (m.find(key) == m.end()) {
+    if (key_to_freqNodes_iter.count(key)==0)
+      return -1;
+    if (key_to_freqNodes_iter.find(key) == key_to_freqNodes_iter.end()) {
       // error out
       return -1;
     }
-    return (*m[key])->freq;
+    return (*key_to_freqNodes_iter[key])->freq;
   }
 
   // Fetches an item with the least usage count (the least frequently used item)

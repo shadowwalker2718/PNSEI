@@ -5,11 +5,6 @@
 
 namespace graph_Dijkstra {
 
-#define PB push_back
-#define F first
-#define S second
-#define HAS count
-#define MP make_pair
 #define PII pair<int,int>
 
 // https://www.hackerrank.com/challenges/dijkstrashortreach/problem
@@ -19,35 +14,32 @@ vector<int> shortestReach(int n, vector<vector<int>> es, int source) {
   for (auto v: es)
     edges[v[0]][v[1]] = v[2];
 
-  priority_queue<PII, vector<PII >, greater<PII>> distances;// min-heap
-
-  vector<int> ds = vector<int>(n + 1, INT_MAX); // distance to s
-
-  distances.emplace(0, source); // {distance, to_node}
+  priority_queue<PII, vector<PII >, greater<PII>> distances_pq;// min-heap
+  vector<int> single_source_distances = vector<int>(n + 1, INT_MAX); // distance to s
+  distances_pq.emplace(0, source); // {distance from the single source, to_node}
   set<int> visited;
-  while (!distances.empty()) {
-    auto top = distances.top();
-    distances.pop();
-
-    if (visited.HAS(top.S))
+  while (!distances_pq.empty()) {
+    const auto top = distances_pq.top();
+    distances_pq.pop();
+    int top_node = top.second;
+    if (visited.count(top_node))
       continue;//
-
-    ds[top.S] = top.F;
-    for (const auto &neighbor : edges[top.S]) { //{node,len}
-      int d = top.F + edges[top.S][neighbor.F];
-      if (ds[neighbor.F] > d) { //relax
-        ds[neighbor.F] = d;
-        distances.emplace(d, neighbor.F);////into PQ
+    single_source_distances[top_node] = top.first;
+    for (const auto &neighbor : edges[top_node]) { //{node,len}
+      int d = top.first + edges[top_node][neighbor.first];
+      if (single_source_distances[neighbor.first] > d) { //relax
+        single_source_distances[neighbor.first] = d;
+        distances_pq.emplace(d, neighbor.first);////into PQ
       }
     }
-
-    visited.insert(top.S);
+    visited.insert(top_node);
   }
-  ds.erase(ds.begin() + source);
-  ds.erase(ds.begin());
-  return ds;
+  single_source_distances.erase(single_source_distances.begin() + source);
+  single_source_distances.erase(single_source_distances.begin());
+  return single_source_distances;
 }
 
+// http://sde.quant365.com/graph.html#dijkstra-algorithm
 bool test() {
   vector<vector<int>> es = {
       {1, 2, 24},

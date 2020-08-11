@@ -18,23 +18,23 @@ public:
 };
 
 // http://sde.quant365.com/linkedin-2016-11.html#medianmaxmin-stack
-struct maxstack {
+struct MaxStack {
   list<int> stk;
   list<list<int>::iterator> max_itr;
   unordered_map<int, list<list<int>::iterator>::iterator> val2itr;
 
   void push(int i) { // O(N) average
     stk.push_back(i);
-    auto tmp = stk.end();
-    --tmp;
+    // https://stackoverflow.com/questions/2678175/iterator-to-last-element-in-stdlist
+    auto back_iter = prev(stk.end());
     for (auto it = max_itr.begin(); it != max_itr.end(); ++it) {
       if (**it < i) {
-        auto nit = max_itr.insert(it, tmp);
+        auto nit = max_itr.insert(it, back_iter);
         val2itr[i] = nit;
         return;
       }
     }
-    max_itr.push_back(tmp);
+    max_itr.push_back(back_iter);
     val2itr[i] = max_itr.end();
     --val2itr[i];
   }
@@ -49,7 +49,7 @@ struct maxstack {
     return val;
   }
 
-  int popmax() { // O(1) average
+  int pop_max() { // O(1) average
     if (stk.empty())
       return INT_MIN;
     list<int>::iterator m = max_itr.front();
@@ -62,7 +62,7 @@ struct maxstack {
 };
 
 void test() {
-  maxstack mstk;
+  MaxStack mstk;
   mstk.push(3);
   mstk.push(1);
   mstk.push(2);
@@ -71,14 +71,14 @@ void test() {
   mstk.push(5);
   mstk.push(0);
 
-  assert(mstk.popmax() == 6);
-  assert(mstk.popmax() == 5);
+  assert(mstk.pop_max() == 6);
+  assert(mstk.pop_max() == 5);
   assert(mstk.pop() == 0);
-  assert(mstk.popmax() == 4);
-  assert(mstk.popmax() == 3);
-  assert(mstk.popmax() == 2);
-  assert(mstk.popmax() == 1);
-  assert(mstk.popmax() == INT_MIN);
+  assert(mstk.pop_max() == 4);
+  assert(mstk.pop_max() == 3);
+  assert(mstk.pop_max() == 2);
+  assert(mstk.pop_max() == 1);
+  assert(mstk.pop_max() == INT_MIN);
 }
 
 } // namespace _minmaxstack

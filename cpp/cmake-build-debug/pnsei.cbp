@@ -539,6 +539,9 @@
 		<Unit filename="/home/henry.wu/src/PNSEI/cpp/graph/SS_Dijkstra_Shortest.h">
 			<Option target="pnsei"/>
 		</Unit>
+		<Unit filename="/home/henry.wu/src/PNSEI/cpp/graph/SS_Dijkstra_Shortest_test.cpp">
+			<Option target="pnsei_test"/>
+		</Unit>
 		<Unit filename="/home/henry.wu/src/PNSEI/cpp/graph/_785_Is_Graph_Bipartite.h">
 			<Option target="pnsei"/>
 		</Unit>

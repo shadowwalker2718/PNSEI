@@ -31,16 +31,11 @@ class concurrent_linkedlist {
 public:
   shared_ptr<list_node> head;
   atomic<int> z;
-
   concurrent_linkedlist(const concurrent_linkedlist &) = delete;
-
   concurrent_linkedlist operator=(const concurrent_linkedlist &) = delete;
-
-
   concurrent_linkedlist() : head(nullptr) {
     z.store(0, memory_order_seq_cst); // z=0;
   }
-
   ~concurrent_linkedlist() {}
 
   // if insert inside, we also only need to lock prev and cur, the cur->next should be valid coz if it is deleted,

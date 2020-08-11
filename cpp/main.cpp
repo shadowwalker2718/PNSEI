@@ -157,6 +157,22 @@ bool abbyDeng(vector<int> vi){
 }
 
 int main(int argc, char **argv) {
+
+  ///////////////////////////////////////////////////////////////
+  // Augmented Data Structure
+  ///////////////////////////////////////////////////////////////
+  //
+  // Cache-eviction related
+  _lfu::test();
+  _lru_classic::test();
+  _432::test();
+  _uber_lru::test();
+  _concurrent_ll::test();
+  _midstack::test();
+  _minmaxstack::test();
+  _480_medianSlidingWindow::test();
+  _295::test();
+
   databricks::comments::test();
   databricks::traverse::post_order_traversal();
   databricks::traverse::pre_order_traversal();
@@ -177,9 +193,7 @@ int main(int argc, char **argv) {
   _uber_rate_limiter::test();
   _459::test();
   _sgement_tree::test();
-
   _20181227::test3();
-  _concurrency::_semaphore_example::test();
   _mem_order::_ordering::test();
   _cpp_c::test();
   _29::test();
@@ -217,23 +231,11 @@ int main(int argc, char **argv) {
   // MST(Prim, Kruskal)
   graph_MST::test();
 
-  ///////////////////////////////////////////////////////////////
-  // Augmented Data Structure
-  ///////////////////////////////////////////////////////////////
-  //
-  // Cache-eviction related
-  _lru_classic::test();
-  _432::test();
-  _uber_lru::test();
-  _lfu::test();
-  _concurrent_ll::test();
-  _midstack::test();
-  _minmaxstack::test();
-  _480_medianSlidingWindow::test();
-  _295::test();
+
   ///////////////////////////////////////////////////////////////
   // Concurrency
   ///////////////////////////////////////////////////////////////
+  _concurrency::_semaphore_example::test();
   _concurrent_shared_mutex::test();
   _uber_rate_limiter::test();
   _uber_longest_poolchain::test();
