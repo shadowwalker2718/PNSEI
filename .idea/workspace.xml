@@ -14,15 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cpp/20200811/stretched_tree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpp/20200811/testme20200811.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/binary-tree-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/20200811/stretched_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/20200811/stretched_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/20200811/testme20200811.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/20200811/testme20200811.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/segtree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/segtree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpp/utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpp/utils/todo_binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpp/utils/todo_binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/utils/todo_binarytree_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree_test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" afterDir="false" />
     </list>
@@ -183,7 +181,7 @@
       <workItem from="1597081430703" duration="13796000" />
       <workItem from="1597167700551" duration="2831000" />
       <workItem from="1597170555381" duration="4974000" />
-      <workItem from="1597176264063" duration="2720000" />
+      <workItem from="1597176264063" duration="3051000" />
     </task>
     <servers />
   </component>

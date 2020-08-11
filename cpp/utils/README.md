@@ -1,8 +1,12 @@
-
+# Some Pre-built Tree For Testing
 
 - a normal binary tree a
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/192px-Binary_tree.svg.png)
+
+```
+createTree1()
+```
 
 - a normal binary tree b
 
@@ -14,20 +18,29 @@
          1    8    9    14
         / \  / \  / \   / \
        3  4  5 6  2 7  15 13
-
 ```
 
-- createTree5:
+```
+createTree2()
+```
+
+- a normal binary tree with parent pointer
 
 ```
-                70
-              /    \
-            77      60
-          /   \    /   \
-         1    8    9    14
-        / \  / \  / \   /
-       3  4  5 6  2 7  15
+                   70
+              //        \\
+            77            60
+          //   \\       //   \\
+          1     8       9      14
+        // \\  // \\  // \\   //
+       3   4   5   6  2   7  15
+```
 
+```
+createTree5()
+```
+
+```
 post order:
 3,4,1,5,6,8,77,2,7,9,15,14,60,70,
 pre order:
@@ -36,11 +49,11 @@ in order:
 3,1,4,77,5,8,6,70,2,9,7,60,15,14,
 ```
 
-- binary search tree z
+- BST(binary search tree z)
 
-![](https://austingwalters.com/wp-content/uploads/2014/10/binary-tree-1-1024x763.png)
+![](../../img/binary-tree-1.png)
 
-- segment tree
+- segment tree 1
 
 ```
        15
@@ -48,3 +61,10 @@ in order:
  9   1   2   3
 4 5   
 ```
+
+
+- segment tree 2
+
+![](../../img/segment-tree1.png)
+
+From: https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/

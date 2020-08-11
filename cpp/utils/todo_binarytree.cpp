@@ -96,7 +96,7 @@ BTPNode *createTree5() {
  1   7
       8
 *********************************************************************************/
-TreeNode *create_A_BST(){
+TreeNode *create_A_BST() {
   TreeNode *R = new TreeNode(15);
   R->left = new TreeNode(10);
   R->left->left = new TreeNode(5);
@@ -139,29 +139,31 @@ TreeNode *build_segment_tree_algo1(const vector<int> &v) { // sum segment tree
 };
 
 void build_segment_tree_algo2_rec(const vector<int> &v,
-                                  vector<TreeNode *> &tree, int tree_id, int h, int t) {
+                                  vector<TreeNode *> &tree, int tree_id, int h,
+                                  int t) {
   if (h == t) { // base case
     tree[tree_id] = new TreeNode(v[h]);
     return;
   }
-  int mid = h + (t - h) / 2;   // lower median, post order traversal
-  build_segment_tree_algo2_rec(v, tree, 2 * tree_id + 1, h, mid);     // left child
-  build_segment_tree_algo2_rec(v, tree, 2 * tree_id + 2, mid + 1, t); // right child
+  int mid = h + (t - h) / 2; // lower median, post order traversal
+  build_segment_tree_algo2_rec(v, tree, 2 * tree_id + 1, h, mid); // left child
+  build_segment_tree_algo2_rec(v, tree, 2 * tree_id + 2, mid + 1,
+                               t); // right child
 
   // merge build results
   // tree[tree_id] = merge(tree[2 * tree_id + 1], tree[2 * tree_id + 2]);
-  tree[tree_id] = new TreeNode(tree[2 * tree_id + 1]->val + tree[2 * tree_id + 2]->val);
-  tree[tree_id]->left  = tree[2 * tree_id + 1];
+  tree[tree_id] =
+      new TreeNode(tree[2 * tree_id + 1]->val + tree[2 * tree_id + 2]->val);
+  tree[tree_id]->left = tree[2 * tree_id + 1];
   tree[tree_id]->right = tree[2 * tree_id + 2];
 }
 
 TreeNode *build_segment_tree_algo2(const vector<int> &v) { // sum segment tree
-  vector<TreeNode *> tree(4 * v.size());////!!!!
+  vector<TreeNode *> tree(4 * v.size());                   ////!!!!
   int tree_id = 0;
   build_segment_tree_algo2_rec(v, tree, tree_id, 0, v.size() - 1);
   return tree[0];
 };
-
 
 // Print Tree
 /////////////////////////////////////////////////////////////////////////////////
@@ -169,8 +171,10 @@ int dep_by_node(TreeNode *n) {
   return n == 0 ? 0 : max(dep_by_node(n->left), dep_by_node(n->right)) + 1;
 }
 
-void print_binary_tree_horizontal_dfs(TreeNode *n, vector<vector<string>> &r, int i, int j, int c) {
-  if (!n) return;
+void print_binary_tree_horizontal_dfs(TreeNode *n, vector<vector<string>> &r,
+                                      int i, int j, int c) {
+  if (!n)
+    return;
   r[i][j] = to_string(n->val); // preorder traversal
   int distance = (c + 1) / 2;
   print_binary_tree_horizontal_dfs(n->left, r, i + 1, j - distance, c / 2);
@@ -180,11 +184,12 @@ void print_binary_tree_horizontal_dfs(TreeNode *n, vector<vector<string>> &r, in
 void print_binary_tree_horizontal(TreeNode *root) {
   cout << string(80, '*') << endl;
   int R = dep_by_node(root), C = (1 << R) - 1;
-  if (R == 0) return;
+  if (R == 0)
+    return;
   vector<vector<string>> res(R, vector<string>(C, " "));
   print_binary_tree_horizontal_dfs(root, res, 0, C / 2, C / 2);
-  for (auto vs: res) {
-    for (string &s: vs)
+  for (auto vs : res) {
+    for (string &s : vs)
       cout << s;
     cout << endl;
   }
@@ -194,27 +199,24 @@ void print_binary_tree_horizontal(TreeNode *root) {
 void print_binary_tree_horizontal2(TreeNode *root) {
   cout << string(80, '*') << endl;
   int R = dep_by_node(root), C = (1 << R) - 1; // C=2^R-1
-  if (R == 0) return;
+  if (R == 0)
+    return;
   vector<vector<string>> res(R, vector<string>(C, " "));
   print_binary_tree_horizontal_dfs(root, res, 0, C / 2, C / 2);
 
-  for (auto vs: res) {
-    for (string &s: vs)
+  for (auto vs : res) {
+    for (string &s : vs)
       cout << s;
     cout << endl;
   }
   cout << string(80, '*') << endl;
 }
 
-
-void print_binary_tree_vertical(TreeNode *root) {
-
-}
-
+void print_binary_tree_vertical(TreeNode *root) {}
 
 // reverse inorder traversal
 ////////////////////////////////////
-// Function to print binary tree in 2D 
+// Function to print binary tree in 2D
 // It does reverse inorder traversal
 const int SPACE_COUNT = 6;
 
@@ -222,14 +224,16 @@ void print2DUtil(TreeNode *root, int space) {
   if (root == NULL)
     return;
   // Process right child first
-  print2DUtil(root->right, space + SPACE_COUNT); // Increase distance between levels
+  print2DUtil(root->right,
+              space + SPACE_COUNT); // Increase distance between levels
   // Print current node after space
   cout << "\n" << string(space, ' ') << root->val << endl;
   // Process left child
-  print2DUtil(root->left, space + SPACE_COUNT); // Increase distance between levels
+  print2DUtil(root->left,
+              space + SPACE_COUNT); // Increase distance between levels
 }
 
-// Wrapper over print2DUtil() 
+// Wrapper over print2DUtil()
 void print2D(TreeNode *root) {
   cout << string(80, 'x') << endl;
   // Pass initial space count as 0
@@ -237,13 +241,13 @@ void print2D(TreeNode *root) {
   cout << string(80, 'x') << endl;
 }
 
-void cleanup(TreeNode *r){
-  if(r==NULL) return;
+void cleanup(TreeNode *r) {
+  if (r == NULL)
+    return;
   cleanup(r->left);
   cleanup(r->right);
-  delete r, r=NULL;
+  delete r, r = NULL;
 }
-
 
 void binarytree_test() {
   {
@@ -297,7 +301,6 @@ void binarytree_test_bug() {
   vi = {4, 5, 6, 7};
   r = build_segment_tree_algo2(vi);
   print2D(r);
-
 
   vi = {1, 2, 3, 4, 5};
   r = build_segment_tree_algo1(vi);
