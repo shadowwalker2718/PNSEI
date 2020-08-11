@@ -1,4 +1,0 @@
-/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/CMakeFiles/pnsei_test.dir
-/home/henry.wu/src/PNSEI/cpp/cmake-build-debug/CMakeFiles/pnsei.dir

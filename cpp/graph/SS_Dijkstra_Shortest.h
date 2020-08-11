@@ -8,12 +8,16 @@ namespace graph_Dijkstra {
 #define PII pair<int,int>
 
 // https://www.hackerrank.com/challenges/dijkstrashortreach/problem
-// this is for an undirected graph, DAG should be OK too
+// http://sde.quant365.com/graph.html#dijkstra-algorithm
+// This is for an undirected graph, DAG should be OK too
+// Dijkstra works for undirected graph too! as long as the bi-directional
+// distance in-between two nodes are the same!
 vector<int> shortestReach(int n, vector<vector<int>> es, int source) {
   map<int, map<int, int>> edges; // node->node->weight/cost/length
   for (auto v: es)
     edges[v[0]][v[1]] = v[2];
 
+  // The PQ is a min-heap to store the `distance from THE source to each node`
   priority_queue<PII, vector<PII >, greater<PII>> distances_pq;// min-heap
   vector<int> single_source_distances = vector<int>(n + 1, INT_MAX); // distance to s
   distances_pq.emplace(0, source); // {distance from the single source, to_node}
@@ -37,23 +41,5 @@ vector<int> shortestReach(int n, vector<vector<int>> es, int source) {
   single_source_distances.erase(single_source_distances.begin() + source);
   single_source_distances.erase(single_source_distances.begin());
   return single_source_distances;
-}
-
-// http://sde.quant365.com/graph.html#dijkstra-algorithm
-bool test() {
-  vector<vector<int>> es = {
-      {1, 2, 24},
-      {1, 4, 20},
-      {3, 1, 3},
-      {4, 3, 12},
-
-      {2, 1, 24},
-      {4, 1, 20},
-      {1, 3, 3},
-      {3, 4, 12}
-  };
-  vector<int> r = {24, 3, 15};
-  assert(r == shortestReach(4, es, 1));
-  return true;
 }
 }

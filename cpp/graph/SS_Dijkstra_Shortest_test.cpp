@@ -1,6 +1,3 @@
-#ifndef PNSEI_SS_DIJKSTRA_SHORTEST_TEST_CPP
-#define PNSEI_SS_DIJKSTRA_SHORTEST_TEST_CPP
-
 #include "gtest/gtest.h"
 #include "SS_Dijkstra_Shortest.h"
 
@@ -21,4 +18,3 @@ TEST(test, test_dijkstra){
   EXPECT_EQ(r,graph_Dijkstra::shortestReach(4, graph, 1));
 }
 
-#endif // PNSEI_SS_DIJKSTRA_SHORTEST_TEST_CPP
