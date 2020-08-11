@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="pnsei" targetName="pnsei" />
+      <config projectName="pnsei" targetName="segment_tree" />
+      <config projectName="pnsei" targetName="pnsei_test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cpp/20200811/stretched_tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/20200811/testme20200811.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/binary-tree-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/segtree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/segtree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/utils/todo_binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/utils/todo_binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1UugpmIlEKei2gAS8NrzLFQli4S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cpp/leetcode" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cpp/leetcode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cpp/utils" />
+      <recent name="$PROJECT_DIR$/python" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.segment_tree.t3">
+    <configuration name="segment_tree" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="segment_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="segment_tree" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="segment_tree.t3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="segment_tree" TEST_METHOD="t3" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree.segment_tree_build" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="tree" TEST_METHOD="segment_tree_build" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree.segment_tree_build_1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="tree" TEST_METHOD="segment_tree_build_1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree.segment_tree_build_2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="tree" TEST_METHOD="segment_tree_build_2" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pnsei" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="segment_tree" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="segment_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="segment_tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.pnsei" />
+      <item itemvalue="Google Test.segment_tree" />
+      <item itemvalue="Google Test.tree.segment_tree_build" />
+      <item itemvalue="CMake Application.segment_tree" />
+      <item itemvalue="Google Test.tree.segment_tree_build_2" />
+      <item itemvalue="Google Test.tree.segment_tree_build_1" />
+      <item itemvalue="Google Test.segment_tree.t3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.segment_tree.t3" />
+        <item itemvalue="Google Test.tree.segment_tree_build_1" />
+        <item itemvalue="Google Test.tree.segment_tree_build_2" />
+        <item itemvalue="CMake Application.segment_tree" />
+        <item itemvalue="Google Test.tree.segment_tree_build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="" />
+      <created>1576212079710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576212079710</updated>
+      <workItem from="1576212080955" duration="28000" />
+      <workItem from="1576212119505" duration="126000" />
+      <workItem from="1576212336936" duration="2976000" />
+      <workItem from="1576263824393" duration="675000" />
+      <workItem from="1576536090629" duration="623000" />
+      <workItem from="1576538286704" duration="1642000" />
+      <workItem from="1582388550485" duration="612000" />
+      <workItem from="1584881256444" duration="56000" />
+      <workItem from="1584881340046" duration="423000" />
+      <workItem from="1584881785961" duration="5909000" />
+      <workItem from="1585057167716" duration="220000" />
+      <workItem from="1586715413424" duration="1297000" />
+      <workItem from="1587048497382" duration="655000" />
+      <workItem from="1587074744152" duration="628000" />
+      <workItem from="1589050357103" duration="688000" />
+      <workItem from="1589143518951" duration="4365000" />
+      <workItem from="1593821319044" duration="41000" />
+      <workItem from="1594168639898" duration="227000" />
+      <workItem from="1594312023855" duration="11000" />
+      <workItem from="1596244775208" duration="7692000" />
+      <workItem from="1596268336069" duration="2012000" />
+      <workItem from="1596270366081" duration="3548000" />
+      <workItem from="1596318496917" duration="614000" />
+      <workItem from="1596322848511" duration="621000" />
+      <workItem from="1596508070728" duration="3260000" />
+      <workItem from="1596516370498" duration="291000" />
+      <workItem from="1596516682251" duration="10227000" />
+      <workItem from="1596553633598" duration="7795000" />
+      <workItem from="1596603104385" duration="6521000" />
+      <workItem from="1596659829767" duration="10000" />
+      <workItem from="1596805078347" duration="2000" />
+      <workItem from="1596805095370" duration="4180000" />
+      <workItem from="1596852040208" duration="2388000" />
+      <workItem from="1596865876241" duration="1055000" />
+      <workItem from="1596902155821" duration="887000" />
+      <workItem from="1596905091882" duration="21820000" />
+      <workItem from="1596993633721" duration="31871000" />
+      <workItem from="1597041749764" duration="4206000" />
+      <workItem from="1597081233940" duration="181000" />
+      <workItem from="1597081430703" duration="13796000" />
+      <workItem from="1597167700551" duration="2831000" />
+      <workItem from="1597170555381" duration="4974000" />
+      <workItem from="1597176264063" duration="2720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4283" y="575" width="324" height="288" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1597002581698">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="4283" y="575" width="324" height="288" key="#com.intellij.debugger.actions.ViewTextAction/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597002581698" />
+    <state x="375" y="276" width="1216" height="939" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597166803680">
+      <screen x="0" y="28" width="3314" height="1379" />
+    </state>
+    <state x="375" y="276" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597166803680" />
+    <state x="3501" y="307" width="1216" height="939" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596246652539" />
+    <state x="2309" y="259" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597029271201" />
+    <state x="3892" y="484" width="424" height="586" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1596246649738">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="3892" y="484" width="424" height="586" key="#com.intellij.ide.macro.MacrosDialog/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596246649738" />
+    <state x="3045" y="28" width="1179" height="1379" key="#hashtable.inPresentationMode" timestamp="1597040255823">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="3045" y="28" width="1179" height="1379" key="#hashtable.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040255823" />
+    <state width="524" height="646" key="DebuggerActiveHint" timestamp="1597015045361">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="524" height="646" key="DebuggerActiveHint/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596939855099" />
+    <state width="524" height="646" key="DebuggerActiveHint/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597015045361" />
+    <state x="3622" y="337" width="556" height="930" key="ExperimentsDialog" timestamp="1596598536057">
+      <screen x="3440" y="0" width="3440" height="1440" />
+    </state>
+    <state x="3622" y="337" key="ExperimentsDialog/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596598536057" />
+    <state x="4184" y="316" width="556" height="930" key="ExperimentsDialog/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596516584166" />
+    <state x="1673" y="303" width="1215" height="990" key="FileChooserDialogImpl" timestamp="1596904978444">
+      <screen x="0" y="28" width="3440" height="1379" />
+    </state>
+    <state x="1673" y="303" key="FileChooserDialogImpl/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1596904978444" />
+    <state x="1178" y="215" width="1215" height="990" key="FileChooserDialogImpl/0.28.6880.1379@0.28.6880.1379" timestamp="1596306498119" />
+    <state x="592" y="643" width="547" height="151" key="GitCloneDialog" timestamp="1597125384506">
+      <screen x="0" y="28" width="3440" height="1379" />
+    </state>
+    <state x="592" y="643" width="547" height="151" key="GitCloneDialog/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597125384506" />
+    <state x="2512" y="642" width="547" height="151" key="GitCloneDialog/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597017153078" />
+    <state width="1727" height="227" key="GridCell.Tab.0.bottom" timestamp="1597179128165">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1597040272206">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.0.bottom.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
+    <state width="1635" height="213" key="GridCell.Tab.0.bottom/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
+    <state width="1625" height="271" key="GridCell.Tab.0.bottom/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
+    <state width="1655" height="214" key="GridCell.Tab.0.bottom/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
+    <state width="3276" height="271" key="GridCell.Tab.0.bottom/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597119143437" />
+    <state width="1590" height="391" key="GridCell.Tab.0.bottom/0.28.3440.1379@0.28.3440.1379" timestamp="1596808015945" />
+    <state width="1625" height="271" key="GridCell.Tab.0.bottom/0.28.5234.1019@0.28.5234.1019" timestamp="1597170533201" />
+    <state width="3395" height="356" key="GridCell.Tab.0.bottom/0.28.6880.1379@0.28.6880.1379" timestamp="1596306504536" />
+    <state width="1680" height="386" key="GridCell.Tab.0.bottom/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596955831069" />
+    <state width="1590" height="206" key="GridCell.Tab.0.bottom/1575.28.7225.1379@1575.28.7225.1379" timestamp="1596847832014" />
+    <state width="1727" height="227" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128165" />
+    <state width="1612" height="290" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
+    <state width="2345" height="696" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
+    <state width="3440" height="306" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
+    <state width="1727" height="227" key="GridCell.Tab.0.center" timestamp="1597179128165">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1597040272206">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.0.center.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
+    <state width="1635" height="213" key="GridCell.Tab.0.center/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
+    <state width="1625" height="271" key="GridCell.Tab.0.center/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
+    <state width="1655" height="214" key="GridCell.Tab.0.center/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
+    <state width="3276" height="271" key="GridCell.Tab.0.center/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597119143437" />
+    <state width="1590" height="391" key="GridCell.Tab.0.center/0.28.3440.1379@0.28.3440.1379" timestamp="1596808015944" />
+    <state width="1625" height="271" key="GridCell.Tab.0.center/0.28.5234.1019@0.28.5234.1019" timestamp="1597170533200" />
+    <state width="3395" height="356" key="GridCell.Tab.0.center/0.28.6880.1379@0.28.6880.1379" timestamp="1596306504536" />
+    <state width="1680" height="386" key="GridCell.Tab.0.center/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596955831069" />
+    <state width="1590" height="206" key="GridCell.Tab.0.center/1575.28.7225.1379@1575.28.7225.1379" timestamp="1596847832013" />
+    <state width="1727" height="227" key="GridCell.Tab.0.center/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128165" />
+    <state width="1612" height="290" key="GridCell.Tab.0.center/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
+    <state width="2345" height="696" key="GridCell.Tab.0.center/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
+    <state width="3440" height="306" key="GridCell.Tab.0.center/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
+    <state width="1727" height="227" key="GridCell.Tab.0.left" timestamp="1597179128165">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1597040272205">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.0.left.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272205" />
+    <state width="1635" height="213" key="GridCell.Tab.0.left/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687893" />
+    <state width="1625" height="271" key="GridCell.Tab.0.left/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527246" />
+    <state width="1655" height="214" key="GridCell.Tab.0.left/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
+    <state width="3276" height="271" key="GridCell.Tab.0.left/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597119143437" />
+    <state width="1590" height="391" key="GridCell.Tab.0.left/0.28.3440.1379@0.28.3440.1379" timestamp="1596808015944" />
+    <state width="1625" height="271" key="GridCell.Tab.0.left/0.28.5234.1019@0.28.5234.1019" timestamp="1597170533200" />
+    <state width="3395" height="356" key="GridCell.Tab.0.left/0.28.6880.1379@0.28.6880.1379" timestamp="1596306504535" />
+    <state width="1680" height="386" key="GridCell.Tab.0.left/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596955831069" />
+    <state width="1590" height="206" key="GridCell.Tab.0.left/1575.28.7225.1379@1575.28.7225.1379" timestamp="1596847832013" />
+    <state width="1727" height="227" key="GridCell.Tab.0.left/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128165" />
+    <state width="1612" height="290" key="GridCell.Tab.0.left/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
+    <state width="2345" height="696" key="GridCell.Tab.0.left/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
+    <state width="3440" height="306" key="GridCell.Tab.0.left/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
+    <state width="1727" height="227" key="GridCell.Tab.0.right" timestamp="1597179128165">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1597040272206">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.0.right.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
+    <state width="1635" height="213" key="GridCell.Tab.0.right/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
+    <state width="1625" height="271" key="GridCell.Tab.0.right/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
+    <state width="1655" height="214" key="GridCell.Tab.0.right/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
+    <state width="3276" height="271" key="GridCell.Tab.0.right/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597119143437" />
+    <state width="1590" height="391" key="GridCell.Tab.0.right/0.28.3440.1379@0.28.3440.1379" timestamp="1596808015944" />
+    <state width="1625" height="271" key="GridCell.Tab.0.right/0.28.5234.1019@0.28.5234.1019" timestamp="1597170533201" />
+    <state width="3395" height="356" key="GridCell.Tab.0.right/0.28.6880.1379@0.28.6880.1379" timestamp="1596306504536" />
+    <state width="1680" height="386" key="GridCell.Tab.0.right/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596955831069" />
+    <state width="1590" height="206" key="GridCell.Tab.0.right/1575.28.7225.1379@1575.28.7225.1379" timestamp="1596847832013" />
+    <state width="1727" height="227" key="GridCell.Tab.0.right/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128165" />
+    <state width="1612" height="290" key="GridCell.Tab.0.right/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
+    <state width="2345" height="696" key="GridCell.Tab.0.right/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
+    <state width="3440" height="306" key="GridCell.Tab.0.right/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
+    <state width="1727" height="269" key="GridCell.Tab.1.bottom" timestamp="1597179128057">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.1.bottom.inPresentationMode" timestamp="1597040259136">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.1.bottom.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
+    <state width="1635" height="213" key="GridCell.Tab.1.bottom/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
+    <state width="1625" height="329" key="GridCell.Tab.1.bottom/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
+    <state width="1655" height="214" key="GridCell.Tab.1.bottom/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
+    <state width="3276" height="426" key="GridCell.Tab.1.bottom/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597119131144" />
+    <state width="1590" height="391" key="GridCell.Tab.1.bottom/0.28.3440.1379@0.28.3440.1379" timestamp="1596808017051" />
+    <state width="1625" height="329" key="GridCell.Tab.1.bottom/0.28.5234.1019@0.28.5234.1019" timestamp="1597170533191" />
+    <state width="3395" height="356" key="GridCell.Tab.1.bottom/0.28.6880.1379@0.28.6880.1379" timestamp="1596306504538" />
+    <state width="1680" height="386" key="GridCell.Tab.1.bottom/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596955831069" />
+    <state width="1590" height="206" key="GridCell.Tab.1.bottom/1575.28.7225.1379@1575.28.7225.1379" timestamp="1596847832014" />
+    <state width="1727" height="269" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
+    <state width="1612" height="290" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
+    <state width="2345" height="696" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
+    <state width="3395" height="212" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
+    <state width="1727" height="269" key="GridCell.Tab.1.center" timestamp="1597179128057">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.1.center.inPresentationMode" timestamp="1597040259136">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.1.center.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
+    <state width="1635" height="213" key="GridCell.Tab.1.center/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
+    <state width="1625" height="329" key="GridCell.Tab.1.center/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
+    <state width="1655" height="214" key="GridCell.Tab.1.center/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
+    <state width="3276" height="426" key="GridCell.Tab.1.center/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597119131144" />
+    <state width="1590" height="391" key="GridCell.Tab.1.center/0.28.3440.1379@0.28.3440.1379" timestamp="1596808017051" />
+    <state width="1625" height="329" key="GridCell.Tab.1.center/0.28.5234.1019@0.28.5234.1019" timestamp="1597170533190" />
+    <state width="3395" height="356" key="GridCell.Tab.1.center/0.28.6880.1379@0.28.6880.1379" timestamp="1596306504537" />
+    <state width="1680" height="386" key="GridCell.Tab.1.center/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596955831069" />
+    <state width="1590" height="206" key="GridCell.Tab.1.center/1575.28.7225.1379@1575.28.7225.1379" timestamp="1596847832014" />
+    <state width="1727" height="269" key="GridCell.Tab.1.center/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
+    <state width="1612" height="290" key="GridCell.Tab.1.center/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
+    <state width="2345" height="696" key="GridCell.Tab.1.center/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
+    <state width="3395" height="212" key="GridCell.Tab.1.center/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
+    <state width="1727" height="269" key="GridCell.Tab.1.left" timestamp="1597179128057">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.1.left.inPresentationMode" timestamp="1597040259136">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.1.left.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
+    <state width="1635" height="213" key="GridCell.Tab.1.left/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
+    <state width="1625" height="329" key="GridCell.Tab.1.left/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409198" />
+    <state width="1655" height="214" key="GridCell.Tab.1.left/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
+    <state width="3276" height="426" key="GridCell.Tab.1.left/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597119131143" />
+    <state width="1590" height="391" key="GridCell.Tab.1.left/0.28.3440.1379@0.28.3440.1379" timestamp="1596808017050" />
+    <state width="1625" height="329" key="GridCell.Tab.1.left/0.28.5234.1019@0.28.5234.1019" timestamp="1597170533190" />
+    <state width="3395" height="356" key="GridCell.Tab.1.left/0.28.6880.1379@0.28.6880.1379" timestamp="1596306504537" />
+    <state width="1680" height="386" key="GridCell.Tab.1.left/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596955831069" />
+    <state width="1590" height="206" key="GridCell.Tab.1.left/1575.28.7225.1379@1575.28.7225.1379" timestamp="1596847832014" />
+    <state width="1727" height="269" key="GridCell.Tab.1.left/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
+    <state width="1612" height="290" key="GridCell.Tab.1.left/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
+    <state width="2345" height="696" key="GridCell.Tab.1.left/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
+    <state width="3395" height="212" key="GridCell.Tab.1.left/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
+    <state width="1727" height="269" key="GridCell.Tab.1.right" timestamp="1597179128057">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.1.right.inPresentationMode" timestamp="1597040259136">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3440" height="510" key="GridCell.Tab.1.right.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
+    <state width="1635" height="213" key="GridCell.Tab.1.right/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
+    <state width="1625" height="329" key="GridCell.Tab.1.right/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
+    <state width="1655" height="214" key="GridCell.Tab.1.right/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
+    <state width="3276" height="426" key="GridCell.Tab.1.right/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597119131144" />
+    <state width="1590" height="391" key="GridCell.Tab.1.right/0.28.3440.1379@0.28.3440.1379" timestamp="1596808017051" />
+    <state width="1625" height="329" key="GridCell.Tab.1.right/0.28.5234.1019@0.28.5234.1019" timestamp="1597170533191" />
+    <state width="3395" height="356" key="GridCell.Tab.1.right/0.28.6880.1379@0.28.6880.1379" timestamp="1596306504537" />
+    <state width="1680" height="386" key="GridCell.Tab.1.right/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596955831069" />
+    <state width="1590" height="206" key="GridCell.Tab.1.right/1575.28.7225.1379@1575.28.7225.1379" timestamp="1596847832014" />
+    <state width="1727" height="269" key="GridCell.Tab.1.right/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
+    <state width="1612" height="290" key="GridCell.Tab.1.right/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
+    <state width="2345" height="696" key="GridCell.Tab.1.right/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
+    <state width="3395" height="212" key="GridCell.Tab.1.right/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
+    <state x="284" y="300" width="1037" height="732" key="SettingsEditor" timestamp="1596861919300">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="274" y="100" key="SettingsEditor/0.28.3440.1379@0.28.3440.1379" timestamp="1596270347319" />
+    <state x="3638" y="240" width="1037" height="732" key="SettingsEditor/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596598553007" />
+    <state x="284" y="300" width="1636" height="780" key="SettingsEditor/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861919300" />
+    <state x="2540" y="201" width="1171" height="732" key="SettingsEditor/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596516788711" />
+    <state x="4247" y="621" width="306" height="194" key="UiDebugger" timestamp="1596516085257">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="4247" y="621" width="306" height="194" key="UiDebugger/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596516085257" />
+    <state x="3312" y="335" width="519" height="767" key="VCS.ChangeListViewerDialog" timestamp="1596248680450">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="3312" y="335" width="519" height="767" key="VCS.ChangeListViewerDialog/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596248680450" />
+    <state x="3748" y="145" width="1338" height="1073" key="editAsTableFormatDialogDimension" timestamp="1597003333538">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1943" y="255" width="1497" height="1000" key="editAsTableFormatDialogDimension/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596933230614" />
+    <state x="3748" y="145" width="1338" height="1073" key="editAsTableFormatDialogDimension/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597003333538" />
+    <state x="3017" y="272" width="1095" height="926" key="find.popup" timestamp="1597176857697">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1070" y="288" width="1067" height="886" key="find.popup/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597156085360" />
+    <state x="1097" y="288" width="1094" height="886" key="find.popup/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1596588164517" />
+    <state x="3017" y="272" width="1095" height="926" key="find.popup/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597176857697" />
+    <state x="3018" y="271" width="1094" height="925" key="find.popup/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1594168860024" />
+    <state x="3724" y="452" width="672" height="678" key="search.everywhere.popup" timestamp="1596598518254">
+      <screen x="3440" y="0" width="3440" height="1440" />
+    </state>
+    <state x="3724" y="452" width="672" height="678" key="search.everywhere.popup/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596598518254" />
+    <state x="4068" y="341" width="672" height="678" key="search.everywhere.popup/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596516578852" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>239</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>192</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/uber/rate_limiter_Token_Bucket.h</url>
+          <line>100</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>191</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>190</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/[13]Roman to Integer.h</url>
+          <line>94</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>188</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/databricks/division.h</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/databricks/division.h</url>
+          <line>97</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>186</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/42_Trapping_Rain_Water.h</url>
+          <line>72</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>185</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/722.h</url>
+          <line>148</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/722.h</url>
+          <line>120</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/722.h</url>
+          <line>122</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/722.h</url>
+          <line>131</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/314_binary-tree-vertical-order-traversal.h</url>
+          <line>63</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>183</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/314_binary-tree-vertical-order-traversal.h</url>
+          <line>8</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/314_binary-tree-vertical-order-traversal.h</url>
+          <line>13</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/314_binary-tree-vertical-order-traversal.h</url>
+          <line>72</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/987.h</url>
+          <line>139</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/987.h</url>
+          <line>141</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/987.h</url>
+          <line>93</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>181</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/databricks/sql_split.h</url>
+          <line>10</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/databricks/sql_split.h</url>
+          <line>24</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/databricks/sql_split.h</url>
+          <line>31</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>180</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>176</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/databricks/csv_query_test.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>178</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>175</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/cruise/LFU.h</url>
+          <line>121</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
+          <line>165</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/linkedin/midstack.h</url>
+          <line>53</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/company/linkedin/maxstack.h</url>
+          <line>64</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/graph/SS_Dijkstra_Shortest_test.cpp</url>
+          <line>5</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/graph/SS_Dijkstra_Shortest.h</url>
+          <line>17</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/graph/SS_Dijkstra_Shortest.h</url>
+          <line>20</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/graph/SS_Dijkstra_Shortest.h</url>
+          <line>21</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/20200811/testme20200811.cpp</url>
+          <line>7</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/utils/todo_binarytree_test.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/utils/segtree.cpp</url>
+          <line>51</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/resources/ExternalGroupBy/gen_test_data.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/resources/ExternalGroupBy/gen_test_data.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/722.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/722.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/722.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cpp/leetcode/722.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/hashtable.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/hashtable.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/hashtable.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/virtual_consist_hash.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/virtual_consist_hash.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/virtual_consist_hash_2.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/virtual_consist_hash_2.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/virtual_consist_hash_2.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/virtual_consist_hash_2.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/virtual_consist_hash_2.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/virtual_consist_hash_2.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
