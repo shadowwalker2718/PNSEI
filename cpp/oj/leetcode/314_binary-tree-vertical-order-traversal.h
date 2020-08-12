@@ -1,7 +1,7 @@
 #ifndef PNSEI_314_BINARY_TREE_VERTICAL_ORDER_TRAVERSAL_H
 #define PNSEI_314_BINARY_TREE_VERTICAL_ORDER_TRAVERSAL_H
 
-#include "../utils/todo_binarytree.h"
+#include "utils/todo_binarytree.h"
 
 namespace _314 {
   struct Solution {

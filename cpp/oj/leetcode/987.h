@@ -1,7 +1,7 @@
 #ifndef PNSEI_987_H
 #define PNSEI_987_H
 
-#include "../utils/todo_binarytree.h"
+#include "utils/todo_binarytree.h"
 
 namespace _987{
 //Given a binary tree, return the vertical order traversal of its nodes values.
