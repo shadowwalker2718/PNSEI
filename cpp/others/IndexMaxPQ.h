@@ -8,6 +8,7 @@ namespace _indexheap {
 #define LEF(i) ((i << 1) + 1) // 2n+1, 1->3, 1->4
 #define RIG(i) ((i << 1) + 2) // 2n+2, 2->5, 2->6
 
+// http://sde.quant365.com/heap.html#top-k-frequent-elements
 struct index_priority_queue {
   vector<int> volumes; // 100 items
   unordered_map<int, string> index2ticker;

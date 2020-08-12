@@ -21,4 +21,4 @@ class Solution(object):
         return ans
 
 sln=Solution()
-print sln.robotSim([4,-1,4,-2,4], obstacles = [[2,4]])
+print(sln.robotSim([4,-1,4,-2,4], obstacles = [[2,4]]))

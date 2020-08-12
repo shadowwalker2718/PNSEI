@@ -14,7 +14,7 @@ namespace databricks::csv_query {
 static const char* const DEL_SQL=" ";
 static const char* const DEL_CSV=",";
 static const char* const MISSING="-";
-static const char* const INPUT_FOLDER = "/home/henry.wu/src/PNSEI/cpp/company/databricks/";
+static const char* const INPUT_FOLDER = "/home/henry.wu/src/PNSEI/cpp/practice/databricks/";
 
 vector<string> split(string s, const string &del);
 
