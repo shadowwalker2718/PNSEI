@@ -37,7 +37,7 @@
 // Exception
 #include <exception>
 
-// Multithread
+// Multi-thread
 #include <condition_variable>
 #include <future>
 #include <mutex>

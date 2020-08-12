@@ -20,23 +20,14 @@ Note:
 0 <= A[i], B[i] < 100
 */
 
-import "math"
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
 
-func findLength(A []int, B []int) int {
-	l1 := len(A)
-	l2 := len(B)
-	dp := make([][]int, l1+1)
-    for i := 0; i < l1+1; i++ {
-		dp[i] = make([]int, l2+1)
-	}
-	mx := 0
-	for i := 1; i < l1+1; i++ {
-		for j := 1; j < l2+1; j++ {
-			if A[i-1] == B[j-1] {
-				dp[i][j] = dp[i-1][j-1] + 1
-			}
-			mx = int(math.Max(float64(mx), float64(dp[i][j])))
-		}
-	}
-	return mx
+func TestDateTime_findLength(t *testing.T) {
+	A := []int{1,2,3,2,1}
+	B := []int{3,2,1,4,7}
+	r := findLength(A, B)
+	assert.Equal(t, 3, r)
 }
