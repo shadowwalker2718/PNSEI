@@ -1,20 +1,20 @@
 #include "gtest/gtest.h"
 #include "stretched_tree.h"
 
-TEST(abc, efg){
+TEST(night_fall, basic){
   TreeNode* r = createTree1();
   Stretcher stretcher;
   stretcher.stretch(r, 2);
   cout << r->val << endl;
 }
 
-TEST(abc, empty_tree){
+TEST(night_fall, empty_tree){
   TreeNode* r = nullptr;
   Stretcher stretcher;
   stretcher.stretch(r, 2);
 }
 
-TEST(abc, invalid_argument){
+TEST(night_fall, invalid_argument){
   TreeNode* r = createTree1();
   Stretcher stretcher;
   stretcher.stretch(r, 0);

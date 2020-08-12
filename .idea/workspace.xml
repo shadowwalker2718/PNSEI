@@ -14,13 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cpp/20200811/stretched_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/20200811/stretched_tree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/20200811/testme20200811.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/20200811/testme20200811.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/utils/todo_binarytree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/utils/todo_binarytree.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/utils/todo_binarytree_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/utils/todo_binarytree_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" afterDir="false" />
     </list>
@@ -69,26 +63,26 @@
       <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.segment_tree.t3">
+  <component name="RunManager" selected="Google Test.night_fall.basic">
+    <configuration name="night_fall.basic" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="night_fall" TEST_METHOD="basic" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="segment_tree" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="segment_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="segment_tree" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="segment_tree.t3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="segment_tree" TEST_METHOD="t3" TEST_MODE="SUITE_TEST">
+    <configuration name="segment_tree.t3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="segment_tree" TEST_METHOD="t3" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tree.segment_tree_build" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="tree" TEST_METHOD="segment_tree_build" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tree.segment_tree_build_1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="tree" TEST_METHOD="segment_tree_build_1" TEST_MODE="SUITE_TEST">
+    <configuration name="tree.segment_tree_build_1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="tree" TEST_METHOD="segment_tree_build_1" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -112,20 +106,20 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.pnsei" />
-      <item itemvalue="Google Test.segment_tree" />
-      <item itemvalue="Google Test.tree.segment_tree_build" />
       <item itemvalue="CMake Application.segment_tree" />
+      <item itemvalue="Google Test.segment_tree" />
       <item itemvalue="Google Test.tree.segment_tree_build_2" />
       <item itemvalue="Google Test.tree.segment_tree_build_1" />
       <item itemvalue="Google Test.segment_tree.t3" />
+      <item itemvalue="Google Test.night_fall.basic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.night_fall.basic" />
         <item itemvalue="Google Test.segment_tree.t3" />
         <item itemvalue="Google Test.tree.segment_tree_build_1" />
         <item itemvalue="Google Test.tree.segment_tree_build_2" />
         <item itemvalue="CMake Application.segment_tree" />
-        <item itemvalue="Google Test.tree.segment_tree_build" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +175,7 @@
       <workItem from="1597081430703" duration="13796000" />
       <workItem from="1597167700551" duration="2831000" />
       <workItem from="1597170555381" duration="4974000" />
-      <workItem from="1597176264063" duration="3051000" />
+      <workItem from="1597176264063" duration="4272000" />
     </task>
     <servers />
   </component>

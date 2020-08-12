@@ -111,7 +111,7 @@ add_executable(pnsei
 add_executable(pnsei_test company/databricks/csv_query_test.cpp
         graph/SS_Dijkstra_Shortest_test.cpp
         graph/_785_Is_Graph_Bipartite_test.cpp
-        20200811/testme20200811.cpp
+        company/nightfall/stretched_tree_test.cpp
         utils/todo_binarytree.cpp
         utils/todo_binarytree_test.cpp
         )
