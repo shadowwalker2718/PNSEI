@@ -44,10 +44,8 @@
 #include "practice/linkedin/probability.h"
 #include "practice/linkedin/sqrt_double.h"
 #include "practice/uber/_20181217.h"
-#include "practice/uber/_20190120.h"
 #include "practice/uber/longest_poolchain.h"
 #include "practice/uber/rate_limiter_Token_Bucket.h"
-#include "practice/uber/thumbtack.h"
 #include "practice/uber/uber_LRU_customized_eviction.h"
 #include "practice/uber/uber_carpool.h"
 #include "practice/weride/Fibonacci_Number.h"
@@ -69,7 +67,6 @@
 #include "graph/787_Cheapest_Flights_Within_K_Stops.h"
 #include "graph/MST_Kruskal_Prim.h"
 #include "graph/SS_Dijkstra_Shortest.h"
-#include "graph/_785_Is_Graph_Bipartite.h"
 #include "henry.h"
 #include "oj/leetcode/10_Regular_Expression_Matching.h"
 #include "oj/leetcode/126_Word_Ladder_II.h"
@@ -103,7 +100,6 @@
 #include "oj/leetcode/76_Minimum_Window_Substring.h"
 #include "oj/leetcode/927_Three_Equal_Parts.h"
 #include "oj/leetcode/947_Most_Stones_Removed_with_Same_Row_or_Column.h"
-#include "oj/leetcode/94_Binary_Tree_Inorder_Traversal.h"
 #include "oj/leetcode/98_Validate_Binary_Search_Tree.h"
 #include "oj/leetcode/[13]Roman to Integer.h"
 #include "oj/leetcode/todo_668_Kth_Smallest_Number_in_Multiplication_Table.h"
@@ -128,7 +124,6 @@
 #include "others/stree.h"
 #include "practice/bloomberg/encode_list_with_dups.h"
 #include "utils/todo_binarytree.h"
-
 #include "oj/leetcode/722.h"
 #include "oj/leetcode/987.h"
 #include "oj/leetcode/314_binary-tree-vertical-order-traversal.h"
@@ -165,7 +160,7 @@ int main(int argc, char **argv) {
 
 
 
-  
+
 
   ///////////////////////////////////////////////////////////////
   // Augmented Data Structure
