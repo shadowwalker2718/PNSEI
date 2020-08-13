@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a03afa2-a824-460b-ad96-3b4032a09c71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/91__decode_ways.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/91__decode_ways_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj/leetcode/278__first_bad_version/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj/leetcode/278__first_bad_version/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj/leetcode/639__decode_ways_ii/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj/leetcode/718__maximum_length_of_repeated_subarray.go" beforeDir="false" afterPath="$PROJECT_DIR$/oj/leetcode/718__maximum_length_of_repeated_subarray.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/opt/share/yuanma/go_src" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1g1BFKZEIdUWdgiqoMVP4vEputM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oj/leetcode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Test_78__first_bad_version in github.com/shadowwalker2718/pnsei/oj/leetcode/278__first_bad_version">
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/oj/leetcode/278__first_bad_version/test.go" />
+      <package value="github.com/shadowwalker2718/pnsei" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDateTime_findLength in 718__maximum_length_of_repeated_subarray_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/oj/leetcode" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/oj/leetcode/718__maximum_length_of_repeated_subarray_test.go" />
+      <pattern value="^TestDateTime_findLength$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_78__first_bad_version in github.com/shadowwalker2718/pnsei/oj/leetcode/278__first_bad_version" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/oj/leetcode/278__first_bad_version" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shadowwalker2718/pnsei/oj/leetcode/278__first_bad_version" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_78__first_bad_version$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_78__first_bad_version in github.com/shadowwalker2718/pnsei/oj/leetcode/278__first_bad_version" />
+        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Test.TestDateTime_findLength in 718__maximum_length_of_repeated_subarray_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a03afa2-a824-460b-ad96-3b4032a09c71" name="Default Changelist" comment="" />
+      <created>1597272112232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597272112232</updated>
+      <workItem from="1597272113926" duration="127000" />
+      <workItem from="1597272306644" duration="728000" />
+      <workItem from="1597285570475" duration="63000" />
+      <workItem from="1597285653697" duration="3604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4150" y="511" width="500" height="402" key="#Go_Modules" timestamp="1597272366473">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="4150" y="511" width="500" height="402" key="#Go_Modules/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597272366473" />
+    <state x="3212" y="264" width="736" height="897" key="#go_build_test.go" timestamp="1597286685991">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="3212" y="264" width="736" height="897" key="#go_build_test.go/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597286685991" />
+    <state width="1611" height="252" key="GridCell.Tab.0.bottom" timestamp="1597293154461">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1611" height="252" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
+    <state width="1611" height="252" key="GridCell.Tab.0.center" timestamp="1597293154461">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1611" height="252" key="GridCell.Tab.0.center/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
+    <state width="1611" height="252" key="GridCell.Tab.0.left" timestamp="1597293154461">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1611" height="252" key="GridCell.Tab.0.left/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
+    <state width="1611" height="252" key="GridCell.Tab.0.right" timestamp="1597293154461">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1611" height="252" key="GridCell.Tab.0.right/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
+    <state width="1611" height="252" key="GridCell.Tab.1.bottom" timestamp="1597293154462">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1611" height="252" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154462" />
+    <state width="1611" height="252" key="GridCell.Tab.1.center" timestamp="1597293154461">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1611" height="252" key="GridCell.Tab.1.center/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
+    <state width="1611" height="252" key="GridCell.Tab.1.left" timestamp="1597293154461">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1611" height="252" key="GridCell.Tab.1.left/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
+    <state width="1611" height="252" key="GridCell.Tab.1.right" timestamp="1597293154462">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1611" height="252" key="GridCell.Tab.1.right/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154462" />
+    <state x="2440" y="234" width="1594" height="905" key="SettingsEditor" timestamp="1597286910959">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="2440" y="234" width="1594" height="905" key="SettingsEditor/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597286910959" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/oj/leetcode/718__maximum_length_of_repeated_subarray_test.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/oj/leetcode/718__maximum_length_of_repeated_subarray.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/oj/leetcode/278__first_bad_version/main_test.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
