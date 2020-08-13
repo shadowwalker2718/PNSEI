@@ -117,14 +117,29 @@ add_executable(pnsei_test practice/databricks/csv_query_test.cpp
         oj/leetcode/91__decode_ways_test.cpp
         practice/rh/topk_stocks_test.cpp
         practice/rh/order_book_test.cpp
+        practice/rh/capital_gain_test.cpp
+        practice/rh/spiral_matrix_test.cpp
         concurrency_parallel/deadlock_guaranteed.cpp
         )
 
 add_executable(segment_tree utils/segtree.cpp)
+
+
+
+
+
+
+
+
+
+
+
+add_executable(my_test practice/databricks/csv_query_test.cpp)
 
 IF (WIN32)
     # set stuff for windows
 ELSE()
     target_link_libraries(${PROJECT_NAME} stdc++fs)
     target_link_libraries(pnsei_test gtest gtest_main)
+    target_link_libraries(my_test gtest gtest_main)
 ENDIF()
