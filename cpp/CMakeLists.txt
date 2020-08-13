@@ -40,9 +40,9 @@ add_executable(pnsei
         practice/linkedin/605_Can_Place_Flowers.h
         others/comb_sum.h
         concurrency_parallel/concurrent_hashmap.h
-        concurrency_parallel/deadlock.h
+        concurrency_parallel/deadlock_guaranteed.h
         concurrency_parallel/DelayQueue.h
-        concurrency_parallel/deadlock.cpp
+        concurrency_parallel/deadlock_guaranteed.cpp
         others/dup.h
         practice/bloomberg/encode_list_with_dups.h
         practice/linkedin/frequent_element.h
@@ -114,6 +114,10 @@ add_executable(pnsei_test practice/databricks/csv_query_test.cpp
         practice/nightfall/stretched_tree_test.cpp
         utils/todo_binarytree.cpp
         utils/todo_binarytree_test.cpp
+        oj/leetcode/91__decode_ways_test.cpp
+        practice/rh/topk_stocks_test.cpp
+        practice/rh/order_book_test.cpp
+        concurrency_parallel/deadlock_guaranteed.cpp
         )
 
 add_executable(segment_tree utils/segtree.cpp)

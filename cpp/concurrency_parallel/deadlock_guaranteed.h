@@ -2,14 +2,15 @@
 
 #include "henry.h"
 
-namespace deadlock {
+namespace concurrency_parallel {
+
 struct account {
   double deposit = 0;
   mutex mu;
   bool locked = 0;
 };
 
-void transfermoney(account &from, account &to, double money) {
+void transfer_money(account &from, account &to, double money) {
   lock_guard<mutex> lock1(from.mu);
   from.locked = true;
   while (!to.locked)
@@ -21,8 +22,8 @@ void transfermoney(account &from, account &to, double money) {
 
 void deadlock() {
   account jack, simon;
-  thread t1(transfermoney, ref(jack), ref(simon), 10.5);
-  thread t2(transfermoney, ref(simon), ref(jack), 1.5);
+  thread t1(transfer_money, ref(jack), ref(simon), 10.5);
+  thread t2(transfer_money, ref(simon), ref(jack), 1.5);
   t1.join(), t2.join();
 }
 

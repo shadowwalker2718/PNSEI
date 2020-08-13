@@ -1,4 +1,5 @@
-#include "henry.h"
+#include "deadlock_guaranteed.h"
+#include <gtest/gtest.h>
 
 int global_int = 0;
 mutex mu;
@@ -8,6 +9,9 @@ void rec() {
   lock_guard<mutex> lk(mu);
   cout << " " << global_int++;
   rec();
+}
+
+TEST(deadlock, transfer_money){ concurrency_parallel::deadlock();
 }
 
 int test_me() {

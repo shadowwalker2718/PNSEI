@@ -14,9 +14,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go/oj/leetcode/718__maximum_length_of_repeated_subarray_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/oj/leetcode/91__decode_ways.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/oj/leetcode/91__decode_ways_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/bad_transfer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/order_book.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/order_book_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/topk_stocks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/topk_stocks_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/oj/leetcode/278__first_bad_version/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/oj/leetcode/278__first_bad_version/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/oj/leetcode/639__decode_ways_ii/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/henry_wu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/henry_wu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/concurrency_parallel/deadlock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/concurrency_parallel/deadlock_guaranteed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/concurrency_parallel/deadlock.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/concurrency_parallel/deadlock_guaranteed.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go/oj/leetcode/718__maximum_length_of_repeated_subarray.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/oj/leetcode/718__maximum_length_of_repeated_subarray.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" afterDir="false" />
@@ -68,7 +82,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/go/oj/leetcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.autoimport" />
   </component>
   <component name="RecentsManager">
@@ -84,8 +98,32 @@
       <recent name="$PROJECT_DIR$/cpp/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.pnsei">
-    <configuration name="night_fall.basic" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="night_fall" TEST_METHOD="basic" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Google Test.rh.order_book">
+    <configuration name="_91__decode_ways.basic" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="_91__decode_ways" TEST_METHOD="basic" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deadlock.transfer_money" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="deadlock" TEST_METHOD="transfer_money" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rh.order_book" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="rh" TEST_METHOD="order_book" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rh.pick_of_the_week" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="rh" TEST_METHOD="pick_of_the_week" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rh.pick_of_the_week_topk" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="rh" TEST_METHOD="pick_of_the_week_topk" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -97,43 +135,29 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="segment_tree.t3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="segment_tree" TEST_METHOD="t3" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tree.segment_tree_build_1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="tree" TEST_METHOD="segment_tree_build_1" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tree.segment_tree_build_2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="tree" TEST_METHOD="segment_tree_build_2" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="pnsei" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="segment_tree" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="segment_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="segment_tree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="CMake Application.pnsei" />
-      <item itemvalue="CMake Application.segment_tree" />
       <item itemvalue="Google Test.segment_tree" />
-      <item itemvalue="Google Test.tree.segment_tree_build_2" />
-      <item itemvalue="Google Test.tree.segment_tree_build_1" />
-      <item itemvalue="Google Test.segment_tree.t3" />
-      <item itemvalue="Google Test.night_fall.basic" />
+      <item itemvalue="Google Test._91__decode_ways.basic" />
+      <item itemvalue="Google Test.rh.pick_of_the_week" />
+      <item itemvalue="Google Test.rh.pick_of_the_week_topk" />
+      <item itemvalue="Google Test.deadlock.transfer_money" />
+      <item itemvalue="Google Test.rh.order_book" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.rh.order_book" />
+        <item itemvalue="Google Test.deadlock.transfer_money" />
+        <item itemvalue="Google Test.rh.pick_of_the_week_topk" />
+        <item itemvalue="Google Test.rh.pick_of_the_week" />
+        <item itemvalue="Google Test._91__decode_ways.basic" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,6 +216,8 @@
       <workItem from="1597248491261" duration="3264000" />
       <workItem from="1597268413261" duration="2307000" />
       <workItem from="1597272065215" duration="47000" />
+      <workItem from="1597272535673" duration="7941000" />
+      <workItem from="1597335999200" duration="5668000" />
     </task>
     <servers />
   </component>
@@ -225,6 +251,10 @@
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state x="3045" y="28" width="1179" height="1379" key="#hashtable.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040255823" />
+    <state x="2149" y="406" width="662" height="613" key="#rh.order_book" timestamp="1597346731672">
+      <screen x="0" y="22" width="3440" height="1383" />
+    </state>
+    <state x="2149" y="406" width="662" height="613" key="#rh.order_book/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597346731672" />
     <state width="524" height="646" key="DebuggerActiveHint" timestamp="1597015045361">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
@@ -246,14 +276,14 @@
     </state>
     <state x="592" y="643" width="547" height="151" key="GitCloneDialog/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597125384506" />
     <state x="2512" y="642" width="547" height="151" key="GitCloneDialog/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597017153078" />
-    <state width="1468" height="271" key="GridCell.Tab.0.bottom" timestamp="1597272254521">
-      <screen x="3440" y="0" width="3440" height="1440" />
+    <state width="1613" height="449" key="GridCell.Tab.0.bottom" timestamp="1597347201954">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1597040272206">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.bottom.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
-    <state width="1750" height="271" key="GridCell.Tab.0.bottom/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256860668" />
+    <state width="1613" height="449" key="GridCell.Tab.0.bottom/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597347201954" />
     <state width="1635" height="213" key="GridCell.Tab.0.bottom/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="271" key="GridCell.Tab.0.bottom/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
     <state width="1655" height="214" key="GridCell.Tab.0.bottom/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
@@ -267,16 +297,17 @@
     <state width="1727" height="339" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597193478597" />
     <state width="1612" height="290" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="1846" height="339" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972999" />
+    <state width="1616" height="186" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3440" height="306" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
-    <state width="1468" height="271" key="GridCell.Tab.0.center" timestamp="1597272254521">
-      <screen x="3440" y="0" width="3440" height="1440" />
+    <state width="1613" height="449" key="GridCell.Tab.0.center" timestamp="1597347201954">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1597040272206">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.center.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
-    <state width="1750" height="271" key="GridCell.Tab.0.center/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256860668" />
+    <state width="1613" height="449" key="GridCell.Tab.0.center/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597347201954" />
     <state width="1635" height="213" key="GridCell.Tab.0.center/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="271" key="GridCell.Tab.0.center/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
     <state width="1655" height="214" key="GridCell.Tab.0.center/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
@@ -290,16 +321,17 @@
     <state width="1727" height="339" key="GridCell.Tab.0.center/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597193478597" />
     <state width="1612" height="290" key="GridCell.Tab.0.center/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="1846" height="339" key="GridCell.Tab.0.center/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972999" />
+    <state width="1616" height="186" key="GridCell.Tab.0.center/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.0.center/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3440" height="306" key="GridCell.Tab.0.center/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
-    <state width="1468" height="271" key="GridCell.Tab.0.left" timestamp="1597272254521">
-      <screen x="3440" y="0" width="3440" height="1440" />
+    <state width="1613" height="449" key="GridCell.Tab.0.left" timestamp="1597347201954">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1597040272205">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.left.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272205" />
-    <state width="1750" height="271" key="GridCell.Tab.0.left/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256860668" />
+    <state width="1613" height="449" key="GridCell.Tab.0.left/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597347201954" />
     <state width="1635" height="213" key="GridCell.Tab.0.left/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687893" />
     <state width="1625" height="271" key="GridCell.Tab.0.left/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527246" />
     <state width="1655" height="214" key="GridCell.Tab.0.left/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
@@ -313,16 +345,17 @@
     <state width="1727" height="339" key="GridCell.Tab.0.left/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597193478597" />
     <state width="1612" height="290" key="GridCell.Tab.0.left/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="1846" height="339" key="GridCell.Tab.0.left/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972998" />
+    <state width="1616" height="186" key="GridCell.Tab.0.left/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592024" />
     <state width="2345" height="696" key="GridCell.Tab.0.left/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3440" height="306" key="GridCell.Tab.0.left/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
-    <state width="1468" height="271" key="GridCell.Tab.0.right" timestamp="1597272254521">
-      <screen x="3440" y="0" width="3440" height="1440" />
+    <state width="1613" height="449" key="GridCell.Tab.0.right" timestamp="1597347201954">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1597040272206">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.right.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
-    <state width="1750" height="271" key="GridCell.Tab.0.right/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256860668" />
+    <state width="1613" height="449" key="GridCell.Tab.0.right/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597347201954" />
     <state width="1635" height="213" key="GridCell.Tab.0.right/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="271" key="GridCell.Tab.0.right/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
     <state width="1655" height="214" key="GridCell.Tab.0.right/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
@@ -336,16 +369,17 @@
     <state width="1727" height="339" key="GridCell.Tab.0.right/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597193478597" />
     <state width="1612" height="290" key="GridCell.Tab.0.right/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="1846" height="339" key="GridCell.Tab.0.right/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972999" />
+    <state width="1616" height="186" key="GridCell.Tab.0.right/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.0.right/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3440" height="306" key="GridCell.Tab.0.right/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
-    <state width="1468" height="271" key="GridCell.Tab.1.bottom" timestamp="1597272254521">
-      <screen x="3440" y="0" width="3440" height="1440" />
+    <state width="1613" height="449" key="GridCell.Tab.1.bottom" timestamp="1597347202570">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.bottom.inPresentationMode" timestamp="1597040259136">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.bottom.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
-    <state width="1750" height="271" key="GridCell.Tab.1.bottom/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256862306" />
+    <state width="1613" height="449" key="GridCell.Tab.1.bottom/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597347202570" />
     <state width="1635" height="213" key="GridCell.Tab.1.bottom/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="329" key="GridCell.Tab.1.bottom/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
     <state width="1655" height="214" key="GridCell.Tab.1.bottom/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
@@ -359,16 +393,17 @@
     <state width="1727" height="269" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
     <state width="1612" height="290" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="3395" height="269" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972991" />
+    <state width="1616" height="186" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
     <state width="3395" height="212" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
-    <state width="1468" height="271" key="GridCell.Tab.1.center" timestamp="1597272254521">
-      <screen x="3440" y="0" width="3440" height="1440" />
+    <state width="1613" height="449" key="GridCell.Tab.1.center" timestamp="1597347202570">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.center.inPresentationMode" timestamp="1597040259136">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.center.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
-    <state width="1750" height="271" key="GridCell.Tab.1.center/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256862306" />
+    <state width="1613" height="449" key="GridCell.Tab.1.center/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597347202570" />
     <state width="1635" height="213" key="GridCell.Tab.1.center/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="329" key="GridCell.Tab.1.center/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
     <state width="1655" height="214" key="GridCell.Tab.1.center/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
@@ -382,16 +417,17 @@
     <state width="1727" height="269" key="GridCell.Tab.1.center/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
     <state width="1612" height="290" key="GridCell.Tab.1.center/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="3395" height="269" key="GridCell.Tab.1.center/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972990" />
+    <state width="1616" height="186" key="GridCell.Tab.1.center/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.1.center/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
     <state width="3395" height="212" key="GridCell.Tab.1.center/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
-    <state width="1468" height="271" key="GridCell.Tab.1.left" timestamp="1597272254521">
-      <screen x="3440" y="0" width="3440" height="1440" />
+    <state width="1613" height="449" key="GridCell.Tab.1.left" timestamp="1597347202570">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.left.inPresentationMode" timestamp="1597040259136">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.left.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
-    <state width="1750" height="271" key="GridCell.Tab.1.left/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256862306" />
+    <state width="1613" height="449" key="GridCell.Tab.1.left/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597347202570" />
     <state width="1635" height="213" key="GridCell.Tab.1.left/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="329" key="GridCell.Tab.1.left/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409198" />
     <state width="1655" height="214" key="GridCell.Tab.1.left/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
@@ -405,16 +441,17 @@
     <state width="1727" height="269" key="GridCell.Tab.1.left/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
     <state width="1612" height="290" key="GridCell.Tab.1.left/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="3395" height="269" key="GridCell.Tab.1.left/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972990" />
+    <state width="1616" height="186" key="GridCell.Tab.1.left/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.1.left/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3395" height="212" key="GridCell.Tab.1.left/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
-    <state width="1468" height="271" key="GridCell.Tab.1.right" timestamp="1597272254521">
-      <screen x="3440" y="0" width="3440" height="1440" />
+    <state width="1613" height="449" key="GridCell.Tab.1.right" timestamp="1597347202570">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.right.inPresentationMode" timestamp="1597040259136">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.right.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
-    <state width="1750" height="271" key="GridCell.Tab.1.right/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256862306" />
+    <state width="1613" height="449" key="GridCell.Tab.1.right/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597347202570" />
     <state width="1635" height="213" key="GridCell.Tab.1.right/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="329" key="GridCell.Tab.1.right/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
     <state width="1655" height="214" key="GridCell.Tab.1.right/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
@@ -428,6 +465,7 @@
     <state width="1727" height="269" key="GridCell.Tab.1.right/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
     <state width="1612" height="290" key="GridCell.Tab.1.right/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="3395" height="269" key="GridCell.Tab.1.right/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972991" />
+    <state width="1616" height="186" key="GridCell.Tab.1.right/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.1.right/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
     <state width="3395" height="212" key="GridCell.Tab.1.right/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
     <state x="2592" y="170" width="1037" height="732" key="SettingsEditor" timestamp="1597268624297">
@@ -553,6 +591,36 @@
           <url>file://$PROJECT_DIR$/python/virtual_consist_hash_2.py</url>
           <line>48</line>
           <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/practice/rh/topk_stocks_test.cpp</url>
+          <line>4</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/concurrency_parallel/deadlock_guaranteed.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/concurrency_parallel/deadlock_guaranteed.h</url>
+          <line>12</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/practice/rh/order_book_test.cpp</url>
+          <line>5</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/practice/rh/order_book_test.cpp</url>
+          <line>24</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/practice/rh/order_book_test.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
