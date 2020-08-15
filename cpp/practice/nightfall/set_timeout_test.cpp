@@ -1,5 +1,5 @@
+#include "set_timeout.h"
 #include <gtest/gtest.h>
-#include "nf.h"
 
 void hello(){
   cout << "hello" << ", " << time(0) << endl;

@@ -24,12 +24,12 @@ typedef struct SkipList {
 } SkipList;
 
 SkipListNode *makeNode(int level, int key, int value) {
-  SkipListNode *pNode = (SkipListNode *) malloc(sizeof(SkipListNode));
+  auto *pNode = (SkipListNode *) malloc(sizeof(SkipListNode));
   pNode->key = key;
   pNode->value = value;
   pNode->level = level;
-  for (int i = 0; i < MaxLevel; ++i) // every node has MaxLevel children, some of them are NULL
-    pNode->next[i] = NULL;
+  for (auto & i : pNode->next) // every node has MaxLevel children, some of them are NULL
+    i = nullptr;
   return pNode;
 }
 
@@ -53,7 +53,6 @@ int randomLevel() {
 bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
   if (!pSkipList)
     return false;
-
   SkipListNode *update[MaxLevel] = {};////
   //FindGreaterOrEqual
   SkipListNode *cur = pSkipList->head; // insert position
@@ -86,7 +85,7 @@ bool insertNode(SkipList *pSkipList, int searchKey, int newValue) {
 
 SkipListNode *searchNode(SkipList *pSkipList, int searchKey) {
   if (!pSkipList || !pSkipList->head)
-    return NULL;
+    return nullptr;
 
   SkipListNode *cur = pSkipList->head, *tn; // insert position
   int k = pSkipList->level;
@@ -105,16 +104,7 @@ SkipListNode *searchNode(SkipList *pSkipList, int searchKey) {
       k--;
     }
   }
-  return NULL;
-
-  /*for (int i = pSkipList->level - 1; i >= 0; --i) {
-    while (pNode->next[i] && pNode->next[i]->key < searchKey)
-      pNode = pNode->next[i];
-  }
-  pNode = pNode->next[0];
-  if (pNode && pNode->key == searchKey)
-    return pNode;
-  return NULL;*/
+  return nullptr;
 }
 
 bool deleteNode(SkipList *pSkipList, int searchKey) {
@@ -141,7 +131,7 @@ bool deleteNode(SkipList *pSkipList, int searchKey) {
     }
     free(pNode);
     while (pSkipList->level > 1 &&
-           pSkipList->head->next[pSkipList->level - 1] == NULL) {
+           pSkipList->head->next[pSkipList->level - 1] == nullptr) {
       pSkipList->level--;
     }
     pSkipList->length--;

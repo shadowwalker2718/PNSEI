@@ -1,5 +1,5 @@
-#ifndef PNSEI_NF_H
-#define PNSEI_NF_H
+#ifndef PNSEI_SET_TIMEOUT_H
+#define PNSEI_SET_TIMEOUT_H
 #include "henry.h"
 #include <sys/time.h>
 
@@ -87,4 +87,4 @@ struct DelayQueue{
 }
 
 
-#endif // PNSEI_NF_H
+#endif // PNSEI_SET_TIMEOUT_H
