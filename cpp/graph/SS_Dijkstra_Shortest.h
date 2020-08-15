@@ -18,7 +18,7 @@ vector<int> shortestReach(int n, vector<vector<int>> es, int source) {
     edges[v[0]][v[1]] = v[2];
 
   // The PQ is a min-heap to store the `distance from THE source to each node`
-  priority_queue<PII, vector<PII >, greater<PII>> distances_pq;// min-heap
+  priority_queue<PII, vector<PII >, greater<>> distances_pq;// min-heap
   vector<int> single_source_distances = vector<int>(n + 1, INT_MAX); // distance to s
   distances_pq.emplace(0, source); // {distance from the single source, to_node}
   set<int> visited;

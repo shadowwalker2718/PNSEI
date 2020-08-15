@@ -323,7 +323,7 @@ int main(int argc, char **argv) {
   bbg_encode_list_with_dups::test();
   _multi_dimension_array::test();
   _lnkd_is_intersected::test();
-  _linkedin::test();
+  concurrency_parallel::test();
   _lnkd_totalcovered_length::test();
   _149::test();
   _indexheap::test();

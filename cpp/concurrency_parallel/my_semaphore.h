@@ -69,16 +69,16 @@ void run(){
 }
 
 int test (){
-  int threadnum = 15;
+  int thread_num = 15;
   thread threads[15];
-  /* spawn threadnum threads */
-  for (int id = 0; id < threadnum; id++)
-    threads[id] = thread(print_num, id, threadnum);
-  cout << "\nRunning " << threadnum;
+  /* spawn thread_num threads */
+  for (int id = 0; id < thread_num; id++)
+    threads[id] = thread(print_num, id, thread_num);
+  cout << "\nRunning " << thread_num;
   cout << " in parallel: \n" << endl;
   run(); // Allows threads to run
   /* Merge all threads to the main thread */
-  for(int id = 0; id < threadnum; id++)
+  for(int id = 0; id < thread_num; id++)
     threads[id].join();
   cout << "\nCompleted semaphore example!\n";
   cout << endl;

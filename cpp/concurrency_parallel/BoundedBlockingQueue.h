@@ -2,9 +2,9 @@
 
 #include "henry.h"
 
-namespace _linkedin {
+namespace concurrency_parallel {
 
-template <uint32_t MAXCOUNT, typename T> class bounded_blocking_queue {
+template <uint32_t max_count, typename T> class bounded_blocking_queue {
   queue<T> Q;
 
   mutex mu;
@@ -15,7 +15,7 @@ public:
 
   void produce(const T &item) {
     unique_lock<mutex> lk(mu);
-    while (Q.size() == MAXCOUNT) { // spurious wake
+    while (Q.size() == max_count) { // spurious wake
       cv.wait(lk);
     }
     Q.push(item);
@@ -31,7 +31,7 @@ public:
     }
     T r = Q.front();
     Q.pop();
-    if (Q.size() == MAXCOUNT - 1)
+    if (Q.size() == max_count - 1)
       cv.notify_all(); // cv.notify_one();
     return r;
   }
@@ -40,24 +40,24 @@ public:
 // https://stackoverflow.com/questions/8594591/why-does-pthread-cond-wait-have-spurious-wakeups
 
 template <typename T> class BBQ {
-  int32_t MAXCOUNT;
+  int32_t max_count;
   queue<T> Q;
   mutex mu;
   condition_variable cv;
 
 public:
-  BBQ(const BBQ &) = delete;            // noncopyable
+  BBQ(const BBQ &) = delete;            // non-copyable
   BBQ &operator=(const BBQ &) = delete; // nonassignable
 
-  BBQ(int cap=10) : MAXCOUNT(cap) {}
+  explicit BBQ(int cap=10) : max_count(cap) {}
 
   void put(const T &item) { // producer
     unique_lock<mutex> lk(mu);
-    while (Q.size() == MAXCOUNT) { // spurious wake
+    while (Q.size() == max_count) { // spurious wake
       cv.wait(lk);
     }
     Q.push(item);
-    lk.unlock(); // unlock before notificiation to minimize mutex contention
+    lk.unlock(); // unlock before notification to minimize mutex contention
     if (Q.size() == 1)
       cv.notify_one();
   }
@@ -69,8 +69,8 @@ public:
     }
     T r = Q.front();
     Q.pop();
-    lk.unlock(); // unlock before notificiation to minimize mutex contention
-    if (Q.size() == MAXCOUNT - 1)
+    lk.unlock(); // unlock before notification to minimize mutex contention
+    if (Q.size() == max_count - 1)
       cv.notify_one();
     return r;
   }

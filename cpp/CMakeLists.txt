@@ -120,6 +120,11 @@ add_executable(pnsei_test practice/databricks/csv_query_test.cpp
         practice/rh/capital_gain_test.cpp
         practice/rh/spiral_matrix_test.cpp
         concurrency_parallel/deadlock_guaranteed.cpp
+        graph/787_Cheapest_Flights_Within_K_Stops_test.cpp
+        oj/leetcode/37_Sudoku_Solver_test.cpp
+        nf1_test.cpp
+        cplusplus/myset.cpp
+        others/index_heap_test.cpp
         )
 
 add_executable(segment_tree utils/segtree.cpp)

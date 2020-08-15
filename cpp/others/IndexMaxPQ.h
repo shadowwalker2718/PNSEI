@@ -104,36 +104,36 @@ class index_heap {
   vector<stock> stocks; // heap core data, which is basically a graph array
   unordered_map<string, int> ticker_to_index;
 
-  void __swap(int x, int y) {
+  void _swap(int x, int y) {
     swap(ticker_to_index[stocks[x].ticker], ticker_to_index[stocks[y].ticker]);
     swap(stocks[x], stocks[y]);
   }
 
-  void __sift_up(int idx) { // iterative
+  void _sift_up(int idx) { // iterative
     if (idx >= stocks.size())
       return;
     int pidx = PAR(idx);
     while (pidx >= 0 && stocks[pidx].volume < stocks[idx].volume) {
-      __swap(idx, pidx);
+      _swap(idx, pidx);
       idx = pidx, pidx = PAR(idx);
     }
   }
 
-  void __sift_down(int idx) { // recursive
+  void _sift_down(int idx) { // recursive
     if (idx >= stocks.size())
       return;
     int lchild = 2 * idx + 1, rchild = 2 * idx + 2;
     if (stocks.size() - 1 >= rchild) {
       if (stocks[lchild].volume > stocks[rchild].volume) {
-        __swap(idx, lchild);
-        __sift_down(lchild);
+        _swap(idx, lchild);
+        _sift_down(lchild);
       } else {
-        __swap(idx, rchild);
-        __sift_down(rchild);
+        _swap(idx, rchild);
+        _sift_down(rchild);
       }
     } else if (stocks.size() - 1 >= lchild) {
-      __swap(idx, lchild);
-      __sift_down(lchild);
+      _swap(idx, lchild);
+      _sift_down(lchild);
     } else
       return;
   }
@@ -141,8 +141,8 @@ class index_heap {
 public:
   void push(const stock &s) {
     stocks.push_back(s);
-    ticker_to_index[s.ticker] = stocks.size() - 1;
-    __sift_up(stocks.size() - 1);
+    ticker_to_index[s.ticker] = (int)stocks.size() - 1;
+    _sift_up((int)stocks.size() - 1);
   }
 
   void update(const string &t, int new_vol) {
@@ -157,12 +157,12 @@ public:
 
   void increase_volume(const string &t, int vol) {
     stocks[ticker_to_index[t]].volume += vol;
-    __sift_up(ticker_to_index[t]);
+    _sift_up(ticker_to_index[t]);
   }
 
   void decrease_volume(const string &t, int vol) {
     stocks[ticker_to_index[t]].volume -= vol;
-    __sift_down(ticker_to_index[t]);
+    _sift_down(ticker_to_index[t]);
   }
 
   vector<stock> topK(int k) {
@@ -179,12 +179,12 @@ public:
       stock tmp = tmpQ.top();
       tmpQ.pop();
       r.push_back(tmp);
-      int lchild = 2 * ticker_to_index[tmp.ticker] + 1,
-          rchild = 2 * ticker_to_index[tmp.ticker] + 2;
-      if (lchild < stocks.size())
-        tmpQ.push(stocks[lchild]);
-      if (rchild < stocks.size())
-        tmpQ.push(stocks[rchild]);
+      int l_child = 2 * ticker_to_index[tmp.ticker] + 1,
+          r_child = 2 * ticker_to_index[tmp.ticker] + 2;
+      if (l_child < stocks.size())
+        tmpQ.push(stocks[l_child]);
+      if (r_child < stocks.size())
+        tmpQ.push(stocks[r_child]);
     }
     return r;
   }

@@ -17,14 +17,17 @@ namespace _37_dfs {
 // https://leetcode.com/problems/valid-sudoku/
 struct SolutionX { // 9ms 81%
   bool isValidSudoku(vector<vector<char> > &board) {
-    if (board.size() != 9 || board[0].size() != 9) return false;
+    if (board.size() != 9 || board[0].size() != 9)
+      return false;
     // check row
     for (int i = 0; i < 9; i++) {
       vector<bool> used(9, false);
       for (int j = 0; j < 9; j++) {
-        if (!isdigit(board[i][j])) continue;
+        if (!isdigit(board[i][j]))
+          continue;
         int k = board[i][j] - '0';
-        if (k == 0 || used[k - 1]) return false;
+        if (k == 0 || used[k - 1])
+          return false;
         used[k - 1] = true;
       }
     }
@@ -32,22 +35,26 @@ struct SolutionX { // 9ms 81%
     for (int j = 0; j < 9; j++) {
       vector<bool> used(9, false);
       for (int i = 0; i < 9; i++) {
-        if (!isdigit(board[i][j])) continue;
+        if (!isdigit(board[i][j]))
+          continue;
         int k = board[i][j] - '0';
-        if (k == 0 || used[k - 1]) return false;
+        if (k == 0 || used[k - 1])
+          return false;
         used[k - 1] = true;
       }
     }
-    // check subbox
+    // check sub-box
     for (int i = 0; i < 3; i++) { // 1
       for (int j = 0; j < 3; j++) { // 2
         int row = 3 * i, col = 3 * j;
         vector<bool> used(9, false);
         for (int m = row; m < row + 3; m++) { // 3
           for (int n = col; n < col + 3; n++) { // 4
-            if (!isdigit(board[m][n])) continue;
+            if (!isdigit(board[m][n]))
+              continue;
             int k = board[m][n] - '0';
-            if (k == 0 || used[k - 1]) return false;
+            if (k == 0 || used[k - 1])
+              return false;
             used[k - 1] = true;
           }
         }
@@ -64,7 +71,7 @@ struct Solution { // 16ms, 78%
   bool dfs(vector<vector<char>> &board, int irow, int icol);
 
   // if we could not find duplicates, it is valid!!
-  bool isValid(vector<vector<char>> &board, int irow, int icol);
+  static bool isValid(vector<vector<char>> &board, int irow, int icol);
 };
 
 // return if the path so far is valid?
@@ -95,10 +102,13 @@ bool Solution::dfs(vector<vector<char>> &board, int irow, int icol) {
 
 bool Solution::isValid(vector<vector<char>> &board, int irow, int icol) {
   char target_value = board[irow][icol];
-  if (target_value - '0' < 1 || target_value - '0' > 9) return false;
+  if (target_value - '0' < 1 || target_value - '0' > 9)
+    return false;
   for (int i = 0; i < 9; i++) { // check row & col
-    if (board[irow][i] == target_value && i != icol) return false;
-    if (board[i][icol] == target_value && i != irow) return false;
+    if (board[irow][i] == target_value && i != icol)
+      return false;
+    if (board[i][icol] == target_value && i != irow)
+      return false;
   }
   //check 3x3 box -- locate the correct index!!!
   int X = irow / 3 * 3;
@@ -115,24 +125,6 @@ void Solution::solveSudoku(vector<vector<char> > &board) {
   bool findSol = dfs(board, 0, 0);
 }
 
-void test() {
-  vector<vector<char>> m = {{'5', '3', '.', '.', '7', '.', '.', '.', '.'},
-                            {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
-                            {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
-                            {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
-                            {'4', '.', '.', '8', '.', '3', '.', '.', '1'},
-                            {'7', '.', '.', '.', '2', '.', '.', '.', '6'},
-                            {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
-                            {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
-                            {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
-
-  Solution sln;
-  SolutionX sx;
-  assert(sx.isValidSudoku(m));
-  sln.solveSudoku(m);
-  assert(sx.isValidSudoku(m));
-
-}
 }
 
 #endif //PNSEI_37_SUDOKU_SOLVER_H

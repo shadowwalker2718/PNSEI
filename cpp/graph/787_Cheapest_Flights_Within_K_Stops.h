@@ -23,7 +23,7 @@ public:
     unordered_map<int, int> node2cost = G[src];
     while (K--) { // O(K)
       unordered_map<int, int> tmp = node2cost; // cost from starting point {node, cost}
-      for (const pair<int, int> &e : tmp) { // O(V)
+      for (const pair<const int, int> &e : tmp) { // O(V)
         unordered_map<int, int> &next = G[e.first];
         for (auto &f : next) { // O(V)
           if (node2cost.count(f.first)) {

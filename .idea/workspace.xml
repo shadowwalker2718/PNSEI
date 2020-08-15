@@ -4,8 +4,8 @@
     <generated>
       <config projectName="pnsei" targetName="pnsei" />
       <config projectName="pnsei" targetName="segment_tree" />
-      <config projectName="pnsei" targetName="pnsei_test" />
       <config projectName="pnsei" targetName="my_test" />
+      <config projectName="pnsei" targetName="pnsei_test" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -15,12 +15,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/capital_gain.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/capital_gain_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/spiral_matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpp/practice/rh/spiral_matrix_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/concurrency_parallel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/cplusplus/myset.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/graph/787_Cheapest_Flights_Within_K_Stops_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/nf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/nf1_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/oj/leetcode/37_Sudoku_Solver_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp/others/index_heap_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/concurrency_parallel/BoundedBlockingQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/concurrency_parallel/BoundedBlockingQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/concurrency_parallel/DelayQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/concurrency_parallel/DelayQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/concurrency_parallel/my_semaphore.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/concurrency_parallel/my_semaphore.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/graph/787_Cheapest_Flights_Within_K_Stops.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/graph/787_Cheapest_Flights_Within_K_Stops.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/graph/SS_Dijkstra_Shortest.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/graph/SS_Dijkstra_Shortest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/oj/leetcode/37_Sudoku_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/oj/leetcode/37_Sudoku_Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/others/IndexMaxPQ.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/others/IndexMaxPQ.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/concurrency/BoundedBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/concurrency/BoundedBlockingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" afterDir="false" />
     </list>
@@ -28,6 +44,12 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
@@ -48,6 +70,9 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1UugpmIlEKei2gAS8NrzLFQli4S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -67,58 +92,60 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.autoimport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java" />
+    <property name="settings.editor.selected.configurable" value="net.vektah.codeglance.config.ConfigEntry" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/go/oj.leetcode" />
-      <recent name="$PROJECT_DIR$/cpp/oj" />
-      <recent name="$PROJECT_DIR$/python" />
-      <recent name="$PROJECT_DIR$/cpp/others" />
-      <recent name="$PROJECT_DIR$/cpp/practice/bloomberg" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/go/oj/leetcode" />
       <recent name="$PROJECT_DIR$/cpp/leetcode" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cpp/others" />
+      <recent name="$PROJECT_DIR$/go/oj.leetcode" />
+      <recent name="$PROJECT_DIR$/cpp/oj" />
+      <recent name="$PROJECT_DIR$/python" />
+      <recent name="$PROJECT_DIR$/cpp/practice/bloomberg" />
+    </key>
   </component>
-  <component name="RunManager" selected="Google Test.rh.sm5">
+  <component name="RunManager" selected="Google Test.IndexMaxPQ.basic">
+    <configuration name="IndexMaxPQ.basic" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="IndexMaxPQ" TEST_METHOD="basic" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="my_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="my_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="my_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rh.sm" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="rh" TEST_METHOD="sm" TEST_MODE="SUITE_TEST">
+    <configuration name="myset.abc" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="myset" TEST_METHOD="abc" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rh.sm2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="rh" TEST_METHOD="sm2" TEST_MODE="SUITE_TEST">
+    <configuration name="nf.timeout2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="nf" TEST_METHOD="timeout2" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rh.sm3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="rh" TEST_METHOD="sm3" TEST_MODE="SUITE_TEST">
+    <configuration name="nf.timeout3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="nf" TEST_METHOD="timeout3" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rh.sm4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="rh" TEST_METHOD="sm4" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="rh.sm5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="rh" TEST_METHOD="sm5" TEST_MODE="SUITE_TEST">
+    <configuration name="nf.timeout4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_CLASS="nf" TEST_METHOD="timeout4" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -139,19 +166,19 @@
       <item itemvalue="CMake Application.pnsei" />
       <item itemvalue="Google Test.my_test" />
       <item itemvalue="Google Test.segment_tree" />
-      <item itemvalue="Google Test.rh.sm" />
-      <item itemvalue="Google Test.rh.sm2" />
-      <item itemvalue="Google Test.rh.sm3" />
-      <item itemvalue="Google Test.rh.sm4" />
-      <item itemvalue="Google Test.rh.sm5" />
+      <item itemvalue="Google Test.nf.timeout2" />
+      <item itemvalue="Google Test.nf.timeout3" />
+      <item itemvalue="Google Test.nf.timeout4" />
+      <item itemvalue="Google Test.myset.abc" />
+      <item itemvalue="Google Test.IndexMaxPQ.basic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.rh.sm5" />
-        <item itemvalue="Google Test.rh.sm4" />
-        <item itemvalue="Google Test.rh.sm3" />
-        <item itemvalue="Google Test.rh.sm2" />
-        <item itemvalue="Google Test.rh.sm" />
+        <item itemvalue="Google Test.IndexMaxPQ.basic" />
+        <item itemvalue="Google Test.myset.abc" />
+        <item itemvalue="Google Test.nf.timeout3" />
+        <item itemvalue="Google Test.nf.timeout4" />
+        <item itemvalue="Google Test.nf.timeout2" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +240,11 @@
       <workItem from="1597268413261" duration="2307000" />
       <workItem from="1597272065215" duration="47000" />
       <workItem from="1597272535673" duration="7941000" />
-      <workItem from="1597335999200" duration="7800000" />
+      <workItem from="1597335999200" duration="11964000" />
+      <workItem from="1597379967241" duration="45000" />
+      <workItem from="1597389615137" duration="577000" />
+      <workItem from="1597421846104" duration="2045000" />
+      <workItem from="1597431567898" duration="15527000" />
     </task>
     <servers />
   </component>
@@ -256,14 +287,19 @@
     </state>
     <state width="524" height="646" key="DebuggerActiveHint/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596939855099" />
     <state width="524" height="646" key="DebuggerActiveHint/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597015045361" />
+    <state x="100" y="120" width="1972" height="1185" key="DiffContextDialog" timestamp="1597422673290">
+      <screen x="0" y="22" width="3314" height="1383" />
+    </state>
+    <state x="100" y="120" width="1972" height="1185" key="DiffContextDialog/0.22.3314.1383@0.22.3314.1383" timestamp="1597422673290" />
     <state x="3622" y="337" width="556" height="930" key="ExperimentsDialog" timestamp="1596598536057">
       <screen x="3440" y="0" width="3440" height="1440" />
     </state>
     <state x="3622" y="337" key="ExperimentsDialog/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596598536057" />
     <state x="4184" y="316" width="556" height="930" key="ExperimentsDialog/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596516584166" />
-    <state x="3593" y="287" width="530" height="631" key="FileChooserDialogImpl" timestamp="1597272106142">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state x="1673" y="298" width="530" height="631" key="FileChooserDialogImpl" timestamp="1597380010626">
+      <screen x="0" y="22" width="3440" height="1383" />
     </state>
+    <state x="1673" y="298" key="FileChooserDialogImpl/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597380010626" />
     <state x="1673" y="303" key="FileChooserDialogImpl/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1596904978444" />
     <state x="1178" y="215" width="1215" height="990" key="FileChooserDialogImpl/0.28.6880.1379@0.28.6880.1379" timestamp="1596306498119" />
     <state x="3593" y="287" width="530" height="631" key="FileChooserDialogImpl/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597272106142" />
@@ -272,14 +308,17 @@
     </state>
     <state x="592" y="643" width="547" height="151" key="GitCloneDialog/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1597125384506" />
     <state x="2512" y="642" width="547" height="151" key="GitCloneDialog/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597017153078" />
-    <state width="2139" height="337" key="GridCell.Tab.0.bottom" timestamp="1597350036210">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state width="3396" height="273" key="GridCell.Tab.0.bottom" timestamp="1597469907358">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1597040272206">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.bottom.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
-    <state width="2139" height="337" key="GridCell.Tab.0.bottom/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597350036210" />
+    <state width="1613" height="337" key="GridCell.Tab.0.bottom/0.22.3314.1383@0.22.3314.1383" timestamp="1597422799257" />
+    <state width="1676" height="340" key="GridCell.Tab.0.bottom/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597387791660" />
+    <state width="1676" height="340" key="GridCell.Tab.0.bottom/0.22.3440.1383/3440.0.3440.1440@3440.0.3440.1440" timestamp="1597356354489" />
+    <state width="1613" height="513" key="GridCell.Tab.0.bottom/0.22.5234.1023@0.22.5234.1023" timestamp="1597431049272" />
     <state width="1635" height="213" key="GridCell.Tab.0.bottom/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="271" key="GridCell.Tab.0.bottom/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
     <state width="1655" height="214" key="GridCell.Tab.0.bottom/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
@@ -293,17 +332,21 @@
     <state width="1727" height="339" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597193478597" />
     <state width="1612" height="290" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="1846" height="339" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972999" />
+    <state width="3396" height="273" key="GridCell.Tab.0.bottom/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597469907358" />
     <state width="1616" height="186" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3440" height="306" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
-    <state width="2139" height="337" key="GridCell.Tab.0.center" timestamp="1597350036209">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state width="3396" height="273" key="GridCell.Tab.0.center" timestamp="1597469907358">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1597040272206">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.center.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
-    <state width="2139" height="337" key="GridCell.Tab.0.center/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597350036209" />
+    <state width="1613" height="337" key="GridCell.Tab.0.center/0.22.3314.1383@0.22.3314.1383" timestamp="1597422799257" />
+    <state width="1676" height="340" key="GridCell.Tab.0.center/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597387791660" />
+    <state width="1676" height="340" key="GridCell.Tab.0.center/0.22.3440.1383/3440.0.3440.1440@3440.0.3440.1440" timestamp="1597356354489" />
+    <state width="1613" height="513" key="GridCell.Tab.0.center/0.22.5234.1023@0.22.5234.1023" timestamp="1597431049272" />
     <state width="1635" height="213" key="GridCell.Tab.0.center/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="271" key="GridCell.Tab.0.center/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
     <state width="1655" height="214" key="GridCell.Tab.0.center/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
@@ -317,17 +360,21 @@
     <state width="1727" height="339" key="GridCell.Tab.0.center/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597193478597" />
     <state width="1612" height="290" key="GridCell.Tab.0.center/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="1846" height="339" key="GridCell.Tab.0.center/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972999" />
+    <state width="3396" height="273" key="GridCell.Tab.0.center/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597469907358" />
     <state width="1616" height="186" key="GridCell.Tab.0.center/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.0.center/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3440" height="306" key="GridCell.Tab.0.center/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
-    <state width="2139" height="337" key="GridCell.Tab.0.left" timestamp="1597350036209">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state width="3396" height="273" key="GridCell.Tab.0.left" timestamp="1597469907358">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1597040272205">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.left.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272205" />
-    <state width="2139" height="337" key="GridCell.Tab.0.left/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597350036209" />
+    <state width="1613" height="337" key="GridCell.Tab.0.left/0.22.3314.1383@0.22.3314.1383" timestamp="1597422799256" />
+    <state width="1676" height="340" key="GridCell.Tab.0.left/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597387791660" />
+    <state width="1676" height="340" key="GridCell.Tab.0.left/0.22.3440.1383/3440.0.3440.1440@3440.0.3440.1440" timestamp="1597356354489" />
+    <state width="1613" height="513" key="GridCell.Tab.0.left/0.22.5234.1023@0.22.5234.1023" timestamp="1597431049271" />
     <state width="1635" height="213" key="GridCell.Tab.0.left/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687893" />
     <state width="1625" height="271" key="GridCell.Tab.0.left/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527246" />
     <state width="1655" height="214" key="GridCell.Tab.0.left/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
@@ -341,17 +388,21 @@
     <state width="1727" height="339" key="GridCell.Tab.0.left/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597193478597" />
     <state width="1612" height="290" key="GridCell.Tab.0.left/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="1846" height="339" key="GridCell.Tab.0.left/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972998" />
+    <state width="3396" height="273" key="GridCell.Tab.0.left/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597469907358" />
     <state width="1616" height="186" key="GridCell.Tab.0.left/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592024" />
     <state width="2345" height="696" key="GridCell.Tab.0.left/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3440" height="306" key="GridCell.Tab.0.left/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
-    <state width="2139" height="337" key="GridCell.Tab.0.right" timestamp="1597350036209">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state width="3396" height="273" key="GridCell.Tab.0.right" timestamp="1597469907358">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1597040272206">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.0.right.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040272206" />
-    <state width="2139" height="337" key="GridCell.Tab.0.right/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597350036209" />
+    <state width="1613" height="337" key="GridCell.Tab.0.right/0.22.3314.1383@0.22.3314.1383" timestamp="1597422799257" />
+    <state width="1676" height="340" key="GridCell.Tab.0.right/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597387791660" />
+    <state width="1676" height="340" key="GridCell.Tab.0.right/0.22.3440.1383/3440.0.3440.1440@3440.0.3440.1440" timestamp="1597356354489" />
+    <state width="1613" height="513" key="GridCell.Tab.0.right/0.22.5234.1023@0.22.5234.1023" timestamp="1597431049272" />
     <state width="1635" height="213" key="GridCell.Tab.0.right/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="271" key="GridCell.Tab.0.right/0.28.3314.1379@0.28.3314.1379" timestamp="1597169527247" />
     <state width="1655" height="214" key="GridCell.Tab.0.right/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155971758" />
@@ -365,17 +416,20 @@
     <state width="1727" height="339" key="GridCell.Tab.0.right/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597193478597" />
     <state width="1612" height="290" key="GridCell.Tab.0.right/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="1846" height="339" key="GridCell.Tab.0.right/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972999" />
+    <state width="3396" height="273" key="GridCell.Tab.0.right/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597469907358" />
     <state width="1616" height="186" key="GridCell.Tab.0.right/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.0.right/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3440" height="306" key="GridCell.Tab.0.right/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521578" />
-    <state width="2139" height="337" key="GridCell.Tab.1.bottom" timestamp="1597350036919">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state width="1603" height="263" key="GridCell.Tab.1.bottom" timestamp="1597469907356">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.bottom.inPresentationMode" timestamp="1597040259136">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.bottom.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
-    <state width="2139" height="337" key="GridCell.Tab.1.bottom/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597350036919" />
+    <state width="1613" height="337" key="GridCell.Tab.1.bottom/0.22.3314.1383@0.22.3314.1383" timestamp="1597422799730" />
+    <state width="2139" height="337" key="GridCell.Tab.1.bottom/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597387791658" />
+    <state width="1613" height="513" key="GridCell.Tab.1.bottom/0.22.5234.1023@0.22.5234.1023" timestamp="1597431049273" />
     <state width="1635" height="213" key="GridCell.Tab.1.bottom/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="329" key="GridCell.Tab.1.bottom/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
     <state width="1655" height="214" key="GridCell.Tab.1.bottom/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
@@ -389,17 +443,20 @@
     <state width="1727" height="269" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
     <state width="1612" height="290" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="3395" height="269" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972991" />
+    <state width="1603" height="263" key="GridCell.Tab.1.bottom/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597469907356" />
     <state width="1616" height="186" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
     <state width="3395" height="212" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
-    <state width="2139" height="337" key="GridCell.Tab.1.center" timestamp="1597350036919">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state width="1603" height="263" key="GridCell.Tab.1.center" timestamp="1597469907355">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.center.inPresentationMode" timestamp="1597040259136">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.center.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
-    <state width="2139" height="337" key="GridCell.Tab.1.center/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597350036919" />
+    <state width="1613" height="337" key="GridCell.Tab.1.center/0.22.3314.1383@0.22.3314.1383" timestamp="1597422799730" />
+    <state width="2139" height="337" key="GridCell.Tab.1.center/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597387791658" />
+    <state width="1613" height="513" key="GridCell.Tab.1.center/0.22.5234.1023@0.22.5234.1023" timestamp="1597431049272" />
     <state width="1635" height="213" key="GridCell.Tab.1.center/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="329" key="GridCell.Tab.1.center/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
     <state width="1655" height="214" key="GridCell.Tab.1.center/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
@@ -413,17 +470,20 @@
     <state width="1727" height="269" key="GridCell.Tab.1.center/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
     <state width="1612" height="290" key="GridCell.Tab.1.center/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="3395" height="269" key="GridCell.Tab.1.center/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972990" />
+    <state width="1603" height="263" key="GridCell.Tab.1.center/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597469907355" />
     <state width="1616" height="186" key="GridCell.Tab.1.center/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.1.center/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
     <state width="3395" height="212" key="GridCell.Tab.1.center/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
-    <state width="2139" height="337" key="GridCell.Tab.1.left" timestamp="1597350036919">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state width="1603" height="263" key="GridCell.Tab.1.left" timestamp="1597469907355">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.left.inPresentationMode" timestamp="1597040259136">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.left.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
-    <state width="2139" height="337" key="GridCell.Tab.1.left/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597350036919" />
+    <state width="1613" height="337" key="GridCell.Tab.1.left/0.22.3314.1383@0.22.3314.1383" timestamp="1597422799729" />
+    <state width="2139" height="337" key="GridCell.Tab.1.left/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597387791658" />
+    <state width="1613" height="513" key="GridCell.Tab.1.left/0.22.5234.1023@0.22.5234.1023" timestamp="1597431049272" />
     <state width="1635" height="213" key="GridCell.Tab.1.left/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="329" key="GridCell.Tab.1.left/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409198" />
     <state width="1655" height="214" key="GridCell.Tab.1.left/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
@@ -437,17 +497,20 @@
     <state width="1727" height="269" key="GridCell.Tab.1.left/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
     <state width="1612" height="290" key="GridCell.Tab.1.left/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="3395" height="269" key="GridCell.Tab.1.left/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972990" />
+    <state width="1603" height="263" key="GridCell.Tab.1.left/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597469907355" />
     <state width="1616" height="186" key="GridCell.Tab.1.left/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.1.left/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246697" />
     <state width="3395" height="212" key="GridCell.Tab.1.left/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
-    <state width="2139" height="337" key="GridCell.Tab.1.right" timestamp="1597350036919">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state width="1603" height="263" key="GridCell.Tab.1.right" timestamp="1597469907355">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.right.inPresentationMode" timestamp="1597040259136">
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state width="3440" height="510" key="GridCell.Tab.1.right.inPresentationMode/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597040259136" />
-    <state width="2139" height="337" key="GridCell.Tab.1.right/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597350036919" />
+    <state width="1613" height="337" key="GridCell.Tab.1.right/0.22.3314.1383@0.22.3314.1383" timestamp="1597422799730" />
+    <state width="2139" height="337" key="GridCell.Tab.1.right/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597387791658" />
+    <state width="1613" height="513" key="GridCell.Tab.1.right/0.22.5234.1023@0.22.5234.1023" timestamp="1597431049272" />
     <state width="1635" height="213" key="GridCell.Tab.1.right/0.28.3314.1379/3440.0.3440.1440@0.28.3314.1379" timestamp="1597167687894" />
     <state width="1625" height="329" key="GridCell.Tab.1.right/0.28.3314.1379@0.28.3314.1379" timestamp="1597168409199" />
     <state width="1655" height="214" key="GridCell.Tab.1.right/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597155972884" />
@@ -461,12 +524,14 @@
     <state width="1727" height="269" key="GridCell.Tab.1.right/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597179128057" />
     <state width="1612" height="290" key="GridCell.Tab.1.right/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861955781" />
     <state width="3395" height="269" key="GridCell.Tab.1.right/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597218972991" />
+    <state width="1603" height="263" key="GridCell.Tab.1.right/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597469907355" />
     <state width="1616" height="186" key="GridCell.Tab.1.right/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597298592025" />
     <state width="2345" height="696" key="GridCell.Tab.1.right/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596609246698" />
     <state width="3395" height="212" key="GridCell.Tab.1.right/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597041521575" />
-    <state x="2592" y="170" width="1037" height="732" key="SettingsEditor" timestamp="1597268624297">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state x="4112" y="170" width="1037" height="732" key="SettingsEditor" timestamp="1597389657212">
+      <screen x="3440" y="0" width="3440" height="1440" />
     </state>
+    <state x="4112" y="170" key="SettingsEditor/0.22.3440.1383/3440.0.3440.1440@3440.0.3440.1440" timestamp="1597389657212" />
     <state x="274" y="100" key="SettingsEditor/0.28.3440.1379@0.28.3440.1379" timestamp="1596270347319" />
     <state x="3638" y="240" width="1037" height="732" key="SettingsEditor/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596598553007" />
     <state x="284" y="300" width="1636" height="780" key="SettingsEditor/1920.0.3440.1440/0.28.1920.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1596861919300" />
@@ -485,14 +550,17 @@
     </state>
     <state x="1943" y="255" width="1497" height="1000" key="editAsTableFormatDialogDimension/1575.28.1865.1379/3440.0.3440.1440@3440.0.3440.1440" timestamp="1596933230614" />
     <state x="3748" y="145" width="1338" height="1073" key="editAsTableFormatDialogDimension/1920.0.3440.1440/1598.28.322.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597003333538" />
-    <state x="1478" y="187" width="1962" height="1218" key="find.popup" timestamp="1597256836696">
-      <screen x="0" y="22" width="3440" height="1383" />
+    <state x="2036" y="113" width="1963" height="1270" key="find.popup" timestamp="1597433242226">
+      <screen x="1920" y="0" width="3440" height="1440" />
     </state>
+    <state x="112" y="131" width="1891" height="1219" key="find.popup/0.22.3314.1383@0.22.3314.1383" timestamp="1597421919666" />
     <state x="1478" y="187" width="1962" height="1218" key="find.popup/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1597256836696" />
+    <state x="3556" y="114" width="1962" height="1269" key="find.popup/0.22.3440.1383/3440.0.3440.1440@3440.0.3440.1440" timestamp="1597390006216" />
     <state x="1070" y="288" width="1067" height="886" key="find.popup/0.28.3354.1379/3440.0.3440.1440@0.28.3354.1379" timestamp="1597156085360" />
     <state x="1097" y="288" width="1094" height="886" key="find.popup/0.28.3440.1379/3440.0.3440.1440@0.28.3440.1379" timestamp="1596588164517" />
     <state x="3017" y="272" width="1095" height="926" key="find.popup/1920.0.3440.1440/0.28.1920.1019@1920.0.3440.1440" timestamp="1597176857697" />
     <state x="825" y="154" width="1095" height="926" key="find.popup/1920.0.3440.1440/0.28.1920.1052@1920.0.3440.1440" timestamp="1597217580254" />
+    <state x="2036" y="113" width="1963" height="1270" key="find.popup/1920.0.3440.1440/134.22.1786.1023@1920.0.3440.1440" timestamp="1597433242226" />
     <state x="3018" y="271" width="1094" height="925" key="find.popup/1920.0.3440.1440/1575.28.345.1052/5360.0.3440.1440@1920.0.3440.1440" timestamp="1594168860024" />
     <state x="3724" y="452" width="672" height="678" key="search.everywhere.popup" timestamp="1596598518254">
       <screen x="3440" y="0" width="3440" height="1440" />
@@ -589,51 +657,683 @@
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/practice/rh/topk_stocks_test.cpp</url>
-          <line>4</line>
+          <url>file://$PROJECT_DIR$/cpp/graph/787_Cheapest_Flights_Within_K_Stops_test.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/oj/leetcode/37_Sudoku_Solver_test.cpp</url>
+          <line>17</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/concurrency_parallel/deadlock_guaranteed.cpp</url>
-          <line>14</line>
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/concurrency_parallel/deadlock_guaranteed.h</url>
-          <line>12</line>
-          <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/practice/rh/order_book_test.cpp</url>
-          <line>5</line>
+          <url>file://$PROJECT_DIR$/cpp/nf1_test.cpp</url>
+          <line>42</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/practice/rh/order_book_test.cpp</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/cpp/nf1_test.cpp</url>
+          <line>60</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/practice/rh/order_book_test.cpp</url>
-          <line>22</line>
-          <option name="timeStamp" value="161" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/practice/rh/spiral_matrix_test.cpp</url>
-          <line>5</line>
+          <url>file://$PROJECT_DIR$/cpp/nf1_test.cpp</url>
+          <line>59</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/practice/rh/spiral_matrix.h</url>
-          <line>7</line>
-          <option name="timeStamp" value="163" />
+          <url>file://$PROJECT_DIR$/cpp/cplusplus/myset.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/practice/rh/spiral_matrix.h</url>
-          <line>26</line>
-          <option name="timeStamp" value="164" />
+          <url>file://$PROJECT_DIR$/cpp/cplusplus/myset.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/others/index_heap_test.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp/others/IndexMaxPQ.h</url>
+          <line>112</line>
+          <option name="timeStamp" value="168" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="ZeppelinDependencyPaths">
+    <option name="globalLibrariesPathsMap">
+      <map>
+        <entry key="org.apache.hadoop:hadoop-client:2.7.3_1497509032_CLASSES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-client/2.7.3/hadoop-client-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.4/commons-codec-1.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-net/commons-net/3.1/commons-net-3.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.8/commons-digester-1.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.7.4/avro-1.7.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-auth/2.7.3/hadoop-auth-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/tukaani/xz/1.0/xz-1.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-hdfs/2.7.3/hadoop-hdfs-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.3/hadoop-mapreduce-client-app-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.3/hadoop-mapreduce-client-common-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-yarn-client/2.7.3/hadoop-yarn-client-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-yarn-server-common/2.7.3/hadoop-yarn-server-common-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.3/hadoop-mapreduce-client-shuffle-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-yarn-api/2.7.3/hadoop-yarn-api-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-yarn-common/2.7.3/hadoop-yarn-common-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.3/hadoop-mapreduce-client-jobclient-2.7.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-annotations/2.7.3/hadoop-annotations-2.7.3.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.hadoop:hadoop-client:2.7.3_1497509032_SOURCES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-client/2.7.3/hadoop-client-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-net/commons-net/3.1/commons-net-3.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.6/commons-configuration-1.6-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.8/commons-digester-1.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.7.4/avro-1.7.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-auth/2.7.3/hadoop-auth-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/tukaani/xz/1.0/xz-1.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-hdfs/2.7.3/hadoop-hdfs-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.6.2.Final/netty-3.6.2.Final-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.3/hadoop-mapreduce-client-app-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.3/hadoop-mapreduce-client-common-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-yarn-client/2.7.3/hadoop-yarn-client-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-yarn-server-common/2.7.3/hadoop-yarn-server-common-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.3/hadoop-mapreduce-client-shuffle-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-yarn-api/2.7.3/hadoop-yarn-api-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-yarn-common/2.7.3/hadoop-yarn-common-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.9/jersey-core-1.9-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.9/jersey-client-1.9-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.3/hadoop-mapreduce-client-jobclient-2.7.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-annotations/2.7.3/hadoop-annotations-2.7.3-sources.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-catalyst_2.11:2.2.0_378556088_CLASSES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-catalyst_2.11:2.2.0_378556088_SOURCES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/janino/3.0.0/janino-3.0.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-core_2.11:2.2.0_-1979860111_CLASSES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.7.7/avro-1.7.7.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/tukaani/xz/1.0/xz-1.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/twitter/chill_2.11/0.8.0/chill_2.11-0.8.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo-shaded/3.0.3/kryo-shaded-3.0.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/twitter/chill-java/0.8.0/chill-java-0.8.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/java/dev/jets3t/jets3t/0.9.3/jets3t-0.9.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.8/commons-codec-1.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1.1/activation-1.1.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.7/mail-1.4.7.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/jamesmurty/utils/java-xmlbuilder/1.0/java-xmlbuilder-1.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/iharder/base64/2.3.8/base64-2.3.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-net/commons-net/2.2/commons-net-2.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-jackson_2.11/3.2.11/json4s-jackson_2.11-3.2.11.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.11/3.2.11/json4s-ast_2.11-3.2.11.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scalap/2.11.0/scalap-2.11.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-compiler/2.11.0/scala-compiler-2.11.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.43.Final/netty-all-4.0.43.Final.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.5/jackson-module-scala_2.11-2.6.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-paranamer/2.6.5/jackson-module-paranamer-2.6.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/oro/oro/2.0.8/oro-2.0.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/razorvine/pyrolite/4.13/pyrolite-4.13.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/sf/py4j/py4j/0.10.4/py4j-0.10.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-core_2.11:2.2.0_-1979860111_SOURCES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.7.7/avro-1.7.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/tukaani/xz/1.0/xz-1.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/twitter/chill_2.11/0.8.0/chill_2.11-0.8.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo-shaded/3.0.3/kryo-shaded-3.0.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/twitter/chill-java/0.8.0/chill-java-0.8.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/java/dev/jets3t/jets3t/0.9.3/jets3t-0.9.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.8/commons-codec-1.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/jamesmurty/utils/java-xmlbuilder/1.0/java-xmlbuilder-1.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/iharder/base64/2.3.8/base64-2.3.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-net/commons-net/2.2/commons-net-2.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-jackson_2.11/3.2.11/json4s-jackson_2.11-3.2.11-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.11/3.2.11/json4s-ast_2.11-3.2.11-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scalap/2.11.0/scalap-2.11.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-compiler/2.11.0/scala-compiler-2.11.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.43.Final/netty-all-4.0.43.Final-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.9.9.Final/netty-3.9.9.Final-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/clearspring/analytics/stream/2.7.0/stream-2.7.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.5/jackson-module-scala_2.11-2.6.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-paranamer/2.6.5/jackson-module-paranamer-2.6.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/ivy/ivy/2.4.0/ivy-2.4.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/oro/oro/2.0.8/oro-2.0.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/razorvine/pyrolite/4.13/pyrolite-4.13-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/sf/py4j/py4j/0.10.4/py4j-0.10.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-hive_2.11:2.2.0_2089357380_CLASSES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-hive_2.11/2.2.0/spark-hive_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javolution/javolution/5.5.1/javolution-5.5.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/ST4/4.0.4/ST4-4.0.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/tukaani/xz/1.0/xz-1.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/iq80/snappy/snappy/0.2/snappy-0.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/hive/hive-metastore/1.2.1.spark2/hive-metastore-1.2.1.spark2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/transaction/jta/1.1/jta-1.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.7.7/avro-1.7.7.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-hive_2.11:2.2.0_2089357380_SOURCES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-hive_2.11/2.2.0/spark-hive_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javolution/javolution/5.5.1/javolution-5.5.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/ST4/4.0.4/ST4-4.0.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/tukaani/xz/1.0/xz-1.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/iq80/snappy/snappy/0.2/snappy-0.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/hive/hive-metastore/1.2.1.spark2/hive-metastore-1.2.1.spark2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/javax/transaction/jta/1.1/jta-1.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.7.7/avro-1.7.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-repl_2.11:2.2.0_-664263083_CLASSES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-repl_2.11/2.2.0/spark-repl_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-graphx_2.11/2.2.0/spark-graphx_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib-local_2.11/2.2.0/spark-mllib-local_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze_2.11/0.13.1/breeze_2.11-0.13.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-macros_2.11/0.13.1/breeze-macros_2.11-0.13.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spire-math/spire_2.11/0.13.0/spire_2.11-0.13.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spire-math/spire-macros_2.11/0.13.0/spire-macros_2.11-0.13.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/jpmml/pmml-model/1.2.15/pmml-model-1.2.15.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/jpmml/pmml-schema/1.2.15/pmml-schema-1.2.15.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-column/1.8.2/parquet-column-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-common/1.8.2/parquet-common-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-encoding/1.8.2/parquet-encoding-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-hadoop/1.8.2/parquet-hadoop-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-format/2.3.1/parquet-format-2.3.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-jackson/1.8.2/parquet-jackson-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/jline/jline/2.12.1/jline-2.12.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-repl_2.11:2.2.0_-664263083_SOURCES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-repl_2.11/2.2.0/spark-repl_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-graphx_2.11/2.2.0/spark-graphx_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib-local_2.11/2.2.0/spark-mllib-local_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze_2.11/0.13.1/breeze_2.11-0.13.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze-macros_2.11/0.13.1/breeze-macros_2.11-0.13.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spire-math/spire_2.11/0.13.0/spire_2.11-0.13.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spire-math/spire-macros_2.11/0.13.0/spire-macros_2.11-0.13.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/jpmml/pmml-model/1.2.15/pmml-model-1.2.15-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/jpmml/pmml-schema/1.2.15/pmml-schema-1.2.15-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/janino/3.0.0/janino-3.0.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-column/1.8.2/parquet-column-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-common/1.8.2/parquet-common-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-encoding/1.8.2/parquet-encoding-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-hadoop/1.8.2/parquet-hadoop-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-format/2.3.1/parquet-format-2.3.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-jackson/1.8.2/parquet-jackson-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/jline/jline/2.12.1/jline-2.12.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-sql_2.11:2.2.0_1484447175_CLASSES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-column/1.8.2/parquet-column-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-common/1.8.2/parquet-common-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-encoding/1.8.2/parquet-encoding-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-hadoop/1.8.2/parquet-hadoop-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-format/2.3.1/parquet-format-2.3.1.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-jackson/1.8.2/parquet-jackson-1.8.2.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-sql_2.11:2.2.0_1484447175_SOURCES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-column/1.8.2/parquet-column-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-common/1.8.2/parquet-common-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-encoding/1.8.2/parquet-encoding-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-hadoop/1.8.2/parquet-hadoop-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-format/2.3.1/parquet-format-2.3.1-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-jackson/1.8.2/parquet-jackson-1.8.2-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-streaming_2.11:2.2.0_378556088_CLASSES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar!/" />
+            </list>
+          </value>
+        </entry>
+        <entry key="org.apache.spark:spark-streaming_2.11:2.2.0_378556088_SOURCES">
+          <value>
+            <list>
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/" />
+              <option value="jar://$MAVEN_REPOSITORY$/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar!/" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

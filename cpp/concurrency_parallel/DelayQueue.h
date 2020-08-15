@@ -24,7 +24,7 @@ condition_variable cv;
 
 // C++: 1. cv.wait_for; 2. lock_guard and unique_lock
 
-void consumer() {
+[[noreturn]] void consumer() {
   unique_lock<mutex> ul(mu);
   while (1) {
     while (DelayQueue.empty()) {
@@ -41,7 +41,7 @@ void consumer() {
   }
 }
 
-void producer() {
+[[noreturn]] void producer() {
   int i = 0;
   event t;
   while (1) {
