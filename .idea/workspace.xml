@@ -15,43 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cpp/oj/leetcode/53_Maximum_Subarray.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpp/oj/leetcode/53_Maximum_Subarray_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/cp3/ScannerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/cp3/ScannerDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/cp3/ScannerDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/foundation/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/foundation/NestedInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/foundation/NestedIntegerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/foundation/TreeHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/foundation/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/foundation/TreeNodeWithParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/oj/leetcode/NestedIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/oj/leetcode/_2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/oj/leetcode/_3/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/oj/leetcode/_323/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/oj/leetcode/_5/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/oj/leetcode/_5/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/oj/leetcode/_7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/practice/databricks/BinaryTreeO1Traverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/practice/instacart/CardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/practice/instacart/CardGame2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/practice/instacart/KVStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/practice/instacart/PasswordParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/practice/instacart/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/resources/instacart/PasswordParser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/resources/instacart/cardgame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/resources/instacart/csv1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/resources/instacart/csv2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/resources/instacart/ie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/resources/instacart/kv1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/resources/instacart/kv2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/test/java/oj/leetcode/NestedIteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/go/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" afterDir="false" />
     </list>
@@ -272,7 +235,7 @@
       <workItem from="1597778385928" duration="10087000" />
       <workItem from="1597989347847" duration="4519000" />
       <workItem from="1598054882092" duration="1000" />
-      <workItem from="1598169292735" duration="869000" />
+      <workItem from="1598169292735" duration="1386000" />
     </task>
     <servers />
   </component>
