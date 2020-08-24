@@ -15,14 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cpp/practice/databricks/division_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/resources/databricks/Screenshot-20200823054155-1395x533.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/practice/databricks/division.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/practice/databricks/division.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/practice/databricks/division.ll" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/practice/databricks/division.ll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/practice/databricks/READ.md" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/practice/databricks/READ.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpp/practice/databricks/m.c" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/practice/databricks/m.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/practice/databricks/m.ll" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/practice/databricks/m.ll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" afterDir="false" />
     </list>
@@ -244,7 +238,7 @@
       <workItem from="1597989347847" duration="4519000" />
       <workItem from="1598054882092" duration="1000" />
       <workItem from="1598169292735" duration="1386000" />
-      <workItem from="1598243836837" duration="10283000" />
+      <workItem from="1598243836837" duration="10627000" />
     </task>
     <servers />
   </component>
@@ -560,10 +554,10 @@
       <screen x="0" y="22" width="3440" height="1383" />
     </state>
     <state x="1484" y="80" width="1501" height="991" key="dock-window-2/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1598249274167" />
-    <state x="1965" y="232" width="1284" height="966" key="dock-window-3" timestamp="1598251359736">
+    <state x="1965" y="232" width="1284" height="966" key="dock-window-3" timestamp="1598254470723">
       <screen x="0" y="22" width="3314" height="1383" />
     </state>
-    <state x="1965" y="232" width="1284" height="966" key="dock-window-3/0.22.3314.1383/3440.0.3440.1440@0.22.3314.1383" timestamp="1598251359736" />
+    <state x="1965" y="232" width="1284" height="966" key="dock-window-3/0.22.3314.1383/3440.0.3440.1440@0.22.3314.1383" timestamp="1598254470723" />
     <state x="1965" y="232" width="1284" height="966" key="dock-window-3/0.22.3440.1383/3440.0.3440.1440@0.22.3440.1383" timestamp="1598250683040" />
     <state x="3748" y="145" width="1338" height="1073" key="editAsTableFormatDialogDimension" timestamp="1597003333538">
       <screen x="1920" y="0" width="3440" height="1440" />
@@ -773,13 +767,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/cpp/practice/databricks/division.ll</url>
-          <line>88</line>
+          <line>42</line>
           <option name="timeStamp" value="188" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/practice/databricks/division.ll</url>
-          <line>60</line>
-          <option name="timeStamp" value="189" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
