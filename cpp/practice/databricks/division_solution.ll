@@ -1,4 +1,4 @@
-;; To run: clang division.ll && ./a.out
+;; To run: clang division_solution.ll && ./a.out
 
 ; The first two statements declare a string and a function that are used for printing to stdout. You can ignore these.
 @.str = private constant [12 x i8] c"Output: %d\0A\00"
