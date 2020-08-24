@@ -1,5 +1,6 @@
 #ifndef PNSEI_DIVISION_H
 #define PNSEI_DIVISION_H
+#include "henry.h"
 
 namespace databricks {
 
@@ -76,7 +77,7 @@ run_division4:
 // x/y
 int division_with_add_sub(int x, int y) {
   if ((x^y) < 0){
-    return x<0?division_with_add_sub(-x,y):division_with_add_sub(x,-y);
+    return x<0?-division_with_add_sub(-x,y):-division_with_add_sub(x,-y);
   }
   if (x<y) return 0;
   int r=1, z=y, pr=1, pz=z;
@@ -84,6 +85,32 @@ int division_with_add_sub(int x, int y) {
     pr = r, pz = z, z += z, r += r;
   pr += division_with_add_sub(x-pz, y);
   return pr;
+}
+
+// x divided by y, returns: {quotient, reminder}
+pair<int,int> division_with_add_sub2(int num, int denum) {
+  int res = 0;
+MY_CODE:
+  if ((num ^ denum) < 0){
+    auto res = num <0?division_with_add_sub2(-num, denum):division_with_add_sub2(num,-denum);
+    return {-res.first, -res.second};
+  }
+  if (num < denum) return {0, num};
+
+  int r=1, z= denum, pr=1, pz=z;
+  if (z <= num){
+WHILE_LOOP:
+    pr = r, pz = z, z += z, r += r;
+    if (z<= num)
+      goto WHILE_LOOP;
+  }
+WHILE_LOOP_END:
+  num = num - pz;
+  res += pr;
+  if (num >= denum)
+    goto MY_CODE;
+
+  return {res, num};
 }
 
 void test(){

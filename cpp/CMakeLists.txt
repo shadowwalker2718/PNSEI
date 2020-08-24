@@ -128,6 +128,7 @@ add_executable(pnsei_test practice/databricks/csv_query_test.cpp
         others/skiplist.cpp
         oj/leetcode/721__accounts_merge_test.cpp
         oj/leetcode/53_Maximum_Subarray_test.cpp
+        practice/databricks/division_test.cpp
         )
 
 add_executable(segment_tree utils/segtree.cpp)
