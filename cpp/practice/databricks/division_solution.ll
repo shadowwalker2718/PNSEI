@@ -34,15 +34,13 @@ start:
 code:
   ; Let's see how memory works!
   ; To motivate memory, please note that registers are "static single assignment" (SSA).
-  ; This means that only one line in the program can assign to a particular register.
-  ;%mem = alloca i32
-  ;store i32 0, i32* %mem
-  %q = alloca i32, align 4
-  %r = alloca i32, align 4
-  %z = alloca i32, align 4
-  %pr = alloca i32, align 4
-  %pz = alloca i32, align 4
-  %n = alloca i32, align 4
+  ; This means that only one line in the program can assign to a particular register!!!!
+  %q = alloca i32
+  %r = alloca i32
+  %z = alloca i32
+  %pr = alloca i32
+  %pz = alloca i32
+  %n = alloca i32
 
   store i32 0, i32* %q
   store i32 %num, i32* %n
