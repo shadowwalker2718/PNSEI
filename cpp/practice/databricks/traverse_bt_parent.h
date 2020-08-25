@@ -11,24 +11,24 @@ namespace databricks::traverse{
 
 void post_order_traversal(){
   BTPNode* root = createTree5();
-  BTPNode* last = nullptr;
+  BTPNode* prev = nullptr;
   while(root){
-    if (last == root->parent) {
+    if (prev == root->parent) {
       if (root->left){
-        last = root, root = root->left;
+        prev = root, root = root->left;
       } else {
-        last = nullptr;
+        prev = nullptr;
       }
     }
-    if (last == root->left) {
+    if (prev == root->left) {
       if (root->right)
-        last = root, root = root->right;
+        prev = root, root = root->right;
       else
-        last = nullptr;
+        prev = nullptr;
     }
-    if (last == root->right) {
+    if (prev == root->right) {
       cout << root->val << ",";
-      last = root, root = root->parent;
+      prev = root, root = root->parent;
     }
   }
   cout << endl;
@@ -36,24 +36,24 @@ void post_order_traversal(){
 
 void pre_order_traversal(){
   BTPNode* root = createTree5();
-  BTPNode* last = nullptr;
+  BTPNode* prev = nullptr;
   while(root){
-    if (last == root->parent) {
+    if (prev == root->parent) {
       cout << root->val << ",";
       if (root->left){
-        last = root, root = root->left;
+        prev = root, root = root->left;
       } else {
-        last = nullptr;
+        prev = nullptr;
       }
     }
-    if (last == root->left) {
+    if (prev == root->left) {
       if (root->right)
-        last = root, root = root->right;
+        prev = root, root = root->right;
       else
-        last = nullptr;
+        prev = nullptr;
     }
-    if (last == root->right) {
-      last = root, root = root->parent;
+    if (prev == root->right) {
+      prev = root, root = root->parent;
     }
   }
   cout << endl;
@@ -61,24 +61,24 @@ void pre_order_traversal(){
 
 void in_order_traversal(){
   BTPNode* root = createTree5();
-  BTPNode* last = nullptr;
+  BTPNode* prev = nullptr;
   while(root){
-    if (last == root->parent) {
+    if (prev == root->parent) {
       if (root->left){
-        last = root, root = root->left;
+        prev = root, root = root->left;
       } else {
-        last = nullptr;
+        prev = nullptr;
       }
     }
-    if (last == root->left) {
+    if (prev == root->left) {
       cout << root->val << ",";
       if (root->right)
-        last = root, root = root->right;
+        prev = root, root = root->right;
       else
-        last = nullptr;
+        prev = nullptr;
     }
-    if (last == root->right) {
-      last = root, root = root->parent;
+    if (prev == root->right) {
+      prev = root, root = root->parent;
     }
   }
   cout << endl;

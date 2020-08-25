@@ -130,6 +130,8 @@ add_executable(pnsei_test practice/databricks/csv_query_test.cpp
         oj/leetcode/53_Maximum_Subarray_test.cpp
         practice/databricks/division_test.cpp
         practice/instacart/timed_kvstore_test.cpp
+        practice/databricks/sql_split_test.cpp
+        practice/databricks/sql_comment_test.cpp
         )
 
 add_executable(segment_tree utils/segtree.cpp)

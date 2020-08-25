@@ -2,7 +2,6 @@
 #include "concurrency_parallel/DelayQueue.h"
 #include "concurrency_parallel/concurrent_hashmap.h"
 #include "concurrency_parallel/concurrent_linkedlist.h"
-#include "concurrency_parallel/deadlock_guaranteed.h"
 #include "concurrency_parallel/h2o.h"
 #include "concurrency_parallel/my_memory_order.h"
 #include "concurrency_parallel/my_semaphore.h"
@@ -27,7 +26,6 @@
 #include "oj/leetcode/314_binary-tree-vertical-order-traversal.h"
 #include "oj/leetcode/34_Search_for_a_Range.h"
 #include "oj/leetcode/361_Bomb_Enemy.h"
-#include "oj/leetcode/37_Sudoku_Solver.h"
 #include "oj/leetcode/388_Longest_Absolute_File_Path.h"
 #include "oj/leetcode/391_Perfect_Rectangle.h"
 #include "oj/leetcode/394_Decode_String.h"
@@ -98,8 +96,6 @@
 #include "practice/cruise/segment_tree_2d.h"
 #include "practice/databricks/csv_query.h"
 #include "practice/databricks/division.h"
-#include "practice/databricks/sql_comment.h"
-#include "practice/databricks/sql_split.h"
 #include "practice/databricks/traverse_bt_parent.h"
 #include "practice/dropbox/highest_minimum_sharpness.h"
 #include "practice/dropbox/id_allocator_segment_tree.h"
@@ -152,7 +148,11 @@ bool abbyDeng(vector<int> vi){
 int main(int argc, char **argv) {
 
 
-
+  databricks::traverse::post_order_traversal();
+  databricks::traverse::pre_order_traversal();
+  databricks::traverse::in_order_traversal();
+  databricks::csv_query::test();
+  //databricks::csv_query::parse("FROM city.csv");
 
 
 
@@ -175,13 +175,8 @@ int main(int argc, char **argv) {
   _480_medianSlidingWindow::test();
   _295::test();
 
-  databricks::comments::test();
-  databricks::traverse::post_order_traversal();
-  databricks::traverse::pre_order_traversal();
-  databricks::traverse::in_order_traversal();
-  databricks::csv_query::test();
-  //databricks::csv_query::parse("FROM city.csv");
-  databricks::sql_split::test();
+
+
   _987::test();
   _314::test();
   _314::test2();
@@ -297,7 +292,6 @@ int main(int argc, char **argv) {
   _816::test();
   cruise_recover_tree::test();
   _skiplist::test();
-  _37_dfs::test();
   addepar_reconcile::test();
   _winner_tree::test();
   addepar_AStar::test();

@@ -11,8 +11,9 @@ void rec() {
   rec();
 }
 
-TEST(deadlock, transfer_money){ concurrency_parallel::deadlock();
-}
+/*TEST(deadlock, transfer_money){
+  concurrency_parallel::dl::deadlock();
+}*/
 
 int test_me() {
   lock_guard<mutex> g(mu);

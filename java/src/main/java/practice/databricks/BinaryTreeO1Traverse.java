@@ -4,33 +4,36 @@ import foundation.TreeHelper;
 import foundation.TreeNodeWithParent;
 
 import java.util.ArrayList;
-import java.util.List;
 
+// According to the relation of `currently traversing node root` and `previously traversed node`, there are three cases:
+// 1. prev == root.parent
+// 2. prev == root.left
+// 3. prev == root.right
 public class BinaryTreeO1Traverse {
 
     public ArrayList<TreeNodeWithParent> traverse_postorder(TreeNodeWithParent root){
         ArrayList<TreeNodeWithParent> res = new ArrayList<>();
-        TreeNodeWithParent last = null;
+        TreeNodeWithParent prev = null;
         while(root!=null){
-            if (last==root.parent){ // start..go to the left side
+            if (prev==root.parent){ // start..go to the left side
                 if (root.left!=null){
-                    last = root;
+                    prev = root;
                     root = root.left;
                 } else {
-                    last = null;
+                    prev = null;
                 }
             }
-            if(last == root.left) { // left subtree is done, now start to traverse right subtree
+            if(prev == root.left) { // left subtree is done, now start to traverse right subtree
                 if (root.right != null){
-                    last = root;
+                    prev = root;
                     root = root.right;
                 } else { // right subtree is done
-                    last = null;
+                    prev = null;
                 }
             }
-            if (last == root.right) { // right subtree is done, track back upward
+            if (prev == root.right) { // right subtree is done, track back upward
                 res.add(root); /////////////
-                last = root;
+                prev = root;
                 root = root.parent;
             }
         }
@@ -39,27 +42,27 @@ public class BinaryTreeO1Traverse {
 
     public ArrayList<TreeNodeWithParent> traverse_preorder(TreeNodeWithParent root){
         ArrayList<TreeNodeWithParent> res = new ArrayList<>();
-        TreeNodeWithParent last = null;
+        TreeNodeWithParent prev = null;
         while(root!=null){
-            if (last==root.parent){ // start..go to the left subtree downwards
+            if (prev==root.parent){ // start..go to the left subtree downwards
                 res.add(root); /////////////
                 if (root.left!=null){
-                    last = root;
+                    prev = root;
                     root = root.left;
                 } else {
-                    last = null;
+                    prev = null;
                 }
             }
-            if(last == root.left) { // left subtree is done, now start to traverse right subtree downwards
+            if(prev == root.left) { // left subtree is done, now start to traverse right subtree downwards
                 if (root.right != null){
-                    last = root;
+                    prev = root;
                     root = root.right;
                 } else { // right subtree is done
-                    last = null;
+                    prev = null;
                 }
             }
-            if (last == root.right) { // right subtree is done, track back upwards
-                last = root;
+            if (prev == root.right) { // right subtree is done, track back upwards
+                prev = root;
                 root = root.parent;
             }
         }
@@ -68,27 +71,27 @@ public class BinaryTreeO1Traverse {
 
     public ArrayList<TreeNodeWithParent> traverse_inorder(TreeNodeWithParent root){
         ArrayList<TreeNodeWithParent> res = new ArrayList<>();
-        TreeNodeWithParent last = null;
+        TreeNodeWithParent prev = null;
         while(root!=null){
-            if (last==root.parent){ // start..go to the left subtree downwards
+            if (prev==root.parent){ // start..go to the left subtree downwards
                 if (root.left!=null){
-                    last = root;
+                    prev = root;
                     root = root.left;
                 } else {
-                    last = null;
+                    prev = null;
                 }
             }
-            if(last == root.left) { // left subtree is done, now start to traverse right subtree downwards
+            if(prev == root.left) { // left subtree is done, now start to traverse right subtree downwards
                 res.add(root); /////////////
                 if (root.right != null){
-                    last = root;
+                    prev = root;
                     root = root.right;
                 } else { // right subtree is done
-                    last = null;
+                    prev = null;
                 }
             }
-            if (last == root.right) { // right subtree is done, track back upwards
-                last = root;
+            if (prev == root.right) { // right subtree is done, track back upwards
+                prev = root;
                 root = root.parent;
             }
         }
@@ -98,27 +101,27 @@ public class BinaryTreeO1Traverse {
     // right down \, left <--
     public ArrayList<TreeNodeWithParent> traverse_reverse_postorder(TreeNodeWithParent root){
         ArrayList<TreeNodeWithParent> res = new ArrayList<>();
-        TreeNodeWithParent last = null;
+        TreeNodeWithParent prev = null;
         while(root!=null){
-            if (last==root.parent){ // start..go to the left side
+            if (prev==root.parent){ // start..go to the left side
                 res.add(root); /////////////
                 if (root.right!=null){
-                    last = root;
+                    prev = root;
                     root = root.right;
                 } else {
-                    last = null;
+                    prev = null;
                 }
             }
-            if(last == root.right) { // left subtree is done, now start to traverse right subtree
+            if(prev == root.right) { // left subtree is done, now start to traverse right subtree
                 if (root.left != null){
-                    last = root;
+                    prev = root;
                     root = root.left;
                 } else { // right subtree is done
-                    last = null;
+                    prev = null;
                 }
             }
-            if (last == root.left) { // right subtree is done, track back upward
-                last = root;
+            if (prev == root.left) { // right subtree is done, track back upward
+                prev = root;
                 root = root.parent;
             }
         }

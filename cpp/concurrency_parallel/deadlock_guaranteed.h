@@ -2,7 +2,7 @@
 
 #include "henry.h"
 
-namespace concurrency_parallel {
+namespace concurrency_parallel::dl {
 
 struct account {
   double deposit = 0;
@@ -37,13 +37,13 @@ void rec() {
   rec();
 }
 
-void test() {
+/*void test() {
   try {
     rec();
   } catch (system_error &e) {
     cout << e.what() << endl;
   }
   deadlock();
-}
+}*/
 
 } // namespace deadlock

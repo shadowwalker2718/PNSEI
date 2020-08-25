@@ -6,39 +6,28 @@
 
 namespace databricks::sql_split {
 
-  struct Solution {
-    static vector<string> split(string s) {
-      vector<string> vs;
-      bool in_string =false;
-      string q;
-      for (int i=0;i<s.size();i++) {
-        if (s[i]=='"' and i>1 and s[i-1]!='\\'){
-          in_string =!in_string;
-        }
-        q+=s[i];
-        if (!in_string and s[i]==';'){
-          vs.push_back(q), q.clear();
-        }
+struct Solution {
+  static vector<string> split(const string&sql_statements) {
+    vector<string> vs;
+    bool in_string = false;
+    string one_statment;
+    for (int i = 0; i < sql_statements.size(); i++) {
+      if (sql_statements[i] == '"' and i > 1 and
+          sql_statements[i - 1] != '\\') {
+        in_string = !in_string;
       }
-      if (!q.empty())
-        vs.push_back(q);
-      return vs;
+      one_statment += sql_statements[i];
+      if (!in_string and sql_statements[i] == ';') {
+        vs.push_back(one_statment);
+        one_statment.clear();
+      }
     }
-  };
-
-  void test() {
-    Solution sln;
-    assert(
-        sln.split("select \"hello\\\\ \\\";\" as c; select \"hello\\\\ \\\";\" as d").size() == 2);
-    assert(
-        sln.split("select \"hello\\\";\";\nselect \"world;\\next;\" ;").size() ==
-        2);
-    assert(sln.split("select 1; select 2;").size() == 2);
-    assert(sln.split("select \"hello\";\nselect \"world;next;\" ;").size() ==
-           2);
+    if (!one_statment.empty())
+      vs.push_back(one_statment);
+    return vs;
   }
-}
+};
 
-
+} // namespace databricks::sql_split
 
 #endif // PNSEI_SQL_SPLIT_H

@@ -1,28 +1,28 @@
 #ifndef PNSEI_SQL_COMMENT_H
 #define PNSEI_SQL_COMMENT_H
 
+#include "henry.h"
+
 namespace databricks::comments {
-string remove_comment(const string& s){
+
+string remove_comment(const string &sql_statement) {
   string r;
   bool in_string = false;
-  for(int i=0;i<s.size();i++){
-    if (s[i]=='"' and i > 1 and s[i-1]!='\\'){
+  for (int i = 0; i < sql_statement.size(); i++) {
+    if (sql_statement[i] == '"' and i > 1 and sql_statement[i - 1] != '\\') {
       in_string = !in_string;
     }
-    if (!in_string and s[i]=='-' and (i+1)<s.size() and s[i+1]=='-'){
-      while (!r.empty() && r.back()==0x20)
+    if (!in_string and sql_statement[i] == '-' and
+        (i + 1) < sql_statement.size() and sql_statement[i + 1] == '-') {
+      while (!r.empty() && r.back() == 0x20) // whitespace
         r.pop_back();
       return r;
     }
-    r+=s[i];
+    r += sql_statement[i];
   }
-}
-void test(){
-  cout << remove_comment("SELECT * FROM users   --users table selected") << endl;
-  cout << remove_comment("WHERE users.name=\"David\" --user name select") << endl;
-  cout << remove_comment("WHERE users.name=\"--David\" --user name select") << endl;
-}
+  return r;
 }
 
+} // namespace databricks::comments
 
 #endif // PNSEI_SQL_COMMENT_H
