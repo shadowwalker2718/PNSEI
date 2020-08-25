@@ -1,12 +1,8 @@
 package practice.instacart;
 
-import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
-import java.sql.Time;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
-import java.util.concurrent.TimeUnit;
 
 /*
 https://www.1point3acres.com/bbs/thread-654366-1-1.html
@@ -20,7 +16,8 @@ Instacart店面
     get(key, timestamp) 返回对应的（key， timestamp）的value
 3: 如果（key, timestamp）不存在，则返回这个timestamp之前最近的val
 */
-public class KVStore {
+// HashMap + TreeMap
+public class TimedKVStore {
     // Map<K, Map<T, V>>
     private Map<String, Map<Long, String>> m = new HashMap<>();
 
@@ -28,6 +25,7 @@ public class KVStore {
         Long t = System.currentTimeMillis();
         m.computeIfAbsent(k, key->new TreeMap<>()).put(t, v);
     }
+    // T: O(1)
     public String get(String k){
         TreeMap<Long, String> tree = (TreeMap<Long, String>) m.get(k);
         if (tree == null) {
@@ -36,6 +34,7 @@ public class KVStore {
             return tree.lastEntry().getValue();
         }
     }
+    // T: O(logN)
     public String get(String k, Long timestamp){
         TreeMap<Long, String> tree = (TreeMap<Long, String>) m.get(k);
         if (tree == null) {
@@ -45,11 +44,16 @@ public class KVStore {
         }
     }
 
+    // O(LogN)
+    // The lowerEntry(K key) method is used to return a key-value mapping associated with the greatest
+    // key strictly less than the given key, or null if there is no such key.
     public String get_fuzzy(String k, Long timestamp){
         TreeMap<Long, String> tree = (TreeMap<Long, String>) m.get(k);
         if (tree == null) {
             return null;
         } else {
+            if (tree.containsKey(timestamp))
+                return tree.get(timestamp);
             Map.Entry<Long, String> me = tree.lowerEntry(timestamp);
             if (me == null){
                 return null;
@@ -58,7 +62,7 @@ public class KVStore {
         }
     }
     public static void main(String[] args) throws InterruptedException {
-        KVStore kv = new KVStore();
+        TimedKVStore kv = new TimedKVStore();
         Long t1 = System.currentTimeMillis();
         kv.set("henry", "woo1");
         Thread.sleep(1);
