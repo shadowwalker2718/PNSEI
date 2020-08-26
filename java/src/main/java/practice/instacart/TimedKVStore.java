@@ -1,6 +1,7 @@
 package practice.instacart;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -24,6 +25,7 @@ public class TimedKVStore {
     public void set(String k, String v){
         Long t = System.currentTimeMillis();
         m.computeIfAbsent(k, key->new TreeMap<>()).put(t, v);
+        //m.computeIfAbsent(k, key-> new LinkedHashMap<>()).put(t, v);
     }
     // T: O(1)
     public String get(String k){

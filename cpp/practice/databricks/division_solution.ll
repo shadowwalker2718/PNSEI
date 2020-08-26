@@ -45,9 +45,9 @@ code:
   store i32 0, i32* %q
   store i32 %num, i32* %n
 
-  br label %mycode
+  br label %MY_CODE
 
-mycode:
+MY_CODE:
   store i32 1, i32* %r
   store i32 1, i32* %pr
   store i32 %denom, i32* %z
@@ -94,7 +94,7 @@ WHILE_LOOP_END:
 
   %10 = load i32, i32* %n ; if (n >= denom)
   %cond3 = icmp sge i32 %10, %denom
-  br i1 %cond3, label %mycode, label %MY_CODE_END
+  br i1 %cond3, label %MY_CODE, label %MY_CODE_END
 
 MY_CODE_END:
   %quotient = load i32, i32* %q

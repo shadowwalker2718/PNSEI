@@ -8,10 +8,10 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-class UF{
+class UnionFind {
     public List<Integer> bo = new ArrayList<>();
     public List<Integer> sz = new ArrayList<>();
-    public UF(int n){
+    public UnionFind(int n){
         for(int i=0;i<n;i++){
             bo.add(i);
             sz.add(1);
@@ -40,7 +40,7 @@ class UF{
 
 public class Solution {
     public int countComponents(int n, int[][] edges) {
-        UF u = new UF(n);
+        UnionFind u = new UnionFind(n);
         for (int i=0;i<edges.length;i++){
             u.merge(edges[i][0], edges[i][1]);
         }

@@ -84,57 +84,82 @@ namespace _987{
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-   // to generate a list that contains the 3-dimensional coordinates (i.e. <column, row, value>) of each node.
-   // https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/solution/
-   class Solution {
-   public:
-     vector<vector<int>> verticalTraversal(TreeNode* root) {
-       if(!root) return vector<vector<int>>();
-       int ml=0, mr=0, dep=0;
-       dfs(root,0,0,ml,mr, dep);
-       int L=ml+mr+1;
-       return bfs(L, dep, root, ml);
-     }
-     void dfs(TreeNode* n, int l, int r, int& ml, int& mr, int& dep){
-       if(!n) return;
-       dep++;
-       dfs(n->left,l+1,r,ml,mr,dep);
-       dfs(n->right,l,r+1,ml,mr, dep);
-       ml = max(ml, l-r), mr = max(mr, r-l);
-     }
-     vector<vector<int>> bfs(int L, int dep, TreeNode* n, int idx){
-       queue<pair<TreeNode*, int>> q;
-       q.push({n,idx});
-       vector<vector<vector<int>>> tmp(L, vector<vector<int>>(dep+1,vector<int>()));
-       int layer=0;
-       while(!q.empty()){
-         int sz=q.size();
-         while(sz--){
-           auto t=q.front(); q.pop();
-           tmp[t.second][layer].push_back(t.first->val);
-           if(t.first->left)
-             q.push({t.first->left, t.second-1});
-           if(t.first->right)
-             q.push({t.first->right, t.second+1});
-         }
-         layer++;
-       }
-       for_each(tmp.begin(), tmp.end(), [](vector<vector<int>>& v){
-         for_each(v.begin(), v.end(), [](vector<int>& vv){
-           sort(vv.begin(), vv.end());
-         });
-       });
-       vector<vector<int>> r(L, vector<int>());
-       for (int i = 0; i < tmp.size(); ++i) {
-         for (int j = 0; j < tmp[i].size(); ++j) {
-           for (int k = 0; k < tmp[i][j].size(); ++k) {
-             r[i].push_back(tmp[i][j][k]);
-           }
-         }
-       }
-       return r;
-     }
-   };
+// to generate a list that contains the 3-dimensional coordinates (i.e. <column,
+// row, value>) of each node.
+// https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/solution/
+class Solution {
+public:
+  vector<vector<int>> verticalTraversal(TreeNode *root) {
+    if (!root)
+      return vector<vector<int>>();
+
+    // ml - max steps to the left from root
+    // mr - max steps to the right from root
+    // dep - depth/row/layer of the tree
+    int ml = 0, mr = 0, dep = 0;
+    dfs(root, 0, 0, ml, mr, dep);
+    // L - size of the output vector
+    int L = ml + mr + 1;
+
+    return bfs(L, dep, root, ml);
+  }
+
+  // l -> current steps to the left; r-> current steps to the right
+  void dfs(TreeNode *n, int l, int r, int &ml, int &mr, int &dep) {
+    if (!n)
+      return;
+    dep++;
+    dfs(n->left, l + 1, r, ml, mr, dep);
+    dfs(n->right, l, r + 1, ml, mr, dep);
+    ml = max(ml, l - r), mr = max(mr, r - l);
+  }
+
+  // https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/solution/
+  // return the vertical order of a binary tree, which implies three sub-orders (denoted as <column, row, value>)
+  // idx is column index, root node's column index is ml!!!
+  vector<vector<int>> bfs(int L, int dep, TreeNode *n, int idx) {
+    queue<pair<TreeNode*, int>> q; // pair<node, column index>
+    q.push({n, idx});
+
+    // [col][row/layer][values]
+    vector<vector<vector<int>>> tmp(
+        L, vector<vector<int>>(dep + 1, vector<int>()));
+    int layer = 0;
+    while (!q.empty()) {
+      int sz = q.size();
+      while (sz--) {
+        auto t = q.front();
+        q.pop();
+
+        tmp[t.second][layer].push_back(t.first->val);
+        if (t.first->left)
+          q.push({t.first->left, t.second - 1});
+        if (t.first->right)
+          q.push({t.first->right, t.second + 1});
+      }
+      layer++;
+    }
+    // post-processing
+    // sort tmp[column][row]
+    for_each(tmp.begin(), tmp.end(), [](vector<vector<int>> &v) {
+      for_each(v.begin(), v.end(),
+               [](vector<int> &vv) { sort(vv.begin(), vv.end()); });
+    });
+    // generate final result
+    vector<vector<int>> result(L, vector<int>());
+    for (int i = 0; i < tmp.size(); ++i) {
+      for (int j = 0; j < tmp[i].size(); ++j) {
+        for (int k = 0; k < tmp[i][j].size(); ++k) {
+          result[i].push_back(tmp[i][j][k]);
+        }
+      }
+    }
+    return result;
+  }
+
+
+
+};
 
   void test(){
     TreeNode* tn = createTree2();

@@ -132,6 +132,8 @@ add_executable(pnsei_test practice/databricks/csv_query_test.cpp
         practice/instacart/timed_kvstore_test.cpp
         practice/databricks/sql_split_test.cpp
         practice/databricks/sql_comment_test.cpp
+        oj/leetcode/987_simplified_test.cpp
+        oj/leetcode/41_First_Missing_Positive_test.cpp
         )
 
 add_executable(segment_tree utils/segtree.cpp)
