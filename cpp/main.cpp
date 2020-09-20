@@ -283,7 +283,7 @@ int main(int argc, char **argv) {
   _cruise_interval::test();
   _cruise_dijkstra::test();
   _cruise_islands::test();
-  _cruise_geometry::__quadtree::test();
+  _cruise_geometry::spatial_indices::test();
   _addepar_kway_merge::test();
   _weride_prob::test();
   _weride_hamiltonian::test();
@@ -294,11 +294,8 @@ int main(int argc, char **argv) {
   _skiplist::test();
   addepar_reconcile::test();
   _winner_tree::test();
-  addepar_AStar::test();
-  _10::test();
-  _44::test();
+    _10::test();
   addepar_segmenttree::test();
-  _162::test();
   _addepar_find_peak_2D::test();
   _34::test();
   _addepar::test();
@@ -319,7 +316,6 @@ int main(int argc, char **argv) {
   _lnkd_is_intersected::test();
   concurrency_parallel::test();
   _lnkd_totalcovered_length::test();
-  _149::test();
   _indexheap::test();
   _indexheap::test2();
   _google_MaxWithOneFlip::test();

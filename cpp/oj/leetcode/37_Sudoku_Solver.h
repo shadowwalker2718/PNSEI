@@ -21,7 +21,7 @@ struct SolutionX { // 9ms 81%
       return false;
     // check row
     for (int i = 0; i < 9; i++) {
-      vector<bool> used(9, false);
+      vector<bool> used(9, false);/////////////
       for (int j = 0; j < 9; j++) {
         if (!isdigit(board[i][j]))
           continue;

@@ -120,7 +120,7 @@ class Solution(object):
                     symbols.append(expr[i])
                 i += 1
 
-            for i in xrange(len(symbols) - 1, -1, -1):
+            for i in range(len(symbols) - 1, -1, -1):
                 if symbols[i] == '*':
                     bucket[i] = combine(bucket[i], bucket.pop(i+1),
                                         symbols.pop(i))
@@ -136,4 +136,4 @@ class Solution(object):
         return P.to_list()
 
 sln=Solution()
-print sln.basicCalculatorIV(expression = "e + 8 - a + 5", evalvars = ["e"], evalints = [1])
+print(sln.basicCalculatorIV(expression = "e + 8 - a + 5", evalvars = ["e"], evalints = [1]))

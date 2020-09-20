@@ -68,6 +68,18 @@ class solution {
   const int dx[4] = {-1, +1, 0, 0};
   const int dy[4] = {0, 0, -1, +1};
 private:
+  void print(const iMatrix &s) {
+    for (int i = 0; i < 3; i++) {
+      for (int j = 0; j < 3; j++) {
+        printf("%d ", s[i][j]);
+      }
+      cout << "\n";
+    }
+    cout << string(80,'*') << endl;
+  }
+
+public:
+
   void print_path(iMatrix s) {
     if (parent.count(s))
       print_path(parent[s]);
@@ -82,17 +94,6 @@ private:
     return;
   }
 
-  void print(const iMatrix &s) {
-    for (int i = 0; i < 3; i++) {
-      for (int j = 0; j < 3; j++) {
-        printf("%d ", s[i][j]);
-      }
-      cout << "\n";
-    }
-    cout << string(80,'*') << endl;
-  }
-
-public:
   bool safe(int i, int j) {
     return (i >= 0 && i <= 2 && j >= 0 && j <= 2);
   }
@@ -119,7 +120,7 @@ public:
     return ans;
   }
 
-  int solve(iMatrix a) {
+  int solve_bfs(iMatrix a) {
     priority_queue<state, vector<state>, cmp> Q; //min heap
     Q.push(state(a, 0)); // init
     while (!Q.empty()) {
@@ -143,40 +144,6 @@ public:
   }
 
 };
-
-void test() {
-  iMatrix a = {{0, 1, 3},
-               {4, 2, 5},
-               {7, 8, 6}};
-  solution sln;
-  assert(sln.solve(a) == 4);
-
-  /*
-   *
-0 1 3
-4 2 5
-7 8 6
-********************************************************************************
-1 0 3
-4 2 5
-7 8 6
-********************************************************************************
-1 2 3
-4 0 5
-7 8 6
-********************************************************************************
-1 2 3
-4 5 0
-7 8 6
-********************************************************************************
-1 2 3
-4 5 6
-7 8 0
-********************************************************************************
-   * */
-
-}
-
 
 }
 #endif //PNSEI_MOVE_9_IN_MATRIX_H

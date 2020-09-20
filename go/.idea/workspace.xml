@@ -2,8 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a03afa2-a824-460b-ad96-3b4032a09c71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/10_Regular_Expression_Matching_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/162_Find_Peak_Element_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/642__design_search_autocomplete_system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/642__design_search_autocomplete_system_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cpp/practice/addepar/8puzzle_AStar_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/binary_search/builtin_sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/binary_search/builtin_sort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/leetcode/_630/CourseScheduleIII/_329/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/oj/leetcode/_224/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/oj/leetcode/_227/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/oj/leetcode/_286/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/oj/leetcode/_359/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/oj/leetcode/_499/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/oj/lintcode/_807/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/practice/apple/KMeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/practice/apple/KMeans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/study/TestCOWArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/main/java/study/TestSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/PNSEI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/PNSEI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/oj/leetcode/109_Convert_Sorted_List_to_Binary_Search_Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/109_Convert_Sorted_List_to_Binary_Search_Tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/oj/leetcode/10_Regular_Expression_Matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/10_Regular_Expression_Matching.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/oj/leetcode/121_Best_Time_to_Buy_and_Sell_Stock.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/121_Best_Time_to_Buy_and_Sell_Stock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/oj/leetcode/162_Find_Peak_Element.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/162_Find_Peak_Element.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/oj/leetcode/37_Sudoku_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/37_Sudoku_Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/oj/leetcode/43_Multiply_Strings.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/43_Multiply_Strings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/oj/leetcode/44_Wildcard_Matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/oj/leetcode/44_Wildcard_Matching.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/practice/addepar/8puzzle_AStar.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/practice/addepar/8puzzle_AStar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/practice/cruise/770_Basic_Calculator_IV.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/practice/cruise/770_Basic_Calculator_IV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/practice/cruise/all_points_in_Kmiles.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/practice/cruise/all_points_in_Kmiles.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/practice/cruise/clique.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/practice/cruise/clique.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/practice/cruise/key_value_with_transaction/kvdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/practice/cruise/key_value_with_transaction/kvdb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/practice/databricks/SnapshotSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/main/java/practice/databricks/SnapshotSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/practice/instacart/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/main/java/practice/instacart/CardGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +77,18 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/experiments/binary_search" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/experiments/binary_search" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/oj/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_78__first_bad_version in github.com/shadowwalker2718/pnsei/oj/leetcode/278__first_bad_version">
+  <component name="RunManager" selected="Go Test.Test_sample in github.com/shadowwalker2718/pnsei/experiments/binary_search">
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -80,8 +118,20 @@
       <pattern value="^Test_78__first_bad_version$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_sample in github.com/shadowwalker2718/pnsei/experiments/binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/experiments/binary_search" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shadowwalker2718/pnsei/experiments/binary_search" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_sample$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_sample in github.com/shadowwalker2718/pnsei/experiments/binary_search" />
         <item itemvalue="Go Test.Test_78__first_bad_version in github.com/shadowwalker2718/pnsei/oj/leetcode/278__first_bad_version" />
         <item itemvalue="Go Build.go build test.go" />
         <item itemvalue="Go Test.TestDateTime_findLength in 718__maximum_length_of_repeated_subarray_test.go" />
@@ -105,6 +155,9 @@
       <workItem from="1597473669514" duration="8000" />
       <workItem from="1597687141917" duration="9000" />
       <workItem from="1597687172162" duration="112000" />
+      <workItem from="1599451135500" duration="1898000" />
+      <workItem from="1599581859142" duration="31000" />
+      <workItem from="1599581913645" duration="561000" />
     </task>
     <servers />
   </component>
@@ -123,41 +176,50 @@
       <screen x="1920" y="0" width="3440" height="1440" />
     </state>
     <state x="3212" y="264" width="736" height="897" key="#go_build_test.go/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597286685991" />
-    <state width="1611" height="252" key="GridCell.Tab.0.bottom" timestamp="1597293154461">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state width="1607" height="286" key="GridCell.Tab.0.bottom" timestamp="1599462137929">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state width="1607" height="286" key="GridCell.Tab.0.bottom/0.32.3314.1375@0.32.3314.1375" timestamp="1599462137929" />
     <state width="1611" height="252" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
-    <state width="1611" height="252" key="GridCell.Tab.0.center" timestamp="1597293154461">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state width="1607" height="286" key="GridCell.Tab.0.center" timestamp="1599462137929">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state width="1607" height="286" key="GridCell.Tab.0.center/0.32.3314.1375@0.32.3314.1375" timestamp="1599462137929" />
     <state width="1611" height="252" key="GridCell.Tab.0.center/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
-    <state width="1611" height="252" key="GridCell.Tab.0.left" timestamp="1597293154461">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state width="1607" height="286" key="GridCell.Tab.0.left" timestamp="1599462137928">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state width="1607" height="286" key="GridCell.Tab.0.left/0.32.3314.1375@0.32.3314.1375" timestamp="1599462137928" />
     <state width="1611" height="252" key="GridCell.Tab.0.left/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
-    <state width="1611" height="252" key="GridCell.Tab.0.right" timestamp="1597293154461">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state width="1607" height="286" key="GridCell.Tab.0.right" timestamp="1599462137929">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state width="1607" height="286" key="GridCell.Tab.0.right/0.32.3314.1375@0.32.3314.1375" timestamp="1599462137929" />
     <state width="1611" height="252" key="GridCell.Tab.0.right/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
-    <state width="1611" height="252" key="GridCell.Tab.1.bottom" timestamp="1597293154462">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state width="1607" height="614" key="GridCell.Tab.1.bottom" timestamp="1599462137924">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state width="1607" height="614" key="GridCell.Tab.1.bottom/0.32.3314.1375@0.32.3314.1375" timestamp="1599462137924" />
     <state width="1611" height="252" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154462" />
-    <state width="1611" height="252" key="GridCell.Tab.1.center" timestamp="1597293154461">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state width="1607" height="614" key="GridCell.Tab.1.center" timestamp="1599462137924">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state width="1607" height="614" key="GridCell.Tab.1.center/0.32.3314.1375@0.32.3314.1375" timestamp="1599462137924" />
     <state width="1611" height="252" key="GridCell.Tab.1.center/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
-    <state width="1611" height="252" key="GridCell.Tab.1.left" timestamp="1597293154461">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state width="1607" height="614" key="GridCell.Tab.1.left" timestamp="1599462137924">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state width="1607" height="614" key="GridCell.Tab.1.left/0.32.3314.1375@0.32.3314.1375" timestamp="1599462137924" />
     <state width="1611" height="252" key="GridCell.Tab.1.left/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154461" />
-    <state width="1611" height="252" key="GridCell.Tab.1.right" timestamp="1597293154462">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state width="1607" height="614" key="GridCell.Tab.1.right" timestamp="1599462137924">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state width="1607" height="614" key="GridCell.Tab.1.right/0.32.3314.1375@0.32.3314.1375" timestamp="1599462137924" />
     <state width="1611" height="252" key="GridCell.Tab.1.right/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597293154462" />
-    <state x="2440" y="234" width="1594" height="905" key="SettingsEditor" timestamp="1597286910959">
-      <screen x="1920" y="0" width="3440" height="1440" />
+    <state x="501" y="255" width="1526" height="912" key="SettingsEditor" timestamp="1599452014407">
+      <screen x="0" y="32" width="3314" height="1375" />
     </state>
+    <state x="501" y="255" width="1526" height="912" key="SettingsEditor/0.32.3314.1375@0.32.3314.1375" timestamp="1599452014407" />
     <state x="2440" y="234" width="1594" height="905" key="SettingsEditor/1920.0.3440.1440/1575.22.345.1058/5360.0.3440.1440@1920.0.3440.1440" timestamp="1597286910959" />
   </component>
   <component name="XDebuggerManager">
@@ -177,6 +239,16 @@
           <url>file://$PROJECT_DIR$/oj/leetcode/278__first_bad_version/main_test.go</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/experiments/binary_search/builtin_sort_test.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/experiments/binary_search/builtin_sort_test.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

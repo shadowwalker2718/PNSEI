@@ -227,7 +227,7 @@ def shell():
         if query != None:
             result = db.run(query)
             if result != None:
-                print result
+                print(result)
 
 
 if __name__ == '__main__':

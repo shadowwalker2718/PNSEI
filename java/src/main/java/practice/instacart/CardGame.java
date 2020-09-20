@@ -11,6 +11,8 @@ http://sde.quant365.com/combinatorics.html#combination-dfs
 
 import java.util.*;
 
+import static java.lang.System.out;
+
 public class CardGame {
 
     public List<String> getOneWinning(String s){
@@ -42,6 +44,7 @@ public class CardGame {
         return res;
     }
 
+    // DFS - k-combination where k=3
     boolean findOneWinningHand(List<String> cards, int k, List<String> hand){
         if (hand.size()==3){
             return isValid(hand);

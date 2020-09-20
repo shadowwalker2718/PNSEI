@@ -5,6 +5,11 @@
       <map />
     </option>
   </component>
+  <component name="FacetManager">
+    <facet type="Python" name="Python">
+      <configuration sdkName="Python 3.6 (java)" />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
@@ -25,5 +30,6 @@
     <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-params:5.7.0-M1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.0-M1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.junit.platform:junit-platform-engine:1.7.0-M1" level="project" />
+    <orderEntry type="library" name="Python 3.6 (java) interpreter library" level="application" />
   </component>
 </module>

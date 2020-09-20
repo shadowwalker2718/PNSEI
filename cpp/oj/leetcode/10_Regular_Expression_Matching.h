@@ -7,36 +7,86 @@
 
 #include "henry.h"
 
+/*
+Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.
+
+'.' Matches any single character.
+'*' Matches zero or more of the preceding element.
+
+The matching should cover the entire input string (not partial).
+
+Note:
+
+s could be empty and contains only lowercase letters a-z.
+p could be empty and contains only lowercase letters a-z, and characters like . or *.
+
+ Example 1:
+
+Input:
+s = "aa"
+p = "a"
+Output: false
+Explanation: "a" does not match the entire string "aa".
+Example 2:
+
+Input:
+s = "aa"
+p = "a*"
+Output: true
+Explanation: '*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes "aa".
+Example 3:
+
+Input:
+s = "ab"
+p = ".*"
+Output: true
+Explanation: ".*" means "zero or more (*) of any character (.)".
+Example 4:
+
+Input:
+s = "aab"
+p = "c*a*b"
+Output: true
+Explanation: c can be repeated 0 times, a can be repeated 1 time. Therefore, it matches "aab".
+Example 5:
+
+Input:
+s = "mississippi"
+p = "mis*is*p*."
+Output: false
+*/
+
 namespace _10 {
 
 // https://leetcode.com/problems/regular-expression-matching/description/
 // substr(N) - N could be the size of the string, but cannot more than that
 class Solution {
 public:
-  bool isMatch(string s, string p) {
+  bool isMatch(string s, string pattern) {
     // check p's size
-    if (p.empty()) return s.empty();
+    if (pattern.empty())
+      return s.empty();
     /*else if (p.size() == 1) // cannot be `*`
       return s.size() == 1 and (p[0] == s[0] || p[0] == '.');*/
     if(s.empty()){ // if s empty, p .* || a*a*a*.*
-      return p.empty() || (p[1]=='*' && isMatch(s, p.substr(2)));
+      return pattern.empty() || (pattern[1]=='*' && isMatch(s, pattern.substr(2)));
     }
 
-    if ('*' == p[1]) { // .*xxxxxxxxxxxx || a*xxxxxxxxxxxxxx
+    if ('*' == pattern[1]) { // .*xxxxxxxxxxxx || a*xxxxxxxxxxxxxx
       // x* matches empty string || at least one character: x* -> xx*
       // *s is to ensure s is non-empty
-      if (isMatch(s, p.substr(2))) { // [x*] matches 0 char
+      if (isMatch(s, pattern.substr(2))) { // [x*] matches 0 char
         return true; /////.*.*.*.*x
       } else //
-        if (!s.empty() && (s[0] == p[0] || '.' == p[0]) && isMatch(s.substr(1), p)) { //[x*] matches 1+ char
+        if (!s.empty() && (s[0] == pattern[0] || '.' == pattern[0]) && isMatch(s.substr(1), pattern)) { //[x*] matches 1+ char
         return true;
       } else {
         return false; // return for (abc, .*wq)
       }
     }else
       return !s.empty() &&
-             (s[0] == p[0] || '.' == p[0]) &&
-             isMatch(s.substr(1), p.substr(1));
+             (s[0] == pattern[0] || '.' == pattern[0]) &&
+             isMatch(s.substr(1), pattern.substr(1));
   }
 };
 
@@ -54,7 +104,7 @@ public:
 
     for (int i = 1; i <= M; i++) {
       for (int j = 1; j <= N; j++) {
-        if (s[i - 1] == p[j - 1] || p[j - 1] == '.') { // a => a*
+        if (p[j - 1] == s[i - 1] || p[j - 1] == '.') { // a => a*
           dp[i][j] = dp[i - 1][j - 1];
         }else if (p[j - 1] == '*') {
 #ifdef COMPACTCODE

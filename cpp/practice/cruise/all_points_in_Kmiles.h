@@ -71,7 +71,7 @@ namespace __kdtree {
 
 }
 
-namespace __quadtree {
+namespace spatial_indices {
 
 //--------------------> x  (coordinates of 4th quandrant)
 // |
@@ -206,17 +206,21 @@ void quadtree::insert(Node *node) {
       children[0]->insert(node);
     } else { // Indicates bl
       if (children[1] == NULL)
-        children[1] = new quadtree(Point(bb.tl.x, (bb.tl.y + bb.br.y) / 2), Point((bb.tl.x + bb.br.x) / 2, bb.br.y));
+        children[1] = new quadtree(Point(bb.tl.x, (bb.tl.y + bb.br.y) / 2),
+                                   Point((bb.tl.x + bb.br.x) / 2, bb.br.y));
       children[1]->insert(node);
     }
   } else {// Indicates tr
     if ((bb.tl.y + bb.br.y) / 2 >= node->pos.y) {
       if (children[2] == NULL)
-        children[2] = new quadtree(Point((bb.tl.x + bb.br.x) / 2, bb.tl.y), Point(bb.br.x, (bb.tl.y + bb.br.y) / 2));
+        children[2] = new quadtree(Point((bb.tl.x + bb.br.x) / 2, bb.tl.y),
+                                   Point(bb.br.x, (bb.tl.y + bb.br.y) / 2));
       children[2]->insert(node);
     } else { // Indicates br
       if (children[3] == NULL)
-        children[3] = new quadtree(Point((bb.tl.x + bb.br.x) / 2, (bb.tl.y + bb.br.y) / 2), Point(bb.br.x, bb.br.y));
+        children[3] = new quadtree(Point((bb.tl.x + bb.br.x) / 2,
+                                         (bb.tl.y + bb.br.y) / 2),
+                                   Point(bb.br.x, bb.br.y));
       children[3]->insert(node);
     }
   }

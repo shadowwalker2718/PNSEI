@@ -134,6 +134,16 @@ add_executable(pnsei_test practice/databricks/csv_query_test.cpp
         practice/databricks/sql_comment_test.cpp
         oj/leetcode/987_simplified_test.cpp
         oj/leetcode/41_First_Missing_Positive_test.cpp
+        oj/leetcode/642__design_search_autocomplete_system_test.cpp
+        oj/leetcode/149_Max_Points_on_a_Line_test.cpp
+        practice/addepar/8puzzle_AStar_test.cpp
+        oj/leetcode/10_Regular_Expression_Matching_test.cpp
+        oj/leetcode/162_Find_Peak_Element_test.cpp
+        oj/leetcode/465_Optimal_Account_Balancing_test.cpp
+        practice/newsbreak/permutation_test.cpp
+        practice/cruise/all_points_in_Kmiles_test.cpp
+        practice/atg/qtree_test.cpp
+        practice/atg/clearing_house_test.cpp
         )
 
 add_executable(segment_tree utils/segtree.cpp)

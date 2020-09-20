@@ -66,9 +66,9 @@ public class SnapshotSet implements Iterable{
         ss.add("Geeks");
         ss.add("4");
         ss.add("Geeks");
-        ss.remove("4");
-
         Iterator it = ss.iterator();
+
+        ss.remove("4");
         while(it.hasNext()){
             System.out.println(it.next());
         }
