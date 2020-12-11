@@ -150,16 +150,6 @@ add_executable(pnsei_test company/databricks/csv_query_test.cpp
 
 add_executable(segment_tree utils/segtree.cpp)
 
-
-
-
-
-
-
-
-
-
-
 add_executable(my_test company/databricks/csv_query_test.cpp)
 
 IF (WIN32)
