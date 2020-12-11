@@ -5,7 +5,7 @@
 #ifndef PNSEI_745_PREFIX_AND_SUFFIX_SEARCH_H
 #define PNSEI_745_PREFIX_AND_SUFFIX_SEARCH_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _745{
 

@@ -5,6 +5,6 @@
 #ifndef PNSEI_694_NUMBER_OF_DISTINCT_ISLANDS_H
 #define PNSEI_694_NUMBER_OF_DISTINCT_ISLANDS_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 #endif //PNSEI_694_NUMBER_OF_DISTINCT_ISLANDS_H

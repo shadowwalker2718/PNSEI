@@ -5,7 +5,7 @@
 #ifndef PNSEI_668_KTH_SMALLEST_NUMBER_IN_MULTIPLICATION_TABLE_H
 #define PNSEI_668_KTH_SMALLEST_NUMBER_IN_MULTIPLICATION_TABLE_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _668 {
 

@@ -5,7 +5,7 @@
 #ifndef PNSEI_MY_SEMAPHORE_H
 #define PNSEI_MY_SEMAPHORE_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _concurrency{
 class my_semaphore

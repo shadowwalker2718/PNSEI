@@ -5,7 +5,7 @@
 #ifndef PNSEI_SCOPEDLOCK_H
 #define PNSEI_SCOPEDLOCK_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 // https://stackoverflow.com/questions/20516773/stdunique-lockstdmutex-or-stdlock-guardstdmutex
 // std::unique_lock has other features that allow it to e.g.: be constructed without locking

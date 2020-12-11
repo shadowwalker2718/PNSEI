@@ -5,7 +5,7 @@
 #ifndef PNSEI_MST_H
 #define PNSEI_MST_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace graph_MST{
 

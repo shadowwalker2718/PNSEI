@@ -5,7 +5,7 @@
 #ifndef PNSEI_MY_MEMORY_ORDER_H
 #define PNSEI_MY_MEMORY_ORDER_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _mem_order {
 
@@ -13,10 +13,10 @@ namespace _ordering {
 // https://preshing.com/20120515/memory-reordering-caught-in-the-act/
 // https://preshing.com/20120625/memory-ordering-at-compile-time/
 
+#include <pnsei.h>
 #include <pthread.h>
 #include <semaphore.h> // TLPI P1099 unnamed semaphores
 #include <stdio.h>
-#include <henry.h>
 
 // Set either of these to 1 to prevent CPU reordering
 #define USE_CPU_FENCE              0

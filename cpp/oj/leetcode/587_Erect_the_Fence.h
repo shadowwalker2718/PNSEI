@@ -1,7 +1,7 @@
 #ifndef PNSEI_587_ERECT_THE_FENCE_H
 #define PNSEI_587_ERECT_THE_FENCE_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _587{
 // https://leetcode.com/problems/erect-the-fence/description/

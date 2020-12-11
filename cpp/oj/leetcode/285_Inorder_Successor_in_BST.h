@@ -5,7 +5,7 @@
 #ifndef PNSEI_285_INORDER_SUCCESSOR_IN_BST_H
 #define PNSEI_285_INORDER_SUCCESSOR_IN_BST_H
 
-#include "henry.h"
+#include "pnsei.h"
 #include "utils/todo_binarytree.h"
 
 namespace _285 {

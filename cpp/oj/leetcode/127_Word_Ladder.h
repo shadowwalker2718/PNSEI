@@ -5,7 +5,7 @@
 #ifndef PNSEI_127_WORD_LADDER_H
 #define PNSEI_127_WORD_LADDER_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _127 {
 

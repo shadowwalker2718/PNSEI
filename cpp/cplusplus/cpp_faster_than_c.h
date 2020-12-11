@@ -6,7 +6,7 @@
 #define PNSEI_CPP_FASTER_THAN_C_H
 
 
-#include <henry.h>
+#include <pnsei.h>
 #include <sys/resource.h>
 
 

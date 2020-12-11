@@ -5,7 +5,7 @@
 #ifndef PNSEI_785_IS_GRAPH_BIPARTITE_H
 #define PNSEI_785_IS_GRAPH_BIPARTITE_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 /* *
 Given an undirected graph, return true if and only if it is bipartite.

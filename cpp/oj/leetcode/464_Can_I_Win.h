@@ -5,7 +5,7 @@
 #ifndef PNSEI_464_CAN_I_WIN_H
 #define PNSEI_464_CAN_I_WIN_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 // https://leetcode.com/problems/can-i-win/
 // https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/

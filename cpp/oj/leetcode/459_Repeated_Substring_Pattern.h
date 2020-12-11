@@ -5,7 +5,7 @@
 #ifndef PNSEI_459_REPEATED_SUBSTRING_PATTERN_H
 #define PNSEI_459_REPEATED_SUBSTRING_PATTERN_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _459{
 

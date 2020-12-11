@@ -5,7 +5,7 @@
 #ifndef PNSEI_43_MULTIPLY_STRINGS_H
 #define PNSEI_43_MULTIPLY_STRINGS_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _43 {
 

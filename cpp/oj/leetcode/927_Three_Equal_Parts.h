@@ -1,7 +1,7 @@
 //
 // Created by henry on 10/21/18.
 //
-#include "henry.h"
+#include "pnsei.h"
 
 #ifndef C_927_THREE_EQUAL_PARTS_H
 #define C_927_THREE_EQUAL_PARTS_H

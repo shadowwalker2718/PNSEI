@@ -5,7 +5,7 @@
 #ifndef PNSEI_162_FIND_PEAK_ELEMENT_H
 #define PNSEI_162_FIND_PEAK_ELEMENT_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 /*
 A peak element is an element that is greater than its neighbors.

@@ -1,7 +1,7 @@
 #ifndef PNSEI_53_MAXIMUM_SUBARRAY_H
 #define PNSEI_53_MAXIMUM_SUBARRAY_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _53{
 

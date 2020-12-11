@@ -5,7 +5,7 @@
 #ifndef PNSEI_18_4SUM_H
 #define PNSEI_18_4SUM_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _4sum {
 // https://leetcode.com/problems/4sum/

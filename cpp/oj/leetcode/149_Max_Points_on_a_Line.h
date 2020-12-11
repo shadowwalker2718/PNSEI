@@ -1,6 +1,6 @@
 #pragma once
 
-#include "henry.h"
+#include "pnsei.h"
 
 /*
 Even in modulo, the divisor cannot be 0.
@@ -71,8 +71,7 @@ struct Solution {
   int maxPoints(vector<Point> &ps) { // T: O(N^2)
     int r = 0, L = ps.size();
     for (int i = 0; i < L; ++i) { // O(N^2)
-      int dup = 1;
-      unordered_map<float, int> counter;
+      int dup = 1;unordered_map<float, int> counter;
       counter[NAN] = 0;
 
       for (int j = 0; j < L; ++j) {

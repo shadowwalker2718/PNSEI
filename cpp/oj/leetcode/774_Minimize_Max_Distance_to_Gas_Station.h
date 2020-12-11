@@ -20,7 +20,7 @@ Example:
 Input: stations = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], K = 9
 Output: 0.500000
  * */
-#include "henry.h"
+#include "pnsei.h"
 namespace _774{
 
 struct interval{

@@ -5,7 +5,7 @@
 #ifndef PNSEI_CONCURRENT_STACK_H
 #define PNSEI_CONCURRENT_STACK_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _concurrent_stack{
 

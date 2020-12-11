@@ -5,7 +5,7 @@
 #ifndef PNSEI_935_KNIGHT_DIALER_H
 #define PNSEI_935_KNIGHT_DIALER_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _935{
 

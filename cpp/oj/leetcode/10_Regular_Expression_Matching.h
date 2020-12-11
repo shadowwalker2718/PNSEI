@@ -5,7 +5,7 @@
 #ifndef PNSEI_10_REGULAR_EXPRESSION_MATCHING_H
 #define PNSEI_10_REGULAR_EXPRESSION_MATCHING_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 /*
 Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.

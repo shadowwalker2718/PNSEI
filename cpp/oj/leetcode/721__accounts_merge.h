@@ -1,7 +1,7 @@
 #ifndef PNSEI__721_H
 #define PNSEI__721_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 //Given a list accounts, each element accounts[i] is a list of strings, where th
 //e first element accounts[i][0] is a name, and the rest of the elements are email

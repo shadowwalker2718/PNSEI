@@ -5,7 +5,7 @@
 #ifndef PNSEI_947_H
 #define PNSEI_947_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _947 {
 

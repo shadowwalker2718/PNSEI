@@ -5,7 +5,7 @@
 #ifndef PNSEI_962_MAXIMUM_WIDTH_RAMP_H
 #define PNSEI_962_MAXIMUM_WIDTH_RAMP_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _962{
 

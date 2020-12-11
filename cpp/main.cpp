@@ -11,7 +11,6 @@
 #include "graph/787_Cheapest_Flights_Within_K_Stops.h"
 #include "graph/MST_Kruskal_Prim.h"
 #include "graph/SS_Dijkstra_Shortest.h"
-#include "henry.h"
 #include "oj/leetcode/10_Regular_Expression_Matching.h"
 #include "oj/leetcode/126_Word_Ladder_II.h"
 #include "oj/leetcode/127_Word_Ladder.h"
@@ -68,63 +67,64 @@
 #include "others/skiplist.h"
 #include "others/sparsematrix.h"
 #include "others/stree.h"
-#include "practice/addepar/8puzzle_AStar.h"
-#include "practice/addepar/Find_a_peak_element_in_a_2D_array.h"
-#include "practice/addepar/kway_merge_file.h"
-#include "practice/addepar/local_minimum_tree.h"
-#include "practice/addepar/segment_tree.h"
-#include "practice/addepar/stock_reconciliation.h"
-#include "practice/addepar/winner_tree.h"
-#include "practice/bloomberg/encode_list_with_dups.h"
-#include "practice/bolt/Remove_brackets_from_an_algebraic_string.h"
-#include "practice/cruise/150_Evaluate_Reverse_Polish_Notation.h"
-#include "practice/cruise/224_Basic_Calculator.h"
-#include "practice/cruise/29_Divide_Two_Integers.h"
-#include "practice/cruise/307_Range_Sum_Query_Mutable_segmentTree.h"
-#include "practice/cruise/432_All_Oone_Data_Structure_LFU_Variant.h"
-#include "practice/cruise/529_Minesweeper.h"
-#include "practice/cruise/816_Ambiguous_Coordinates.h"
-#include "practice/cruise/LFU.h"
-#include "practice/cruise/all_points_in_Kmiles.h"
-#include "practice/cruise/build_tree_by_indentation.h"
-#include "practice/cruise/clique.h"
-#include "practice/cruise/closest_car.h"
-#include "practice/cruise/distributed_LRU.h"
-#include "practice/cruise/interval_subtraction.h"
-#include "practice/cruise/no_or_single_parent_graph.h"
-#include "practice/cruise/number_of_islands_variant1.h"
-#include "practice/cruise/segment_tree_2d.h"
-#include "practice/databricks/csv_query.h"
-#include "practice/databricks/division.h"
-#include "practice/databricks/traverse_bt_parent.h"
-#include "practice/dropbox/highest_minimum_sharpness.h"
-#include "practice/dropbox/id_allocator_segment_tree.h"
-#include "practice/google/bzoj1090.h"
-#include "practice/google/gg_findmaxwith1flip.h"
-#include "practice/linkedin/254_Factor_Combinations.h"
-#include "practice/linkedin/272_Closest_Binary_Search_Tree_Value_II.h"
-#include "practice/linkedin/605_Can_Place_Flowers.h"
-#include "practice/linkedin/_binary_search.h"
-#include "practice/linkedin/addinterval.h"
-#include "practice/linkedin/all_palindrome_subsequences.h"
-#include "practice/linkedin/blowoff_leaf.h"
-#include "practice/linkedin/frequent_element.h"
-#include "practice/linkedin/intersected.h"
-#include "practice/linkedin/maxstack.h"
-#include "practice/linkedin/midstack.h"
-#include "practice/linkedin/onsite1.h"
-#include "practice/linkedin/probability.h"
-#include "practice/linkedin/sqrt_double.h"
-#include "practice/uber/_20181217.h"
-#include "practice/uber/longest_poolchain.h"
-#include "practice/uber/rate_limiter_Token_Bucket.h"
-#include "practice/uber/uber_LRU_customized_eviction.h"
-#include "practice/uber/uber_carpool.h"
-#include "practice/weride/Fibonacci_Number.h"
-#include "practice/weride/N_Choose_K_with_different_prob.h"
-#include "practice/weride/hamiltonian_cycle_string_chain.h"
-#include "practice/weride/k_means_DP.h"
-#include "practice/weride/todo_480_Sliding_Window_Median.h"
+#include "pnsei.h"
+#include "company/addepar/8puzzle_AStar.h"
+#include "company/addepar/Find_a_peak_element_in_a_2D_array.h"
+#include "company/addepar/kway_merge_file.h"
+#include "company/addepar/local_minimum_tree.h"
+#include "company/addepar/segment_tree.h"
+#include "company/addepar/stock_reconciliation.h"
+#include "company/addepar/winner_tree.h"
+#include "company/bloomberg/encode_list_with_dups.h"
+#include "company/bolt/Remove_brackets_from_an_algebraic_string.h"
+#include "company/cruise/150_Evaluate_Reverse_Polish_Notation.h"
+#include "company/cruise/224_Basic_Calculator.h"
+#include "company/cruise/29_Divide_Two_Integers.h"
+#include "company/cruise/307_Range_Sum_Query_Mutable_segmentTree.h"
+#include "company/cruise/432_All_Oone_Data_Structure_LFU_Variant.h"
+#include "company/cruise/529_Minesweeper.h"
+#include "company/cruise/816_Ambiguous_Coordinates.h"
+#include "company/cruise/LFU.h"
+#include "company/cruise/all_points_in_Kmiles.h"
+#include "company/cruise/build_tree_by_indentation.h"
+#include "company/cruise/clique.h"
+#include "company/cruise/closest_car.h"
+#include "company/cruise/distributed_LRU.h"
+#include "company/cruise/interval_subtraction.h"
+#include "company/cruise/no_or_single_parent_graph.h"
+#include "company/cruise/number_of_islands_variant1.h"
+#include "company/cruise/segment_tree_2d.h"
+#include "company/databricks/csv_query.h"
+#include "company/databricks/division.h"
+#include "company/databricks/traverse_bt_parent.h"
+#include "company/dropbox/highest_minimum_sharpness.h"
+#include "company/dropbox/id_allocator_segment_tree.h"
+#include "company/google/bzoj1090.h"
+#include "company/google/gg_findmaxwith1flip.h"
+#include "company/linkedin/254_Factor_Combinations.h"
+#include "company/linkedin/272_Closest_Binary_Search_Tree_Value_II.h"
+#include "company/linkedin/605_Can_Place_Flowers.h"
+#include "company/linkedin/_binary_search.h"
+#include "company/linkedin/addinterval.h"
+#include "company/linkedin/all_palindrome_subsequences.h"
+#include "company/linkedin/blowoff_leaf.h"
+#include "company/linkedin/frequent_element.h"
+#include "company/linkedin/intersected.h"
+#include "company/linkedin/maxstack.h"
+#include "company/linkedin/midstack.h"
+#include "company/linkedin/onsite1.h"
+#include "company/linkedin/probability.h"
+#include "company/linkedin/sqrt_double.h"
+#include "company/uber/_20181217.h"
+#include "company/uber/longest_poolchain.h"
+#include "company/uber/rate_limiter_Token_Bucket.h"
+#include "company/uber/uber_LRU_customized_eviction.h"
+#include "company/uber/uber_carpool.h"
+#include "company/weride/Fibonacci_Number.h"
+#include "company/weride/N_Choose_K_with_different_prob.h"
+#include "company/weride/hamiltonian_cycle_string_chain.h"
+#include "company/weride/k_means_DP.h"
+#include "company/weride/todo_480_Sliding_Window_Median.h"
 #include "utils/todo_binarytree.h"
 
 bool abbyDeng(vector<int> vi){
@@ -146,7 +146,7 @@ bool abbyDeng(vector<int> vi){
 }
 
 int main(int argc, char **argv) {
-
+  _224::test();
 
   databricks::traverse::post_order_traversal();
   databricks::traverse::pre_order_traversal();
@@ -205,7 +205,7 @@ int main(int argc, char **argv) {
   _480_medianSlidingWindow::test();
   _sqrt_double::test();
   _multiparent_tree::test();
-  _224::test();
+
   segment_tree_2d::test();
   _307_segmentTree::test();
   binarytree_test_bug();
@@ -239,7 +239,7 @@ int main(int argc, char **argv) {
   _587::test();
   _464::test();
   _ksum::test();
-  _465_account_balancing::test();
+  //_465_account_balancing::test();
   _4sum::test();
   _bzoj1090::test();
   _hdu_1254::test();
@@ -282,7 +282,7 @@ int main(int argc, char **argv) {
   blowoff_leaf::test();
   _cruise_interval::test();
   _cruise_dijkstra::test();
-  _cruise_islands::test();
+  //_cruise_islands::test();
   _cruise_geometry::spatial_indices::test();
   _addepar_kway_merge::test();
   _weride_prob::test();

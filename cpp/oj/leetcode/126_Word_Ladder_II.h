@@ -5,7 +5,7 @@
 #ifndef PNSEI_126_WORD_LADDER_II_H
 #define PNSEI_126_WORD_LADDER_II_H
 
-#include "henry.h"
+#include "pnsei.h"
 // http://sde.quant365.com/graph.html#word-ladder-ii
 namespace _126 {
 /*

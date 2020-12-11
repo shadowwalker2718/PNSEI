@@ -5,7 +5,7 @@
 #ifndef PNSEI_189_ROTATE_ARRAY_H
 #define PNSEI_189_ROTATE_ARRAY_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 // https://leetcode.com/problems/rotate-array/
 

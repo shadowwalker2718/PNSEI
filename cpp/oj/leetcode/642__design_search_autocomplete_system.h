@@ -1,7 +1,7 @@
 #ifndef PNSEI_642__DESIGN_SEARCH_AUTOCOMPLETE_SYSTEM_H
 #define PNSEI_642__DESIGN_SEARCH_AUTOCOMPLETE_SYSTEM_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _642{
 class AutocompleteSystem {

@@ -5,7 +5,7 @@
 #ifndef PNSEI_469_CONVEX_POLYGON_H
 #define PNSEI_469_CONVEX_POLYGON_H
 
-#include "henry.h"
+#include "pnsei.h"
 
 namespace _469 {
 /* https://leetcode.com/problems/convex-polygon/description/
