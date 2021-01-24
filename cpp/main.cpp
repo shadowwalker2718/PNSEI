@@ -153,14 +153,6 @@ int main(int argc, char **argv) {
   databricks::traverse::in_order_traversal();
   databricks::csv_query::test();
   //databricks::csv_query::parse("FROM city.csv");
-
-
-
-
-
-
-
-
   ///////////////////////////////////////////////////////////////
   // Augmented Data Structure
   ///////////////////////////////////////////////////////////////

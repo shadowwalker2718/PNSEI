@@ -2,20 +2,84 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="pnsei" targetName="my_test" />
       <config projectName="pnsei" targetName="pnsei" />
       <config projectName="pnsei" targetName="segment_tree" />
       <config projectName="pnsei" targetName="pnsei_test" />
+      <config projectName="pnsei" targetName="my_test" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2fd17e8-35d4-4d0e-ae33-7a5b4132fbea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/code-comments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pnsei21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pnsei22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pnsei23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pnsei24.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/asset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/get_client_order_ids.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/get_historical_price_and_volume_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/my_alpaca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/place_new_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/port.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/see_if_a_particular_asset_is_tradable_on_alpaca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/see_if_the_market_is_open.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpaca/view_open_positions_in_your_portfolio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/alpha_advantage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/backtest/backtrader_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/backtest/bt_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/backtest/sentosa_backtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/backtest/sentosa_backtest_allin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/backtest/trading_strategy/dollar_cost_averaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/get_etf_holdings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/strategy_buy_high_hold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/strategy_buy_low_hold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/corr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/arctic_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/bar1d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/bar1d_daily.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/bar1m.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/create_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_daily.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_extra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_future_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_index_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_mutualfunds_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_stock_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/nasdaq/ticker_equity_daily.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/ticker_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/ticker_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/data_curator/ticker_info_daily.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/gld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/ipy_research.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/live_trading/trade_with_poly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/ml/dynamic_prediction_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/news_social_media/google_news.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/news_social_media/news_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/news_social_media/news_catcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/news_social_media/twitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/news_social_media/xueqiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/polygon_pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/polygon_rest2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/polygon_websocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/quandl_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/finance/quandl_data2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pnsei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pnsei.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ExternalGroupBy/key_value_sort.h" afterDir="false" />
     </list>
@@ -33,7 +97,6 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -82,6 +145,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -99,82 +163,77 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../wendy/machine-learning-platform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/finance/data_curator/nasdaq" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cpp/practice/atg" />
-      <recent name="$PROJECT_DIR$/cpp/practice/cruise" />
-      <recent name="$PROJECT_DIR$/cpp/practice/newsbreak" />
-      <recent name="$PROJECT_DIR$/cpp/oj/leetcode" />
-      <recent name="$PROJECT_DIR$/cpp/practice/instacart" />
+      <recent name="$PROJECT_DIR$/python/finance/data_curator/nasdaq" />
+      <recent name="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks" />
+      <recent name="$PROJECT_DIR$/python/finance/data_curator" />
+      <recent name="$PROJECT_DIR$/python/finance/backtest" />
+      <recent name="$PROJECT_DIR$/python/finance/nasdaq" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/finance/data_curator" />
+      <recent name="$PROJECT_DIR$/python/finance/nasdaq" />
       <recent name="$PROJECT_DIR$/cpp/practice/nightfall" />
       <recent name="$PROJECT_DIR$/cpp/others" />
       <recent name="$PROJECT_DIR$/go/oj.leetcode" />
-      <recent name="$PROJECT_DIR$/cpp/oj" />
-      <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.pnsei_test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="Python.strategy_buy_low_hold">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="my_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="my_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="my_test" TEST_MODE="SUITE_TEST">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="my_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="my_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pnsei_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_MODE="SUITE_TEST">
+    <configuration name="pnsei_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="segment_tree" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="segment_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="segment_tree" TEST_MODE="SUITE_TEST">
+    <configuration name="segment_tree" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="segment_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="segment_tree" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="pnsei" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pnsei" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pnsei" TARGET_NAME="pnsei" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pnsei" RUN_TARGET_NAME="pnsei">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="846__hand_of_straights" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PNSEI" />
+    <configuration name="bar1d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pnsei20" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/finance/data_curator" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/846__hand_of_straights.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/finance/data_curator/bar1d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,86 +242,86 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kvdb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pnsei" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cpp/practice/cruise/key_value_with_transaction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cpp/practice/cruise/key_value_with_transaction/kvdb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="myclick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PNSEI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/atg" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/atg/myclick.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mytetrys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PNSEI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/atg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/atg/mytetrys.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PNSEI" />
+    <configuration name="get_etf_holdings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pnsei20" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/pandas_research" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/pandas_research/t.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/get_etf_holdings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_etf_tickers_daily" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pnsei20" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/finance/data_curator/nasdaq" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_daily.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_etf_tickers_extra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pnsei20" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/finance/data_curator/nasdaq" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_extra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="strategy_buy_low_hold" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pnsei6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/strategy_buy_low_hold.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,23 +331,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.pnsei" />
-      <item itemvalue="Google Test.my_test" />
-      <item itemvalue="Google Test.pnsei_test" />
-      <item itemvalue="Google Test.segment_tree" />
-      <item itemvalue="Python.kvdb" />
-      <item itemvalue="Python.myclick" />
-      <item itemvalue="Python.mytetrys" />
-      <item itemvalue="Python.t" />
-      <item itemvalue="Python.846__hand_of_straights" />
+      <item itemvalue="Python.strategy_buy_low_hold" />
+      <item itemvalue="Python.get_etf_holdings" />
+      <item itemvalue="Python.get_etf_tickers_daily" />
+      <item itemvalue="Python.get_etf_tickers_extra" />
+      <item itemvalue="Python.bar1d" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.t" />
-        <item itemvalue="Python.846__hand_of_straights" />
-        <item itemvalue="Python.mytetrys" />
-        <item itemvalue="Python.myclick" />
-        <item itemvalue="Python.kvdb" />
+        <item itemvalue="Python.strategy_buy_low_hold" />
+        <item itemvalue="Python.bar1d" />
+        <item itemvalue="Python.get_etf_tickers_extra" />
+        <item itemvalue="Python.get_etf_tickers_daily" />
+        <item itemvalue="Python.get_etf_holdings" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +483,50 @@
       <workItem from="1607315353862" duration="604000" />
       <workItem from="1607595098978" duration="12000" />
       <workItem from="1607670028928" duration="777000" />
-      <workItem from="1607670845406" duration="488000" />
+      <workItem from="1607670845406" duration="1474000" />
+      <workItem from="1607782255560" duration="985000" />
+      <workItem from="1607783253495" duration="4649000" />
+      <workItem from="1607973288014" duration="78000" />
+      <workItem from="1608314083309" duration="612000" />
+      <workItem from="1608329756752" duration="32000" />
+      <workItem from="1608522129831" duration="1205000" />
+      <workItem from="1608523676418" duration="6188000" />
+      <workItem from="1608665796137" duration="631000" />
+      <workItem from="1608745713909" duration="209000" />
+      <workItem from="1608745937172" duration="1218000" />
+      <workItem from="1608795673012" duration="42000" />
+      <workItem from="1608842652089" duration="2150000" />
+      <workItem from="1608861210688" duration="16438000" />
+      <workItem from="1608960697588" duration="3236000" />
+      <workItem from="1609002161010" duration="672000" />
+      <workItem from="1609007889965" duration="6716000" />
+      <workItem from="1609104149251" duration="12417000" />
+      <workItem from="1609210583456" duration="54000" />
+      <workItem from="1609210681111" duration="43000" />
+      <workItem from="1609210769529" duration="6740000" />
+      <workItem from="1609264501441" duration="2743000" />
+      <workItem from="1609273296396" duration="41000" />
+      <workItem from="1609273443524" duration="11000" />
+      <workItem from="1609359876002" duration="5353000" />
+      <workItem from="1609388452624" duration="2994000" />
+      <workItem from="1609459157219" duration="15449000" />
+      <workItem from="1609886879821" duration="2429000" />
+      <workItem from="1609906922295" duration="38000" />
+      <workItem from="1609918100639" duration="1661000" />
+      <workItem from="1609996558746" duration="990000" />
+      <workItem from="1609997629332" duration="4536000" />
+      <workItem from="1610333966412" duration="547000" />
+      <workItem from="1610748212496" duration="1008000" />
+      <workItem from="1610749345947" duration="20000" />
+      <workItem from="1610749467481" duration="6189000" />
+      <workItem from="1610818326405" duration="771000" />
+      <workItem from="1610823760057" duration="55226000" />
+      <workItem from="1610950748429" duration="45895000" />
+      <workItem from="1611112236895" duration="17000" />
+      <workItem from="1611112269825" duration="9771000" />
+      <workItem from="1611167565244" duration="60237000" />
+      <workItem from="1611391699481" duration="5351000" />
+      <workItem from="1611424286462" duration="34976000" />
     </task>
     <servers />
   </component>
@@ -437,195 +535,6 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1706" y="525" width="578" height="535" key="#Configure_Path_Variables" timestamp="1600752691842">
-      <screen x="0" y="32" width="3440" height="1375" />
-    </state>
-    <state x="1706" y="525" width="578" height="535" key="#Configure_Path_Variables/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1600752691842" />
-    <state x="837" y="607" width="816" height="229" key="#Custom_Plugin_Repositories" timestamp="1600273749015">
-      <screen x="0" y="32" width="3440" height="1375" />
-    </state>
-    <state x="837" y="607" width="816" height="229" key="#Custom_Plugin_Repositories/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1600273749015" />
-    <state x="234" y="390" width="1084" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607671013423">
-      <screen x="0" y="32" width="3440" height="1375" />
-    </state>
-    <state x="234" y="390" width="1084" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.3314.1375@0.32.3314.1375" timestamp="1603990764640" />
-    <state x="234" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.3440.1375@0.32.3440.1375" timestamp="1607671013423" />
-    <state x="2285" y="517" width="478" height="411" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603221961799">
-      <screen x="0" y="32" width="3314" height="1375" />
-    </state>
-    <state x="2285" y="517" width="478" height="411" key="#com.intellij.fileTypes.FileTypeChooser/0.32.3314.1375@0.32.3314.1375" timestamp="1603221961799" />
-    <state x="2313" y="393" width="196" height="659" key="#xdebugger.XInspectDialog" timestamp="1604001843831">
-      <screen x="0" y="32" width="3340" height="1375" />
-    </state>
-    <state x="2313" y="393" key="#xdebugger.XInspectDialog/0.32.3340.1375@0.32.3340.1375" timestamp="1604001843831" />
-    <state x="2382" y="393" width="196" height="659" key="#xdebugger.XInspectDialog/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1600582781152" />
-    <state width="823" height="617" key="DebuggerActiveHint" timestamp="1602777829086">
-      <screen x="0" y="32" width="3314" height="1375" />
-    </state>
-    <state width="823" height="617" key="DebuggerActiveHint/0.32.3314.1375@0.32.3314.1375" timestamp="1602777829086" />
-    <state x="104" y="129" width="2047" height="1179" key="DiffContextDialog" timestamp="1600314918756">
-      <screen x="0" y="32" width="3440" height="1375" />
-    </state>
-    <state x="104" y="129" width="2047" height="1179" key="DiffContextDialog/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1600314918756" />
-    <state x="1963" y="344" width="556" height="930" key="ExperimentsDialog" timestamp="1600632008760">
-      <screen x="0" y="32" width="3440" height="1375" />
-    </state>
-    <state x="1963" y="344" key="ExperimentsDialog/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1600632008760" />
-    <state x="1612" y="306" width="1071" height="955" key="FileChooserDialogImpl" timestamp="1604084402770">
-      <screen x="0" y="32" width="3314" height="1375" />
-    </state>
-    <state x="1612" y="306" width="1071" height="955" key="FileChooserDialogImpl/0.32.3314.1375@0.32.3314.1375" timestamp="1604084402770" />
-    <state x="1673" y="306" width="896" height="705" key="FileChooserDialogImpl/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597202100" />
-    <state x="1673" y="306" width="424" height="491" key="FileChooserDialogImpl/0.32.3440.1375@0.32.3440.1375" timestamp="1603952954090" />
-    <state x="2412" y="224" key="FileChooserDialogImpl/1920.0.3440.1440/1598.32.322.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1600879570888" />
-    <state x="573" y="645" width="804" height="158" key="GitCloneDialog" timestamp="1603994510299">
-      <screen x="0" y="32" width="3440" height="1375" />
-    </state>
-    <state x="592" y="645" width="804" height="158" key="GitCloneDialog/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601569844880" />
-    <state x="573" y="645" key="GitCloneDialog/0.32.3440.1375@0.32.3440.1375" timestamp="1603994510299" />
-    <state x="4032" y="642" width="804" height="158" key="GitCloneDialog/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601509784968" />
-    <state width="1318" height="429" key="GridCell.Tab.0.bottom" timestamp="1607671028731">
-      <screen x="0" y="32" width="3314" height="1375" />
-    </state>
-    <state width="1667" height="607" key="GridCell.Tab.0.bottom/0.32.1920.1015/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604864025337" />
-    <state width="1667" height="418" key="GridCell.Tab.0.bottom/0.32.1920.1048/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604889165098" />
-    <state width="1318" height="429" key="GridCell.Tab.0.bottom/0.32.3314.1375@0.32.3314.1375" timestamp="1607671028731" />
-    <state width="1047" height="429" key="GridCell.Tab.0.bottom/0.32.3328.1375@0.32.3328.1375" timestamp="1607670824860" />
-    <state width="2336" height="449" key="GridCell.Tab.0.bottom/0.32.3340.1375@0.32.3340.1375" timestamp="1606976849452" />
-    <state width="1697" height="364" key="GridCell.Tab.0.bottom/0.32.3350.1375@0.32.3350.1375" timestamp="1606853465417" />
-    <state width="3308" height="716" key="GridCell.Tab.0.bottom/0.32.3357.1375@0.32.3357.1375" timestamp="1604044324258" />
-    <state width="862" height="429" key="GridCell.Tab.0.bottom/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597203992" />
-    <state width="1314" height="472" key="GridCell.Tab.0.bottom/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601568979638" />
-    <state width="2346" height="364" key="GridCell.Tab.0.bottom/0.32.3440.1375@0.32.3440.1375" timestamp="1606809491349" />
-    <state width="1088" height="429" key="GridCell.Tab.0.bottom/0.32.5234.1015@0.32.5234.1015" timestamp="1602816015916" />
-    <state width="1941" height="322" key="GridCell.Tab.0.bottom/0.32.6880.1375@0.32.6880.1375" timestamp="1600409937569" />
-    <state width="1315" height="321" key="GridCell.Tab.0.bottom/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601532506148" />
-    <state width="1757" height="133" key="GridCell.Tab.0.bottom/1920.0.3440.1440/0.32.1920.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599722657980" />
-    <state width="1691" height="133" key="GridCell.Tab.0.bottom/1920.0.3440.1440/1575.32.345.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599715033256" />
-    <state width="1318" height="429" key="GridCell.Tab.0.center" timestamp="1607671028731">
-      <screen x="0" y="32" width="3314" height="1375" />
-    </state>
-    <state width="1667" height="607" key="GridCell.Tab.0.center/0.32.1920.1015/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604864025337" />
-    <state width="1667" height="418" key="GridCell.Tab.0.center/0.32.1920.1048/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604889165097" />
-    <state width="1318" height="429" key="GridCell.Tab.0.center/0.32.3314.1375@0.32.3314.1375" timestamp="1607671028731" />
-    <state width="1047" height="429" key="GridCell.Tab.0.center/0.32.3328.1375@0.32.3328.1375" timestamp="1607670824859" />
-    <state width="2336" height="449" key="GridCell.Tab.0.center/0.32.3340.1375@0.32.3340.1375" timestamp="1606976849451" />
-    <state width="1697" height="364" key="GridCell.Tab.0.center/0.32.3350.1375@0.32.3350.1375" timestamp="1606853465416" />
-    <state width="3308" height="716" key="GridCell.Tab.0.center/0.32.3357.1375@0.32.3357.1375" timestamp="1604044324254" />
-    <state width="862" height="429" key="GridCell.Tab.0.center/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597203992" />
-    <state width="1314" height="472" key="GridCell.Tab.0.center/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601568979638" />
-    <state width="2346" height="364" key="GridCell.Tab.0.center/0.32.3440.1375@0.32.3440.1375" timestamp="1606809491349" />
-    <state width="1088" height="429" key="GridCell.Tab.0.center/0.32.5234.1015@0.32.5234.1015" timestamp="1602816015915" />
-    <state width="1941" height="322" key="GridCell.Tab.0.center/0.32.6880.1375@0.32.6880.1375" timestamp="1600409937567" />
-    <state width="1315" height="321" key="GridCell.Tab.0.center/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601532506148" />
-    <state width="1757" height="133" key="GridCell.Tab.0.center/1920.0.3440.1440/0.32.1920.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599722657980" />
-    <state width="1691" height="133" key="GridCell.Tab.0.center/1920.0.3440.1440/1575.32.345.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599715033256" />
-    <state width="1318" height="429" key="GridCell.Tab.0.left" timestamp="1607671028730">
-      <screen x="0" y="32" width="3314" height="1375" />
-    </state>
-    <state width="1667" height="607" key="GridCell.Tab.0.left/0.32.1920.1015/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604864025336" />
-    <state width="1667" height="418" key="GridCell.Tab.0.left/0.32.1920.1048/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604889165097" />
-    <state width="1318" height="429" key="GridCell.Tab.0.left/0.32.3314.1375@0.32.3314.1375" timestamp="1607671028730" />
-    <state width="1047" height="429" key="GridCell.Tab.0.left/0.32.3328.1375@0.32.3328.1375" timestamp="1607670824858" />
-    <state width="2336" height="449" key="GridCell.Tab.0.left/0.32.3340.1375@0.32.3340.1375" timestamp="1606976849451" />
-    <state width="1697" height="364" key="GridCell.Tab.0.left/0.32.3350.1375@0.32.3350.1375" timestamp="1606853465415" />
-    <state width="3308" height="716" key="GridCell.Tab.0.left/0.32.3357.1375@0.32.3357.1375" timestamp="1604044324253" />
-    <state width="862" height="429" key="GridCell.Tab.0.left/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597203991" />
-    <state width="1314" height="472" key="GridCell.Tab.0.left/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601568979638" />
-    <state width="2346" height="364" key="GridCell.Tab.0.left/0.32.3440.1375@0.32.3440.1375" timestamp="1606809491349" />
-    <state width="1088" height="429" key="GridCell.Tab.0.left/0.32.5234.1015@0.32.5234.1015" timestamp="1602816015915" />
-    <state width="1941" height="322" key="GridCell.Tab.0.left/0.32.6880.1375@0.32.6880.1375" timestamp="1600409937566" />
-    <state width="1315" height="321" key="GridCell.Tab.0.left/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601532506148" />
-    <state width="1757" height="133" key="GridCell.Tab.0.left/1920.0.3440.1440/0.32.1920.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599722657980" />
-    <state width="1691" height="133" key="GridCell.Tab.0.left/1920.0.3440.1440/1575.32.345.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599715033256" />
-    <state width="1318" height="429" key="GridCell.Tab.0.right" timestamp="1607671028731">
-      <screen x="0" y="32" width="3314" height="1375" />
-    </state>
-    <state width="1667" height="607" key="GridCell.Tab.0.right/0.32.1920.1015/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604864025337" />
-    <state width="1667" height="418" key="GridCell.Tab.0.right/0.32.1920.1048/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604889165097" />
-    <state width="1318" height="429" key="GridCell.Tab.0.right/0.32.3314.1375@0.32.3314.1375" timestamp="1607671028731" />
-    <state width="1047" height="429" key="GridCell.Tab.0.right/0.32.3328.1375@0.32.3328.1375" timestamp="1607670824860" />
-    <state width="2336" height="449" key="GridCell.Tab.0.right/0.32.3340.1375@0.32.3340.1375" timestamp="1606976849451" />
-    <state width="1697" height="364" key="GridCell.Tab.0.right/0.32.3350.1375@0.32.3350.1375" timestamp="1606853465416" />
-    <state width="3308" height="716" key="GridCell.Tab.0.right/0.32.3357.1375@0.32.3357.1375" timestamp="1604044324257" />
-    <state width="862" height="429" key="GridCell.Tab.0.right/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597203992" />
-    <state width="1314" height="472" key="GridCell.Tab.0.right/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601568979638" />
-    <state width="2346" height="364" key="GridCell.Tab.0.right/0.32.3440.1375@0.32.3440.1375" timestamp="1606809491349" />
-    <state width="1088" height="429" key="GridCell.Tab.0.right/0.32.5234.1015@0.32.5234.1015" timestamp="1602816015916" />
-    <state width="1941" height="322" key="GridCell.Tab.0.right/0.32.6880.1375@0.32.6880.1375" timestamp="1600409937568" />
-    <state width="1315" height="321" key="GridCell.Tab.0.right/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601532506148" />
-    <state width="1757" height="133" key="GridCell.Tab.0.right/1920.0.3440.1440/0.32.1920.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599722657980" />
-    <state width="1691" height="133" key="GridCell.Tab.0.right/1920.0.3440.1440/1575.32.345.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599715033256" />
-    <state width="1047" height="429" key="GridCell.Tab.1.bottom" timestamp="1607670824863">
-      <screen x="0" y="32" width="3328" height="1375" />
-    </state>
-    <state width="1088" height="429" key="GridCell.Tab.1.bottom/0.32.3314.1375@0.32.3314.1375" timestamp="1602777801558" />
-    <state width="1047" height="429" key="GridCell.Tab.1.bottom/0.32.3328.1375@0.32.3328.1375" timestamp="1607670824863" />
-    <state width="862" height="429" key="GridCell.Tab.1.bottom/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597203992" />
-    <state width="1729" height="636" key="GridCell.Tab.1.bottom/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1600711015453" />
-    <state width="1088" height="429" key="GridCell.Tab.1.bottom/0.32.5234.1015@0.32.5234.1015" timestamp="1602816015917" />
-    <state width="1941" height="265" key="GridCell.Tab.1.bottom/0.32.6880.1375@0.32.6880.1375" timestamp="1600409937557" />
-    <state width="1315" height="321" key="GridCell.Tab.1.bottom/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601532506148" />
-    <state width="1691" height="572" key="GridCell.Tab.1.bottom/1920.0.3440.1440/0.32.1920.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599722657975" />
-    <state width="1691" height="572" key="GridCell.Tab.1.bottom/1920.0.3440.1440/1575.32.345.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599715000934" />
-    <state width="1047" height="429" key="GridCell.Tab.1.center" timestamp="1607670824861">
-      <screen x="0" y="32" width="3328" height="1375" />
-    </state>
-    <state width="1088" height="429" key="GridCell.Tab.1.center/0.32.3314.1375@0.32.3314.1375" timestamp="1602777801555" />
-    <state width="1047" height="429" key="GridCell.Tab.1.center/0.32.3328.1375@0.32.3328.1375" timestamp="1607670824861" />
-    <state width="862" height="429" key="GridCell.Tab.1.center/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597203992" />
-    <state width="1729" height="636" key="GridCell.Tab.1.center/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1600711015453" />
-    <state width="1088" height="429" key="GridCell.Tab.1.center/0.32.5234.1015@0.32.5234.1015" timestamp="1602816015916" />
-    <state width="1941" height="265" key="GridCell.Tab.1.center/0.32.6880.1375@0.32.6880.1375" timestamp="1600409937556" />
-    <state width="1315" height="321" key="GridCell.Tab.1.center/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601532506148" />
-    <state width="1691" height="572" key="GridCell.Tab.1.center/1920.0.3440.1440/0.32.1920.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599722657975" />
-    <state width="1691" height="572" key="GridCell.Tab.1.center/1920.0.3440.1440/1575.32.345.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599715000934" />
-    <state width="1047" height="429" key="GridCell.Tab.1.left" timestamp="1607670824861">
-      <screen x="0" y="32" width="3328" height="1375" />
-    </state>
-    <state width="1088" height="429" key="GridCell.Tab.1.left/0.32.3314.1375@0.32.3314.1375" timestamp="1602777801553" />
-    <state width="1047" height="429" key="GridCell.Tab.1.left/0.32.3328.1375@0.32.3328.1375" timestamp="1607670824861" />
-    <state width="862" height="429" key="GridCell.Tab.1.left/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597203992" />
-    <state width="1729" height="636" key="GridCell.Tab.1.left/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1600711015452" />
-    <state width="1088" height="429" key="GridCell.Tab.1.left/0.32.5234.1015@0.32.5234.1015" timestamp="1602816015916" />
-    <state width="1941" height="265" key="GridCell.Tab.1.left/0.32.6880.1375@0.32.6880.1375" timestamp="1600409937555" />
-    <state width="1315" height="321" key="GridCell.Tab.1.left/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601532506148" />
-    <state width="1691" height="572" key="GridCell.Tab.1.left/1920.0.3440.1440/0.32.1920.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599722657975" />
-    <state width="1691" height="572" key="GridCell.Tab.1.left/1920.0.3440.1440/1575.32.345.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599715000934" />
-    <state width="1047" height="429" key="GridCell.Tab.1.right" timestamp="1607670824862">
-      <screen x="0" y="32" width="3328" height="1375" />
-    </state>
-    <state width="1088" height="429" key="GridCell.Tab.1.right/0.32.3314.1375@0.32.3314.1375" timestamp="1602777801556" />
-    <state width="1047" height="429" key="GridCell.Tab.1.right/0.32.3328.1375@0.32.3328.1375" timestamp="1607670824862" />
-    <state width="862" height="429" key="GridCell.Tab.1.right/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601597203992" />
-    <state width="1729" height="636" key="GridCell.Tab.1.right/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1600711015453" />
-    <state width="1088" height="429" key="GridCell.Tab.1.right/0.32.5234.1015@0.32.5234.1015" timestamp="1602816015916" />
-    <state width="1941" height="265" key="GridCell.Tab.1.right/0.32.6880.1375@0.32.6880.1375" timestamp="1600409937557" />
-    <state width="1315" height="321" key="GridCell.Tab.1.right/1575.32.1865.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601532506148" />
-    <state width="1691" height="572" key="GridCell.Tab.1.right/1920.0.3440.1440/0.32.1920.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599722657975" />
-    <state width="1691" height="572" key="GridCell.Tab.1.right/1920.0.3440.1440/1575.32.345.1048/5360.0.3440.1440@1920.0.3440.1440" timestamp="1599715000934" />
-    <state x="1804" y="247" width="992" height="737" key="SettingsEditor" timestamp="1607670871168">
-      <screen x="0" y="32" width="3440" height="1375" />
-    </state>
-    <state x="3128" y="293" key="SettingsEditor/0.32.1920.1015/1920.0.3440.1440@1920.0.3440.1440" timestamp="1604863887728" />
-    <state x="1804" y="247" width="992" height="737" key="SettingsEditor/0.32.3314.1375@0.32.3314.1375" timestamp="1605684686216" />
-    <state x="1745" y="247" key="SettingsEditor/0.32.3328.1375@0.32.3328.1375" timestamp="1607670143069" />
-    <state x="1176" y="312" width="992" height="737" key="SettingsEditor/0.32.3350.1375@0.32.3350.1375" timestamp="1604016281698" />
-    <state x="1207" y="312" width="1768" height="1044" key="SettingsEditor/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1600752709682" />
-    <state x="1804" y="247" key="SettingsEditor/0.32.3440.1375@0.32.3440.1375" timestamp="1607670871168" />
-    <state x="1873" y="304" width="1068" height="1059" key="find.popup" timestamp="1607670445901">
-      <screen x="0" y="32" width="3328" height="1375" />
-    </state>
-    <state x="1124" y="250" width="1063" height="1059" key="find.popup/0.32.3314.1375@0.32.3314.1375" timestamp="1600355896029" />
-    <state x="1873" y="304" width="1068" height="1059" key="find.popup/0.32.3328.1375@0.32.3328.1375" timestamp="1607670445901" />
-    <state x="1167" y="250" width="1103" height="1059" key="find.popup/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1601681326630" />
-    <state x="4607" y="228" width="1103" height="1110" key="find.popup/0.32.3440.1375/3440.0.3440.1440@3440.0.3440.1440" timestamp="1601568776193" />
-    <state x="1969" y="425" width="672" height="648" key="search.everywhere.popup" timestamp="1600631980335">
-      <screen x="0" y="32" width="3440" height="1375" />
-    </state>
-    <state x="1969" y="425" width="672" height="648" key="search.everywhere.popup/0.32.3440.1375/3440.0.3440.1440@0.32.3440.1375" timestamp="1600631980335" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,22 +696,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/pandas/core/generic.py</url>
-          <line>1096</line>
+          <line>1051</line>
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/pandas/core/generic.py</url>
-          <line>1072</line>
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/pandas/core/generic.py</url>
-          <line>1076</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/pandas/core/generic.py</url>
-          <line>1091</line>
+          <line>1046</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -825,17 +724,744 @@
           <line>8</line>
           <option name="timeStamp" value="189" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/company/cruise/224_Basic_Calculator.h</url>
-          <line>46</line>
-          <option name="timeStamp" value="190" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cpp/main.cpp</url>
-          <line>148</line>
-          <option name="timeStamp" value="191" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/corr.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_websocket.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/quandl_data.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/quandl_data.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/quandl_data.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/ipy_research.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/ipykernel/kernelapp.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/ipykernel/kernelapp.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/ipykernel/kernelapp.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/ipykernel/kernelbase.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/ipykernel/connect.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/ipykernel/connect.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_stock_tickers.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_stock_tickers.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_future_tickers.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_mutualfunds_tickers.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_stock_tickers.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_stock_tickers.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/google_news.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/news_api.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/news_api.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/news_api.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/news_catcher.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/news_catcher.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/xueqiu.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/xueqiu.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/xueqiu.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/yfinance/ticker.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/yfinance/ticker.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/bt_test.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/ffn/core.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.pyenv/versions/3.7.7/lib/python3.7/site-packages/ffn/core.py</url>
+          <line>865</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/backtrader_test.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/volatility_research/figure6.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/volatility_research/figure5.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/volatility_research/figure5.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/volatility_research/figure6.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/t.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/volatility_research/figure5.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/volatility_research/figure6.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/ml/dynamic_prediction_model.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/ml/dynamic_prediction_model.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/asset.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/get_historical_price_and_volume_data.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/view_open_positions_in_your_portfolio.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/tttt.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/port.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/port.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_rest2.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_stock_tickers.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_pandas.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/polygon_pandas.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_info.py</url>
+          <line>309</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_index_tickers.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_index_tickers.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_index_tickers.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_info.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/create_tables.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/arctic_test.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_details.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_details.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_details.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_details.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_details.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/news_social_media/xueqiu.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/backtrader_test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_info.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_info.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_info.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_info.py</url>
+          <line>294</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_details.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_details.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/sentosa_backtest.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/sentosa_backtest_allin.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/sentosa_backtest.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_info_daily.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/ticker_info_daily.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/ticker_equity_daily.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/ticker_equity_daily.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/ticker_equity_daily.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/live_trading/trade_with_poly.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/live_trading/trade_with_poly.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/account.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/account.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/account.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/alpaca/place_new_order.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1d_daily.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1d_daily.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1d_daily.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/sentosa_backtest_allin.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/sentosa_backtest_allin.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/sentosa_backtest_allin.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/sentosa_backtest_allin.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/get_etf_holdings.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1d.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/strategy_buy_high_hold.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="529" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/trading_strategy/dollar_cost_averaging.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="532" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_daily.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_extra.py</url>
+          <line>319</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_extra.py</url>
+          <line>328</line>
+          <option name="timeStamp" value="560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_extra.py</url>
+          <line>338</line>
+          <option name="timeStamp" value="561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_extra.py</url>
+          <line>346</line>
+          <option name="timeStamp" value="562" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/nasdaq/get_etf_tickers_extra.py</url>
+          <line>359</line>
+          <option name="timeStamp" value="563" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1d.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/data_curator/bar1d.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/strategy_buy_low_hold.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="569" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks/strategy_buy_low_hold.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="571" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="ZeppelinDependencyPaths">
@@ -1469,5 +2095,33 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pnsei$bar1d.coverage" NAME="bar1d Coverage Results" MODIFIED="1611475637954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator" />
+    <SUITE FILE_PATH="coverage/pnsei$bar1m.coverage" NAME="bar1m Coverage Results" MODIFIED="1611295224241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator" />
+    <SUITE FILE_PATH="coverage/pnsei$ticker_info.coverage" NAME="ticker_info Coverage Results" MODIFIED="1611012471438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator" />
+    <SUITE FILE_PATH="coverage/pnsei$ticker_equity_daily.coverage" NAME="ticker_equity_daily Coverage Results" MODIFIED="1611120799915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator/nasdaq" />
+    <SUITE FILE_PATH="coverage/pnsei$ticker_info_daily.coverage" NAME="ticker_info_daily Coverage Results" MODIFIED="1611113496822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator" />
+    <SUITE FILE_PATH="coverage/pnsei$account.coverage" NAME="account Coverage Results" MODIFIED="1611185552975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/alpaca" />
+    <SUITE FILE_PATH="coverage/pnsei$get_etf_tickers_extra.coverage" NAME="get_etf_tickers_extra Coverage Results" MODIFIED="1611474352103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator/nasdaq" />
+    <SUITE FILE_PATH="coverage/pnsei$ticker_equity_fix.coverage" NAME="ticker_details Coverage Results" MODIFIED="1611012973397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator" />
+    <SUITE FILE_PATH="coverage/pnsei$place_new_order.coverage" NAME="place_new_order Coverage Results" MODIFIED="1611185799045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/alpaca" />
+    <SUITE FILE_PATH="coverage/pnsei$xueqiu.coverage" NAME="xueqiu Coverage Results" MODIFIED="1611001440511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/news_social_media" />
+    <SUITE FILE_PATH="coverage/pnsei$get_etf_tickers_daily.coverage" NAME="get_etf_tickers_daily Coverage Results" MODIFIED="1611468976968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator/nasdaq" />
+    <SUITE FILE_PATH="coverage/pnsei$sentosa_backtest.coverage" NAME="sentosa_backtest Coverage Results" MODIFIED="1611037311922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest" />
+    <SUITE FILE_PATH="coverage/pnsei$see_if_the_market_is_open.coverage" NAME="see_if_the_market_is_open Coverage Results" MODIFIED="1611185668510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/alpaca" />
+    <SUITE FILE_PATH="coverage/pnsei$strategy_buy_high_hold.coverage" NAME="strategy_buy_high_hold Coverage Results" MODIFIED="1611396824676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks" />
+    <SUITE FILE_PATH="coverage/pnsei$get_client_order_ids.coverage" NAME="get_client_order_ids Coverage Results" MODIFIED="1611186791389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/alpaca" />
+    <SUITE FILE_PATH="coverage/pnsei$bar1d_daily.coverage" NAME="bar1d_daily Coverage Results" MODIFIED="1611195884811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator" />
+    <SUITE FILE_PATH="coverage/pnsei$strategy_buy_low_hold.coverage" NAME="strategy_buy_low_hold Coverage Results" MODIFIED="1611479307144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks" />
+    <SUITE FILE_PATH="coverage/pnsei$strategy.coverage" NAME="strategy_buy_low_hold Coverage Results" MODIFIED="1611396443145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks" />
+    <SUITE FILE_PATH="coverage/pnsei$bar1m_daily.coverage" NAME="bar1m_daily Coverage Results" MODIFIED="1611424836434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator" />
+    <SUITE FILE_PATH="coverage/pnsei$get_etf_holdings.coverage" NAME="get_etf_holdings Coverage Results" MODIFIED="1611467895384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks" />
+    <SUITE FILE_PATH="coverage/pnsei$poly.coverage" NAME="trade_with_poly Coverage Results" MODIFIED="1611172665904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/live_trading" />
+    <SUITE FILE_PATH="coverage/pnsei$sentosa_backtest_allin.coverage" NAME="sentosa_backtest_allin Coverage Results" MODIFIED="1611213400128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest" />
+    <SUITE FILE_PATH="coverage/pnsei$backtrader_test.coverage" NAME="backtrader_test Coverage Results" MODIFIED="1610998702727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest" />
+    <SUITE FILE_PATH="coverage/pnsei$dollar_cost_averaging.coverage" NAME="dollar_cost_averaging Coverage Results" MODIFIED="1611428446735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest/trading_strategy" />
+    <SUITE FILE_PATH="coverage/pnsei$m.coverage" NAME="m Coverage Results" MODIFIED="1611255045630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/backtest/trading_strategy/etf_best_worst_stocks" />
+    <SUITE FILE_PATH="coverage/pnsei$create_tables.coverage" NAME="create_tables Coverage Results" MODIFIED="1610956693349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/finance/data_curator" />
   </component>
 </project>

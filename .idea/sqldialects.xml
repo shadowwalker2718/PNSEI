@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/python/finance/backtest/sentosa_backtest.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/python/finance/data_curator/bar1m.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/python/finance/data_curator/bar1m_daily.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/python/finance/data_curator/ticker_details.py" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>
